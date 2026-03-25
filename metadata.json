@@ -12,5 +12,6 @@
     "Wikipedia": "https://en.wikipedia.org/wiki/The_Secret_Garden"
   },
   "blurb": "foo",
-  "blurb2": "bar"
+  "blurb2": "bar",
+  "useAvif": true
 }
