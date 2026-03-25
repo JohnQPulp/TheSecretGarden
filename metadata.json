@@ -1,0 +1,16 @@
+{
+  "title": "The Secret Garden",
+  "shortTitle": "The Secret Garden",
+  "author": "Frances Hodgson Burnett",
+  "year": 1911,
+  "source": "https://standardebooks.org/ebooks/frances-hodgson-burnett/the-secret-garden",
+  "words": 1,
+  "pulpDate": null,
+  "repo": "https://github.com/JohnQPulp/TheSecretGarden",
+  "links": {
+    "Goodreads": "https://www.goodreads.com/book/show/2998.The_Secret_Garden",
+    "Wikipedia": "https://en.wikipedia.org/wiki/The_Secret_Garden"
+  },
+  "blurb": "foo",
+  "blurb2": "bar"
+}
