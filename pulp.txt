@@ -1,8 +1,8 @@
-<div class='center'><span class='big italics'>The Secret Garden</span> by&nbsp;Frances&nbsp;Hodgson&nbsp;Burnett</div>
-
+<div class='center'><span class='big italics'>The Secret Garden</span> by&nbsp;Frances&nbsp;Hodgson&nbsp;Burnett</div><e>TODO</e>
+b=title;t=author
 
 ## I. There Is No One Left
-
+r=title
 
 When Mary Lennox was sent to Misselthwaite Manor to live with her uncle everybody said she was the most disagreeable-looking child ever seen.
 n:mary=Mary Lennox;e:mary=scowling
@@ -287,7 +287,7 @@ That was why the place was so quiet. It was true that there was no one in the bu
 e:mary=weary
 
 ## II. Mistress Mary Quite Contrary
-
+r=title
 
 Mary had liked to look at her mother from a distance and she had thought her very pretty, but as she knew very little of her she could scarcely have been expected to love her or to miss her very much when she was gone.
 e:mary=neutral
@@ -740,7 +740,7 @@ She watched it so long and steadily that the grayness grew heavier and heavier b
 
 
 ## III. Across the Moor
-
+r=title
 
 She slept a long time, and when she awakened Mrs. Medlock had bought a lunchbasket at one of the stations and they had some chicken and cold beef and bread and butter and some hot tea.
 e:mary=neutral;e:mrsmedlock=neutral
@@ -962,7 +962,7 @@ It was in this way Mistress Mary arrived at Misselthwaite Manor and she had perh
 s=none;e:mary=scowling
 
 ## IV. Martha
-
+r=title
 
 When she opened her eyes in the morning it was because a young housemaid had come into her room to light the fire and was kneeling on the hearthrug raking out the cinders noisily.
 n:martha=Martha;e:mary=neutral;e:martha=neutral
@@ -1862,7 +1862,7 @@ And he actually stopped digging, threw his spade over his shoulder and walked of
 s=none;e:mary=surprised
 
 ## V. The Cry in the Corridor
-
+r=title
 
 At first each day which passed by for Mary Lennox was exactly like the others.
 e:mary=neutral
@@ -2213,7 +2213,7 @@ She did not believe she was speaking the truth.
 
 
 ## VI. “There Was Some One Crying﻿—There Was!”
-
+r=title
 
 The next day the rain poured down in torrents again, and when Mary looked out of her window the moor was almost hidden by gray mist and cloud.
 e:mary=neutral
@@ -2591,7 +2591,7 @@ She felt as if she had been on a long journey, and at any rate she had had somet
 e:mary=happy
 
 ## VII. The Key of the Garden
-
+r=title
 
 Two days after this, when Mary opened her eyes she sat upright in bed immediately, and called to Martha.
 e:mary=surprised
@@ -3320,7 +3320,7 @@ She was standing *inside* the secret garden.
 e:mary=surprised
 
 ## IX. The Strangest House Anyone Ever Lived In
-
+r=title
 
 It was the sweetest, most mysterious-looking place anyone could imagine.
 e:mary=curious
@@ -3797,7 +3797,7 @@ Fresh air, and digging, and skipping-rope had made her feel so comfortably tired
 s=none
 
 ## X. Dickon
-
+r=title
 
 The sun shone down for nearly a week on the secret garden. The Secret Garden was what Mary called it when she was thinking of it.
 
@@ -4868,7 +4868,7 @@ And she was quite sure she was.
 s=none;e:mary=happy
 
 ## XII. “Might I Have a Bit of Earth?”
-
+r=title
 
 Mary ran so fast that she was rather out of breath when she reached her room.
 e:mary=excited
@@ -5384,7 +5384,7 @@ Underneath were the printed letters and they said:
 s=none;e:mary=happy
 
 ## XIII. “I Am Colin”
-
+r=title
 
 Mary took the picture back to the house when she went to her supper and she showed it to Martha.
 e:mary=neutral
@@ -6086,7 +6086,7 @@ So she got up softly, took her candle and crept away without making a sound.
 e:mary=neutral
 
 ## XIV. A Young Rajah
-
+r=title
 
 The moor was hidden in mist when the morning came and the rain had not stopped pouring down.
 
@@ -7283,7 +7283,7 @@ And though the robin did not answer, because his beak was occupied, Mary knew th
 s=none;e:mary=happy
 
 ## XVI. “I Won’t!” Said Mary
-
+r=title
 
 They found a great deal to do that morning and Mary was late in returning to the house and was also in such a hurry to get back to her work that she quite forgot Colin until the last moment.
 e:mary=excited
@@ -8033,7 +8033,7 @@ And Colin was asleep.
 s=none;e:colin=neutral
 
 ## XVIII. “Tha’ Munnot Waste No Time”
-
+r=title
 
 Of course Mary did not waken early the next morning.
 e:mary=neutral
@@ -9854,7 +9854,7 @@ and obediently disappeared as he descended the ladder.
 s=none
 
 ## XXII. When the Sun Went Down
-
+r=title
 
 When his head was out of sight Colin turned to Mary.
 e:colin=neutral;e:mary=neutral
@@ -10187,7 +10187,7 @@ And Dickon helped him, and the Magic﻿—or whatever it was﻿—so gave him st
 s=none;e:colin=happy;e:dickon=happy
 
 ## XXIII. Magic
-
+r=title
 
 Dr. Craven had been waiting some time at the house when they returned to it.
 e:drcraven=neutral
@@ -10736,7 +10736,7 @@ He really did not mind being snubbed since the snubbing meant that the lad was g
 s=none;e:ben=happy
 
 ## XXIV. “Let Them Laugh”
-
+r=title
 
 The secret garden was not the only one Dickon worked in. Round the cottage on the moor there was a piece of ground enclosed by a low wall of rough stones.
 e:dickon=neutral
@@ -12843,3 +12843,6 @@ e:craven=happy
 
 And by his side with his head up in the air and his eyes full of laughter walked as strongly and steadily as any boy in Yorkshire﻿—Master Colin!
 e:colin=happy
+
+<e>TODO</e>
+r=title
