@@ -8032,4 +8032,355 @@ s=mary;e:mary=happy
 And Colin was asleep.
 s=none;e:colin=neutral
 
+## XVIII. “Tha’ Munnot Waste No Time”
+
+
+Of course Mary did not waken early the next morning.
+e:mary=neutral
+
+She slept late because she was tired, and when Martha brought her breakfast she told her that though Colin was quite quiet he was ill and feverish as he always was after he had worn himself out with a fit of crying.
+e:martha=neutral;e:colin=weary
+
+Mary ate her breakfast slowly as she listened.
+e:mary=thinking
+
+“He says he wishes tha’ would please go and see him as soon as tha’ can,” Martha said.
+s=martha;e:martha=serious
+
+“It’s queer what a fancy he’s took to thee. Tha’ did give it him last night for sure﻿—didn’t tha’? Nobody else would have dared to do it.”
+
+
+“Eh! poor lad! He’s been spoiled till salt won’t save him.”
+e:martha=weary
+
+“Mother says as th’ two worst things as can happen to a child is never to have his own way﻿—or always to have it. She doesn’t know which is th’ worst.”
+
+
+“Tha’ was in a fine temper tha’self, too. But he says to me when I went into his room, ‘Please ask Miss Mary if she’ll please come an’ talk to me?’”
+e:martha=smirking
+
+“Think o’ him saying please! Will you go, Miss?”
+e:martha=surprised
+
+“I’ll run and see Dickon first,” said Mary.
+s=mary;e:mary=neutral
+
+“No, I’ll go and see Colin first and tell him﻿—I know what I’ll tell him,” with a sudden inspiration.
+e:mary=excited
+
+She had her hat on when she appeared in Colin’s room and for a second he looked disappointed.
+s=none;e:mary=neutral;e:colin=unhappy
+
+He was in bed and his face was pitifully white and there were dark circles round his eyes.
+e:colin=weary
+
+“I’m glad you came,” he said. “My head aches and I ache all over because I’m so tired.”
+s=colin
+
+“Are you going somewhere?”
+e:colin=curious
+
+Mary went and leaned against his bed.
+s=none;e:mary=neutral
+
+“I won’t be long,” she said.
+s=mary
+
+“I’m going to Dickon, but I’ll come back. Colin, it’s﻿—it’s something about the secret garden.”
+e:mary=excited
+
+His whole face brightened and a little color came into it.
+s=none;e:colin=happy
+
+“Oh! is it!” he cried out.
+s=colin;e:colin=excited
+
+“I dreamed about it all night. I heard you say something about gray changing into green, and I dreamed I was standing in a place all filled with trembling little green leaves﻿—and there were birds on nests everywhere and they looked so soft and still.”
+e:colin=contemplative
+
+“I’ll lie and think about it until you come back.”
+e:colin=happy
+
+In five minutes Mary was with Dickon in their garden.
+s=none;e:mary=happy;e:dickon=neutral
+
+The fox and the crow were with him again and this time he had brought two tame squirrels.
+
+
+“I came over on the pony this mornin’,” he said.
+s=dickon;e:dickon=happy
+
+“Eh! he is a good little chap﻿—Jump is! I brought these two in my pockets. This here one he’s called Nut an’ this here other one’s called Shell.”
+e:dickon=excited
+
+When he said “Nut” one squirrel leaped on to his right shoulder and when he said “Shell” the other one leaped on to his left shoulder.
+s=none
+
+When they sat down on the grass with Captain curled at their feet, Soot solemnly listening on a tree and Nut and Shell nosing about close to them, it seemed to Mary that it would be scarcely bearable to leave such delightfulness, but when she began to tell her story somehow the look in Dickon’s funny face gradually changed her mind.
+e:mary=serious;e:dickon=serious
+
+She could see he felt sorrier for Colin than she did.
+e:dickon=unhappy
+
+He looked up at the sky and all about him.
+e:dickon=contemplative
+
+“Just listen to them birds﻿—th’ world seems full of ’em﻿—all whistlin’ an’ pipin’,” he said.
+s=dickon;e:dickon=happy
+
+“Look at ’em dartin’ about, an’ hearken at ’em callin’ to each other. Come springtime seems like as if all th’ world’s callin’.”
+
+
+“The leaves is uncurlin’ so you can see ’em﻿—an’, my word, th’ nice smells there is about!”
+e:dickon=excited
+
+sniffing with his happy turned-up nose.
+s=none;e:dickon=happy
+
+“An’ that poor lad lyin’ shut up an’ seein’ so little that he gets to thinkin’ o’ things as sets him screamin’.”
+s=dickon;e:dickon=unhappy
+
+“Eh! my! we mun get him out here﻿—we mun get him watchin’ an’ listenin’ an’ sniffin’ up th’ air an’ get him just soaked through wi’ sunshine. An’ we munnot lose no time about it.”
+e:dickon=serious
+
+When he was very much interested he often spoke quite broad Yorkshire though at other times he tried to modify his dialect so that Mary could better understand.
+s=none
+
+But she loved his broad Yorkshire and had in fact been trying to learn to speak it herself.
+e:mary=happy
+
+So she spoke a little now.
+
+
+“Aye, that we mun,” she said (which meant “Yes, indeed, we must”).
+s=mary
+
+“I’ll tell thee what us’ll do first,” she proceeded, and Dickon grinned, because when the little wench tried to twist her tongue into speaking Yorkshire it amused him very much.
+s=none;e:dickon=smirking
+
+“He’s took a graidely fancy to thee. He wants to see thee and he wants to see Soot an’ Captain.”
+s=mary;e:mary=excited
+
+“When I go back to the house to talk to him I’ll ax him if tha’ canna’ come an’ see him tomorrow mornin’﻿—an’ bring tha’ creatures wi’ thee﻿—an’ then﻿—in a bit, when there’s more leaves out, an’ happen a bud or two, we’ll get him to come out an’ tha’ shall push him in his chair an’ we’ll bring him here an’ show him everything.”
+
+
+When she stopped she was quite proud of herself. She had never made a long speech in Yorkshire before and she had remembered very well.
+s=none;e:mary=happy
+
+“Tha’ mun talk a bit o’ Yorkshire like that to Mester Colin,” Dickon chuckled.
+s=dickon;e:dickon=happy
+
+“Tha’ll make him laugh an’ there’s nowt as good for ill folk as laughin’ is.”
+
+
+“Mother says she believes as half a hour’s good laugh every mornin’ ’ud cure a chap as was makin’ ready for typhus fever.”
+
+
+“I’m going to talk Yorkshire to him this very day,” said Mary, chuckling herself.
+s=mary;e:mary=happy
+
+The garden had reached the time when every day and every night it seemed as if Magicians were passing through it drawing loveliness out of the earth and the boughs with wands.
+s=none
+
+It was hard to go away and leave it all, particularly as Nut had actually crept on to her dress and Shell had scrambled down the trunk of the apple-tree they sat under and stayed there looking at her with inquiring eyes.
+e:mary=contemplative
+
+But she went back to the house and when she sat down close to Colin’s bed he began to sniff as Dickon did though not in such an experienced way.
+e:colin=curious
+
+“You smell like flowers and﻿—and fresh things,” he cried out quite joyously.
+s=colin;e:colin=happy
+
+“What is it you smell of? It’s cool and warm and sweet all at the same time.”
+
+
+“It’s th’ wind from th’ moor,” said Mary.
+s=mary;e:mary=smirking
+
+“It comes o’ sittin’ on th’ grass under a tree wi’ Dickon an’ wi’ Captain an’ Soot an’ Nut an’ Shell. It’s th’ springtime an’ out o’ doors an’ sunshine as smells so graidely.”
+e:mary=happy
+
+She said it as broadly as she could, and you do not know how broadly Yorkshire sounds until you have heard someone speak it.
+s=none
+
+Colin began to laugh.
+e:colin=happy
+
+“What are you doing?” he said.
+s=colin;e:colin=curious
+
+“I never heard you talk like that before. How funny it sounds.”
+e:colin=happy
+
+“I’m givin’ thee a bit o’ Yorkshire,” answered Mary triumphantly.
+s=mary;e:mary=excited
+
+“I canna’ talk as graidely as Dickon an’ Martha can but tha’ sees I can shape a bit.”
+e:mary=smirking
+
+“Doesn’t tha’ understand a bit o’ Yorkshire when tha’ hears it? An’ tha’ a Yorkshire lad thysel’ bred an’ born! Eh! I wonder tha’rt not ashamed o’ thy face.”
+
+
+And then she began to laugh too and they both laughed until they could not stop themselves and they laughed until the room echoed and Mrs. Medlock opening the door to come in drew back into the corridor and stood listening amazed.
+s=none;e:mary=happy;e:colin=happy;e:mrsmedlock=surprised
+
+“Well, upon my word!” she said, speaking rather broad Yorkshire herself because there was no one to hear her and she was so astonished.
+s=mrsmedlock
+
+“Whoever heard th’ like! Whoever on earth would ha’ thought it!”
+
+
+There was so much to talk about.
+s=none;e:mary=excited
+
+It seemed as if Colin could never hear enough of Dickon and Captain and Soot and Nut and Shell and the pony whose name was Jump.
+e:colin=curious
+
+Mary had run round into the wood with Dickon to see Jump.
+
+
+He was a tiny little shaggy moor pony with thick locks hanging over his eyes and with a pretty face and a nuzzling velvet nose.
+
+
+He was rather thin with living on moor grass but he was as tough and wiry as if the muscle in his little legs had been made of steel springs.
+
+
+He had lifted his head and whinnied softly the moment he saw Dickon and he had trotted up to him and put his head across his shoulder and then Dickon had talked into his ear and Jump had talked back in odd little whinnies and puffs and snorts.
+
+
+Dickon had made him give Mary his small front hoof and kiss her on her cheek with his velvet muzzle.
+
+
+“Does he really understand everything Dickon says?” Colin asked.
+s=colin;e:colin=curious
+
+“It seems as if he does,” answered Mary.
+s=mary;e:mary=thinking
+
+“Dickon says anything will understand if you’re friends with it for sure, but you have to be friends for sure.”
+
+
+Colin lay quiet a little while and his strange gray eyes seemed to be staring at the wall, but Mary saw he was thinking.
+s=none;e:colin=thinking
+
+“I wish I was friends with things,” he said at last, “but I’m not.”
+s=colin;e:colin=unhappy
+
+“I never had anything to be friends with, and I can’t bear people.”
+e:colin=weary
+
+“Can’t you bear me?” asked Mary.
+s=mary;e:mary=curious
+
+“Yes, I can,” he answered. “It’s very funny but I even like you.”
+s=colin;e:colin=happy
+
+“Ben Weatherstaff said I was like him,” said Mary.
+s=mary;e:mary=neutral
+
+“He said he’d warrant we’d both got the same nasty tempers. I think you are like him too.”
+e:mary=smirking
+
+“We are all three alike﻿—you and I and Ben Weatherstaff.”
+
+
+“He said we were neither of us much to look at and we were as sour as we looked. But I don’t feel as sour as I used to before I knew the robin and Dickon.”
+e:mary=happy
+
+“Did you feel as if you hated people?”
+s=colin;e:colin=curious
+
+“Yes,” answered Mary without any affectation.
+s=mary;e:mary=serious
+
+“I should have detested you if I had seen you before I saw the robin and Dickon.”
+
+
+Colin put out his thin hand and touched her.
+s=none;e:colin=nervous
+
+“Mary,” he said, “I wish I hadn’t said what I did about sending Dickon away.”
+s=colin;e:colin=upset
+
+“I hated you when you said he was like an angel and I laughed at you but﻿—but perhaps he is.”
+e:colin=contemplative
+
+“Well, it was rather funny to say it,” she admitted frankly, “because his nose does turn up and he has a big mouth and his clothes have patches all over them and he talks broad Yorkshire, but﻿—but if an angel did come to Yorkshire and live on the moor﻿—if there was a Yorkshire angel﻿—I believe he’d understand the green things and know how to make them grow and he would know how to talk to the wild creatures as Dickon does and they’d know he was friends for sure.”
+s=mary;e:mary=happy
+
+“I shouldn’t mind Dickon looking at me,” said Colin; “I want to see him.”
+s=colin;e:colin=thinking
+
+“I’m glad you said that,” answered Mary, “because﻿—because﻿—”
+s=mary;e:mary=nervous
+
+Quite suddenly it came into her mind that this was the minute to tell him.
+s=none;e:mary=excited
+
+Colin knew something new was coming.
+e:colin=curious
+
+“Because what?” he cried eagerly.
+s=colin;e:colin=excited
+
+Mary was so anxious that she got up from her stool and came to him and caught hold of both his hands.
+s=none;e:mary=nervous
+
+“Can I trust you? I trusted Dickon because birds trusted him. Can I trust you﻿—for sure﻿—*for sure*?” she implored.
+s=mary;e:mary=wary
+
+Her face was so solemn that he almost whispered his answer.
+s=none;e:colin=serious
+
+“Yes﻿—yes!”
+s=colin
+
+“Well, Dickon will come to see you tomorrow morning, and he’ll bring his creatures with him.”
+s=mary;e:mary=happy
+
+“Oh! Oh!” Colin cried out in delight.
+s=colin;e:colin=excited
+
+“But that’s not all,” Mary went on, almost pale with solemn excitement.
+s=mary;e:mary=serious
+
+“The rest is better. There is a door into the garden. I found it. It is under the ivy on the wall.”
+
+
+If he had been a strong healthy boy Colin would probably have shouted “Hooray! Hooray! Hooray!” but he was weak and rather hysterical; his eyes grew bigger and bigger and he gasped for breath.
+s=none;e:colin=excited
+
+“Oh! Mary!” he cried out with a half sob.
+s=colin;e:colin=crying
+
+“Shall I see it? Shall I get into it? Shall I *live* to get into it?”
+e:colin=nervous
+
+and he clutched her hands and dragged her toward him.
+s=none
+
+“Of course you’ll see it!” snapped Mary indignantly.
+s=mary;e:mary=angry
+
+“Of course you’ll live to get into it! Don’t be silly!”
+e:mary=scowling
+
+And she was so un-hysterical and natural and childish that she brought him to his senses and he began to laugh at himself and a few minutes afterward she was sitting on her stool again telling him not what she imagined the secret garden to be like but what it really was, and Colin’s aches and tiredness were forgotten and he was listening enraptured.
+s=none;e:colin=happy;e:mary=happy
+
+“It is just what you thought it would be,” he said at last.
+s=colin;e:colin=contemplative
+
+“It sounds just as if you had really seen it. You know I said that when you told me first.”
+e:colin=thinking
+
+Mary hesitated about two minutes and then boldly spoke the truth.
+s=none;e:mary=wary
+
+“I had seen it﻿—and I had been in,” she said.
+s=mary;e:mary=serious
+
+“I found the key and got in weeks ago. But I daren’t tell you﻿—I daren’t because I was so afraid I couldn’t trust you﻿—*for sure*!”
+e:mary=fearful
+
 
