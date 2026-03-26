@@ -9343,4 +9343,514 @@ s=colin;e:colin=excited
 “Mary! Dickon! I shall get well! And I shall live forever and ever and ever!”
 
 
+## XXI. Ben Weatherstaff
+r=title
+
+One of the strange things about living in the world is that it is only now and then one is quite sure one is going to live forever and ever and ever.
+
+
+One knows it sometimes when one gets up at the tender solemn dawn-time and goes out and stands alone and throws one’s head far back and looks up and up and watches the pale sky slowly changing and flushing and marvelous unknown things happening until the East almost makes one cry out and one’s heart stands still at the strange unchanging majesty of the rising of the sun﻿—which has been happening every morning for thousands and thousands and thousands of years.
+
+
+One knows it then for a moment or so. And one knows it sometimes when one stands by oneself in a wood at sunset and the mysterious deep gold stillness slanting through and under the branches seems to be saying slowly again and again something one cannot quite hear, however much one tries.
+
+
+Then sometimes the immense quiet of the dark blue at night with millions of stars waiting and watching makes one sure; and sometimes a sound of far-off music makes it true; and sometimes a look in someone’s eyes.
+
+
+And it was like that with Colin when he first saw and heard and felt the Springtime inside the four high walls of a hidden garden.
+e:colin=happy
+
+That afternoon the whole world seemed to devote itself to being perfect and radiantly beautiful and kind to one boy.
+
+
+Perhaps out of pure heavenly goodness the spring came and crowded everything it possibly could into that one place.
+
+
+More than once Dickon paused in what he was doing and stood still with a sort of growing wonder in his eyes, shaking his head softly.
+e:dickon=surprised
+
+“Eh! it is graidely,” he said.
+s=dickon;e:dickon=happy
+
+“I’m twelve goin’ on thirteen an’ there’s a lot o’ afternoons in thirteen years, but seems to me like I never seed one as graidely as this ’ere.”
+
+
+“Aye, it is a graidely one,” said Mary, and she sighed for mere joy.
+s=mary;e:mary=happy
+
+“I’ll warrant it’s th’ graidelest one as ever was in this world.”
+s=dickon
+
+“Does tha’ think,” said Colin with dreamy carefulness, “as happen it was made loike this ’ere all o’ purpose for me?”
+s=colin;e:colin=contemplative
+
+“My word!” cried Mary admiringly, “that there is a bit o’ good Yorkshire.”
+s=mary;e:mary=excited
+
+“Tha’rt shapin’ first-rate﻿—that tha’ art.”
+
+
+And delight reigned.
+s=none
+
+They drew the chair under the plum-tree, which was snow-white with blossoms and musical with bees.
+e:colin=happy;e:mary=happy;e:dickon=happy
+
+It was like a king’s canopy, a fairy king’s. There were flowering cherry-trees near and apple-trees whose buds were pink and white, and here and there one had burst open wide.
+
+
+Between the blossoming branches of the canopy bits of blue sky looked down like wonderful eyes.
+
+
+Mary and Dickon worked a little here and there and Colin watched them.
+
+
+They brought him things to look at﻿—buds which were opening, buds which were tight closed, bits of twig whose leaves were just showing green, the feather of a woodpecker which had dropped on the grass, the empty shell of some bird early hatched.
+
+
+Dickon pushed the chair slowly round and round the garden, stopping every other moment to let him look at wonders springing out of the earth or trailing down from trees.
+
+
+It was like being taken in state round the country of a magic king and queen and shown all the mysterious riches it contained.
+
+
+“I wonder if we shall see the robin?” said Colin.
+s=colin;e:colin=curious
+
+“Tha’ll see him often enow after a bit,” answered Dickon.
+s=dickon;e:dickon=happy
+
+“When th’ eggs hatches out th’ little chap he’ll be kep’ so busy it’ll make his head swim.”
+
+
+“Tha’ll see him flyin’ backward an’ for’ard carryin’ worms nigh as big as himsel’ an’ that much noise goin’ on in th’ nest when he gets there as fair flusters him so as he scarce knows which big mouth to drop th’ first piece in.”
+
+
+“An’ gapin’ beaks an’ squawks on every side. Mother says as when she sees th’ work a robin has to keep them gapin’ beaks filled, she feels like she was a lady with nothin’ to do.”
+
+
+“She says she’s seen th’ little chaps when it seemed like th’ sweat must be droppin’ off ’em, though folk can’t see it.”
+
+
+This made them giggle so delightedly that they were obliged to cover their mouths with their hands, remembering that they must not be heard.
+s=none;e:mary=happy;e:dickon=happy;e:colin=happy
+
+Colin had been instructed as to the law of whispers and low voices several days before.
+
+
+He liked the mysteriousness of it and did his best, but in the midst of excited enjoyment it is rather difficult never to laugh above a whisper.
+e:colin=excited
+
+Every moment of the afternoon was full of new things and every hour the sunshine grew more golden.
+
+
+The wheeled chair had been drawn back under the canopy and Dickon had sat down on the grass and had just drawn out his pipe when Colin saw something he had not had time to notice before.
+
+
+“That’s a very old tree over there, isn’t it?” he said.
+s=colin;e:colin=curious
+
+Dickon looked across the grass at the tree and Mary looked and there was a brief moment of stillness.
+s=none;e:dickon=wary;e:mary=wary
+
+“Yes,” answered Dickon, after it, and his low voice had a very gentle sound.
+s=dickon;e:dickon=serious
+
+Mary gazed at the tree and thought.
+s=none;e:mary=thinking
+
+“The branches are quite gray and there’s not a single leaf anywhere,” Colin went on.
+s=colin;e:colin=contemplative
+
+“It’s quite dead, isn’t it?”
+
+
+“Aye,” admitted Dickon. “But them roses as has climbed all over it will near hide every bit o’ th’ dead wood when they’re full o’ leaves an’ flowers.”
+s=dickon;e:dickon=happy
+
+“It won’t look dead then. It’ll be th’ prettiest of all.”
+
+
+Mary still gazed at the tree and thought.
+s=none;e:mary=thinking
+
+“It looks as if a big branch had been broken off,” said Colin.
+s=colin;e:colin=curious
+
+“I wonder how it was done.”
+
+
+“It’s been done many a year,” answered Dickon.
+s=dickon;e:dickon=nervous
+
+“Eh!” with a sudden relieved start and laying his hand on Colin. “Look at that robin! There he is! He’s been foragin’ for his mate.”
+e:dickon=excited
+
+Colin was almost too late but he just caught sight of him, the flash of red-breasted bird with something in his beak.
+s=none;e:colin=surprised
+
+He darted through the greenness and into the close-grown corner and was out of sight.
+
+
+Colin leaned back on his cushion again, laughing a little.
+e:colin=happy
+
+“He’s taking her tea to her. Perhaps it’s five o’clock. I think I’d like some tea myself.”
+s=colin
+
+And so they were safe.
+s=none;e:dickon=happy;e:mary=happy
+
+“It was Magic which sent the robin,” said Mary secretly to Dickon afterward.
+s=mary;e:mary=serious
+
+“I know it was Magic.”
+
+
+For both she and Dickon had been afraid Colin might ask something about the tree whose branch had broken off ten years ago and they had talked it over together and Dickon had stood and rubbed his head in a troubled way.
+s=none;e:dickon=upset;e:mary=wary
+
+“We mun look as if it wasn’t no different from th’ other trees,” he had said.
+s=dickon;e:dickon=serious
+
+“We couldn’t never tell him how it broke, poor lad. If he says anything about it we mun﻿—we mun try to look cheerful.”
+e:dickon=unhappy
+
+“Aye, that we mun,” had answered Mary.
+s=mary
+
+But she had not felt as if she looked cheerful when she gazed at the tree.
+s=none;e:mary=unhappy
+
+She wondered and wondered in those few moments if there was any reality in that other thing Dickon had said.
+e:mary=thinking
+
+He had gone on rubbing his rust-red hair in a puzzled way, but a nice comforted look had begun to grow in his blue eyes.
+e:dickon=contemplative
+
+“Mrs. Craven was a very lovely young lady,” he had gone on rather hesitatingly.
+s=dickon
+
+“An’ mother she thinks maybe she’s about Misselthwaite many a time lookin’ after Mester Colin, same as all mothers do when they’re took out o’ th’ world. They have to come back, tha’ sees.”
+
+
+“Happen she’s been in the garden an’ happen it was her set us to work, an’ told us to bring him here.”
+
+
+Mary had thought he meant something about Magic. She was a great believer in Magic.
+s=none;e:mary=thinking
+
+Secretly she quite believed that Dickon worked Magic, of course good Magic, on everything near him and that was why people liked him so much and wild creatures knew he was their friend.
+
+
+She wondered, indeed, if it were not possible that his gift had brought the robin just at the right moment when Colin asked that dangerous question.
+
+
+She felt that his Magic was working all the afternoon and making Colin look like an entirely different boy.
+e:mary=happy
+
+It did not seem possible that he could be the crazy creature who had screamed and beaten and bitten his pillow.
+
+
+Even his ivory whiteness seemed to change. The faint glow of color which had shown on his face and neck and hands when he first got inside the garden really never quite died away.
+
+
+He looked as if he were made of flesh instead of ivory or wax.
+
+
+They saw the robin carry food to his mate two or three times, and it was so suggestive of afternoon tea that Colin felt they must have some.
+
+
+“Go and make one of the men servants bring some in a basket to the rhododendron walk,” he said.
+s=colin;e:colin=happy
+
+“And then you and Dickon can bring it here.”
+
+
+It was an agreeable idea, easily carried out, and when the white cloth was spread upon the grass, with hot tea and buttered toast and crumpets, a delightfully hungry meal was eaten, and several birds on domestic errands paused to inquire what was going on and were led into investigating crumbs with great activity.
+s=none
+
+Nut and Shell whisked up trees with pieces of cake and Soot took the entire half of a buttered crumpet into a corner and pecked at and examined and turned it over and made hoarse remarks about it until he decided to swallow it all joyfully in one gulp.
+
+
+The afternoon was dragging toward its mellow hour. The sun was deepening the gold of its lances, the bees were going home and the birds were flying past less often.
+
+
+Dickon and Mary were sitting on the grass, the tea-basket was re-packed ready to be taken back to the house, and Colin was lying against his cushions with his heavy locks pushed back from his forehead and his face looking quite a natural color.
+e:colin=weary
+
+“I don’t want this afternoon to go,” he said; “but I shall come back tomorrow, and the day after, and the day after, and the day after.”
+s=colin;e:colin=happy
+
+“You’ll get plenty of fresh air, won’t you?” said Mary.
+s=mary;e:mary=happy
+
+“I’m going to get nothing else,” he answered.
+s=colin;e:colin=excited
+
+“I’ve seen the spring now and I’m going to see the summer. I’m going to see everything grow here. I’m going to grow here myself.”
+
+
+“That tha’ will,” said Dickon. “Us’ll have thee walkin’ about here an’ diggin’ same as other folk afore long.”
+s=dickon;e:dickon=happy
+
+Colin flushed tremendously.
+s=none;e:colin=surprised
+
+“Walk!” he said. “Dig! Shall I?”
+s=colin;e:colin=excited
+
+Dickon’s glance at him was delicately cautious.
+s=none;e:dickon=wary
+
+Neither he nor Mary had ever asked if anything was the matter with his legs.
+e:mary=wary
+
+“For sure tha’ will,” he said stoutly. “Tha’﻿—tha’s got legs o’ thine own, same as other folks!”
+s=dickon;e:dickon=serious
+
+Mary was rather frightened until she heard Colin’s answer.
+s=none;e:mary=fearful
+
+“Nothing really ails them,” he said, “but they are so thin and weak. They shake so that I’m afraid to try to stand on them.”
+s=colin;e:colin=nervous
+
+Both Mary and Dickon drew a relieved breath.
+s=none;e:mary=happy;e:dickon=happy
+
+“When tha’ stops bein’ afraid tha’lt stand on ’em,” Dickon said with renewed cheer.
+s=dickon;e:dickon=happy
+
+“An’ tha’lt stop bein’ afraid in a bit.”
+
+
+“I shall?”
+s=colin;e:colin=contemplative
+
+said Colin, and he lay still as if he were wondering about things.
+s=none;e:colin=thinking
+
+They were really very quiet for a little while. The sun was dropping lower.
+
+
+It was that hour when everything stills itself, and they really had had a busy and exciting afternoon.
+
+
+Colin looked as if he were resting luxuriously. Even the creatures had ceased moving about and had drawn together and were resting near them.
+e:colin=weary
+
+Soot had perched on a low branch and drawn up one leg and dropped the gray film drowsily over his eyes.
+
+
+Mary privately thought he looked as if he might snore in a minute.
+e:mary=happy
+
+In the midst of this stillness it was rather startling when Colin half lifted his head and exclaimed in a loud suddenly alarmed whisper:
+e:colin=fearful
+
+“Who is that man?”
+s=colin
+
+Dickon and Mary scrambled to their feet.
+s=none;e:dickon=surprised;e:mary=surprised
+
+“Man!” they both cried in low quick voices.
+s=mary
+
+Colin pointed to the high wall.
+s=none;e:colin=upset
+
+“Look!” he whispered excitedly. “Just look!”
+s=colin
+
+Mary and Dickon wheeled about and looked.
+s=none;e:mary=fearful;e:dickon=wary
+
+There was Ben Weatherstaff’s indignant face glaring at them over the wall from the top of a ladder!
+e:ben=angry
+
+He actually shook his fist at Mary.
+
+
+“If I wasn’t a bachelder, an’ tha’ was a wench o’ mine,” he cried, “I’d give thee a hidin’!”
+s=ben
+
+He mounted another step threateningly as if it were his energetic intention to jump down and deal with her; but as she came toward him he evidently thought better of it and stood on the top step of his ladder shaking his fist down at her.
+s=none
+
+“I never thowt much o’ thee!” he harangued. “I couldna’ abide thee th’ first time I set eyes on thee.”
+s=ben
+
+“A scrawny buttermilk-faced young besom, allus askin’ questions an’ pokin’ tha’ nose where it wasna’ wanted. I never knowed how tha’ got so thick wi’ me. If it hadna’ been for th’ robin﻿—Drat him﻿—”
+
+
+“Ben Weatherstaff,” called out Mary, finding her breath.
+s=mary;e:mary=nervous
+
+She stood below him and called up to him with a sort of gasp.
+s=none
+
+“Ben Weatherstaff, it was the robin who showed me the way!”
+s=mary;e:mary=upset
+
+Then it did seem as if Ben really would scramble down on her side of the wall, he was so outraged.
+s=none;e:ben=angry
+
+“Tha’ young bad ’un!” he called down at her. “Layin’ tha’ badness on a robin﻿—not but what he’s impidint enow for anythin’.”
+s=ben
+
+“Him showin’ thee th’ way! Him! Eh! tha’ young nowt,”﻿—she could see his next words burst out because he was overpowered by curiosity﻿—“however i’ this world did tha’ get in?”
+e:ben=curious
+
+“It was the robin who showed me the way,” she protested obstinately.
+s=mary;e:mary=serious
+
+“He didn’t know he was doing it but he did. And I can’t tell you from here while you’re shaking your fist at me.”
+
+
+He stopped shaking his fist very suddenly at that very moment and his jaw actually dropped as he stared over her head at something he saw coming over the grass toward him.
+s=none;e:ben=surprised
+
+At the first sound of his torrent of words Colin had been so surprised that he had only sat up and listened as if he were spellbound.
+e:colin=surprised
+
+But in the midst of it he had recovered himself and beckoned imperiously to Dickon.
+e:colin=angry
+
+“Wheel me over there!” he commanded. “Wheel me quite close and stop right in front of him!”
+s=colin
+
+And this, if you please, this is what Ben Weatherstaff beheld and which made his jaw drop.
+s=none;e:ben=surprised
+
+A wheeled chair with luxurious cushions and robes which came toward him looking rather like some sort of State Coach because a young Rajah leaned back in it with royal command in his great black-rimmed eyes and a thin white hand extended haughtily toward him.
+e:colin=serious
+
+And it stopped right under Ben Weatherstaff’s nose. It was really no wonder his mouth dropped open.
+
+
+“Do you know who I am?” demanded the Rajah.
+s=colin
+
+How Ben Weatherstaff stared!
+s=none;e:ben=surprised
+
+His red old eyes fixed themselves on what was before him as if he were seeing a ghost.
+e:ben=fearful
+
+He gazed and gazed and gulped a lump down his throat and did not say a word.
+
+
+“Do you know who I am?” demanded Colin still more imperiously. “Answer!”
+s=colin;e:colin=angry
+
+Ben Weatherstaff put his gnarled hand up and passed it over his eyes and over his forehead and then he did answer in a queer shaky voice.
+s=none;e:ben=nervous
+
+“Who tha’ art?” he said. “Aye, that I do﻿—wi’ tha’ mother’s eyes starin’ at me out o’ tha’ face.”
+s=ben
+
+“Lord knows how tha’ come here. But tha’rt th’ poor cripple.”
+e:ben=unhappy
+
+Colin forgot that he had ever had a back. His face flushed scarlet and he sat bolt upright.
+s=none;e:colin=angry
+
+“I’m not a cripple!” he cried out furiously. “I’m not!”
+s=colin
+
+“He’s not!” cried Mary, almost shouting up the wall in her fierce indignation.
+s=mary;e:mary=angry
+
+“He’s not got a lump as big as a pin! I looked and there was none there﻿—not one!”
+
+
+Ben Weatherstaff passed his hand over his forehead again and gazed as if he could never gaze enough.
+s=none;e:ben=confused
+
+His hand shook and his mouth shook and his voice shook.
+e:ben=nervous
+
+He was an ignorant old man and a tactless old man and he could only remember the things he had heard.
+
+
+“Tha’﻿—tha’ hasn’t got a crooked back?” he said hoarsely.
+s=ben
+
+“No!” shouted Colin.
+s=colin;e:colin=angry
+
+“Tha’﻿—tha’ hasn’t got crooked legs?” quavered Ben more hoarsely yet.
+s=ben;e:ben=nervous
+
+It was too much. The strength which Colin usually threw into his tantrums rushed through him now in a new way.
+s=none;e:colin=angry
+
+Never yet had he been accused of crooked legs﻿—even in whispers﻿—and the perfectly simple belief in their existence which was revealed by Ben Weatherstaff’s voice was more than Rajah flesh and blood could endure.
+
+
+His anger and insulted pride made him forget everything but this one moment and filled him with a power he had never known before, an almost unnatural strength.
+e:colin=excited
+
+“Come here!” he shouted to Dickon, and he actually began to tear the coverings off his lower limbs and disentangle himself.
+s=colin;e:colin=angry
+
+“Come here! Come here! This minute!”
+
+
+Dickon was by his side in a second.
+s=none;e:dickon=nervous
+
+Mary caught her breath in a short gasp and felt herself turn pale.
+e:mary=fearful
+
+“He can do it! He can do it! He can do it! He can!” she gabbled over to herself under her breath as fast as ever she could.
+s=mary;e:mary=excited
+
+There was a brief fierce scramble, the rugs were tossed on to the ground, Dickon held Colin’s arm, the thin legs were out, the thin feet were on the grass.
+s=none
+
+Colin was standing upright﻿—upright﻿—as straight as an arrow and looking strangely tall﻿—his head thrown back and his strange eyes flashing lightning.
+e:colin=excited
+
+“Look at me!” he flung up at Ben Weatherstaff. “Just look at me﻿—you! Just look at me!”
+s=colin
+
+“He’s as straight as I am!” cried Dickon. “He’s as straight as any lad i’ Yorkshire!”
+s=dickon;e:dickon=excited
+
+What Ben Weatherstaff did Mary thought queer beyond measure. He choked and gulped and suddenly tears ran down his weather-wrinkled cheeks as he struck his old hands together.
+s=none;e:ben=crying
+
+“Eh!” he burst forth, “th’ lies folk tells! Tha’rt as thin as a lath an’ as white as a wraith, but there’s not a knob on thee. Tha’lt make a mon yet. God bless thee!”
+s=ben;e:ben=happy
+
+Dickon held Colin’s arm strongly but the boy had not begun to falter.
+s=none
+
+He stood straighter and straighter and looked Ben Weatherstaff in the face.
+e:colin=serious
+
+“I’m your master,” he said, “when my father is away. And you are to obey me.”
+s=colin
+
+“This is my garden. Don’t dare to say a word about it! You get down from that ladder and go out to the Long Walk and Miss Mary will meet you and bring you here.”
+
+
+“I want to talk to you. We did not want you, but now you will have to be in the secret. Be quick!”
+
+
+Ben Weatherstaff’s crabbed old face was still wet with that one queer rush of tears.
+s=none;e:ben=crying
+
+It seemed as if he could not take his eyes from thin straight Colin standing on his feet with his head thrown back.
+e:ben=surprised
+
+“Eh! lad,” he almost whispered. “Eh! my lad!” And then remembering himself he suddenly touched his hat gardener fashion and said, “Yes, sir! Yes, sir!”
+s=ben;e:ben=happy
+
+and obediently disappeared as he descended the ladder.
+s=none
+
 
