@@ -124,8 +124,11 @@ s=officer1;e:officer1=nervous
 “You did not say it had broken out among your servants.”
 
 
-“I did not know!” the Mem Sahib cried. “Come with me! Come with me!”
+“I did not know!” the Mem Sahib cried.
 s=mother;e:mother=crying
+
+“Come with me! Come with me!”
+
 
 and she turned and ran into the house.
 s=none
@@ -277,11 +280,8 @@ s=barney
 “There is nobody left to come.”
 
 
-It was in that strange and sudden way that Mary found out that she had neither father nor mother left;
+It was in that strange and sudden way that Mary found out that she had neither father nor mother left; that they had died and been carried away in the night, and that the few native servants who had not died also had left the house as quickly as they could get out of it, none of them even remembering that there was a Missie Sahib.
 s=none;e:mary=surprised
-
-that they had died and been carried away in the night, and that the few native servants who had not died also had left the house as quickly as they could get out of it, none of them even remembering that there was a Missie Sahib.
-e:mary=unhappy
 
 That was why the place was so quiet. It was true that there was no one in the bungalow but herself and the little rustling snake.
 e:mary=weary
@@ -352,14 +352,11 @@ e:basil=smirking
 He danced round and round her and made faces and sang and laughed.
 
 
-“Mistress Mary, quite contrary,<br>How does your garden grow?<br>With silver bells, and cockle shells,<br>And marigolds all in a row.”
-s=basil
+“Mistress Mary, quite contrary,<br>&nbsp;&nbsp;&nbsp;&nbsp;How does your garden grow?<br>With silver bells, and cockle shells,<br>&nbsp;&nbsp;&nbsp;&nbsp;And marigolds all in a row.”
+s=basil;m=margin
 
-He sang it until the other children heard and laughed, too; and the crosser Mary got, the more they sang “Mistress Mary, quite contrary”;
-s=none;e:mary=angry
-
-and after that as long as she stayed with them they called her “Mistress Mary Quite Contrary” when they spoke of her to each other, and often when they spoke to her.
-
+He sang it until the other children heard and laughed, too; and the crosser Mary got, the more they sang “Mistress Mary, quite contrary”; and after that as long as she stayed with them they called her “Mistress Mary Quite Contrary” when they spoke of her to each other, and often when they spoke to her.
+s=none;e:mary=angry;m=
 
 “You are going to be sent home,” Basil said to her, “at the end of the week.”
 s=basil;e:basil=smirking
@@ -1867,11 +1864,8 @@ r=title
 At first each day which passed by for Mary Lennox was exactly like the others.
 e:mary=neutral
 
-Every morning she awoke in her tapestried room and found Martha kneeling upon the hearth building her fire;
+Every morning she awoke in her tapestried room and found Martha kneeling upon the hearth building her fire; every morning she ate her breakfast in the nursery which had nothing amusing in it;
 e:martha=neutral
-
-every morning she ate her breakfast in the nursery which had nothing amusing in it;
-e:mary=weary
 
 and after each breakfast she gazed out of the window across to the huge moor which seemed to spread out on all sides and climb up to the sky, and after she had stared for a while she realized that if she did not go out she would have to stay in and do nothing﻿—and so she went out.
 e:mary=thinking
@@ -2023,11 +2017,8 @@ s=mary;e:mary=surprised
 She walked round and looked closely at that side of the orchard wall, but she only found what she had found before﻿—that there was no door in it.
 s=none;e:mary=thinking
 
-Then she ran through the kitchen-gardens again and out into the walk outside the long ivy-covered wall, and she walked to the end of it and looked at it, but there was no door;
+Then she ran through the kitchen-gardens again and out into the walk outside the long ivy-covered wall, and she walked to the end of it and looked at it, but there was no door; and then she walked to the other end, looking again, but there was no door.
 e:mary=curious
-
-and then she walked to the other end, looking again, but there was no door.
-e:mary=confused
 
 “It’s very queer,” she said.
 s=mary;e:mary=thinking
@@ -2185,11 +2176,8 @@ s=martha;e:martha=nervous
 “But listen,” said Mary. “It’s in the house﻿—down one of those long corridors.”
 s=mary;e:mary=serious
 
-And at that very moment a door must have been opened somewhere downstairs;
-s=none;e:mary=surprised;e:martha=surprised
-
-for a great rushing draft blew along the passage and the door of the room they sat in was blown open with a crash, and as they both jumped to their feet the light was blown out and the crying sound was swept down the far corridor so that it was to be heard more plainly than ever.
-e:mary=fearful;e:martha=fearful
+And at that very moment a door must have been opened somewhere downstairs; for a great rushing draft blew along the passage and the door of the room they sat in was blown open with a crash, and as they both jumped to their feet the light was blown out and the crying sound was swept down the far corridor so that it was to be heard more plainly than ever.
+s=none;e:mary=surprised;e:martha=surprised;e:mary=fearful;e:martha=fearful
 
 “There!” said Mary. “I told you so!”
 s=mary;e:mary=excited
@@ -2605,10 +2593,7 @@ s=none
 The wind itself had ceased and a brilliant, deep blue sky arched high over the moorland.
 
 
-Never, never had Mary dreamed of a sky so blue. In India skies were hot and blazing;
-e:mary=surprised
-
-this was of a deep cool blue which almost seemed to sparkle like the waters of some lovely bottomless lake, and here and there, high, high in the arched blueness floated small clouds of snow-white fleece.
+Never, never had Mary dreamed of a sky so blue. In India skies were hot and blazing; this was of a deep cool blue which almost seemed to sparkle like the waters of some lovely bottomless lake, and here and there, high, high in the arched blueness floated small clouds of snow-white fleece.
 
 
 The far-reaching world of the moor itself looked softly blue instead of gloomy purple-black or awful dreary gray.
@@ -2854,10 +2839,7 @@ e:mary=happy
 She thought of the robin as one of the people.
 
 
-She went to her walk outside the long, ivy-covered wall over which she could see the treetops;
-
-
-and the second time she walked up and down the most interesting and exciting thing happened to her, and it was all through Ben Weatherstaff’s robin.
+She went to her walk outside the long, ivy-covered wall over which she could see the treetops; and the second time she walked up and down the most interesting and exciting thing happened to her, and it was all through Ben Weatherstaff’s robin.
 e:mary=excited
 
 She heard a chirp and a twitter, and when she looked at the bare flowerbed at her left side there he was hopping about and pretending to peck things out of the earth to persuade her that he had not followed her.
@@ -3229,11 +3211,8 @@ s=ben;e:ben=neutral
 “He followed after thee yesterday. He’ll be at it again today.”
 
 
-“He’ll be bound to find out what th’ skippin’-rope is. He’s never seen one. Eh!”
+“He’ll be bound to find out what th’ skippin’-rope is. He’s never seen one. Eh!” shaking his head at the bird, “tha’ curosity will be th’ death of thee sometime if tha’ doesn’t look sharp.”
 e:ben=happy
-
-shaking his head at the bird, “tha’ curosity will be th’ death of thee sometime if tha’ doesn’t look sharp.”
-e:ben=smirking
 
 Mary skipped round all the gardens and round the orchard, resting every few minutes.
 s=none;e:mary=happy
@@ -3688,17 +3667,23 @@ She could not spell particularly well but she found that she could print letters
 This was the letter Martha dictated to her:
 
 
-“My Dear Dickon:”
+<span class='upper'>My Dear Dickon:</span>
+m=margin;o=letter
+
+This comes hoping to find you well as it leaves me at present. Miss Mary has plenty of money and will you go to Thwaite and buy her some flower seeds and a set of garden tools to make a flowerbed.
 
 
-“This comes hoping to find you well as it leaves me at present. Miss Mary has plenty of money and will you go to Thwaite and buy her some flower seeds and a set of garden tools to make a flowerbed. Pick the prettiest ones and easy to grow because she has never done it before and lived in India which is different. Give my love to mother and every one of you. Miss Mary is going to tell me a lot more so that on my next day out you can hear about elephants and camels and gentlemen going hunting lions and tigers.”
+Pick the prettiest ones and easy to grow because she has never done it before and lived in India which is different.
 
 
-“Your loving sister,<br>Martha Phœbe Sowerby.”
+Give my love to mother and every one of you. Miss Mary is going to tell me a lot more so that on my next day out you can hear about elephants and camels and gentlemen going hunting lions and tigers.
+
+
+<div class='fright'>Your loving sister,</div><br><div class='upper fright'>Martha Phœbe Sowerby.</div>
 
 
 “We’ll put the money in th’ envelope an’ I’ll get th’ butcher’s boy to take it in his cart. He’s a great friend o’ Dickon’s,” said Martha.
-s=martha;e:martha=happy;n:martha=Martha Phœbe Sowerby
+s=martha;e:martha=happy;n:martha=Martha Phœbe Sowerby;m=;o=
 
 “How shall I get the things when Dickon buys them?” asked Mary.
 s=mary;e:mary=curious
@@ -4309,10 +4294,7 @@ e:dickon=contemplative
 He laughed and came back to the log and began to talk about the flower seeds again.
 s=none;e:dickon=happy
 
-He told her what they looked like when they were flowers;
-
-
-he told her how to plant them, and watch them, and feed and water them.
+He told her what they looked like when they were flowers; he told her how to plant them, and watch them, and feed and water them.
 
 
 “See here,” he said suddenly, turning round to look at her.
@@ -4747,11 +4729,11 @@ s=none;e:mary=unhappy
 “They used to dance round and sing at me. They sang﻿—”
 s=mary;e:mary=upset
 
-“ ‘Mistress Mary, quite contrary,<br>How does your garden grow?<br>With silver bells, and cockle shells,<br>And marigolds all in a row.’”
-
+“ ‘Mistress Mary, quite contrary,<br>&nbsp;&nbsp;&nbsp;&nbsp;How does your garden grow?<br>With silver bells, and cockle shells,<br>&nbsp;&nbsp;&nbsp;&nbsp;And marigolds all in a row.’”
+m=margin
 
 “I just remembered it and it made me wonder if there were really flowers like silver bells.”
-e:mary=thinking
+e:mary=thinking;m=
 
 She frowned a little and gave her trowel a rather spiteful dig into the earth.
 s=none;e:mary=annoyed
@@ -5695,14 +5677,8 @@ She did not want to go away at all. She wanted to stay in the mysterious hidden-
 “What do you want me to tell you?” she said.
 s=mary;e:mary=curious
 
-He wanted to know how long she had been at Misselthwaite;
+He wanted to know how long she had been at Misselthwaite; he wanted to know which corridor her room was on; he wanted to know what she had been doing; if she disliked the moor as he disliked it; where she had lived before she came to Yorkshire.
 s=none;e:colin=curious
-
-he wanted to know which corridor her room was on; he wanted to know what she had been doing;
-
-
-if she disliked the moor as he disliked it; where she had lived before she came to Yorkshire.
-
 
 She answered all these questions and many more and he lay back on his pillow and listened.
 e:colin=neutral
@@ -6700,11 +6676,8 @@ e:colin=angry
 Dr. Craven did not stay very long. He talked to the nurse for a few minutes when she came into the room and said a few words of warning to Colin.
 s=none;n:nurse=Nurse;e:drcraven=serious
 
-He must not talk too much; he must not forget that he was ill;
+He must not talk too much; he must not forget that he was ill; he must not forget that he was very easily tired.
 e:drcraven=nervous
-
-he must not forget that he was very easily tired.
-
 
 Mary thought that there seemed to be a number of uncomfortable things he was not to forget.
 e:mary=annoyed
@@ -8131,11 +8104,8 @@ s=dickon;e:dickon=happy
 “Look at ’em dartin’ about, an’ hearken at ’em callin’ to each other. Come springtime seems like as if all th’ world’s callin’.”
 
 
-“The leaves is uncurlin’ so you can see ’em﻿—an’, my word, th’ nice smells there is about!”
+“The leaves is uncurlin’ so you can see ’em﻿—an’, my word, th’ nice smells there is about!” sniffing with his happy turned-up nose.
 e:dickon=excited
-
-sniffing with his happy turned-up nose.
-s=none;e:dickon=happy
 
 “An’ that poor lad lyin’ shut up an’ seein’ so little that he gets to thinkin’ o’ things as sets him screamin’.”
 s=dickon;e:dickon=unhappy
@@ -9001,11 +8971,8 @@ s=mrsmedlock;e:mrsmedlock=serious
 “Let’s hope they’re changing for the better, Mrs. Medlock,” he answered.
 s=roach;e:roach=wary
 
-“They couldn’t well change for the worse,” she continued;
+“They couldn’t well change for the worse,” she continued; “and queer as it all is there’s them as finds their duties made a lot easier to stand up under.”
 s=mrsmedlock;e:mrsmedlock=weary
-
-“and queer as it all is there’s them as finds their duties made a lot easier to stand up under.”
-
 
 “Don’t you be surprised, Mr. Roach, if you find yourself in the middle of a menagerie and Martha Sowerby’s Dickon more at home than you or me could ever be.”
 e:mrsmedlock=smirking
@@ -9625,11 +9592,11 @@ s=dickon;e:dickon=happy
 “An’ tha’lt stop bein’ afraid in a bit.”
 
 
-“I shall?”
-s=colin;e:colin=contemplative
+“I shall?” said Colin,
+s=colin;e:colin=contemplative;m=allowbreak
 
-said Colin, and he lay still as if he were wondering about things.
-s=none;e:colin=thinking
+and he lay still as if he were wondering about things.
+s=none;e:colin=thinking;m=
 
 They were really very quiet for a little while. The sun was dropping lower.
 
@@ -9847,8 +9814,14 @@ s=none;e:ben=crying
 It seemed as if he could not take his eyes from thin straight Colin standing on his feet with his head thrown back.
 e:ben=surprised
 
-“Eh! lad,” he almost whispered. “Eh! my lad!” And then remembering himself he suddenly touched his hat gardener fashion and said, “Yes, sir! Yes, sir!”
+“Eh! lad,” he almost whispered. “Eh! my lad!”
 s=ben;e:ben=happy
+
+And then remembering himself he suddenly touched his hat gardener fashion and said,
+s=
+
+“Yes, sir! Yes, sir!”
+s=ben
 
 and obediently disappeared as he descended the ladder.
 s=none
@@ -11794,11 +11767,11 @@ e:ben=confused
 Dickon stood out among the trees and rosebushes and began to sing in quite a simple matter-of-fact way and in a nice strong boy voice:
 e:dickon=serious
 
-“Praise God from whom all blessings flow,<br>Praise Him all creatures here below,<br>Praise Him above ye Heavenly Host,<br>Praise Father, Son, and Holy Ghost.<br>Amen.”
-s=dickon
+“Praise God from whom all blessings flow,<br>Praise Him all creatures here below,<br>Praise Him above ye Heavenly Host,<br>Praise Father, Son, and Holy Ghost.<br>&nbsp;&nbsp;&nbsp;&nbsp;Amen.”
+s=dickon;m=margin
 
 When he had finished, Ben Weatherstaff was standing quite still with his jaws set obstinately but with a disturbed look in his eyes fixed on Colin.
-s=none;e:ben=serious
+s=none;e:ben=serious;m=
 
 Colin’s face was thoughtful and appreciative.
 e:colin=thinking
@@ -12146,10 +12119,10 @@ Two things cannot be in one place.
 
 
 “Where you tend a rose, my lad,<br>A thistle cannot grow.”
-
+m=margin
 
 While the secret garden was coming alive and two children were coming alive with it, there was a man wandering about certain faraway beautiful places in the Norwegian fjords and the valleys and mountains of Switzerland and he was a man who for ten years had kept his mind filled with dark and heartbroken thinking.
-e:craven=unhappy
+e:craven=unhappy;m=
 
 He had not been courageous; he had never tried to put any other thoughts in the place of the dark ones.
 e:craven=weary
@@ -12391,17 +12364,20 @@ It was directed in a plain woman’s hand but it was not a hand he knew.
 He opened it, scarcely thinking of the writer, but the first words attracted his attention at once.
 
 
-“Dear Sir:”
+<span class='upper'>Dear Sir:</span>
+m=margin;o=letter
+
+I am Susan Sowerby that made bold to speak to you once on the moor. It was about Miss Mary I spoke. I will make bold to speak again.
 
 
-“I am Susan Sowerby that made bold to speak to you once on the moor. It was about Miss Mary I spoke. I will make bold to speak again. Please, sir, I would come home if I was you. I think you would be glad to come and﻿—if you will excuse me, sir﻿—I think your lady would ask you to come if she was here.”
+Please, sir, I would come home if I was you. I think you would be glad to come and﻿—if you will excuse me, sir﻿—I think your lady would ask you to come if she was here.
 
 
-“Your obedient servant,<br>Susan Sowerby.”
+<div class='fright'>Your obedient servant,</div><br><div class='fright upper'>Susan Sowerby.</div>
 
 
 Mr. Craven read the letter twice before he put it back in its envelope.
-s=none;e:craven=thinking
+s=none;e:craven=thinking;m=;o=
 
 He kept thinking about the dream.
 

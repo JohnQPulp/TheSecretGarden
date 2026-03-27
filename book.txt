@@ -78,7 +78,7 @@ It was Basil who thought of it first. Basil was a little boy with impudent blue 
 
 For a moment Basil looked angry, and then he began to tease. He was always teasing his sisters. He danced round and round her and made faces and sang and laughed.
 
-“Mistress Mary, quite contrary,<br>How does your garden grow?<br>With silver bells, and cockle shells,<br>And marigolds all in a row.”
+“Mistress Mary, quite contrary,<br>    How does your garden grow?<br>With silver bells, and cockle shells,<br>    And marigolds all in a row.”
 
 He sang it until the other children heard and laughed, too; and the crosser Mary got, the more they sang “Mistress Mary, quite contrary”; and after that as long as she stayed with them they called her “Mistress Mary Quite Contrary” when they spoke of her to each other, and often when they spoke to her.
 
@@ -1086,11 +1086,11 @@ She ran out of the room, and Mary stood by the fire and twisted her thin little 
 
 She did not go out again that afternoon because when Martha returned with her pen and ink and paper she was obliged to clear the table and carry the plates and dishes downstairs and when she got into the kitchen Mrs. Medlock was there and told her to do something, so Mary waited for what seemed to her a long time before she came back. Then it was a serious piece of work to write to Dickon. Mary had been taught very little because her governesses had disliked her too much to stay with her. She could not spell particularly well but she found that she could print letters when she tried. This was the letter Martha dictated to her:
 
-“My Dear Dickon:
+My Dear Dickon:
 
-“This comes hoping to find you well as it leaves me at present. Miss Mary has plenty of money and will you go to Thwaite and buy her some flower seeds and a set of garden tools to make a flowerbed. Pick the prettiest ones and easy to grow because she has never done it before and lived in India which is different. Give my love to mother and every one of you. Miss Mary is going to tell me a lot more so that on my next day out you can hear about elephants and camels and gentlemen going hunting lions and tigers.
+This comes hoping to find you well as it leaves me at present. Miss Mary has plenty of money and will you go to Thwaite and buy her some flower seeds and a set of garden tools to make a flowerbed. Pick the prettiest ones and easy to grow because she has never done it before and lived in India which is different. Give my love to mother and every one of you. Miss Mary is going to tell me a lot more so that on my next day out you can hear about elephants and camels and gentlemen going hunting lions and tigers.
 
-“Your loving sister,<br>Martha Phœbe Sowerby.”
+Your loving sister,<br>Martha Phœbe Sowerby.
 
 “We’ll put the money in th’ envelope an’ I’ll get th’ butcher’s boy to take it in his cart. He’s a great friend o’ Dickon’s,” said Martha.
 
@@ -1490,7 +1490,7 @@ Then Mary told him about Basil and his brothers and sisters in India and of how 
 
 “They used to dance round and sing at me. They sang﻿—
 
-“ ‘Mistress Mary, quite contrary,<br>How does your garden grow?<br>With silver bells, and cockle shells,<br>And marigolds all in a row.’
+“ ‘Mistress Mary, quite contrary,<br>    How does your garden grow?<br>With silver bells, and cockle shells,<br>    And marigolds all in a row.’
 
 “I just remembered it and it made me wonder if there were really flowers like silver bells.”
 
@@ -4036,7 +4036,7 @@ Colin took off his cap and the sun shone on and warmed his thick hair as he watc
 
 Dickon stood out among the trees and rosebushes and began to sing in quite a simple matter-of-fact way and in a nice strong boy voice:
 
-“Praise God from whom all blessings flow,<br>Praise Him all creatures here below,<br>Praise Him above ye Heavenly Host,<br>Praise Father, Son, and Holy Ghost.<br>Amen.”
+“Praise God from whom all blessings flow,<br>Praise Him all creatures here below,<br>Praise Him above ye Heavenly Host,<br>Praise Father, Son, and Holy Ghost.<br>    Amen.”
 
 When he had finished, Ben Weatherstaff was standing quite still with his jaws set obstinately but with a disturbed look in his eyes fixed on Colin. Colin’s face was thoughtful and appreciative.
 
@@ -4182,11 +4182,11 @@ And then the dream ended. But he did not awaken. He slept soundly and sweetly al
 
 When he glanced at the letters a few minutes later he saw that the one lying at the top of the rest was an English letter and came from Yorkshire. It was directed in a plain woman’s hand but it was not a hand he knew. He opened it, scarcely thinking of the writer, but the first words attracted his attention at once.
 
-“Dear Sir:
+Dear Sir:
 
-“I am Susan Sowerby that made bold to speak to you once on the moor. It was about Miss Mary I spoke. I will make bold to speak again. Please, sir, I would come home if I was you. I think you would be glad to come and﻿—if you will excuse me, sir﻿—I think your lady would ask you to come if she was here.
+I am Susan Sowerby that made bold to speak to you once on the moor. It was about Miss Mary I spoke. I will make bold to speak again. Please, sir, I would come home if I was you. I think you would be glad to come and﻿—if you will excuse me, sir﻿—I think your lady would ask you to come if she was here.
 
-“Your obedient servant,<br>Susan Sowerby.”
+Your obedient servant,<br>Susan Sowerby.
 
 Mr. Craven read the letter twice before he put it back in its envelope. He kept thinking about the dream.
 
