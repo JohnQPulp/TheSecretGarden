@@ -736,7 +736,7 @@ s=none;e:mary=weary
 She watched it so long and steadily that the grayness grew heavier and heavier before her eyes and she fell asleep.
 
 
-## III. Across the Moor
+## III. Across the Moor<e>What a bait-and-switch starting out the book in India only to immediately return back to the moors. Back to <book>The Thirty-Nine Steps</book> I suppose. Or <book>Hound of the Baskervilles</book>. Or <book>Wuthering Heights</book>. Or a million other British novels.</e>
 r=title
 
 She slept a long time, and when she awakened Mrs. Medlock had bought a lunchbasket at one of the stations and they had some chicken and cold beef and bread and butter and some hot tea.
@@ -1654,7 +1654,7 @@ s=ben
 “What kind of a bird is he?” Mary asked.
 s=mary
 
-“Doesn’t tha’ know? He’s a robin redbreast an’ they’re th’ friendliest, curiousest birds alive.”
+“Doesn’t tha’ know? He’s a robin redbreast an’ they’re th’ friendliest, curiousest birds alive.”<e>A note to my fellow North Americaners: the European robin is a different bird than the American robin. Their version is smaller and allegedly chummier, though both birds share the color trait of… not being red. (Color meanings change over time.)</e>
 s=ben
 
 “They’re almost as friendly as dogs—if you know how to get on with ’em. Watch him peckin’ about there an’ lookin’ round at us now an’ again. He knows we’re talkin’ about him.”
@@ -2077,7 +2077,7 @@ s=mary;e:mary=serious
 Martha tucked her feet under her and made herself quite comfortable.
 s=none;e:martha=happy
 
-“Listen to th’ wind wutherin’ round the house,” she said.
+“Listen to th’ wind wutherin’ round the house,” she said.<e>Using the word "wutherin'" in your moor book — too on-the-nose I say!</e>
 s=martha;e:martha=serious
 
 “You could bare stand up on the moor if you was out on it tonight.”
@@ -7777,8 +7777,11 @@ e:colin=crying
 “I can’t stop!” he gasped and sobbed. “I can’t﻿—I can’t!”
 s=colin;e:colin=upset
 
-“You can!” shouted Mary. “Half that ails you is hysterics and temper﻿—just hysterics﻿—hysterics﻿—hysterics!” and she stamped each time she said it.
+“You can!” shouted Mary.
 s=mary;e:mary=angry
+
+“Half that ails you is hysterics and temper﻿—just hysterics﻿—hysterics﻿—hysterics!” and she stamped each time she said it.
+
 
 “I felt the lump﻿—I felt it,” choked out Colin.
 s=colin;e:colin=fearful
@@ -7786,8 +7789,11 @@ s=colin;e:colin=fearful
 “I knew I should. I shall have a hunch on my back and then I shall die,” and he began to writhe again and turned on his face and sobbed and wailed but he didn’t scream.
 s=colin;e:colin=crying
 
-“You didn’t feel a lump!” contradicted Mary fiercely. “If you did it was only a hysterical lump. Hysterics makes lumps.”
+“You didn’t feel a lump!” contradicted Mary fiercely.
 s=mary;e:mary=scowling
+
+“If you did it was only a hysterical lump. Hysterics makes lumps.”
+
 
 “There’s nothing the matter with your horrid back﻿—nothing but hysterics! Turn over and let me look at it!”
 s=mary;e:mary=angry
@@ -8561,7 +8567,7 @@ s=mrsmedlock;e:mrsmedlock=happy
 e:mrsmedlock=thinking
 
 “We went to school together, Susan Sowerby and me.”
-e:mrsmedlock=happy
+e:mrsmedlock=happy;n:mrsmedlock=Sarah Ann Medlock
 
 “She’s the best sick nurse I know,” said Dr. Craven. “When I find her in a cottage I know the chances are that I shall save my patient.”
 s=drcraven;e:drcraven=happy
@@ -10462,7 +10468,7 @@ s=colin;e:colin=happy
 “She used the wrong Magic until she made him beat her.”
 e:colin=serious
 
-“If she’d used the right Magic and had said something nice perhaps he wouldn’t have got as drunk as a lord and perhaps—perhaps he might have bought her a new bonnet.”
+“If she’d used the right Magic and had said something nice perhaps he wouldn’t have got as drunk as a lord and perhaps—perhaps he might have bought her a new bonnet.”<e>Should've practiced her manifesting more.</e>
 e:colin=smirking
 
 Ben Weatherstaff chuckled and there was shrewd admiration in his little old eyes.
@@ -11947,8 +11953,11 @@ s=mrssowerby;e:mrssowerby=smirking
 It was because she seemed such a wonderful woman in her nice moorland cottage way that at last she was told about the Magic.
 s=none
 
-“Do you believe in Magic?” asked Colin after he had explained about Indian fakirs. “I do hope you do.”
+“Do you believe in Magic?” asked Colin after he had explained about Indian fakirs.<e>♫In a Rajah's heart♫</e>
 s=colin;e:colin=curious
+
+“I do hope you do.”
+
 
 “That I do, lad,” she answered.
 s=mrssowerby;e:mrssowerby=happy
