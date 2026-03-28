@@ -6074,19 +6074,25 @@ e:mary=neutral
 r=title
 
 The moor was hidden in mist when the morning came and the rain had not stopped pouring down.
+b=manor-window-mary-rain
+
+There could be no going out of doors.
 
 
-There could be no going out of doors. Martha was so busy that Mary had no opportunity of talking to her, but in the afternoon she asked her to come and sit with her in the nursery.
-
+Martha was so busy that Mary had no opportunity of talking to her, but in the afternoon she asked her to come and sit with her in the nursery.
+b=manor-nursery
 
 She came bringing the stocking she was always knitting when she was doing nothing else.
 
 
-“What’s the matter with thee?” she asked as soon as they sat down. “Tha’ looks as if tha’d somethin’ to say.”
+“What’s the matter with thee?” she asked as soon as they sat down.
 s=martha;e:martha=curious
 
+“Tha’ looks as if tha’d somethin’ to say.”
+
+
 “I have. I have found out what the crying was,” said Mary.
-s=mary;e:mary=serious
+s=mary;e:mary=serious;x:mary=daytime
 
 Martha let her knitting drop on her knee and gazed at her with startled eyes.
 s=none;e:martha=surprised
@@ -6094,14 +6100,17 @@ s=none;e:martha=surprised
 “Tha’ hasn’t!” she exclaimed. “Never!”
 s=martha;e:martha=surprised
 
-“I heard it in the night,” Mary went on. “And I got up and went to see where it came from. It was Colin. I found him.”
+“I heard it in the night,” Mary went on. “And I got up and went to see where it came from.”
 s=mary;e:mary=serious
+
+“It was Colin. I found him.”
+
 
 Martha’s face became red with fright.
 s=none;e:martha=fearful
 
 “Eh! Miss Mary!” she said half crying.
-s=martha;e:martha=crying
+s=martha;e:martha=upset
 
 “Tha’ shouldn’t have done it﻿—tha’ shouldn’t! Tha’ll get me in trouble.”
 e:martha=upset
@@ -6110,7 +6119,7 @@ e:martha=upset
 
 
 “You won’t lose your place,” said Mary. “He was glad I came. We talked and talked and he said he was glad I came.”
-s=mary;e:mary=neutral
+s=mary;e:mary=thinking
 
 “Was he?” cried Martha. “Art tha’ sure?”
 s=martha;e:martha=surprised
@@ -6158,10 +6167,10 @@ s=mary;e:mary=serious
 
 
 “Aye, that’s true enough﻿—th’ bad lad!” sighed Martha, wiping her forehead with her apron.
-s=martha;e:martha=weary
+s=martha;e:martha=apronsign
 
 “He says Mrs. Medlock must. And he wants me to come and talk to him every day. And you are to tell me when he wants me.”
-s=mary;e:mary=neutral
+s=mary;e:mary=serious
 
 “Me!” said Martha; “I shall lose my place﻿—I shall for sure!”
 s=martha;e:martha=upset
@@ -6182,7 +6191,7 @@ s=martha;e:martha=surprised
 s=mary;e:mary=curious
 
 “I’ve heard about Magic in India, but I can’t make it. I just went into his room and I was so surprised to see him I stood and stared.”
-
+e:mary=contemplative
 
 “And then he turned round and stared at me. And he thought I was a ghost or a dream and I thought perhaps he was.”
 
@@ -6200,25 +6209,19 @@ s=martha;e:martha=surprised
 s=mary;e:mary=curious
 
 “Nobody knows for sure and certain,” said Martha.
-s=martha;e:martha=neutral
+s=martha;e:martha=contemplative
 
 “Mr. Craven went off his head like when he was born. Th’ doctors thought he’d have to be put in a ’sylum.”
 e:martha=serious
 
-“It was because Mrs. Craven died like I told you. He wouldn’t set eyes on th’ baby.”
+“It was because Mrs. Craven died like I told you. He wouldn’t set eyes on th’ baby. He just raved and said it’d be another hunchback like him and it’d better die.”
 e:martha=unhappy
-
-“He just raved and said it’d be another hunchback like him and it’d better die.”
-
 
 “Is Colin a hunchback?” Mary asked. “He didn’t look like one.”
 s=mary;e:mary=curious
 
-“He isn’t yet,” said Martha.
+“He isn’t yet,” said Martha. “But he began all wrong. Mother said that there was enough trouble and raging in th’ house to set any child wrong.”
 s=martha;e:martha=serious
-
-“But he began all wrong. Mother said that there was enough trouble and raging in th’ house to set any child wrong.”
-
 
 “They was afraid his back was weak an’ they’ve always been takin’ care of it﻿—keepin’ him lyin’ down and not lettin’ him walk.”
 e:martha=thinking
@@ -6242,13 +6245,13 @@ e:martha=serious
 e:martha=nervous
 
 “He’d been out of his head an’ she was talkin’ to th’ nurse, thinkin’ he didn’t know nothin’, an’ she said, ‘He’ll die this time sure enough, an’ best thing for him an’ for everybody.’”
-
+e:martha=thinking
 
 “An’ she looked at him an’ there he was with his big eyes open, starin’ at her as sensible as she was herself.”
 
 
 “She didn’t know what’d happen but he just stared at her an’ says, ‘You give me some water an’ stop talkin’.’ ”
-e:martha=smirking
+e:martha=serious
 
 “Do you think he will die?” asked Mary.
 s=mary;e:mary=curious
@@ -6283,41 +6286,38 @@ s=martha;e:martha=wary
 Very soon afterward a bell rang and she rolled up her knitting.
 s=none;e:martha=neutral
 
-“I dare say th’ nurse wants me to stay with him a bit,” she said.
-s=martha
-
-“I hope he’s in a good temper.”
-e:martha=nervous
+“I dare say th’ nurse wants me to stay with him a bit,” she said. “I hope he’s in a good temper.”
+s=martha;e:martha=nervous
 
 She was out of the room about ten minutes and then she came back with a puzzled expression.
 s=none;e:martha=confused
 
 “Well, tha’ has bewitched him,” she said. “He’s up on his sofa with his picture-books.”
-s=martha;e:martha=surprised
+s=martha;e:martha=contemplative
 
 “He’s told the nurse to stay away until six o’clock. I’m to wait in the next room.”
 
 
-“Th’ minute she was gone he called me to him an’ says, ‘I want Mary Lennox to come and talk to me, and remember you’re not to tell anyone.’ You’d better go as quick as you can.”
+“Th’ minute she was gone he called me to him an’ says, ‘I want Mary Lennox to come and talk to me, and remember you’re not to tell anyone.’”
+e:martha=serious
+
+“You’d better go as quick as you can.”
 e:martha=nervous
 
 Mary was quite willing to go quickly. She did not want to see Colin as much as she wanted to see Dickon, but she wanted to see him very much.
 s=none;e:mary=excited
 
 There was a bright fire on the hearth when she entered his room, and in the daylight she saw it was a very beautiful room indeed.
-
+b=manor-colin
 
 There were rich colors in the rugs and hangings and pictures and books on the walls which made it look glowing and comfortable even in spite of the gray sky and falling rain.
 
 
-Colin looked rather like a picture himself. He was wrapped in a velvet dressing-gown and sat against a big brocaded cushion.
-e:colin=neutral
-
-He had a red spot on each cheek.
-
+Colin looked rather like a picture himself. He was wrapped in a velvet dressing-gown and sat against a big brocaded cushion. He had a red spot on each cheek.
+e:colin=neutral;x:colin=velvet
 
 “Come in,” he said. “I’ve been thinking about you all morning.”
-s=colin;e:colin=happy
+s=colin;e:colin=
 
 “I’ve been thinking about you, too,” answered Mary. “You don’t know how frightened Martha is.”
 s=mary;e:mary=neutral
@@ -6335,19 +6335,19 @@ Mary went and brought her back. Poor Martha was shaking in her shoes. Colin was 
 s=none;e:martha=fearful
 
 “Have you to do what I please or have you not?” he demanded.
-s=colin;e:colin=angry
+s=colin;e:colin=annoyed
 
 “I have to do what you please, sir,” Martha faltered, turning quite red.
-s=martha;e:martha=nervous
+s=martha;e:martha=fearful
 
 “Has Medlock to do what I please?”
 s=colin;e:colin=serious
 
 “Everybody has, sir,” said Martha.
-s=martha
+s=martha;i=2
 
 “Well, then, if I order you to bring Miss Mary to me, how can Medlock send you away if she finds it out?”
-s=colin
+s=colin;e:colin=annoyed
 
 “Please don’t let her, sir,” pleaded Martha.
 s=martha;e:martha=upset
@@ -6359,10 +6359,13 @@ s=colin;e:colin=angry
 e:colin=smirking
 
 “Thank you, sir,” bobbing a curtsy, “I want to do my duty, sir.”
-s=martha;e:martha=nervous
+s=martha;e:martha=nervouscurtsy
 
-“What I want is your duty,” said Colin more grandly still. “I’ll take care of you. Now go away.”
+“What I want is your duty,” said Colin more grandly still.
 s=colin;e:colin=serious
+
+“I’ll take care of you. Now go away.”
+
 
 When the door closed behind Martha, Colin found Mistress Mary gazing at him as if he had set her wondering.
 s=none;e:mary=contemplative
@@ -6374,13 +6377,13 @@ s=colin;e:colin=curious
 s=mary
 
 “What are they? Sit down and tell me.”
-s=colin;e:colin=excited
+s=colin;e:colin=curious;i=2
 
 “This is the first one,” said Mary, seating herself on the big stool.
 s=mary;e:mary=neutral
 
 “Once in India I saw a boy who was a Rajah. He had rubies and emeralds and diamonds stuck all over him.”
-
+e:mary=thinking
 
 “He spoke to his people just as you spoke to Martha. Everybody had to do everything he told them﻿—in a minute. I think they would have been killed if they hadn’t.”
 e:mary=serious
@@ -6397,10 +6400,7 @@ s=colin;e:colin=confused
 She might as well tell him, she thought. She could talk about Dickon without mentioning the secret garden.
 s=none;e:mary=thinking
 
-She had liked to hear Martha talk about him. Besides, she longed to talk about him.
-
-
-It would seem to bring him nearer.
+She had liked to hear Martha talk about him. Besides, she longed to talk about him. It would seem to bring him nearer.
 
 
 “He is Martha’s brother. He is twelve years old,” she explained.
@@ -6430,7 +6430,10 @@ s=mary;e:mary=neutral
 “But he doesn’t call it Magic. He says it’s because he lives on the moor so much and he knows their ways.”
 e:mary=thinking
 
-“He says he feels sometimes as if he was a bird or a rabbit himself, he likes them so. I think he asked the robin questions. It seemed as if they talked to each other in soft chirps.”
+“He says he feels sometimes as if he was a bird or a rabbit himself, he likes them so.”
+
+
+“I think he asked the robin questions. It seemed as if they talked to each other in soft chirps.”
 e:mary=happy
 
 Colin lay back on his cushion and his eyes grew larger and larger and the spots on his cheeks burned.
@@ -6452,10 +6455,10 @@ s=mary;e:mary=excited
 s=colin;e:colin=confused
 
 “It’s the most beautiful place,” protested Mary.
-s=mary;e:mary=upset
+s=mary;e:mary=serious
 
 “Thousands of lovely things grow on it and there are thousands of little creatures all busy building nests and making holes and burrows and chippering or singing or squeaking to each other.”
-e:mary=excited
+e:mary=thinking
 
 “They are so busy and having such fun under the earth or in the trees or heather. It’s their world.”
 e:mary=happy
@@ -6464,10 +6467,10 @@ e:mary=happy
 s=colin;e:colin=curious
 
 “I have never been there once, really,” said Mary suddenly remembering.
-s=mary;e:mary=surprised
+s=mary;e:mary=thinking
 
 “I only drove over it in the dark. I thought it was hideous.”
-e:mary=unhappy
+
 
 “Martha told me about it first and then Dickon.”
 e:mary=neutral
@@ -6499,17 +6502,17 @@ s=none;e:colin=surprised
 “Go on the moor! How could I? I am going to die.”
 s=colin;e:colin=upset
 
-“How do you know?” said Mary unsympathetically. She didn’t like the way he had of talking about dying.
+“How do you know?” said Mary unsympathetically.
 s=mary;e:mary=annoyed
 
-She did not feel very sympathetic. She felt rather as if he almost boasted about it.
+She didn’t like the way he had of talking about dying. She did not feel very sympathetic. She felt rather as if he almost boasted about it.
 s=none;e:mary=suspicious
 
 “Oh, I’ve heard it ever since I remember,” he answered crossly.
 s=colin;e:colin=angry
 
 “They are always whispering about it and thinking I don’t notice. They wish I would, too.”
-e:colin=upset
+
 
 Mistress Mary felt quite contrary. She pinched her lips together.
 s=none;e:mary=annoyed
@@ -6545,19 +6548,19 @@ s=mary;e:mary=happy
 e:mary=curious
 
 “No.”
-s=colin;e:colin=neutral
+s=colin;e:colin=thinking
 
 “What did he say?”
 s=mary
 
-“He didn’t whisper,” Colin answered.
+“He didn’t whisper,” Colin answered. “Perhaps he knew I hated whispering. I heard him say one thing quite aloud.”
 s=colin
 
-“Perhaps he knew I hated whispering. I heard him say one thing quite aloud.”
-e:colin=thinking
-
-“He said, ‘The lad might live if he would make up his mind to it. Put him in the humor.’ It sounded as if he was in a temper.”
+“He said, ‘The lad might live if he would make up his mind to it. Put him in the humor.’”
 e:colin=serious
+
+“It sounded as if he was in a temper.”
+
 
 “I’ll tell you who would put you in the humor, perhaps,” said Mary reflecting.
 s=mary;e:mary=contemplative
@@ -6583,8 +6586,11 @@ s=mary;e:mary=serious
 “Let us talk and talk about Dickon. And then we will look at your pictures.”
 e:mary=happy
 
-It was the best thing she could have said. To talk about Dickon meant to talk about the moor and about the cottage and the fourteen people who lived in it on sixteen shillings a week﻿—and the children who got fat on the moor grass like the wild ponies.
+It was the best thing she could have said.
 s=none
+
+To talk about Dickon meant to talk about the moor and about the cottage and the fourteen people who lived in it on sixteen shillings a week﻿—and the children who got fat on the moor grass like the wild ponies.
+
 
 And about Dickon’s mother﻿—and the skipping-rope﻿—and the moor with the sun on it﻿—and about pale green points sticking up out of the black sod.
 
@@ -6622,17 +6628,14 @@ s=mrsmedlock;e:mrsmedlock=fearful
 “What is this?” said Dr. Craven, coming forward. “What does it mean?”
 s=drcraven;e:drcraven=confused
 
-Then Mary was reminded of the boy Rajah again.
+Then Mary was reminded of the boy Rajah again. Colin answered as if neither the doctor’s alarm nor Mrs. Medlock’s terror were of the slightest consequence.
 s=none;e:mary=thinking
-
-Colin answered as if neither the doctor’s alarm nor Mrs. Medlock’s terror were of the slightest consequence.
-e:colin=serious
 
 He was as little disturbed or frightened as if an elderly cat and dog had walked into the room.
 
 
 “This is my cousin, Mary Lennox,” he said. “I asked her to come and talk to me.”
-s=colin
+s=colin;e:colin=serious
 
 “I like her. She must come and talk to me whenever I send for her.”
 
@@ -6656,7 +6659,7 @@ He sat down by Colin and felt his pulse.
 e:drcraven=serious
 
 “I am afraid there has been too much excitement. Excitement is not good for you, my boy,” he said.
-s=drcraven;e:drcraven=nervous
+s=drcraven;e:drcraven=serious
 
 “I should be excited if she kept away,” answered Colin, his eyes beginning to look dangerously sparkling.
 s=colin;e:colin=angry
@@ -6671,16 +6674,16 @@ s=none;e:mrsmedlock=nervous;e:drcraven=weary
 s=mrsmedlock;e:mrsmedlock=wary
 
 “But”﻿—thinking the matter over﻿—“he looked better this morning before she came into the room.”
-e:mrsmedlock=thinking
+e:mrsmedlock=contemplative
 
-“She came into the room last night. She stayed with me a long time.”
+“She came into the room last night. She stayed with me a long time. She sang a Hindustani song to me and it made me go to sleep,” said Colin.
 s=colin;e:colin=serious
 
-“She sang a Hindustani song to me and it made me go to sleep,” said Colin.
+“I was better when I wakened up. I wanted my breakfast.”
 
 
-“I was better when I wakened up. I wanted my breakfast. I want my tea now. Tell nurse, Medlock.”
-e:colin=angry
+“I want my tea now. Tell nurse, Medlock.”
+e:colin=annoyed
 
 Dr. Craven did not stay very long. He talked to the nurse for a few minutes when she came into the room and said a few words of warning to Colin.
 s=none;n:nurse=Nurse;e:drcraven=serious
@@ -6694,8 +6697,11 @@ e:mary=annoyed
 Colin looked fretful and kept his strange black-lashed eyes fixed on Dr. Craven’s face.
 e:colin=annoyed
 
-“I *want* to forget it,” he said at last. “She makes me forget it. That is why I want her.”
+“I *want* to forget it,” he said at last.
 s=colin;e:colin=angry
+
+“She makes me forget it. That is why I want her.”
+
 
 Dr. Craven did not look happy when he left the room.
 s=none;e:drcraven=unhappy
@@ -6709,11 +6715,14 @@ e:mary=neutral
 The boy actually did look brighter, however﻿—and he sighed rather heavily as he went down the corridor.
 e:drcraven=weary
 
-“They are always wanting me to eat things when I don’t want to,” said Colin, as the nurse brought in the tea and put it on the table by the sofa.
-s=colin;e:colin=annoyed
+“They are always wanting me to eat things when I don’t want to,” said Colin,
+s=colin;e:colin=annoyed;m=allowbreak
+
+as the nurse brought in the tea and put it on the table by the sofa.
+m=;s=
 
 “Now, if you’ll eat I will. Those muffins look so nice and hot. Tell me about Rajahs.”
-e:colin=happy
+e:colin=happy;s=colin
 
 ## XV. Nest Building
 r=title
