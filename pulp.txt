@@ -2882,7 +2882,7 @@ Living as it were, all by herself in a house with a hundred mysteriously closed 
 e:mary=thinking
 
 There is no doubt that the fresh, strong, pure air from the moor had a great deal to do with it. Just as it had given her an appetite, and fighting with the wind had stirred her blood, so the same things had stirred her mind.
-
+b=manor-wide-blue
 
 In India she had always been too hot and languid and weak to care much about anything, but in this place she was beginning to care and to want to do new things.
 e:mary=contemplative
@@ -2891,7 +2891,7 @@ Already she felt less “contrary,” though she did not know why.
 e:mary=neutral
 
 She put the key in her pocket and walked up and down her walk.
-
+b=manor-wall
 
 No one but herself ever seemed to come there, so she could walk slowly and look at the wall, or, rather, at the ivy growing on it.
 
@@ -2906,13 +2906,16 @@ It seemed so silly, she said to herself, to be near it and not be able to get in
 e:mary=scowling
 
 She took the key in her pocket when she went back to the house, and she made up her mind that she would always carry it with her when she went out, so that if she ever should find the hidden door she would be ready.
-e:mary=serious
+e:mary=serious;b=manor-shrub-gate
 
 Mrs. Medlock had allowed Martha to sleep all night at the cottage, but she was back at her work in the morning with cheeks redder than ever and in the best of spirits.
-e:martha=happy;e:mary=neutral
+e:martha=happy;e:mary=neutral;b=manor-mary;x:mary=daytime
 
-“I got up at four o’clock,” she said. “Eh! it was pretty on th’ moor with th’ birds gettin’ up an’ th’ rabbits scamperin’ about an’ th’ sun risin’.”
-s=martha;e:martha=excited
+“I got up at four o’clock,” she said.
+s=martha;e:martha=smirking
+
+“Eh! it was pretty on th’ moor with th’ birds gettin’ up an’ th’ rabbits scamperin’ about an’ th’ sun risin’.”
+e:martha=happy
 
 “I didn’t walk all th’ way. A man gave me a ride in his cart an’ I can tell you I did enjoy myself.”
 
@@ -2921,7 +2924,7 @@ She was full of stories of the delights of her day out.
 s=none;e:martha=happy
 
 Her mother had been glad to see her and they had got the baking and washing all out of the way. She had even made each of the children a dough-cake with a bit of brown sugar in it.
-
+b=cottage-wide;f:b:cottage-wide=blur(3px)
 
 “I had ’em all pipin’ hot when they came in from playin’ on th’ moor.”
 s=martha
@@ -2933,7 +2936,7 @@ s=martha
 
 
 In the evening they had all sat round the fire, and Martha and her mother had sewed patches on torn clothes and mended stockings and Martha had told them about the little girl who had come from India and who had been waited on all her life by what Martha called “blacks” until she didn’t know how to put on her own stockings.
-s=none
+s=none;b=cottage-fire;f:b:cottage-fire=blur(3px)
 
 “Eh! they did like to hear about you,” said Martha.
 s=martha
@@ -2942,10 +2945,10 @@ s=martha
 
 
 Mary reflected a little.
-s=none;e:mary=thinking
+s=none;e:mary=thinking;b=manor-mary
 
 “I’ll tell you a great deal more before your next day out,” she said, “so that you will have more to talk about.”
-s=mary;e:mary=neutral
+s=mary;e:mary=thinking
 
 “I dare say they would like to hear about riding on elephants and camels, and about the officers going to hunt tigers.”
 
@@ -2963,7 +2966,7 @@ s=mary;e:mary=thinking
 e:mary=curious
 
 “Why, our Dickon’s eyes nearly started out o’ his head, they got that round,” answered Martha.
-s=martha;e:martha=happy
+s=martha;e:martha=happy;b=cottage-fire
 
 “But mother, she was put out about your seemin’ to be all by yourself like.”
 e:martha=serious
@@ -2974,11 +2977,14 @@ e:martha=serious
 “I don’t want a governess,” said Mary sharply.
 s=mary;e:mary=annoyed
 
-“But mother says you ought to be learnin’ your book by this time an’ you ought to have a woman to look after you, an’ she says: ‘Now, Martha, you just think how you’d feel yourself, in a big place like that, wanderin’ about all alone, an’ no mother. You do your best to cheer her up,’ she says, an’ I said I would.”
+“But mother says you ought to be learnin’ your book by this time an’ you ought to have a woman to look after you, an’ she says:”
 s=martha;e:martha=serious
 
+“‘Now, Martha, you just think how you’d feel yourself, in a big place like that, wanderin’ about all alone, an’ no mother. You do your best to cheer her up,’ she says, an’ I said I would.”
+
+
 Mary gave her a long, steady look.
-s=none;e:mary=contemplative
+s=none;e:mary=contemplative;b=manor-mary
 
 “You do cheer me up,” she said. “I like to hear you talk.”
 s=mary;e:mary=happy
@@ -2986,8 +2992,11 @@ s=mary;e:mary=happy
 Presently Martha went out of the room and came back with something held in her hands under her apron.
 s=none
 
-“What does tha’ think,” she said, with a cheerful grin. “I’ve brought thee a present.”
+“What does tha’ think,” she said, with a cheerful grin.
 s=martha;e:martha=excited
+
+“I’ve brought thee a present.”
+
 
 “A present!” exclaimed Mistress Mary.
 s=mary;e:mary=surprised
@@ -3011,7 +3020,7 @@ s=martha;e:martha=happy
 
 
 She brought it out from under her apron and exhibited it quite proudly.
-s=none;e:martha=happy
+s=none;e:martha=happy;o=rope
 
 It was a strong, slender rope with a striped red and blue handle at each end, but Mary Lennox had never seen a skipping-rope before.
 e:mary=confused
@@ -3020,25 +3029,28 @@ She gazed at it with a mystified expression.
 
 
 “What is it for?” she asked curiously.
-s=mary;e:mary=curious
+s=mary;e:mary=curious;o=
 
 “For!” cried out Martha.
 s=martha;e:martha=surprised
 
-“Does tha’ mean that they’ve not got skippin’-ropes in India, for all they’ve got elephants and tigers and camels!”
-e:martha=happy
+“Does tha’ mean that they’ve not got skippin’-ropes in India, for all they’ve got elephants and tigers and camels! No wonder most of ’em’s black.”
+e:martha=surprised
 
-“No wonder most of ’em’s black. This is what it’s for; just watch me.”
+“This is what it’s for; just watch me.”
 e:martha=excited
 
 And she ran into the middle of the room and, taking a handle in each hand, began to skip, and skip, and skip, while Mary turned in her chair to stare at her, and the queer faces in the old portraits seemed to stare at her, too, and wonder what on earth this common little cottager had the impudence to be doing under their very noses.
-s=none;e:mary=surprised
+s=none;e:mary=surprised;b=martha-skipping
 
-But Martha did not even see them. The interest and curiosity in Mistress Mary’s face delighted her, and she went on skipping and counted as she skipped until she had reached a hundred.
+But Martha did not even see them.
 e:martha=happy
 
+The interest and curiosity in Mistress Mary’s face delighted her, and she went on skipping and counted as she skipped until she had reached a hundred.
+
+
 “I could skip longer than that,” she said when she stopped.
-s=martha;e:martha=excited
+s=martha;e:martha=excited;b=manor-mary
 
 “I’ve skipped as much as five hundred when I was twelve, but I wasn’t as fat then as I am now, an’ I was in practice.”
 e:martha=smirking
@@ -3074,7 +3086,7 @@ s=martha
 
 
 Mary put on her coat and hat and took her skipping-rope over her arm.
-s=none;e:mary=neutral
+s=none;e:mary=neutral;x:mary=coat
 
 She opened the door to go out, and then suddenly thought of something and turned back rather slowly.
 e:mary=thinking
@@ -3085,8 +3097,11 @@ s=mary;e:mary=serious
 She said it stiffly because she was not used to thanking people or noticing that they did things for her.
 s=none;e:mary=nervous
 
-“Thank you,” she said, and held out her hand because she did not know what else to do.
-s=mary
+“Thank you,” she said,
+s=mary;m=allowbreak
+
+and held out her hand because she did not know what else to do.
+s=;m=
 
 Martha gave her hand a clumsy little shake, as if she was not accustomed to this sort of thing either.
 s=none;e:martha=surprised
@@ -3116,7 +3131,7 @@ s=martha
 e:martha=smirking
 
 Mistress Mary felt a little awkward as she went out of the room.
-s=none;e:mary=nervous
+s=none;e:mary=nervous;b=manor-wide-blue
 
 Yorkshire people seemed strange, and Martha was always rather a puzzle to her.
 e:mary=thinking
@@ -3125,7 +3140,7 @@ At first she had disliked her very much, but now she did not.
 e:mary=happy
 
 The skipping-rope was a wonderful thing.
-e:mary=excited
+e:mary=excited;b=manor-gardens
 
 She counted and skipped, and skipped and counted, until her cheeks were quite red, and she was more interested than she had ever been since she was born.
 
@@ -3137,7 +3152,7 @@ She skipped round the fountain garden, and up one walk and down another.
 
 
 She skipped at last into the kitchen-garden and saw Ben Weatherstaff digging and talking to his robin, which was hopping about him.
-e:ben=neutral
+e:ben=neutral;b=manor-walled-garden-2
 
 She skipped down the walk toward him and he lifted his head and looked at her with a curious expression.
 e:ben=curious
@@ -3145,10 +3160,10 @@ e:ben=curious
 She had wondered if he would notice her. She really wanted him to see her skip.
 e:mary=excited
 
-“Well!” he exclaimed.
+“Well!” he exclaimed. “Upon my word!”
 s=ben;e:ben=surprised
 
-“Upon my word! P’raps tha’ art a young ’un, after all, an’ p’raps tha’s got child’s blood in thy veins instead of sour buttermilk.”
+“P’raps tha’ art a young ’un, after all, an’ p’raps tha’s got child’s blood in thy veins instead of sour buttermilk.”
 e:ben=smirking
 
 “Tha’s skipped red into thy cheeks as sure as my name’s Ben Weatherstaff. I wouldn’t have believed tha’ could do it.”
@@ -3161,19 +3176,22 @@ s=mary;e:mary=happy
 s=ben;e:ben=neutral
 
 “Just see how he’s watchin’ thee,” jerking his head toward the robin.
-
+e:ben=looking
 
 “He followed after thee yesterday. He’ll be at it again today.”
+e:ben=
 
-
-“He’ll be bound to find out what th’ skippin’-rope is. He’s never seen one. Eh!” shaking his head at the bird, “tha’ curosity will be th’ death of thee sometime if tha’ doesn’t look sharp.”
+“He’ll be bound to find out what th’ skippin’-rope is. He’s never seen one.”
 e:ben=happy
 
+“Eh!” shaking his head at the bird, “tha’ curosity will be th’ death of thee sometime if tha’ doesn’t look sharp.”
+e:ben=shaking
+
 Mary skipped round all the gardens and round the orchard, resting every few minutes.
-s=none;e:mary=happy
+s=none;e:mary=happy;b=manor-walled-orchard
 
 At length she went to her own special walk and made up her mind to try if she could skip the whole length of it.
-e:mary=serious
+e:mary=serious;b=manor-wall
 
 It was a good long skip and she began slowly, but before she had gone halfway down the path she was so hot and breathless that she was obliged to stop.
 e:mary=weary
@@ -3182,7 +3200,7 @@ She did not mind much, because she had already counted up to thirty.
 e:mary=happy
 
 She stopped with a little laugh of pleasure, and there, lo and behold, was the robin swaying on a long branch of ivy.
-e:mary=surprised
+e:mary=surprised;o=robin-ivy
 
 He had followed her and he greeted her with a chirp.
 e:mary=happy
@@ -3197,7 +3215,7 @@ s=mary
 e:mary=smirking
 
 The robin flew from his swinging spray of ivy on to the top of the wall and he opened his beak and sang a loud, lovely trill, merely to show off.
-s=none
+s=none;o=
 
 Nothing in the world is quite as adorably lovely as a robin when he shows off—and they are nearly always doing it.
 
@@ -3215,13 +3233,13 @@ Mary had stepped close to the robin, and suddenly the gust of wind swung aside s
 e:mary=surprised
 
 This she did because she had seen something under it—a round knob which had been covered by the leaves hanging over it.
-
+o=knob
 
 It was the knob of a door.
 e:mary=excited
 
 She put her hands under the leaves and began to pull and push them aside.
-
+o=
 
 Thick as the ivy hung, it nearly all was a loose and swinging curtain, though some had crept over wood and iron.
 
@@ -3245,19 +3263,19 @@ And then she took a long breath and looked behind her up the long walk to see if
 e:mary=wary
 
 No one was coming. No one ever did come, it seemed, and she took another long breath, because she could not help it, and she held back the swinging curtain of ivy and pushed back the door which opened slowly—slowly.
-e:mary=excited
+e:mary=excited;b=light
 
 Then she slipped through it, and shut it behind her, and stood with her back against it, looking about her and breathing quite fast with excitement, and wonder, and delight.
 e:mary=happy
 
 She was standing *inside* the secret garden.
-e:mary=surprised
+e:mary=surprised;b=manor-secret
 
 ## IX. The Strangest House Anyone Ever Lived In
 r=title
 
 It was the sweetest, most mysterious-looking place anyone could imagine.
-e:mary=curious
+e:mary=curious;b=manor-secret;x:mary=coat
 
 The high walls which shut it in were covered with the leafless stems of climbing roses which were so thick that they were matted together.
 
