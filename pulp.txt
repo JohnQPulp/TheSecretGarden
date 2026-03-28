@@ -1838,16 +1838,19 @@ s=none;e:mary=surprised
 r=title
 
 At first each day which passed by for Mary Lennox was exactly like the others.
-e:mary=neutral
+e:mary=neutral;b=manor-mary
 
-Every morning she awoke in her tapestried room and found Martha kneeling upon the hearth building her fire; every morning she ate her breakfast in the nursery which had nothing amusing in it;
+Every morning she awoke in her tapestried room and found Martha kneeling upon the hearth building her fire;
 e:martha=neutral
 
+every morning she ate her breakfast in the nursery which had nothing amusing in it;
+b=manor-nursery
+
 and after each breakfast she gazed out of the window across to the huge moor which seemed to spread out on all sides and climb up to the sky, and after she had stared for a while she realized that if she did not go out she would have to stay in and do nothing﻿—and so she went out.
-e:mary=thinking
+e:mary=thinking;b=manor-window-mary
 
 She did not know that this was the best thing she could have done, and she did not know that, when she began to walk quickly or even run along the paths and down the avenue, she was stirring her slow blood and making herself stronger by fighting with the wind which swept down from the moor.
-
+b=manor-gardens
 
 She ran only to make herself warm, and she hated the wind which rushed at her face and roared and held her back as if it were some giant she could not see.
 e:mary=annoyed
@@ -1856,31 +1859,25 @@ But the big breaths of rough fresh air blown over the heather filled her lungs w
 e:mary=neutral
 
 But after a few days spent almost entirely out of doors she wakened one morning knowing what it was to be hungry, and when she sat down to her breakfast she did not glance disdainfully at her porridge and push it away, but took up her spoon and began to eat it and went on eating it until her bowl was empty.
-e:mary=surprised
+e:mary=surprised;b=manor-nursery
 
 “Tha’ got on well enough with that this mornin’, didn’t tha’?” said Martha.
-s=martha;e:martha=happy
+s=martha;e:martha=happy;x:mary=daytime
 
 “It tastes nice today,” said Mary, feeling a little surprised herself.
-s=mary;e:mary=surprised
+s=mary;e:mary=contemplative
 
 “It’s th’ air of th’ moor that’s givin’ thee stomach for tha’ victuals,” answered Martha.
 s=martha;e:martha=smirking
 
-“It’s lucky for thee that tha’s got victuals as well as appetite.”
-e:martha=serious
-
-“There’s been twelve in our cottage as had th’ stomach an’ nothin’ to put in it.”
-e:martha=unhappy
+“It’s lucky for thee that tha’s got victuals as well as appetite. There’s been twelve in our cottage as had th’ stomach an’ nothin’ to put in it.”
+e:martha=thinking
 
 “You go on playin’ you out o’ doors every day an’ you’ll get some flesh on your bones an’ you won’t be so yeller.”
-e:martha=happy
+e:martha=
 
-“I don’t play,” said Mary.
-s=mary;e:mary=unhappy
-
-“I have nothing to play with.”
-
+“I don’t play,” said Mary. “I have nothing to play with.”
+s=mary;e:mary=annoyed
 
 “Nothin’ to play with!” exclaimed Martha.
 s=martha;e:martha=surprised
@@ -1892,27 +1889,21 @@ Mary did not shout, but she looked at things. There was nothing else to do.
 s=none;e:mary=neutral
 
 She walked round and round the gardens and wandered about the paths in the park.
-
+b=manor-gardens
 
 Sometimes she looked for Ben Weatherstaff, but though several times she saw him at work he was too busy to look at her or was too surly.
-e:ben=scowling
+e:ben=scowling;b=manor-walled-garden
 
 Once when she was walking toward him he picked up his spade and turned away as if he did it on purpose.
 e:mary=annoyed
 
-One place she went to oftener than to any other.
-
-
-It was the long walk outside the gardens with the walls round them.
-
+One place she went to oftener than to any other. It was the long walk outside the gardens with the walls round them.
+b=manor-wall
 
 There were bare flowerbeds on either side of it and against the walls ivy grew thickly.
 
 
-There was one part of the wall where the creeping dark green leaves were more bushy than elsewhere.
-
-
-It seemed as if for a long time that part had been neglected.
+There was one part of the wall where the creeping dark green leaves were more bushy than elsewhere. It seemed as if for a long time that part had been neglected.
 e:mary=curious
 
 The rest of it had been clipped and made to look neat, but at this lower end of the walk it had not been trimmed at all.
@@ -1922,10 +1913,10 @@ A few days after she had talked to Ben Weatherstaff Mary stopped to notice this 
 e:mary=thinking
 
 She had just paused and was looking up at a long spray of ivy swinging in the wind when she saw a gleam of scarlet and heard a brilliant chirp, and there, on the top of the wall, perched Ben Weatherstaff’s robin redbreast, tilting forward to look at her with his small head on one side.
-e:mary=surprised
+e:mary=surprised;
 
 “Oh!” she cried out, “is it you﻿—is it you?”
-s=mary;e:mary=excited
+s=mary;e:mary=surprised;x:mary=coat
 
 And it did not seem at all queer to her that she spoke to him as if she was sure that he would understand and answer her.
 s=none
@@ -1933,17 +1924,14 @@ s=none
 He did answer. He twittered and chirped and hopped along the wall as if he were telling her all sorts of things.
 
 
-It seemed to Mistress Mary as if she understood him, too, though he was not speaking in words.
+It seemed to Mistress Mary as if she understood him, too, though he was not speaking in words. It was as if he said:
 e:mary=happy
-
-It was as if he said:
-
 
 “Good morning! Isn’t the wind nice? Isn’t the sun nice? Isn’t everything nice? Let us both chirp and hop and twitter. Come on! Come on!”
-
+m=dialogue
 
 Mary began to laugh, and as he hopped and took little flights along the wall she ran after him.
-e:mary=happy
+e:mary=happy;m=;b=robin-run
 
 Poor little thin, sallow, ugly Mary﻿—she actually looked almost pretty for a moment.
 
@@ -1958,13 +1946,10 @@ But the robin seemed to be quite satisfied and chirped and whistled back at her.
 
 
 At last he spread his wings and made a darting flight to the top of a tree, where he perched and sang loudly.
+b=manor-wall-2
 
-
-That reminded Mary of the first time she had seen him.
+That reminded Mary of the first time she had seen him. He had been swinging on a treetop then and she had been standing in the orchard.
 e:mary=thinking
-
-He had been swinging on a treetop then and she had been standing in the orchard.
-
 
 Now she was on the other side of the orchard and standing in the path outside a wall﻿—much lower down﻿—and there was the same tree inside.
 
@@ -1973,34 +1958,28 @@ Now she was on the other side of the orchard and standing in the path outside a 
 s=mary;e:mary=curious
 
 “It’s the garden without a door. He lives in there.”
-e:mary=thinking
+e:mary=contemplative
 
 “How I wish I could see what it is like!”
-e:mary=excited
+e:mary=unhappy
 
 She ran up the walk to the green door she had entered the first morning.
-s=none;e:mary=neutral
+s=none;e:mary=neutral;b=manor-wall
 
 Then she ran down the path through the other door and then into the orchard, and when she stood and looked up there was the tree on the other side of the wall, and there was the robin just finishing his song and beginning to preen his feathers with his beak.
+b=manor-walled-orchard
 
-
-“It is the garden,” she said.
-s=mary;e:mary=surprised
-
-“I am sure it is.”
-
+“It is the garden,” she said. “I am sure it is.”
+s=mary;e:mary=serious
 
 She walked round and looked closely at that side of the orchard wall, but she only found what she had found before﻿—that there was no door in it.
 s=none;e:mary=thinking
 
 Then she ran through the kitchen-gardens again and out into the walk outside the long ivy-covered wall, and she walked to the end of it and looked at it, but there was no door; and then she walked to the other end, looking again, but there was no door.
-e:mary=curious
+e:mary=curious;b=manor-wall
 
-“It’s very queer,” she said.
+“It’s very queer,” she said. “Ben Weatherstaff said there was no door and there is no door.”
 s=mary;e:mary=thinking
-
-“Ben Weatherstaff said there was no door and there is no door.”
-
 
 “But there must have been one ten years ago, because Mr. Craven buried the key.”
 e:mary=serious
@@ -2012,13 +1991,13 @@ In India she had always felt hot and too languid to care much about anything.
 e:mary=weary
 
 The fact was that the fresh wind from the moor had begun to blow the cobwebs out of her young brain and to waken her up a little.
-e:mary=neutral
+e:mary=neutral;b=light
 
 She stayed out of doors nearly all day, and when she sat down to her supper at night she felt hungry and drowsy and comfortable.
 e:mary=happy
 
 She did not feel cross when Martha chattered away.
-
+b=manor-nursery-night;x:mary=daytime
 
 She felt as if she rather liked to hear her, and at last she thought she would ask her a question.
 e:mary=curious
@@ -2053,7 +2032,7 @@ s=mary;e:mary=serious
 Martha tucked her feet under her and made herself quite comfortable.
 s=none;e:martha=happy
 
-“Listen to th’ wind wutherin’ round the house,” she said.<e>Using the word "wutherin'" in your moor book — too on-the-nose I say!</e>
+“Listen to th’ wind wutherin’ round the house,” she said.<e>Using the word "wutherin'" in your moor book — too on-the-nose!</e>
 s=martha;e:martha=serious
 
 “You could bare stand up on the moor if you was out on it tonight.”
@@ -2087,10 +2066,10 @@ e:martha=serious
 
 
 “It was Mrs. Craven’s garden that she had made when first they were married an’ she just loved it, an’ they used to ’tend the flowers themselves. An’ none o’ th’ gardeners was ever let to go in.”
-e:martha=happy
+e:martha=sadsmile
 
 “Him an’ her used to go in an’ shut th’ door an’ stay there hours an’ hours, readin’ an’ talkin’.”
-
+e:martha=thinking
 
 “An’ she was just a bit of a girl an’ there was an old tree with a branch bent like a seat on it. An’ she made roses grow over it an’ she used to sit there.”
 
@@ -2153,19 +2132,19 @@ s=martha;e:martha=nervous
 s=mary;e:mary=serious
 
 And at that very moment a door must have been opened somewhere downstairs; for a great rushing draft blew along the passage and the door of the room they sat in was blown open with a crash, and as they both jumped to their feet the light was blown out and the crying sound was swept down the far corridor so that it was to be heard more plainly than ever.
-s=none;e:mary=surprised;e:martha=surprised;e:mary=fearful;e:martha=fearful
+s=none;e:mary=surprised;e:martha=surprised;e:mary=fearful;e:martha=fearful;b=manor-open-door-nursery
 
 “There!” said Mary. “I told you so!”
-s=mary;e:mary=excited
+s=mary;e:mary=surprised
 
 “It is someone crying﻿—and it isn’t a grown-up person.”
 e:mary=serious
 
 Martha ran and shut the door and turned the key, but before she did it they both heard the sound of a door in some far passage shutting with a bang, and then everything was quiet, for even the wind ceased “wutherin’” for a few moments.
-s=none;e:martha=nervous
+s=none;e:martha=nervous;b=manor-nursery-night;f:b:manor-nursery-night=brightness(85%)
 
 “It was th’ wind,” said Martha stubbornly.
-s=martha;e:martha=annoyed
+s=martha;e:martha=serious
 
 “An’ if it wasn’t, it was little Betty Butterworth, th’ scullery-maid. She’s had th’ toothache all day.”
 e:martha=wary
