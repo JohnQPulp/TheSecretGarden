@@ -2003,7 +2003,7 @@ She felt as if she rather liked to hear her, and at last she thought she would a
 e:mary=curious
 
 She asked it after she had finished her supper and had sat down on the hearthrug before the fire.
-
+b=manor-mary
 
 “Why did Mr. Craven hate the garden?” she said.
 s=mary
@@ -2159,13 +2159,13 @@ She did not believe she was speaking the truth.
 r=title
 
 The next day the rain poured down in torrents again, and when Mary looked out of her window the moor was almost hidden by gray mist and cloud.
-e:mary=neutral
+e:mary=neutral;b=manor-window-mary-rain
 
 There could be no going out today.
 
 
 “What do you do in your cottage when it rains like this?” she asked Martha.
-s=mary;e:mary=curious;e:martha=neutral
+s=mary;e:mary=curious;e:martha=neutral;x:mary=bedtime;b=manor-mary
 
 “Try to keep from under each other’s feet mostly,” Martha answered.
 s=martha;e:martha=smirking
@@ -2179,17 +2179,17 @@ e:martha=happy
 “He says he sees things on rainy days as doesn’t show when it’s fair weather.”
 
 
-“He once found a little fox cub half drowned in its hole and he brought it home in th’ bosom of his shirt to keep it warm.”
+“He once found a little fox cub half drowned in its hole and he brought it home in th’ bosom of his shirt to keep it warm. Its mother had been killed nearby an’ th’ hole was swum out an’ th’ rest o’ th’ litter was dead.”
 e:martha=contemplative
 
-“Its mother had been killed nearby an’ th’ hole was swum out an’ th’ rest o’ th’ litter was dead. He’s got it at home now.”
-e:martha=serious
-
-“He found a half-drowned young crow another time an’ he brought it home, too, an’ tamed it.”
+“He’s got it at home now.”
 e:martha=happy
 
-“It’s named Soot because it’s so black, an’ it hops an’ flies about with him everywhere.”
+“He found a half-drowned young crow another time an’ he brought it home, too, an’ tamed it.”
+e:martha=
 
+“It’s named Soot because it’s so black, an’ it hops an’ flies about with him everywhere.”
+e:martha=happy
 
 The time had come when Mary had forgotten to resent Martha’s familiar talk.
 s=none;e:mary=contemplative
@@ -2203,11 +2203,8 @@ The stories she had been told by her Ayah when she lived in India had been quite
 The children seemed to tumble about and amuse themselves like a litter of rough, good-natured collie puppies.
 
 
-Mary was most attracted by the mother and Dickon.
+Mary was most attracted by the mother and Dickon. When Martha told stories of what “mother” said or did they always sounded comfortable.
 e:mary=curious
-
-When Martha told stories of what “mother” said or did they always sounded comfortable.
-e:mary=happy
 
 “If I had a raven or a fox cub I could play with it,” said Mary.
 s=mary;e:mary=thinking
@@ -2222,13 +2219,13 @@ s=none;e:martha=confused
 s=martha
 
 “No,” answered Mary.
-s=mary;e:mary=neutral
+s=mary;e:mary=thinking
 
 “Can tha’ sew?”
 s=martha;e:martha=neutral
 
 “No.”
-s=mary
+s=mary;e:mary=annoyed
 
 “Can tha’ read?”
 s=martha
@@ -2236,17 +2233,11 @@ s=martha
 “Yes.”
 s=mary
 
-“Then why doesn’t tha’ read somethin’, or learn a bit o’ spellin’?”
+“Then why doesn’t tha’ read somethin’, or learn a bit o’ spellin’? Tha’st old enough to be learnin’ thy book a good bit now.”
 s=martha;e:martha=thinking
 
-“Tha’st old enough to be learnin’ thy book a good bit now.”
-
-
-“I haven’t any books,” said Mary.
+“I haven’t any books,” said Mary. “Those I had were left in India.”
 s=mary;e:mary=unhappy
-
-“Those I had were left in India.”
-
 
 “That’s a pity,” said Martha.
 s=martha;e:martha=neutral
@@ -2254,17 +2245,14 @@ s=martha;e:martha=neutral
 “If Mrs. Medlock’d let thee go into th’ library, there’s thousands o’ books there.”
 e:martha=thinking
 
-Mary did not ask where the library was, because she was suddenly inspired by a new idea.
+Mary did not ask where the library was, because she was suddenly inspired by a new idea. She made up her mind to go and find it herself.
 s=none;e:mary=surprised
 
-She made up her mind to go and find it herself. She was not troubled about Mrs. Medlock.
+She was not troubled about Mrs. Medlock. Mrs. Medlock seemed always to be in her comfortable housekeeper’s sitting-room downstairs.
 e:mary=excited
 
-Mrs. Medlock seemed always to be in her comfortable housekeeper’s sitting-room downstairs.
-e:mary=thinking
-
 In this queer place one scarcely ever saw anyone at all.
-e:mary=contemplative
+e:mary=contemplative;b=manor-wide-rain
 
 In fact, there was no one to see but the servants, and when their master was away they lived a luxurious life below stairs, where there was a huge kitchen hung about with shining brass and pewter, and a large servants’ hall where there were four or five abundant meals eaten every day, and where a great deal of lively romping went on when Mrs. Medlock was out of the way.
 
@@ -2278,29 +2266,29 @@ Mrs. Medlock came and looked at her every day or two, but no one inquired what s
 She supposed that perhaps this was the English way of treating children.
 e:mary=thinking
 
-In India she had always been attended by her Ayah, who had followed her about and waited on her, hand and foot.
-
-
-She had often been tired of her company.
+In India she had always been attended by her Ayah, who had followed her about and waited on her, hand and foot. She had often been tired of her company.
 e:mary=weary
 
 Now she was followed by nobody and was learning to dress herself because Martha looked as though she thought she was silly and stupid when she wanted to have things handed to her and put on.
-e:mary=annoyed
+e:mary=annoyed;b=manor-mary
 
-“Hasn’t tha’ got good sense?” she said once, when Mary had stood waiting for her to put on her gloves for her.
-s=martha;e:martha=confused;e:mary=neutral
+“Hasn’t tha’ got good sense?” she said once,
+s=martha;e:martha=confused;e:mary=neutral;m=allowbreak
+
+when Mary had stood waiting for her to put on her gloves for her.
+s=;m=
 
 “Our Susan Ann is twice as sharp as thee an’ she’s only four year’ old.”
-e:martha=smirking
+e:martha=smirking;s=martha
 
 “Sometimes tha’ looks fair soft in th’ head.”
 e:martha=scowling
 
 Mary had worn her contrary scowl for an hour after that, but it made her think several entirely new things.
-s=none;e:mary=scowling
+s=none;e:mary=scowling;x:mary=daytime
 
 She stood at the window for about ten minutes this morning after Martha had swept up the hearth for the last time and gone downstairs.
-e:mary=thinking
+e:mary=thinking;b=manor-window-mary-rain
 
 She was thinking over the new idea which had come to her when she heard of the library.
 e:mary=contemplative
@@ -2311,11 +2299,8 @@ e:mary=curious
 She wondered if they were all really locked and what she would find if she could get into any of them.
 
 
-Were there a hundred really?
+Were there a hundred really? Why shouldn’t she go and see how many doors she could count?
 e:mary=thinking
-
-Why shouldn’t she go and see how many doors she could count?
-e:mary=excited
 
 It would be something to do on this morning when she could not go out.
 
@@ -2324,7 +2309,7 @@ She had never been taught to ask permission to do things, and she knew nothing a
 e:mary=neutral
 
 She opened the door of the room and went into the corridor, and then she began her wanderings.
-
+b=manor-corridor
 
 It was a long corridor and it branched into other corridors and it led her up short flights of steps which mounted to others again.
 
@@ -2336,16 +2321,13 @@ Sometimes they were pictures of dark, curious landscapes, but oftenest they were
 e:mary=curious
 
 She found herself in one long gallery whose walls were covered with these portraits.
-
+b=manor-gallery
 
 She had never thought there could be so many in any house.
 e:mary=surprised
 
-She walked slowly down this place and stared at the faces which also seemed to stare at her.
+She walked slowly down this place and stared at the faces which also seemed to stare at her. She felt as if they were wondering what a little girl from India was doing in their house.
 e:mary=wary
-
-She felt as if they were wondering what a little girl from India was doing in their house.
-e:mary=nervous
 
 Some were pictures of children﻿—little girls in thick satin frocks which reached to their feet and stood out about them, and boys with puffed sleeves and lace collars and long hair, or with big ruffs around their necks.
 
@@ -2366,13 +2348,13 @@ Surely no other little girl ever spent such a queer morning.
 s=none;e:mary=contemplative
 
 It seemed as if there was no one in all the huge rambling house but her own small self, wandering about upstairs and down, through narrow passages and wide ones, where it seemed to her that no one but herself had ever walked.
-
+b=manor-wide-rain
 
 Since so many rooms had been built, people must have lived in them, but it all seemed so empty that she could not quite believe it true.
 e:mary=thinking
 
 It was not until she climbed to the second floor that she thought of turning the handle of a door.
-
+b=manor-corridor-2
 
 All the doors were shut, as Mrs. Medlock had said they were, but at last she put her hand on the handle of one of them and turned it.
 e:mary=nervous
@@ -2381,7 +2363,7 @@ She was almost frightened for a moment when she felt that it turned without diff
 e:mary=fearful
 
 It was a massive door and opened into a big bedroom.
-e:mary=surprised
+e:mary=surprised;b=manor-bedroom
 
 There were embroidered hangings on the wall, and inlaid furniture such as she had seen in India stood about the room.
 
@@ -2396,7 +2378,7 @@ s=mary;e:mary=thinking
 e:mary=nervous
 
 After that she opened more doors and more.
-s=none;e:mary=excited
+s=none;e:mary=excited;b=manor-corridor-2
 
 She saw so many rooms that she became quite tired and began to think that there must be a hundred, though she had not counted them.
 e:mary=weary
@@ -2408,12 +2390,9 @@ There were curious pieces of furniture and curious ornaments in nearly all of th
 
 
 In one room, which looked like a lady’s sitting-room, the hangings were all embroidered velvet, and in a cabinet were about a hundred little elephants made of ivory.
-e:mary=surprised
+e:mary=surprised;b=manor-sitting
 
-They were of different sizes, and some had their mahouts or palanquins on their backs.
-
-
-Some were much bigger than the others and some were so tiny that they seemed only babies.
+They were of different sizes, and some had their mahouts or palanquins on their backs. Some were much bigger than the others and some were so tiny that they seemed only babies.
 e:mary=happy
 
 Mary had seen carved ivory in India and she knew all about elephants.
@@ -2432,7 +2411,7 @@ Just after she had closed the cabinet door she heard a tiny rustling sound.
 e:mary=nervous
 
 It made her jump and look around at the sofa by the fireplace, from which it seemed to come.
-e:mary=fearful
+e:mary=fearful;b=manor-sitting-sofa
 
 In the corner of the sofa there was a cushion, and in the velvet which covered it there was a hole, and out of the hole peeped a tiny head with a pair of frightened eyes in it.
 e:mary=curious
@@ -2450,19 +2429,22 @@ If there was no one else alive in the hundred rooms there were seven mice who di
 e:mary=smirking
 
 “If they wouldn’t be so frightened I would take them back with me,” said Mary.
-s=mary;e:mary=thinking
+s=mary;e:mary=contemplative
 
 She had wandered about long enough to feel too tired to wander any farther, and she turned back.
 s=none;e:mary=weary
 
 Two or three times she lost her way by turning down the wrong corridor and was obliged to ramble up and down until she found the right one; but at last she reached her own floor again, though she was some distance from her own room and did not know exactly where she was.
-e:mary=confused
+e:mary=confused;b=manor-corridor-3
 
-“I believe I have taken a wrong turning again,” she said, standing still at what seemed the end of a short passage with tapestry on the wall.
-s=mary;e:mary=nervous
+“I believe I have taken a wrong turning again,” she said,
+s=mary;e:mary=nervous;m=allowbreak
+
+standing still at what seemed the end of a short passage with tapestry on the wall.
+s=;m=
 
 “I don’t know which way to go. How still everything is!”
-e:mary=wary
+e:mary=thinking;s=mary
 
 It was while she was standing here and just after she had said this that the stillness was broken by a sound.
 s=none;e:mary=surprised
@@ -2482,17 +2464,20 @@ s=none;e:mary=surprised
 The tapestry was the covering of a door which fell open and showed her that there was another part of the corridor behind it, and Mrs. Medlock was coming up it with her bunch of keys in her hand and a very cross look on her face.
 e:mrsmedlock=angry;e:mary=fearful
 
-“What are you doing here?” she said, and she took Mary by the arm and pulled her away.
-s=mrsmedlock
+“What are you doing here?” she said,
+s=mrsmedlock;m=allowbreak
+
+and she took Mary by the arm and pulled her away.
+s=;m=
 
 “What did I tell you?”
-
+s=mrsmedlock
 
 “I turned round the wrong corner,” explained Mary.
 s=mary;e:mary=nervous
 
 “I didn’t know which way to go and I heard someone crying.”
-
+e:mary=serious
 
 She quite hated Mrs. Medlock at the moment, but she hated her more the next.
 s=none;e:mary=angry
@@ -2504,10 +2489,10 @@ s=mrsmedlock;e:mrsmedlock=scowling
 e:mrsmedlock=angry
 
 And she took her by the arm and half pushed, half pulled her up one passage and down another until she pushed her in at the door of her own room.
-s=none;e:mary=upset
+s=none;e:mary=upset;b=manor-corridor
 
 “Now,” she said, “you stay where you’re told to stay or you’ll find yourself locked up.”
-s=mrsmedlock;e:mrsmedlock=angry
+s=mrsmedlock;e:mrsmedlock=angry;b=manor-mary
 
 “The master had better get you a governess, same as he said he would.”
 e:mrsmedlock=scowling
