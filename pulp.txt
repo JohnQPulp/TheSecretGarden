@@ -4841,7 +4841,7 @@ s=none;e:mary=happy
 r=title
 
 Mary ran so fast that she was rather out of breath when she reached her room.
-e:mary=excited
+e:mary=excited;x:mary=ruffled;b=manor-nursery
 
 Her hair was ruffled on her forehead and her cheeks were bright pink. Her dinner was waiting on the table, and Martha was waiting near it.
 e:martha=neutral
@@ -4879,11 +4879,8 @@ s=martha;e:martha=wary
 “Though they’re a nice color.”
 e:martha=thinking
 
-“I like them round,” said Mary.
-s=mary;e:mary=neutral
-
-“And they are exactly the color of the sky over the moor.”
-e:mary=happy
+“I like them round,” said Mary. “And they are exactly the color of the sky over the moor.”
+s=mary;e:mary=contemplative
 
 Martha beamed with satisfaction.
 s=none;e:martha=happy
@@ -4927,11 +4924,8 @@ s=mary;e:mary=nervous
 “Well, I wouldn’t ask th’ head gardener. He’s too grand, Mr. Roach is.”
 s=martha;e:martha=wary
 
-“I’ve never seen him,” said Mary.
-s=mary;e:mary=neutral
-
-“I’ve only seen under-gardeners and Ben Weatherstaff.”
-e:mary=thinking
+“I’ve never seen him,” said Mary. “I’ve only seen under-gardeners and Ben Weatherstaff.”
+s=mary;e:mary=thinking
 
 “If I was you, I’d ask Ben Weatherstaff,” advised Martha.
 s=martha;e:martha=serious
@@ -4961,7 +4955,7 @@ Mary turned quite pale.
 s=none;e:mary=fearful
 
 “Oh!” she said. “Why! Why! He didn’t want to see me when I came. I heard Pitcher say he didn’t.”
-s=mary;e:mary=upset
+s=mary;e:mary=fearful
 
 “Well,” explained Martha, “Mrs. Medlock says it’s because o’ mother. She was walkin’ to Thwaite village an’ she met him.”
 s=martha;e:martha=neutral
@@ -4994,7 +4988,7 @@ She did not finish the sentence, because the door opened, and Mrs. Medlock walke
 s=none;e:mrsmedlock=neutral
 
 She had on her best black dress and cap, and her collar was fastened with a large brooch with a picture of a man’s face on it.
-
+x:mrsmedlock=black
 
 It was a colored photograph of Mr. Medlock who had died years ago, and she always wore it when she was dressed up.
 
@@ -5012,10 +5006,13 @@ All the pink left Mary’s cheeks. Her heart began to thump and she felt herself
 s=none;e:mary=fearful
 
 She did not even answer Mrs. Medlock, but turned and walked into her bedroom, followed by Martha.
-e:mary=wary
+e:mary=wary;b=manor-mary;x:mary=dress
 
-She said nothing while her dress was changed, and her hair brushed, and after she was quite tidy she followed Mrs. Medlock down the corridors, in silence.
-e:mary=nervous
+She said nothing while her dress was changed, and her hair brushed,
+e:mary=nervous;m=allowbreak
+
+and after she was quite tidy she followed Mrs. Medlock down the corridors, in silence.
+m=;b=manor-corridor
 
 What was there for her to say? She was obliged to go and see Mr. Craven and he would not like her, and she would not like him.
 e:mary=upset
@@ -5024,10 +5021,13 @@ She knew what he would think of her.
 
 
 She was taken to a part of the house she had not been into before.
-e:mary=curious
+e:mary=curious;b=manor-corridor-4
 
-At last Mrs. Medlock knocked at a door, and when someone said, “Come in,” they entered the room together.
-e:craven=neutral
+At last Mrs. Medlock knocked at a door, and when someone said, “Come in,”
+e:craven=neutral;m=dialogue;m=allowbreak
+
+they entered the room together.
+m=;b=manor-craven
 
 A man was sitting in an armchair before the fire, and Mrs. Medlock spoke to him.
 e:craven=weary
@@ -5048,13 +5048,13 @@ He turned his head over his high shoulders and spoke to her.
 
 
 “Come here!” he said.
-s=craven
+s=craven;e:craven=looking
 
 Mary went to him.
 s=none
 
 He was not ugly. His face would have been handsome if it had not been so miserable.
-e:craven=unhappy
+e:craven=unhappy;b=craven-mary
 
 He looked as if the sight of her worried and fretted him and as if he did not know what in the world to do with her.
 e:craven=nervous
@@ -5066,7 +5066,7 @@ s=craven
 s=mary;e:mary=wary
 
 “Do they take good care of you?”
-s=craven
+s=craven;e:craven=contemplative
 
 “Yes.”
 s=mary
@@ -5093,7 +5093,7 @@ s=craven;e:craven=weary
 s=mary;e:mary=upset
 
 “What do you want to say?” he inquired.
-s=craven;e:craven=confused
+s=craven;e:craven=serious
 
 “I am﻿—I am too big for a nurse,” said Mary.
 s=mary;e:mary=nervous
@@ -5102,7 +5102,7 @@ s=mary;e:mary=nervous
 e:mary=fearful
 
 He rubbed his forehead again and stared at her.
-s=none;e:craven=thinking
+s=none;e:craven=contemplative
 
 “That was what the Sowerby woman said,” he muttered absentmindedly.
 s=craven
@@ -5114,16 +5114,13 @@ s=none;e:mary=serious
 s=mary;e:mary=nervous
 
 “Yes, I think so,” he replied.
-s=craven;e:craven=neutral
+s=craven;e:craven=thinking
 
-“She knows about children,” said Mary.
+“She knows about children,” said Mary. “She has twelve. She knows.”
 s=mary;e:mary=serious
 
-“She has twelve. She knows.”
-
-
 He seemed to rouse himself.
-s=none;e:craven=thinking
+s=none;e:craven=contemplative
 
 “What do you want to do?”
 s=craven
@@ -5138,7 +5135,7 @@ He was watching her.
 s=none;e:craven=contemplative
 
 “Mrs. Sowerby said it would do you good. Perhaps it will,” he said.
-s=craven;e:craven=neutral
+s=craven
 
 “She thought you had better get stronger before you had a governess.”
 
@@ -5152,44 +5149,47 @@ s=craven;e:craven=curious
 “Everywhere,” gasped Mary.
 s=mary;e:mary=nervous
 
-“Martha’s mother sent me a skipping-rope. I skip and run﻿—and I look about to see if things are beginning to stick up out of the earth. I don’t do any harm.”
+“Martha’s mother sent me a skipping-rope. I skip and run﻿—and I look about to see if things are beginning to stick up out of the earth.”
+
+
+“I don’t do any harm.”
 e:mary=fearful
 
 “Don’t look so frightened,” he said in a worried voice.
 s=craven;e:craven=wary
 
 “You could not do any harm, a child like you! You may do what you like.”
-e:craven=neutral
+e:craven=thinking
 
 Mary put her hand up to her throat because she was afraid he might see the excited lump which she felt jump into it.
-s=none;e:mary=surprised
+s=none;e:mary=surprised;b=manor-craven
 
 She came a step nearer to him.
 
 
 “May I?” she said tremulously.
-s=mary;e:mary=nervous
+s=mary;e:mary=anxioushand
 
 Her anxious little face seemed to worry him more than ever.
 s=none;e:craven=nervous
 
-“Don’t look so frightened,” he exclaimed.
+“Don’t look so frightened,” he exclaimed. “Of course you may.”
 s=craven;e:craven=wary
 
-“Of course you may. I am your guardian, though I am a poor one for any child. I cannot give you time or attention. I am too ill, and wretched and distracted; but I wish you to be happy and comfortable.”
-e:craven=unhappy
+“I am your guardian, though I am a poor one for any child. I cannot give you time or attention. I am too ill, and wretched and distracted; but I wish you to be happy and comfortable.”
+e:craven=serious
 
-“I don’t know anything about children, but Mrs. Medlock is to see that you have all you need. I sent for you today because Mrs. Sowerby said I ought to see you. Her daughter had talked about you.”
-e:craven=neutral
+“I don’t know anything about children, but Mrs. Medlock is to see that you have all you need. I sent for you today because Mrs. Sowerby said I ought to see you.”
+e:craven=thinking
 
-“She thought you needed fresh air and freedom and running about.”
+“Her daughter had talked about you. She thought you needed fresh air and freedom and running about.”
 
 
 “She knows all about children,” Mary said again in spite of herself.
 s=mary;e:mary=serious
 
 “She ought to,” said Mr. Craven.
-s=craven
+s=craven;e:craven=
 
 “I thought her rather bold to stop me on the moor, but she said﻿—Mrs. Craven had been kind to her.”
 e:craven=contemplative
@@ -5198,12 +5198,15 @@ It seemed hard for him to speak his dead wife’s name.
 s=none;e:craven=unhappy
 
 “She is a respectable woman. Now I have seen you I think she said sensible things.”
-s=craven;e:craven=neutral
+s=craven;e:craven=contemplative
 
 “Play out of doors as much as you like. It’s a big place and you may go where you like and amuse yourself as you like.”
 
 
-“Is there anything you want?” as if a sudden thought had struck him. “Do you want toys, books, dolls?”
+“Is there anything you want?” as if a sudden thought had struck him.
+e:craven=serious
+
+“Do you want toys, books, dolls?”
 
 
 “Might I,” quavered Mary, “might I have a bit of earth?”
@@ -5225,7 +5228,7 @@ He gazed at her a moment and then passed his hand quickly over his eyes.
 s=none;e:craven=unhappy
 
 “Do you﻿—care about gardens so much,” he said slowly.
-s=craven;e:craven=weary
+s=craven;e:craven=wearyhand
 
 “I didn’t know about them in India,” said Mary.
 s=mary;e:mary=wary
@@ -5236,29 +5239,35 @@ e:mary=serious
 Mr. Craven got up and began to walk slowly across the room.
 s=none;e:craven=thinking
 
-“A bit of earth,” he said to himself, and Mary thought that somehow she must have reminded him of something.
-s=craven;e:craven=contemplative
+“A bit of earth,” he said to himself,
+s=craven;e:craven=contemplative;m=allowbreak
+
+and Mary thought that somehow she must have reminded him of something.
+m=;s=
 
 When he stopped and spoke to her his dark eyes looked almost soft and kind.
 s=none;e:craven=neutral
 
-“You can have as much earth as you want,” he said.
-s=craven
+“You can have as much earth as you want,” he said. “You remind me of someone else who loved the earth and things that grow.”
+s=craven;e:craven=sadsmile
 
-“You remind me of someone else who loved the earth and things that grow. When you see a bit of earth you want,” with something like a smile, “take it, child, and make it come alive.”
-e:craven=happy
+“When you see a bit of earth you want,” with something like a smile, “take it, child, and make it come alive.”
+
 
 “May I take it from anywhere﻿—if it’s not wanted?”
 s=mary;e:mary=surprised
 
-“Anywhere,” he answered. “There! You must go now, I am tired.”
+“Anywhere,” he answered.
+s=craven;e:craven=thinking
+
+“There! You must go now, I am tired.”
 s=craven;e:craven=weary
 
 He touched the bell to call Mrs. Medlock.
 s=none
 
 “Goodbye. I shall be away all summer.”
-s=craven
+s=craven;e:craven=thinking
 
 Mrs. Medlock came so quickly that Mary thought she must have been waiting in the corridor.
 s=none;e:mrsmedlock=neutral
@@ -5272,35 +5281,29 @@ s=craven;e:craven=serious
 “Mrs. Sowerby is to come and see her now and then and she may sometimes go to the cottage.”
 
 
-Mrs. Medlock looked pleased. She was relieved to hear that she need not “look after” Mary too much.
+Mrs. Medlock looked pleased. She was relieved to hear that she need not “look after” Mary too much. She had felt her a tiresome charge and had indeed seen as little of her as she dared.
 s=none;e:mrsmedlock=happy
-
-She had felt her a tiresome charge and had indeed seen as little of her as she dared.
-e:mrsmedlock=thinking
 
 In addition to this she was fond of Martha’s mother.
 e:mrsmedlock=happy
 
-“Thank you, sir,” she said.
-s=mrsmedlock
-
-“Susan Sowerby and me went to school together and she’s as sensible and good-hearted a woman as you’d find in a day’s walk.”
-e:mrsmedlock=neutral
+“Thank you, sir,” she said. “Susan Sowerby and me went to school together and she’s as sensible and good-hearted a woman as you’d find in a day’s walk.”
+s=mrsmedlock;e:mrsmedlock=neutral
 
 “I never had any children myself and she’s had twelve, and there never was healthier or better ones. Miss Mary can get no harm from them.”
 
 
 “I’d always take Susan Sowerby’s advice about children myself. She’s what you might call healthy-minded﻿—if you understand me.”
-e:mrsmedlock=smirking
+e:mrsmedlock=contemplative
 
 “I understand,” Mr. Craven answered. “Take Miss Mary away now and send Pitcher to me.”
 s=craven;e:craven=weary
 
 When Mrs. Medlock left her at the end of her own corridor Mary flew back to her room.
-s=none;e:mary=excited
+s=none;e:mary=excited;b=manor-corridor
 
 She found Martha waiting there. Martha had, in fact, hurried back after she had removed the dinner service.
-e:martha=neutral
+e:martha=neutral;b=manor-mary
 
 “I can have my garden!” cried Mary. “I may have it where I like! I am not going to have a governess for a long time!”
 s=mary;e:mary=happy
@@ -5312,16 +5315,16 @@ e:mary=excited
 s=martha;e:martha=happy
 
 “Martha,” said Mary solemnly, “he is really a nice man, only his face is so miserable and his forehead is all drawn together.”
-s=mary;e:mary=serious
+s=mary;e:mary=contemplative
 
 She ran as quickly as she could to the garden.
-s=none;e:mary=excited
+s=none;e:mary=excited;b=manor-wall
 
 She had been away so much longer than she had thought she should and she knew Dickon would have to set out early on his five-mile walk.
 e:mary=nervous
 
 When she slipped through the door under the ivy, she saw he was not working where she had left him.
-e:mary=surprised
+e:mary=surprised;b=manor-secret-trees
 
 The gardening tools were laid together under a tree. She ran to them, looking all round the place, but there was no Dickon to be seen.
 e:mary=wary
@@ -5333,7 +5336,7 @@ e:mary=unhappy
 s=mary;e:mary=upset
 
 Something white fastened to the standard rosebush caught her eye.
-s=none;e:mary=surprised
+s=none;e:mary=surprised;b=manor-secret-walls
 
 It was a piece of paper﻿—in fact, it was a piece of the letter she had printed for Martha to send to Dickon.
 e:mary=curious
