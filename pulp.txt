@@ -3407,13 +3407,13 @@ She searched about until she found a rather sharp piece of wood and knelt down a
 e:mary=serious
 
 “Now they look as if they could breathe,” she said, after she had finished with the first ones.
-s=mary;e:mary=happy;o=secret-soil-cleared
+s=mary;e:mary=happy;b=manor-secret-soil-cleared
 
 “I am going to do ever so many more. I’ll do all I can see. If I haven’t time today I can come tomorrow.”
 
 
 She went from place to place, and dug and weeded, and enjoyed herself so immensely that she was led on from bed to bed and into the grass under the trees.
-s=none;e:mary=excited;o=
+s=none;e:mary=excited;b=manor-secret-walls
 
 The exercise made her so warm that she first threw her coat off, and then her hat, and without knowing it she was smiling down on to the grass and the pale green points all the time.
 e:mary=happy
@@ -4385,13 +4385,22 @@ e:dickon=thinking
 r=title
 
 For two or three minutes he stood looking round him, while Mary watched him, and then he began to walk about softly, even more lightly than Mary had walked the first time she had found herself inside the four walls.
-e:dickon=curious;e:mary=neutral
+e:dickon=curious;e:mary=neutral;b=manor-secret;x:mary=coat
 
-His eyes seemed to be taking in everything﻿—the gray trees with the gray creepers climbing over them and hanging from their branches, the tangle on the walls and among the grass, the evergreen alcoves with the stone seats and tall flower urns standing in them.
-e:dickon=contemplative
+His eyes seemed to be taking in everything﻿—
+e:dickon=contemplative;m=allowbreak;m=nospace
+
+the gray trees with the gray creepers climbing over them and hanging from their branches,
+m=;m=allowbreak;b=manor-secret-trees
+
+the tangle on the walls and among the grass,
+b=manor-secret-walls
+
+the evergreen alcoves with the stone seats and tall flower urns standing in them.
+b=manor-secret-alcove;m=
 
 “I never thought I’d see this place,” he said at last, in a whisper.
-s=dickon;e:dickon=surprised
+s=dickon;e:dickon=surprised;b=manor-secret
 
 “Did you know about it?” asked Mary.
 s=mary;e:mary=curious
@@ -4400,10 +4409,10 @@ She had spoken aloud and he made a sign to her.
 s=none;e:dickon=wary
 
 “We must talk low,” he said, “or someone’ll hear us an’ wonder what’s to do in here.”
-s=dickon;e:dickon=serious
+s=dickon;e:dickon=shush
 
 “Oh! I forgot!” said Mary, feeling frightened and putting her hand quickly against her mouth.
-s=mary;e:mary=fearful
+s=mary;e:mary=fearfulhand
 
 “Did you know about the garden?” she asked again when she had recovered herself.
 e:mary=curious
@@ -4418,13 +4427,10 @@ s=dickon
 e:dickon=thinking
 
 He stopped and looked round at the lovely gray tangle about him, and his round eyes looked queerly happy.
-s=none;e:dickon=happy
+s=none;e:dickon=happy;b=manor-secret-trees
 
-“Eh! the nests as’ll be here come springtime,” he said.
+“Eh! the nests as’ll be here come springtime,” he said. “It’d be th’ safest nestin’ place in England.”
 s=dickon;e:dickon=excited
-
-“It’d be th’ safest nestin’ place in England.”
-
 
 “No one never comin’ near an’ tangles o’ trees an’ roses to build in. I wonder all th’ birds on th’ moor don’t build here.”
 e:dickon=happy
@@ -4432,17 +4438,11 @@ e:dickon=happy
 Mistress Mary put her hand on his arm again without knowing it.
 s=none;e:mary=curious
 
-“Will there be roses?” she whispered.
+“Will there be roses?” she whispered. “Can you tell? I thought perhaps they were all dead.”
 s=mary
 
-“Can you tell? I thought perhaps they were all dead.”
-e:mary=nervous
-
-“Eh! No! Not them﻿—not all of ’em!” he answered.
+“Eh! No! Not them﻿—not all of ’em!” he answered. “Look here!”
 s=dickon;e:dickon=happy
-
-“Look here!”
-e:dickon=excited
 
 He stepped over to the nearest tree﻿—an old, old one with gray lichen all over its bark, but upholding a curtain of tangled sprays and branches.
 s=none
@@ -4450,11 +4450,8 @@ s=none
 He took a thick knife out of his pocket and opened one of its blades.
 e:dickon=serious
 
-“There’s lots o’ dead wood as ought to be cut out,” he said.
-s=dickon
-
-“An’ there’s a lot o’ old wood, but it made some new last year.”
-e:dickon=happy
+“There’s lots o’ dead wood as ought to be cut out,” he said. “An’ there’s a lot o’ old wood, but it made some new last year.”
+s=dickon;e:dickon=happy
 
 “This here’s a new bit,” and he touched a shoot which looked brownish green instead of hard, dry gray.
 
@@ -4484,7 +4481,7 @@ She quite panted with eagerness, and Dickon was as eager as she was.
 s=none;e:mary=excited;e:dickon=excited
 
 They went from tree to tree and from bush to bush.
-
+b=manor-secret-walls
 
 Dickon carried his knife in his hand and showed her things which she thought wonderful.
 e:mary=happy
@@ -4519,11 +4516,17 @@ s=dickon;e:dickon=neutral
 “When th’ inside is dry an’ breaks easy, like this here piece I’ve cut off, it’s done for.”
 
 
-“There’s a big root here as all this live wood sprung out of, an’ if th’ old wood’s cut off an’ it’s dug round, an’ took care of there’ll be﻿—” he stopped and lifted his face to look up at the climbing and hanging sprays above him﻿—“there’ll be a fountain o’ roses here this summer.”
-e:dickon=excited
+“There’s a big root here as all this live wood sprung out of, an’ if th’ old wood’s cut off an’ it’s dug round, an’ took care of there’ll be﻿—”
+m=allowbreak
+
+he stopped and lifted his face to look up at the climbing and hanging sprays above him﻿—
+s=;m=nospace
+
+“there’ll be a fountain o’ roses here this summer.”
+s=dickon;e:dickon=excited;m=
 
 They went from bush to bush and from tree to tree.
-s=none;e:dickon=happy;e:mary=happy
+s=none;e:dickon=happy;e:mary=happy;b=manor-secret
 
 He was very strong and clever with his knife and knew how to cut the dry and dead wood away, and could tell when an unpromising bough or twig had still green life in it.
 
@@ -4538,10 +4541,10 @@ They were working industriously round one of the biggest standard roses when he 
 e:dickon=surprised
 
 “Why!” he cried, pointing to the grass a few feet away. “Who did that there?”
-s=dickon
+s=dickon;e:dickon=pointing
 
 It was one of Mary’s own little clearings round the pale green points.
-s=none
+s=none;b=manor-secret-soil-cleared
 
 “I did it,” said Mary.
 s=mary;e:mary=neutral
@@ -4558,17 +4561,14 @@ e:mary=neutral
 Dickon went and knelt down by them, smiling his wide smile.
 s=none;e:dickon=happy
 
-“Tha’ was right,” he said.
+“Tha’ was right,” he said. “A gardener couldn’t have told thee better. They’ll grow now like Jack’s beanstalk.”
 s=dickon
-
-“A gardener couldn’t have told thee better. They’ll grow now like Jack’s beanstalk.”
-e:dickon=excited
 
 “They’re crocuses an’ snowdrops, an’ these here is narcissuses,” turning to another patch, “an’ here’s daffydowndillys. Eh! they will be a sight.”
 e:dickon=happy
 
 He ran from one clearing to another.
-s=none;e:dickon=excited
+s=none;e:dickon=excited;b=manor-secret-walls
 
 “Tha’ has done a lot o’ work for such a little wench,” he said, looking her over.
 s=dickon;e:dickon=happy
@@ -4585,7 +4585,10 @@ s=dickon;e:dickon=happy
 “There’s naught as nice as th’ smell o’ good clean earth, except th’ smell o’ fresh growin’ things when th’ rain falls on ’em.”
 e:dickon=contemplative
 
-“I get out on th’ moor many a day when it’s rainin’ an’ I lie under a bush an’ listen to th’ soft swish o’ drops on th’ heather an’ I just sniff an’ sniff. My nose end fair quivers like a rabbit’s, mother says.”
+“I get out on th’ moor many a day when it’s rainin’ an’ I lie under a bush an’ listen to th’ soft swish o’ drops on th’ heather an’ I just sniff an’ sniff.”
+e:dickon=
+
+“My nose end fair quivers like a rabbit’s, mother says.”
 e:dickon=happy
 
 “Do you never catch cold?” inquired Mary, gazing at him wonderingly.
@@ -4597,10 +4600,10 @@ s=none;e:mary=happy
 “Not me,” he said, grinning.
 s=dickon;e:dickon=smirking
 
-“I never ketched cold since I was born. I wasn’t brought up nesh enough.”
+“I never ketched cold since I was born. I wasn’t brought up nesh enough. I’ve chased about th’ moor in all weathers same as th’ rabbits does.”
 e:dickon=happy
 
-“I’ve chased about th’ moor in all weathers same as th’ rabbits does. Mother says I’ve sniffed up too much fresh air for twelve year’ to ever get to sniffin’ with cold. I’m as tough as a whitethorn knobstick.”
+“Mother says I’ve sniffed up too much fresh air for twelve year’ to ever get to sniffin’ with cold. I’m as tough as a whitethorn knobstick.”
 e:dickon=smirking
 
 He was working all the time he was talking and Mary was following him and helping him with her fork or the trowel.
@@ -4642,14 +4645,17 @@ s=dickon
 “It’s nicer like this with things runnin’ wild, an’ swingin’ an’ catchin’ hold of each other.”
 e:dickon=happy
 
-“Don’t let us make it tidy,” said Mary anxiously. “It wouldn’t seem like a secret garden if it was tidy.”
+“Don’t let us make it tidy,” said Mary anxiously.
 s=mary;e:mary=nervous
+
+“It wouldn’t seem like a secret garden if it was tidy.”
+
 
 Dickon stood rubbing his rusty-red head with a rather puzzled look.
 s=none;e:dickon=confused
 
 “It’s a secret garden sure enough,” he said, “but seems like someone besides th’ robin must have been in it since it was shut up ten year’ ago.”
-s=dickon;e:dickon=thinking
+s=dickon;e:dickon=rubbingpuzzled
 
 “But the door was locked and the key was buried,” said Mary. “No one could get in.”
 s=mary;e:mary=surprised
@@ -4682,7 +4688,7 @@ e:mary=thinking
 s=mary;e:mary=curious
 
 “Lilies o’ th’ valley does,” he answered, digging away with the trowel, “an’ there’s Canterbury bells, an’ campanulas.”
-s=dickon;e:dickon=neutral
+s=dickon;e:dickon=lookingdown
 
 “Let us plant some,” said Mary.
 s=mary;e:mary=excited
@@ -4714,17 +4720,23 @@ s=mary;e:mary=scowling
 But Dickon laughed.
 s=none;e:dickon=happy
 
-“Eh!” he said, and as he crumbled the rich black soil she saw he was sniffing up the scent of it, “there doesn’t seem to be no need for no one to be contrary when there’s flowers an’ suchlike, an’ such lots o’ friendly wild things runnin’ about makin’ homes for themselves, or buildin’ nests an’ singin’ an’ whistlin’, does there?”
-s=dickon;e:dickon=happy
+“Eh!” he said,
+s=dickon;e:dickon=happy;m=allowbreak
+
+and as he crumbled the rich black soil she saw he was sniffing up the scent of it,
+s=
+
+“there doesn’t seem to be no need for no one to be contrary when there’s flowers an’ suchlike, an’ such lots o’ friendly wild things runnin’ about makin’ homes for themselves, or buildin’ nests an’ singin’ an’ whistlin’, does there?”
+m=;s=dickon;e:dickon=lookingdown
 
 Mary, kneeling by him holding the seeds, looked at him and stopped frowning.
 s=none;e:mary=neutral
 
-“Dickon,” she said.
+“Dickon,” she said. “You are as nice as Martha said you were.”
 s=mary
 
-“You are as nice as Martha said you were. I like you, and you make the fifth person. I never thought I should like five people.”
-e:mary=happy
+“I like you, and you make the fifth person. I never thought I should like five people.”
+e:mary=contemplative
 
 Dickon sat up on his heels as Martha did when she was polishing the grate.
 s=none;e:dickon=curious
@@ -4742,7 +4754,7 @@ Dickon laughed so that he was obliged to stifle the sound by putting his arm ove
 s=none;e:dickon=happy
 
 “I know tha’ thinks I’m a queer lad,” he said, “but I think tha’ art th’ queerest little lass I ever saw.”
-s=dickon;e:dickon=smirking
+s=dickon;e:dickon=laughingarm
 
 Then Mary did a strange thing. She leaned forward and asked him a question she had never dreamed of asking anyone before.
 s=none;e:mary=nervous
@@ -4753,8 +4765,11 @@ And she tried to ask it in Yorkshire because that was his language, and in India
 “Does tha’ like me?” she said.
 s=mary;e:mary=curious
 
-“Eh!” he answered heartily, “that I does. I likes thee wonderful, an’ so does th’ robin, I do believe!”
+“Eh!” he answered heartily, “that I does.”
 s=dickon;e:dickon=happy
+
+“I likes thee wonderful, an’ so does th’ robin, I do believe!”
+
 
 “That’s two, then,” said Mary. “That’s two for me.”
 s=mary;e:mary=happy
@@ -4763,10 +4778,13 @@ And then they began to work harder than ever and more joyfully.
 s=none;e:dickon=excited
 
 Mary was startled and sorry when she heard the big clock in the courtyard strike the hour of her midday dinner.
-e:mary=surprised
+e:mary=surprised;b=manor-secret-trees
 
-“I shall have to go,” she said mournfully. “And you will have to go too, won’t you?”
+“I shall have to go,” she said mournfully.
 s=mary;e:mary=unhappy
+
+“And you will have to go too, won’t you?”
+
 
 Dickon grinned.
 s=none;e:dickon=happy
@@ -4811,7 +4829,7 @@ His poppy-colored cheeks were distended with his first big bite of bread and bac
 s=none;e:dickon=happy
 
 “If tha’ was a missel thrush an’ showed me where thy nest was, does tha’ think I’d tell anyone? Not me,” he said.
-s=dickon;e:dickon=serious
+s=dickon;e:dickon=happy
 
 “Tha’ art as safe as a missel thrush.”
 e:dickon=happy
