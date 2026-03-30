@@ -8432,7 +8432,7 @@ s=mary;e:mary=serious
 r=title
 
 Of course Dr. Craven had been sent for the morning after Colin had had his tantrum.
-
+b=manor-wide-spring
 
 He was always sent for at once when such a thing occurred and he always found, when he arrived, a white shaken boy lying on his bed, sulky and still so hysterical that he was ready to break into fresh sobbing at the least word.
 e:drcraven=weary
@@ -8444,7 +8444,7 @@ On this occasion he was away from Misselthwaite Manor until afternoon.
 
 
 “How is he?” he asked Mrs. Medlock rather irritably when he arrived.
-s=drcraven;e:drcraven=annoyed
+s=drcraven;e:drcraven=annoyed;b=manor-hall
 
 “He will break a blood vessel in one of those fits some day.”
 
@@ -8468,7 +8468,7 @@ e:mrsmedlock=excited
 e:mrsmedlock=neutral
 
 The scene which Dr. Craven beheld when he entered his patient’s room was indeed rather astonishing to him.
-s=none;e:drcraven=surprised
+s=none;e:drcraven=surprised;b=manor-colin
 
 As Mrs. Medlock opened the door he heard laughing and chattering.
 
@@ -8477,7 +8477,7 @@ Colin was on his sofa in his dressing-gown and he was sitting up quite straight 
 e:colin=happy;e:mary=happy
 
 “Those long spires of blue ones—we’ll have a lot of those,” Colin was announcing.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;x:colin=velvet;x:mary=daytime
 
 “They’re called Del-phin-iums.”
 
@@ -8501,7 +8501,7 @@ He was rather a nervous man.
 s=none
 
 “I’m better now—much better,” Colin answered, rather like a Rajah.
-s=colin;e:colin=serious
+s=colin;e:colin=rajah
 
 “I’m going out in my chair in a day or two if it is fine. I want some fresh air.”
 e:colin=neutral
@@ -8527,13 +8527,16 @@ s=colin;e:colin=happy
 “And the nurse, of course?” suggested Dr. Craven.
 s=drcraven;e:drcraven=neutral
 
-“No, I will not have the nurse,” so magnificently that Mary could not help remembering how the young native Prince had looked with his diamonds and emeralds and pearls stuck all over him and the great rubies on the small dark hand he had waved to command his servants to approach with salaams and receive his orders.
-s=colin;e:colin=serious
+“No, I will not have the nurse,”
+s=colin;e:colin=rajah;m=allowbreak
 
-“My cousin knows how to take care of me. I am always better when she is with me.”
-e:colin=happy
+so magnificently that Mary could not help remembering how the young native Prince had looked with his diamonds and emeralds and pearls stuck all over him and the great rubies on the small dark hand he had waved to command his servants to approach with salaams and receive his orders.
+m=;s=
 
-“She made me better last night. A very strong boy I know will push my carriage.”
+“My cousin knows how to take care of me. I am always better when she is with me. She made me better last night.”
+s=colin;e:colin=happy
+
+“A very strong boy I know will push my carriage.”
 e:colin=smirking
 
 Dr. Craven felt rather alarmed.
@@ -8546,10 +8549,10 @@ e:drcraven=contemplative
 s=drcraven;e:drcraven=serious
 
 “And I must know something about him. Who is he? What is his name?”
-e:drcraven=curious
+
 
 “It’s Dickon,” Mary spoke up suddenly.
-s=mary;e:mary=serious
+s=mary;e:mary=happy
 
 She felt somehow that everybody who knew the moor must know Dickon. And she was right, too.
 s=none;e:mary=thinking
@@ -8558,10 +8561,10 @@ She saw that in a moment Dr. Craven’s serious face relaxed into a relieved smi
 e:drcraven=happy
 
 “Oh, Dickon,” he said.
-s=drcraven;e:drcraven=happy
+s=drcraven;e:drcraven=sadsmile
 
 “If it is Dickon you will be safe enough. He’s as strong as a moor pony, is Dickon.”
-
+e:drcraven=thinking
 
 “And he’s trusty,” said Mary. “He’s th’ trustiest lad i’ Yorkshire.”
 s=mary;e:mary=happy
@@ -8570,34 +8573,37 @@ She had been talking Yorkshire to Colin and she forgot herself.
 s=none;e:mary=surprised
 
 “Did Dickon teach you that?” asked Dr. Craven, laughing outright.
-s=drcraven;e:drcraven=happy
+s=drcraven;e:drcraven=smirking
 
 “I’m learning it as if it was French,” said Mary rather coldly.
 s=mary;e:mary=serious
 
 “It’s like a native dialect in India. Very clever people try to learn them. I like it and so does Colin.”
-e:mary=neutral
+e:mary=thinking
 
 “Well, well,” he said. “If it amuses you perhaps it won’t do you any harm.”
 s=drcraven;e:drcraven=neutral
 
 “Did you take your bromide last night, Colin?”
-e:drcraven=curious
+e:drcraven=serious
 
 “No,” Colin answered. “I wouldn’t take it at first and after Mary made me quiet she talked me to sleep—in a low voice—about the spring creeping into a garden.”
 s=colin;e:colin=happy
 
-“That sounds soothing,” said Dr. Craven, more perplexed than ever and glancing sideways at Mistress Mary sitting on her stool and looking down silently at the carpet.
-s=drcraven;e:drcraven=confused
+“That sounds soothing,” said Dr. Craven,
+s=drcraven;e:drcraven=confused;m=allowbreak
+
+more perplexed than ever and glancing sideways at Mistress Mary sitting on her stool and looking down silently at the carpet.
+m=;s=
 
 “You are evidently better, but you must remember—”
-e:drcraven=serious
+s=drcraven;e:drcraven=serious
 
 “I don’t want to remember,” interrupted the Rajah, appearing again.
-s=colin;e:colin=angry
+s=colin;e:colin=rajah
 
 “When I lie by myself and remember I begin to have pains everywhere and I think of things that make me begin to scream because I hate them so.”
-e:colin=upset
+e:colin=contemplative
 
 “If there was a doctor anywhere who could make you forget you were ill instead of remembering it I would have him brought here.”
 e:colin=annoyed
@@ -8606,7 +8612,7 @@ And he waved a thin hand which ought really to have been covered with royal sign
 s=none;e:colin=serious
 
 “It is because my cousin makes me forget that she makes me better.”
-s=colin;e:colin=happy
+s=colin;e:colin=rajah
 
 Dr. Craven had never made such a short stay after a “tantrum”; usually he was obliged to remain a very long time and do a great many things.
 s=none;e:drcraven=thinking
@@ -8615,7 +8621,7 @@ This afternoon he did not give any medicine or leave any new orders and he was s
 
 
 When he went downstairs he looked very thoughtful and when he talked to Mrs. Medlock in the library she felt that he was a much puzzled man.
-e:drcraven=confused;e:mrsmedlock=neutral
+e:drcraven=confused;e:mrsmedlock=neutral;b=manor-hall
 
 “Well, sir,” she ventured, “could you have believed it?”
 s=mrsmedlock;e:mrsmedlock=surprised
@@ -8639,7 +8645,7 @@ e:mrsmedlock=thinking
 e:mrsmedlock=happy;n:mrsmedlock=Sarah Ann Medlock
 
 “She’s the best sick nurse I know,” said Dr. Craven. “When I find her in a cottage I know the chances are that I shall save my patient.”
-s=drcraven;e:drcraven=happy
+s=drcraven;e:drcraven=contemplative
 
 Mrs. Medlock smiled. She was fond of Susan Sowerby.
 s=none;e:mrsmedlock=happy
@@ -8650,11 +8656,17 @@ s=mrsmedlock;e:mrsmedlock=happy
 “I’ve been thinking all morning of one thing she said yesterday.”
 e:mrsmedlock=thinking
 
-“She says, ‘Once when I was givin’ th’ children a bit of a preach after they’d been fightin’ I ses to ’em all, “When I was at school my jography told as th’ world was shaped like a orange an’ I found out before I was ten that th’ whole orange doesn’t belong to nobody. No one owns more than his bit of a quarter an’ there’s times it seems like there’s not enow quarters to go round. But don’t you—none o’ you—think as you own th’ whole orange or you’ll find out you’re mistaken, an’ you won’t find it out without hard knocks.” What children learns from children,’ she says, ‘is that there’s no sense in grabbin’ at th’ whole orange—peel an’ all. If you do you’ll likely not get even th’ pips, an’ them’s too bitter to eat.’”
+“She says, ‘Once when I was givin’ th’ children a bit of a preach after they’d been fightin’ I ses to ’em all, “When I was at school my jography told as th’ world was shaped like a orange an’ I found out before I was ten that th’ whole orange doesn’t belong to nobody.”’”
 
+
+“‘“No one owns more than his bit of a quarter an’ there’s times it seems like there’s not enow quarters to go round. But don’t you—none o’ you—think as you own th’ whole orange or you’ll find out you’re mistaken, an’ you won’t find it out without hard knocks.”’”
+
+
+“‘What children learns from children,’ she says, ‘is that there’s no sense in grabbin’ at th’ whole orange—peel an’ all. If you do you’ll likely not get even th’ pips, an’ them’s too bitter to eat.’”
+m=
 
 “She’s a shrewd woman,” said Dr. Craven, putting on his coat.
-s=drcraven;e:drcraven=happy
+s=drcraven;e:drcraven=coating
 
 “Well, she’s got a way of saying things,” ended Mrs. Medlock, much pleased.
 s=mrsmedlock;e:mrsmedlock=happy
@@ -8663,10 +8675,10 @@ s=mrsmedlock;e:mrsmedlock=happy
 e:mrsmedlock=smirking
 
 —
-s=none
+s=none;b=light
 
 That night Colin slept without once awakening and when he opened his eyes in the morning he lay still and smiled without knowing it—smiled because he felt so curiously comfortable.
-e:colin=happy
+e:colin=happy;b=manor-colin
 
 It was actually nice to be awake, and he turned over and stretched his limbs luxuriously.
 
@@ -8690,7 +8702,7 @@ The next minute she was in the room and had run across to his bed, bringing with
 e:mary=excited
 
 “You’ve been out! You’ve been out! There’s that nice smell of leaves!” he cried.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;x:colin=bedtime;x:mary=ruffled
 
 She had been running and her hair was loose and blown and she was bright with the air and pink-cheeked, though he could not see it.
 s=none;e:mary=happy
@@ -8704,8 +8716,11 @@ s=mary;e:mary=excited
 “I thought it had come that other morning, but it was only coming. It is here now! It has come, the Spring! Dickon says so!”
 e:mary=happy
 
-“Has it?” cried Colin, and though he really knew nothing about it he felt his heart beat.
-s=colin;e:colin=excited
+“Has it?” cried Colin,
+s=colin;e:colin=excited;m=allowbreak
+
+and though he really knew nothing about it he felt his heart beat.
+m=;s=
 
 He actually sat up in bed.
 s=none
@@ -8717,7 +8732,7 @@ s=colin;e:colin=happy
 
 
 And though he laughed, Mary was at the window in a moment and in a moment more it was opened wide and freshness and softness and scents and birds’ songs were pouring through.
-s=none;e:mary=excited
+s=none;e:mary=excited;b=manor-window-colin-springer
 
 “That’s fresh air,” she said. “Lie on your back and draw in long breaths of it.”
 s=mary;e:mary=happy
@@ -8731,8 +8746,11 @@ e:mary=excited
 She was only repeating what Dickon had told her, but she caught Colin’s fancy.
 s=none;e:colin=surprised
 
-“‘Forever and ever’! Does it make him feel like that?” he said, and he did as she told him, drawing in long deep breaths over and over again until he felt that something quite new and delightful was happening to him.
-s=colin;e:colin=happy
+“‘Forever and ever’! Does it make him feel like that?” he said,
+s=colin;e:colin=happy;m=allowbreak
+
+and he did as she told him, drawing in long deep breaths over and over again until he felt that something quite new and delightful was happening to him.
+m=;s=
 
 Mary was at his bedside again.
 s=none;e:mary=happy
@@ -8749,11 +8767,8 @@ s=mary;e:mary=excited
 And then she paused for breath.
 s=none
 
-The newborn lamb Dickon had found three days before lying by its dead mother among the gorse bushes on the moor.
+The newborn lamb Dickon had found three days before lying by its dead mother among the gorse bushes on the moor. It was not the first motherless lamb he had found and he knew what to do with it.
 e:mary=serious
-
-It was not the first motherless lamb he had found and he knew what to do with it.
-
 
 He had taken it to the cottage wrapped in his jacket and he had let it lie near the fire and had fed it with warm milk.
 
@@ -8768,7 +8783,7 @@ A lamb—a lamb! A living lamb who lay on your lap like a baby!
 e:mary=excited
 
 She was describing it with great joy and Colin was listening and drawing in long breaths of air when the nurse entered.
-e:nurse=surprised;e:colin=happy
+e:nurse=surprised;e:colin=happy;b=manor-colin
 
 She started a little at the sight of the open window.
 e:nurse=wary
@@ -8779,11 +8794,8 @@ She had sat stifling in the room many a warm day because her patient was sure th
 “Are you sure you are not chilly, Master Colin?” she inquired.
 s=nurse;e:nurse=nervous
 
-“No,” was the answer.
-s=colin;e:colin=serious
-
-“I am breathing long breaths of fresh air. It makes you strong.”
-e:colin=happy
+“No,” was the answer. “I am breathing long breaths of fresh air. It makes you strong.”
+s=colin;e:colin=happy
 
 “I am going to get up to the sofa for breakfast and my cousin will have breakfast with me.”
 
@@ -8792,7 +8804,7 @@ The nurse went away, concealing a smile, to give the order for two breakfasts.
 s=none;e:nurse=smirking
 
 She found the servants’ hall a more amusing place than the invalid’s chamber and just now everybody wanted to hear the news from upstairs.
-
+b=manor-servants-hall
 
 There was a great deal of joking about the unpopular young recluse who, as the cook said, “had found his master, and good for him.”
 
@@ -8801,10 +8813,10 @@ The servants’ hall had been very tired of the tantrums, and the butler, who wa
 
 
 When Colin was on his sofa and the breakfast for two was put upon the table he made an announcement to the nurse in his most Rajah-like manner.
-e:colin=serious;e:nurse=neutral
+e:colin=serious;e:nurse=neutral;b=manor-colin
 
 “A boy, and a fox, and a crow, and two squirrels, and a newborn lamb, are coming to see me this morning. I want them brought upstairs as soon as they come,” he said.
-s=colin;e:colin=serious
+s=colin;e:colin=rajah
 
 “You are not to begin playing with the animals in the servants’ hall and keep them there. I want them here.”
 
@@ -8813,13 +8825,13 @@ The nurse gave a slight gasp and tried to conceal it with a cough.
 s=none;e:nurse=surprised
 
 “Yes, sir,” she answered.
-s=nurse;e:nurse=nervous
+s=nurse;e:nurse=gaspcough
 
 “I’ll tell you what you can do,” added Colin, waving his hand.
-s=colin;e:colin=smirking
+s=colin;e:colin=rajah
 
 “You can tell Martha to bring them here. The boy is Martha’s brother. His name is Dickon and he is an animal charmer.”
-
+e:colin=happy
 
 “I hope the animals won’t bite, Master Colin,” said the nurse.
 s=nurse;e:nurse=wary
@@ -8828,13 +8840,13 @@ s=nurse;e:nurse=wary
 s=colin;e:colin=serious
 
 “There are snake-charmers in India,” said Mary; “and they can put their snakes’ heads in their mouths.”
-s=mary;e:mary=serious
+s=mary;e:mary=happy
 
 “Goodness!” shuddered the nurse.
 s=nurse;e:nurse=fearful
 
 They ate their breakfast with the morning air pouring in upon them.
-s=none
+s=none;b=manor-window-colin-springer
 
 Colin’s breakfast was a very good one and Mary watched him with serious interest.
 e:mary=curious;e:colin=happy
@@ -8854,11 +8866,8 @@ e:colin=curious
 He was not long in coming. In about ten minutes Mary held up her hand.
 s=none;e:mary=surprised
 
-“Listen!” she said.
-s=mary;e:mary=excited
-
-“Did you hear a caw?”
-
+“Listen!” she said. “Did you hear a caw?”
+s=mary;e:mary=excitedhand
 
 Colin listened and heard it, the oddest sound in the world to hear inside a house, a hoarse “caw-caw.”
 s=none;e:colin=surprised
@@ -8876,7 +8885,7 @@ s=colin;e:colin=excited
 s=mary;e:mary=excited
 
 Dickon’s moorland boots were thick and clumsy and though he tried to walk quietly they made a clumping sound as he walked through the long corridors.
-s=none;e:dickon=neutral
+s=none;e:dickon=neutral;b=manor-colin
 
 Mary and Colin heard him marching—marching, until he passed through the tapestry door on to the soft carpet of Colin’s own passage.
 e:mary=excited;e:colin=excited
@@ -8884,8 +8893,11 @@ e:mary=excited;e:colin=excited
 “If you please, sir,” announced Martha, opening the door, “if you please, sir, here’s Dickon an’ his creatures.”
 s=martha;e:martha=happy
 
-Dickon came in smiling his nicest wide smile. The newborn lamb was in his arms and the little red fox trotted by his side.
-s=none;e:dickon=happy
+Dickon came in smiling his nicest wide smile.
+s=none;e:dickon=happy;b=dickon-entrance
+
+The newborn lamb was in his arms and the little red fox trotted by his side.
+
 
 Nut sat on his left shoulder and Soot on his right and Shell’s head and paws peeped out of his coat pocket.
 
@@ -8909,13 +8921,13 @@ Creatures were always like that until they found out about you.
 
 
 He walked over to Colin’s sofa and put the newborn lamb quietly on his lap, and immediately the little creature turned to the warm velvet dressing-gown and began to nuzzle and nuzzle into its folds and butt its tight-curled head with soft impatience against his side.
-
+b=manor-colin
 
 Of course no boy could have helped speaking then.
 
 
 “What is it doing?” cried Colin. “What does it want?”
-s=colin;e:colin=surprised
+s=colin;e:colin=lookingdown
 
 “It wants its mother,” said Dickon, smiling more and more.
 s=dickon;e:dickon=happy
@@ -8926,11 +8938,17 @@ s=dickon;e:dickon=happy
 He knelt down by the sofa and took a feeding-bottle from his pocket.
 s=none
 
-“Come on, little ’un,” he said, turning the small woolly white head with a gentle brown hand.
-s=dickon;e:dickon=happy
+“Come on, little ’un,” he said,
+s=dickon;e:dickon=happy;m=allowbreak
 
-“This is what tha’s after. Tha’ll get more out o’ this than tha’ will out o’ silk velvet coats. There now,” and he pushed the rubber tip of the bottle into the nuzzling mouth and the lamb began to suck it with ravenous ecstasy.
+turning the small woolly white head with a gentle brown hand.
+m=;s=
 
+“This is what tha’s after. Tha’ll get more out o’ this than tha’ will out o’ silk velvet coats. There now,”
+s=dickon;m=allowbreak
+
+and he pushed the rubber tip of the bottle into the nuzzling mouth and the lamb began to suck it with ravenous ecstasy.
+m=;s=
 
 After that there was no wondering what to say. By the time the lamb fell asleep questions poured forth and Dickon answered them all.
 s=none;e:colin=curious
@@ -8948,13 +8966,13 @@ s=dickon;e:dickon=serious
 e:dickon=thinking
 
 “Eh! I did have a look for it. I went in an’ out among th’ gorse bushes an’ round an’ round an’ I always seemed to take th’ wrong turnin’.”
-e:dickon=weary
+e:dickon=smirking
 
 “But at last I seed a bit o’ white by a rock on top o’ th’ moor an’ I climbed up an’ found th’ little ’un half dead wi’ cold an’ clemmin’.”
-e:dickon=unhappy
+e:dickon=thinking
 
 While he talked, Soot flew solemnly in and out of the open window and cawed remarks about the scenery while Nut and Shell made excursions into the big trees outside and ran up and down trunks and explored branches.
-s=none;e:dickon=neutral
+s=none;e:dickon=neutral;b=manor-window-colin-springer
 
 Captain curled up near Dickon, who sat on the hearthrug from preference.
 
@@ -8962,8 +8980,14 @@ Captain curled up near Dickon, who sat on the hearthrug from preference.
 They looked at the pictures in the gardening books and Dickon knew all the flowers by their country names and knew exactly which ones were already growing in the secret garden.
 e:colin=happy;e:mary=happy
 
-“I couldna’ say that there name,” he said, pointing to one under which was written “Aquilegia,” “but us calls that a columbine, an’ that there one it’s a snapdragon and they both grow wild in hedges, but these is garden ones an’ they’re bigger an’ grander.”
-s=dickon;e:dickon=happy
+“I couldna’ say that there name,” he said,
+s=dickon;e:dickon=happy;m=allowbreak
+
+pointing to one under which was written “Aquilegia,”
+s=
+
+“but us calls that a columbine, an’ that there one it’s a snapdragon and they both grow wild in hedges, but these is garden ones an’ they’re bigger an’ grander.”
+s=dickon;m=
 
 “There’s some big clumps o’ columbine in th’ garden. They’ll look like a bed o’ blue an’ white butterflies flutterin’ when they’re out.”
 e:dickon=excited
