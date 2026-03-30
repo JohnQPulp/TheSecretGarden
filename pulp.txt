@@ -8813,7 +8813,7 @@ The servants’ hall had been very tired of the tantrums, and the butler, who wa
 
 
 When Colin was on his sofa and the breakfast for two was put upon the table he made an announcement to the nurse in his most Rajah-like manner.
-e:colin=serious;e:nurse=neutral;b=manor-colin
+e:colin=serious;e:nurse=neutral;b=manor-colin;x:mary=daytime
 
 “A boy, and a fox, and a crow, and two squirrels, and a newborn lamb, are coming to see me this morning. I want them brought upstairs as soon as they come,” he said.
 s=colin;e:colin=rajah
@@ -9005,13 +9005,13 @@ s=mary;e:mary=serious
 r=title
 
 But they were obliged to wait more than a week because first there came some very windy days and then Colin was threatened with a cold, which two things happening one after the other would no doubt have thrown him into a rage but that there was so much careful and mysterious planning to do and almost every day Dickon came in, if only for a few minutes, to talk about what was happening on the moor and in the lanes and hedges and on the borders of streams.
-
+b=manor-colin
 
 The things he had to tell about otters’ and badgers’ and water-rats’ houses, not to mention birds’ nests and field-mice and their burrows, were enough to make you almost tremble with excitement when you heard all the intimate details from an animal charmer and realized with what thrilling eagerness and anxiety the whole busy underworld was working.
 
 
 “They’re same as us,” said Dickon, “only they have to build their homes every year.”
-s=dickon;e:dickon=happy
+s=dickon;e:dickon=happy;x:mary=daytime;x:colin=velvet
 
 “An’ it keeps ’em so busy they fair scuffle to get ’em done.”
 
@@ -9047,25 +9047,25 @@ It was almost as serious and elaborately thought out as the plans of march made 
 e:colin=serious
 
 Rumors of the new and curious things which were occurring in the invalid’s apartments had of course filtered through the servants’ hall into the stable yards and out among the gardeners, but notwithstanding this, Mr. Roach was startled one day when he received orders from Master Colin’s room to the effect that he must report himself in the apartment no outsider had ever seen, as the invalid himself desired to speak to him.
-e:roach=surprised
+e:roach=surprised;b=manor-servants-hall
 
-“Well, well,” he said to himself as he hurriedly changed his coat, “what’s to do now?”
-s=roach;e:roach=confused
-
-“His Royal Highness that wasn’t to be looked at calling up a man he’s never set eyes on.”
-e:roach=thinking
+“Well, well,” he said to himself as he hurriedly changed his coat, “what’s to do now? His Royal Highness that wasn’t to be looked at calling up a man he’s never set eyes on.”
+s=roach;e:roach=changing
 
 Mr. Roach was not without curiosity.
 s=none;e:roach=curious
 
 He had never caught even a glimpse of the boy and had heard a dozen exaggerated stories about his uncanny looks and ways and his insane tempers.
-
+b=manor-colin-night;f:b:manor-colin-night=blur(3px)
 
 The thing he had heard oftenest was that he might die at any moment and there had been numerous fanciful descriptions of a humped back and helpless limbs, given by people who had never seen him.
 
 
-“Things are changing in this house, Mr. Roach,” said Mrs. Medlock, as she led him up the back staircase to the corridor on to which opened the hitherto mysterious chamber.
-s=mrsmedlock;e:mrsmedlock=serious
+“Things are changing in this house, Mr. Roach,” said Mrs. Medlock,
+s=mrsmedlock;e:mrsmedlock=serious;m=allowbreak;b=manor-corridor-3
+
+as she led him up the back staircase to the corridor on to which opened the hitherto mysterious chamber.
+m=;s=
 
 “Let’s hope they’re changing for the better, Mrs. Medlock,” he answered.
 s=roach;e:roach=wary
@@ -9089,10 +9089,10 @@ s=roach
 
 
 It was perhaps well he had been prepared or he might have been startled.
-s=none
+s=none;b=manor-corridor-5
 
 When the bedroom door was opened a large crow, which seemed quite at home perched on the high back of a carven chair, announced the entrance of a visitor by saying “Caw﻿—Caw” quite loudly.
-
+b=manor-colin
 
 In spite of Mrs. Medlock’s warning, Mr. Roach only just escaped being sufficiently undignified to jump backward.
 e:roach=surprised
@@ -9118,8 +9118,11 @@ s=none;e:colin=serious
 “Oh, you are Roach, are you?” he said. “I sent for you to give you some very important orders.”
 s=colin
 
-“Very good, sir,” answered Roach, wondering if he was to receive instructions to fell all the oaks in the park or to transform the orchards into water-gardens.
-s=roach;e:roach=nervous
+“Very good, sir,” answered Roach,
+s=roach;e:roach=nervous;m=allowbreak
+
+wondering if he was to receive instructions to fell all the oaks in the park or to transform the orchards into water-gardens.
+m=;s=
 
 “I am going out in my chair this afternoon,” said Colin.
 s=colin
@@ -9133,26 +9136,32 @@ s=colin
 “I shall go out about two o’clock and everyone must keep away until I send word that they may go back to their work.”
 
 
-“Very good, sir,” replied Mr. Roach, much relieved to hear that the oaks might remain and that the orchards were safe.
-s=roach;e:roach=happy
+“Very good, sir,” replied Mr. Roach,
+s=roach;e:roach=happy;m=allowbreak
+
+much relieved to hear that the oaks might remain and that the orchards were safe.
+m=;s=
 
 “Mary,” said Colin, turning to her, “what is that thing you say in India when you have finished talking and want people to go?”
-s=colin;e:colin=curious
+s=colin;e:colin=looking
 
 “You say, ‘You have my permission to go,’ ” answered Mary.
-s=mary;e:mary=neutral
+s=mary;e:mary=smirking
 
 The Rajah waved his hand.
 s=none;e:colin=serious
 
 “You have my permission to go, Roach,” he said. “But, remember, this is very important.”
-s=colin
+s=colin;e:colin=rajah
 
 “Caw﻿—Caw!” remarked the crow hoarsely but not impolitely.
-s=none
+s=none;m=dialogue
 
-“Very good, sir. Thank you, sir,” said Mr. Roach, and Mrs. Medlock took him out of the room.
-s=roach;e:roach=neutral;e:mrsmedlock=neutral
+“Very good, sir. Thank you, sir,” said Mr. Roach,
+s=roach;e:roach=neutral;e:mrsmedlock=neutral;m=;m=allowbreak
+
+and Mrs. Medlock took him out of the room.
+m=;b=manor-corridor-5;s=
 
 Outside in the corridor, being a rather good-natured man, he smiled until he almost laughed.
 s=none;e:roach=happy
@@ -9179,7 +9188,7 @@ s=mrsmedlock;e:mrsmedlock=serious
 e:mrsmedlock=smirking
 
 Inside the room Colin was leaning back on his cushions.
-s=none;e:colin=contemplative
+s=none;e:colin=contemplative;b=manor-colin
 
 “It’s all safe now,” he said.
 s=colin;e:colin=happy
@@ -9251,10 +9260,10 @@ A little later the nurse made Colin ready.
 e:nurse=neutral
 
 She noticed that instead of lying like a log while his clothes were put on he sat up and made some efforts to help himself, and he talked and laughed with Mary all the time.
-e:nurse=surprised
+e:nurse=surprised;x:colin=outdoor
 
 “This is one of his good days, sir,” she said to Dr. Craven, who dropped in to inspect him.
-s=nurse;e:nurse=happy;e:drcraven=neutral
+s=nurse;e:nurse=happy;e:drcraven=neutral;b=manor-hall
 
 “He’s in such good spirits that it makes him stronger.”
 
@@ -9269,7 +9278,7 @@ s=drcraven;e:drcraven=thinking
 e:drcraven=wary
 
 “I’d rather give up the case this moment, sir, than even stay here while it’s suggested,” answered the nurse with sudden firmness.
-s=nurse;e:nurse=nervous
+s=nurse;e:nurse=serious
 
 “I hadn’t really decided to suggest it,” said the doctor, with his slight nervousness.
 s=drcraven;e:drcraven=nervous
@@ -9278,22 +9287,25 @@ s=drcraven;e:drcraven=nervous
 e:drcraven=neutral
 
 The strongest footman in the house carried Colin downstairs and put him in his wheeled chair near which Dickon waited outside.
-s=none;e:colin=neutral;e:dickon=happy
+s=none;e:colin=neutral;e:dickon=happy;b=manor-shrub-gate-springer
 
 After the manservant had arranged his rugs and cushions the Rajah waved his hand to him and to the nurse.
 e:colin=serious
 
-“You have my permission to go,” he said, and they both disappeared quickly and it must be confessed giggled when they were safely inside the house.
-s=colin
+“You have my permission to go,” he said,
+s=colin;e:colin=rajah;m=allowbreak
+
+and they both disappeared quickly and it must be confessed giggled when they were safely inside the house.
+m=;b=manor-hall;s=
 
 Dickon began to push the wheeled chair slowly and steadily.
-s=none;e:dickon=neutral
+s=none;e:dickon=neutral;b=manor-shrub-gate-springer
 
 Mistress Mary walked beside it and Colin leaned back and lifted his face to the sky.
 e:mary=happy
 
 The arch of it looked very high and the small snowy clouds seemed like white birds floating on outspread wings below its crystal blueness.
-
+b=manor-sky
 
 The wind swept in soft big breaths down from the moor and was strange with a wild clear scented sweetness.
 
@@ -9314,7 +9326,7 @@ s=dickon;e:dickon=happy
 
 
 Not a human creature was to be caught sight of in the paths they took.
-s=none
+s=none;b=manor-gardens-springer
 
 In fact every gardener or gardener’s lad had been witched away.
 
@@ -9323,22 +9335,25 @@ But they wound in and out among the shrubbery and out and round the fountain bed
 e:colin=happy;e:mary=happy
 
 But when at last they turned into the Long Walk by the ivied walls the excited sense of an approaching thrill made them, for some curious reason they could not have explained, begin to speak in whispers.
-e:colin=excited;e:mary=excited
+e:colin=excited;e:mary=excited;b=manor-wall-2-springer
 
 “This is it,” breathed Mary. “This is where I used to walk up and down and wonder and wonder.”
 s=mary
 
-“Is it?” cried Colin, and his eyes began to search the ivy with eager curiousness.
-s=colin;e:colin=curious
+“Is it?” cried Colin,
+s=colin;e:colin=curious;m=allowbreak
+
+and his eyes began to search the ivy with eager curiousness.
+m=;s=
 
 “But I can see nothing,” he whispered. “There is no door.”
-e:colin=confused
+s=colin;e:colin=confused
 
 “That’s what I thought,” said Mary.
 s=mary;e:mary=neutral
 
 Then there was a lovely breathless silence and the chair wheeled on.
-s=none
+s=none;b=manor-walled-garden-springer
 
 “That is the garden where Ben Weatherstaff works,” said Mary.
 s=mary
@@ -9347,7 +9362,7 @@ s=mary
 s=colin;e:colin=curious
 
 A few yards more and Mary whispered again.
-s=none
+s=none;b=manor-wall-springer
 
 “This is where the robin flew over the wall,” she said.
 s=mary;e:mary=excited
@@ -9356,22 +9371,28 @@ s=mary;e:mary=excited
 s=colin;e:colin=excited
 
 “And that,” said Mary with solemn delight, pointing under a big lilac bush, “is where he perched on the little heap of earth and showed me the key.”
-s=mary;e:mary=happy
+s=mary;e:mary=pointing;b=manor-soil
 
 Then Colin sat up.
 s=none
 
-“Where? Where? There?” he cried, and his eyes were as big as the wolf’s in Red Riding Hood, when Red Riding Hood felt called upon to remark on them.
-s=colin;e:colin=surprised
+“Where? Where? There?” he cried,
+s=colin;e:colin=surprised;m=allowbreak
+
+and his eyes were as big as the wolf’s in Red Riding Hood, when Red Riding Hood felt called upon to remark on them.
+m=;s=
 
 Dickon stood still and the wheeled chair stopped.
 s=none;e:dickon=serious
 
 “And this,” said Mary, stepping on to the bed close to the ivy, “is where I went to talk to him when he chirped at me from the top of the wall.”
-s=mary;e:mary=excited
+s=mary;e:mary=excited;b=manor-wall-springer
 
-“And this is the ivy the wind blew back,” and she took hold of the hanging green curtain.
+“And this is the ivy the wind blew back,”
+m=allowbreak
 
+and she took hold of the hanging green curtain.
+m=;s=
 
 “Oh! is it﻿—is it!” gasped Colin.
 s=colin;e:colin=surprised
@@ -9386,16 +9407,16 @@ And Dickon did it with one strong, steady, splendid push.
 s=none
 
 But Colin had actually dropped back against his cushions, even though he gasped with delight, and he had covered his eyes with his hands and held them there shutting out everything until they were inside and the chair stopped as if by magic and the door was closed.
-e:colin=nervous
+e:colin=nervous;b=light
 
 Not till then did he take them away and look round and round and round as Dickon and Mary had done.
-e:colin=surprised
+e:colin=surprised;b=dickon-chair
 
 And over walls and earth and trees and swinging sprays and tendrils the fair green veil of tender little leaves had crept, and in the grass under the trees and the gray urns in the alcoves and here and there everywhere were touches or splashes of gold and purple and white and the trees were showing pink and snow above his head and there were fluttering of wings and faint sweet pipes and humming and scents and scents.
-
+b=manor-secret-springer
 
 And the sun fell warm upon his face like a hand with a lovely touch.
-
+b=dickon-chair
 
 And in wonder Mary and Dickon stood and stared at him.
 e:mary=surprised;e:dickon=surprised
@@ -9404,7 +9425,7 @@ He looked so strange and different because a pink glow of color had actually cre
 
 
 “I shall get well! I shall get well!” he cried out.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;b=manor-secret-springer
 
 “Mary! Dickon! I shall get well! And I shall live forever and ever and ever!”
 
@@ -9413,7 +9434,7 @@ s=colin;e:colin=excited
 r=title
 
 One of the strange things about living in the world is that it is only now and then one is quite sure one is going to live forever and ever and ever.
-
+x:colin=outdoor;x:mary=daytime
 
 One knows it sometimes when one gets up at the tender solemn dawn-time and goes out and stands alone and throws one’s head far back and looks up and up and watches the pale sky slowly changing and flushing and marvelous unknown things happening until the East almost makes one cry out and one’s heart stands still at the strange unchanging majesty of the rising of the sun﻿—which has been happening every morning for thousands and thousands and thousands of years.
 
