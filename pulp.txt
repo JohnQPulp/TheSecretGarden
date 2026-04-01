@@ -437,7 +437,7 @@ Mary did not like her at all, but as she very seldom liked people there was noth
 e:mary=scowling;e:mrsmedlock=scowling;b=london-hotel;c=
 
 “My word! she’s a plain little piece of goods!” she said.
-s=mrsmedlock
+s=mrsmedlock;x:mrsmedlock=purple
 
 “And we’d heard that her mother was a beauty. She hasn’t handed much of it down, has she, ma’am?”
 
@@ -707,7 +707,7 @@ f:b:railway-carriage=blur(3px)
 r=title
 
 She slept a long time, and when she awakened Mrs. Medlock had bought a lunchbasket at one of the stations and they had some chicken and cold beef and bread and butter and some hot tea.
-e:mary=neutral;e:mrsmedlock=neutral;b=rainy-station
+e:mary=neutral;e:mrsmedlock=neutral;b=rainy-station;x:mrsmedlock=purple
 
 The rain seemed to be streaming down more heavily than ever and everybody in the station wore wet and glistening waterproofs.
 
@@ -4988,7 +4988,7 @@ She did not finish the sentence, because the door opened, and Mrs. Medlock walke
 s=none;e:mrsmedlock=neutral
 
 She had on her best black dress and cap, and her collar was fastened with a large brooch with a picture of a man’s face on it.
-x:mrsmedlock=black
+
 
 It was a colored photograph of Mr. Medlock who had died years ago, and she always wore it when she was dressed up.
 
