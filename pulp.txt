@@ -6788,7 +6788,7 @@ s=martha;e:martha=happy
 
 
 “It’s like me,” said Mary. “It’s growing stronger and fatter. I’m sure there’s more of it.”
-s=mary;e:mary=happy;x:mary=daylight
+s=mary;e:mary=happy;x:mary=daytime
 
 “It looks it, for sure,” said Martha,
 s=martha;m=allowbreak
