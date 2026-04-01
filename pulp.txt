@@ -4082,7 +4082,7 @@ It was a very strange thing indeed. She quite caught her breath as she stopped t
 
 
 A boy was sitting under a tree, with his back against it, playing on a rough wooden pipe.
-n:dickon=?;e:dickon=neutral;b=dickon-tree
+n:dickon=?;e:dickon=neutral;b=dickon-tree;
 
 He was a funny looking boy about twelve. He looked very clean and his nose turned up and his cheeks were as red as poppies and never had Mistress Mary seen such round and such blue eyes in any boy’s face.
 e:mary=curious
@@ -8930,7 +8930,7 @@ Of course no boy could have helped speaking then.
 s=colin;e:colin=lookingdown
 
 “It wants its mother,” said Dickon, smiling more and more.
-s=dickon;e:dickon=happy
+s=dickon;e:dickon=happy;x:dickon=capless
 
 “I brought it to thee a bit hungry because I knowed tha’d like to see it feed.”
 
@@ -9011,7 +9011,7 @@ The things he had to tell about otters’ and badgers’ and water-rats’ house
 
 
 “They’re same as us,” said Dickon, “only they have to build their homes every year.”
-s=dickon;e:dickon=happy;x:mary=daytime;x:colin=velvet
+s=dickon;e:dickon=happy;x:mary=daytime;x:colin=velvet;x:dickon=capless
 
 “An’ it keeps ’em so busy they fair scuffle to get ’em done.”
 
@@ -9287,7 +9287,7 @@ s=drcraven;e:drcraven=nervous
 e:drcraven=neutral
 
 The strongest footman in the house carried Colin downstairs and put him in his wheeled chair near which Dickon waited outside.
-s=none;e:colin=neutral;e:dickon=happy;b=manor-shrub-gate-springer
+s=none;e:colin=neutral;e:dickon=happy;b=manor-shrub-gate-springer;x:dickon=
 
 After the manservant had arranged his rugs and cushions the Rajah waved his hand to him and to the nurse.
 e:colin=serious
