@@ -428,7 +428,7 @@ She was very much absorbed in her own little boy and girl, and was rather glad t
 
 
 The woman was his housekeeper at Misselthwaite Manor, and her name was Mrs. Medlock. She was a stout woman, with very red cheeks and sharp black eyes.
-n:mrsmedlock=Mrs. Medlock;c=mrsmedlock
+n:mrsmedlock=Mrs. Medlock;c=mrsmedlock;x:mrsmedlock=purple
 
 She wore a very purple dress, a black silk mantle with jet fringe on it and a black bonnet with purple velvet flowers which stuck up and trembled when she moved her head.
 
@@ -437,7 +437,7 @@ Mary did not like her at all, but as she very seldom liked people there was noth
 e:mary=scowling;e:mrsmedlock=scowling;b=london-hotel;c=
 
 “My word! she’s a plain little piece of goods!” she said.
-s=mrsmedlock;x:mrsmedlock=purple
+s=mrsmedlock
 
 “And we’d heard that her mother was a beauty. She hasn’t handed much of it down, has she, ma’am?”
 
@@ -12533,10 +12533,10 @@ He did not understand at all himself﻿—but he remembered this strange hour mo
 b=light
 
 “I am going to live forever and ever and ever!”
-s=colin;e:colin=excited;x:colin=outdoor
+e:colin=excited;x:colin=outdoor;m=dialogue
 
 The singular calmness remained with him the rest of the evening and he slept a new reposeful sleep; but it was not with him very long.
-s=none;e:craven=neutral;b=dream
+s=none;e:craven=neutral;b=dream;m=
 
 He did not know that it could be kept.
 
