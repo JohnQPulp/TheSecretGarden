@@ -428,7 +428,7 @@ She was very much absorbed in her own little boy and girl, and was rather glad t
 
 
 The woman was his housekeeper at Misselthwaite Manor, and her name was Mrs. Medlock. She was a stout woman, with very red cheeks and sharp black eyes.
-n:mrsmedlock=Mrs. Medlock;c=mrsmedlock;x:mrsmedlock=purple
+n:mrsmedlock=Mrs. Medlock;x:mrsmedlock=purple
 
 She wore a very purple dress, a black silk mantle with jet fringe on it and a black bonnet with purple velvet flowers which stuck up and trembled when she moved her head.
 
