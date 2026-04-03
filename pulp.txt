@@ -353,7 +353,7 @@ and after that as long as she stayed with them they called her “Mistress Mary 
 b=clergyman-int
 
 “You are going to be sent home,” Basil said to her, “at the end of the week.”
-s=basil;e:basil=smirking
+s=basil;e:basil=happy
 
 “And we’re glad of it.”
 
@@ -362,7 +362,7 @@ s=basil;e:basil=smirking
 s=mary;e:mary=annoyed;x:mary=
 
 “She doesn’t know where home is!” said Basil, with seven-year-old scorn.
-s=basil
+s=basil;e:basil=happy
 
 “It’s England, of course. Our grandmama lives there and our sister Mabel was sent to her last year.”
 
