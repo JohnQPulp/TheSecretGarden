@@ -1,5 +1,5 @@
 <div class='center'><span class='big italics'>The Secret Garden</span> by&nbsp;Frances&nbsp;Hodgson&nbsp;Burnett</div><e>TODO</e>
-b=title;t=author
+b=title;t=author;z:author=103,45,4
 
 ## I. There Is No One Left
 r=title
@@ -35,7 +35,7 @@ One frightfully hot morning, when she was about nine years old, she awakened fee
 n:servant=Servant;e:mary=annoyed;e:servant=nervous;b=india-bedroom
 
 “Why did you come?” she said to the strange woman.
-s=mary;x:mary=bedtime
+s=mary;x:mary=bedtime;z:mary=87,,3
 
 “I will not let you stay. Send my Ayah to me.”
 e:mary=angry
@@ -92,10 +92,10 @@ They were large and scared and lifted imploringly to the fair boy officer’s fa
 
 
 “Is it so very bad? Oh, is it?” Mary heard her say.
-s=mother
+s=mother;z:mother=110,55,5
 
 “Awfully,” the young man answered in a trembling voice. “Awfully, Mrs. Lennox. You ought to have gone to the hills two weeks ago.”
-s=officer1;e:officer1=fearful
+s=officer1;e:officer1=fearful;z:officer1=108,,6
 
 The Mem Sahib wrung her hands.
 s=none;e:mother=upset
@@ -254,7 +254,7 @@ s=none;e:mary=scowling
 s=mary;e:mary=annoyed
 
 “It is the child no one ever saw!” exclaimed the man, turning to his companions.
-s=officer2;e:officer2=surprisedturn
+s=officer2;e:officer2=surprisedturn;z:officer2=,,5
 
 “She has actually been forgotten!”
 
@@ -263,7 +263,7 @@ s=officer2;e:officer2=surprisedturn
 s=mary;e:mary=angry
 
 The young man whose name was Barney looked at her very sadly.
-s=none;n:barney=Barney;e:barney=unhappy
+s=none;n:barney=Barney;e:barney=unhappy;z:barney=110,,7
 
 Mary even thought she saw him wink his eyes as if to wink tears away.
 
@@ -344,7 +344,7 @@ He danced round and round her and made faces and sang and laughed.
 
 
 “Mistress Mary, quite contrary,<br>&nbsp;&nbsp;&nbsp;&nbsp;How does your garden grow?<br>With silver bells, and cockle shells,<br>&nbsp;&nbsp;&nbsp;&nbsp;And marigolds all in a row.”
-s=basil;m=margin;e:basil=teasing
+s=basil;m=margin;e:basil=teasing;z:basil=87,,4
 
 He sang it until the other children heard and laughed, too; and the crosser Mary got, the more they sang “Mistress Mary, quite contrary”;
 s=none;e:mary=angry;m=
@@ -398,7 +398,7 @@ They tried to be kind to her, but she only turned her face away when Mrs. Crawfo
 n:mrcrawford=Mr. Crawford
 
 “She is such a plain child,” Mrs. Crawford said pityingly, afterward.
-s=mrscrawford;e:mrscrawford=contemplative;b=clergyman-int-night
+s=mrscrawford;e:mrscrawford=contemplative;b=clergyman-int-night;z:mrscrawford=110,,4
 
 “And her mother was such a pretty creature. She had a very pretty manner, too, and Mary has the most unattractive ways I ever saw in a child.”
 e:mrscrawford=unhappy
@@ -407,7 +407,7 @@ e:mrscrawford=unhappy
 
 
 “Perhaps if her mother had carried her pretty face and her pretty manners oftener into the nursery Mary might have learned some pretty ways too.”
-s=mrcrawford;e:mrcrawford=contemplative
+s=mrcrawford;e:mrcrawford=contemplative;z:mrcrawford=110,,2
 
 “It is very sad, now the poor beautiful thing is gone, to remember that many people never even knew that she had a child at all.”
 
@@ -437,13 +437,13 @@ Mary did not like her at all, but as she very seldom liked people there was noth
 e:mary=scowling;e:mrsmedlock=scowling;b=london-hotel;c=
 
 “My word! she’s a plain little piece of goods!” she said.
-s=mrsmedlock
+s=mrsmedlock;z:mrsmedlock=107,,6
 
 “And we’d heard that her mother was a beauty. She hasn’t handed much of it down, has she, ma’am?”
 
 
 “Perhaps she will improve as she grows older,” the officer’s wife said good-naturedly.
-s=officerswife;e:officerswife=contemplative
+s=officerswife;e:officerswife=contemplative;z:officerswife=112,55,5
 
 “If she were not so sallow and had a nicer expression, her features are rather good. Children alter so much.”
 
@@ -740,7 +740,7 @@ The stationmaster spoke to Mrs. Medlock in a rough, good-natured way, pronouncin
 n:stationmaster=Stationmaster
 
 “I see tha’s got back,” he said.
-s=stationmaster;e:stationmaster=happy
+s=stationmaster;e:stationmaster=happy;z:stationmaster=105,,5
 
 “An’ tha’s browt th’ young ’un with thee.”
 e:stationmaster=contemplative
@@ -887,7 +887,7 @@ A neat, thin old man stood near the manservant who opened the door for them.
 n:pitcher=?
 
 “You are to take her to her room,” he said in a husky voice.
-s=pitcher;e:pitcher=serious
+s=pitcher;e:pitcher=serious;z:pitcher=113,55,2
 
 “He doesn’t want to see her. He’s going to London in the morning.”
 
@@ -947,7 +947,7 @@ Martha, the young housemaid, who had just risen to her feet, looked and pointed 
 s=none;e:martha=neutral
 
 “That there?” she said.
-s=martha;e:martha=point
+s=martha;e:martha=point;z:martha=106,,5
 
 “Yes.”
 s=mary;e:mary=curious
@@ -1439,7 +1439,7 @@ e:ben=scowling;e:mary=scowling
 s=mary
 
 “One o’ th’ kitchen-gardens,” he answered.
-s=ben
+s=ben;z:ben=105,53,5
 
 “What is that?” said Mary, pointing through the other green door.
 s=mary;e:mary=pointing
@@ -4106,7 +4106,7 @@ He moved so slowly that it scarcely seemed as though he were moving at all, but 
 
 
 “I’m Dickon,” the boy said. “I know tha’rt Miss Mary.”
-s=dickon;e:dickon=happy;n:dickon=Dickon Sowerby;c=dickon
+s=dickon;e:dickon=happy;n:dickon=Dickon Sowerby;c=dickon;z:dickon=93,,4
 
 Then Mary realized that somehow she had known at first that he was Dickon.
 s=none;e:mary=surprised
@@ -5036,7 +5036,7 @@ e:craven=weary
 s=mrsmedlock
 
 “You can go and leave her here. I will ring for you when I want you to take her away,” said Mr. Craven.
-s=craven
+s=craven;z:craven=118,65,12
 
 When she went out and closed the door, Mary could only stand waiting, a plain little thing, twisting her thin hands together.
 s=none;e:mary=nervous
@@ -5498,7 +5498,7 @@ Then she crept across the room, and as she drew nearer the light attracted the b
 e:colin=surprised
 
 “Who are you?” he said at last in a half-frightened whisper.
-s=colin;e:colin=fearful
+s=colin;e:colin=fearful;z:colin=94,47,4
 
 “Are you a ghost?”
 
@@ -6659,7 +6659,7 @@ He sat down by Colin and felt his pulse.
 e:drcraven=serious
 
 “I am afraid there has been too much excitement. Excitement is not good for you, my boy,” he said.
-s=drcraven;e:drcraven=serious
+s=drcraven;e:drcraven=serious;z:drcraven=110,52,1
 
 “I should be excited if she kept away,” answered Colin, his eyes beginning to look dangerously sparkling.
 s=colin;e:colin=angry
@@ -7580,7 +7580,7 @@ e:mary=wary
 s=mary;e:mary=annoyed
 
 “At you two young ones,” said the nurse.
-s=nurse;e:nurse=handkerchiefgiggling
+s=nurse;e:nurse=handkerchiefgiggling;z:nurse=103,52,5
 
 “It’s the best thing that could happen to the sickly pampered thing to have someone to stand up to him that’s as spoiled as himself;”
 e:nurse=smirking
@@ -10991,7 +10991,7 @@ While he dug or weeded he whistled or sang bits of Yorkshire moor songs or talke
 
 
 “We’d never get on as comfortable as we do,” Mrs. Sowerby said, “if it wasn’t for Dickon’s garden. Anything’ll grow for him.”
-n:mrssowerby=Susan Sowerby;s=mrssowerby;e:mrssowerby=happy;
+n:mrssowerby=Susan Sowerby;s=mrssowerby;e:mrssowerby=happy;z:mrssowerby=103,53,4
 
 “His ’taters and cabbages is twice th’ size of anyone else’s an’ they’ve got a flavor with ’em as nobody’s has.”
 
