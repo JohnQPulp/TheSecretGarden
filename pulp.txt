@@ -302,7 +302,7 @@ She knew that she was not going to stay at the English clergyman’s house where
 e:mary=annoyed
 
 The English clergyman was poor and he had five children nearly all the same age and they wore shabby clothes and were always quarreling and snatching toys from each other.
-b=cleryman-int
+b=clergyman-int
 
 Mary hated their untidy bungalow and was so disagreeable to them that after the first day or two nobody would play with her.
 e:mary=angry
