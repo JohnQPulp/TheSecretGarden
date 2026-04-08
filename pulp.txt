@@ -53,7 +53,7 @@ But no one would tell her anything and her Ayah did not come.
 e:mary=confused
 
 She was actually left alone as the morning went on, and at last she wandered out into the garden and began to play by herself under a tree near the veranda.
-b=india-garden;x:mary=hat
+b=india-gardens;x:mary=hat
 
 She pretended that she was making a flowerbed, and she stuck big scarlet hibiscus blossoms into little heaps of earth, all the time growing more and more angry and muttering to herself the things she would say and the names she would call Saidie when she returned.
 e:mary=angry
@@ -107,7 +107,7 @@ s=mother;e:mother=upset
 
 
 At that very moment such a loud sound of wailing broke out from the servants’ quarters that she clutched the young man’s arm, and Mary stood shivering from head to foot.
-s=none;e:mary=fearful;e:mother=surprised;b=india-garden
+s=none;e:mary=fearful;e:mother=surprised;b=india-gardens
 
 The wailing grew wilder and wilder.
 
@@ -392,7 +392,7 @@ and she turned her back and stuck her fingers in her ears, because she would not
 s=
 
 But she thought over it a great deal afterward; and when Mrs. Crawford told her that night that she was going to sail away to England in a few days and go to her uncle, Mr. Archibald Craven, who lived at Misselthwaite Manor, she looked so stony and stubbornly uninterested that they did not know what to think about her.
-s=none;n:mrscrawford=Mrs. Crawford;e:mary=scowling;b=clergyman-bedroom-night
+s=none;n:mrscrawford=Mrs. Crawford;e:mary=scowling;b=think
 
 They tried to be kind to her, but she only turned her face away when Mrs. Crawford attempted to kiss her, and held herself stiffly when Mr. Crawford patted her shoulder.
 n:mrcrawford=Mr. Crawford
@@ -1526,7 +1526,7 @@ s=mary;e:mary=curious
 e:mary=
 
 She walked back into the first kitchen-garden she had entered and found the old man digging there.
-s=none;e:mary=neutral;b=manor-walled-garden-1
+s=none;e:mary=neutral;b=manor-walled-garden
 
 She went and stood beside him and watched him a few moments in her cold little way.
 
@@ -2411,7 +2411,7 @@ Just after she had closed the cabinet door she heard a tiny rustling sound.
 e:mary=nervous
 
 It made her jump and look around at the sofa by the fireplace, from which it seemed to come.
-e:mary=fearful;b=manor-sitting-sofa
+e:mary=fearful
 
 In the corner of the sofa there was a cushion, and in the velvet which covered it there was a hole, and out of the hole peeped a tiny head with a pair of frightened eyes in it.
 e:mary=curious
@@ -11792,7 +11792,7 @@ They went to the Indian room and amused themselves with the ivory elephants.
 s=none;b=manor-sitting
 
 They found the rose-colored brocade boudoir and the hole in the cushion the mouse had left but the mice had grown up and run away and the hole was empty.
-b=manor-sitting-sofa
+
 
 They saw more rooms and made more discoveries than Mary had made on her first pilgrimage.
 b=manor-corridor-6
