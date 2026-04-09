@@ -12434,7 +12434,7 @@ He had not been courageous; he had never tried to put any other thoughts in the 
 e:craven=weary
 
 He had wandered by blue lakes and thought them; he had lain on mountainsides with sheets of deep blue gentians blooming all about him and flower breaths filling all the air and he had thought them.
-b=moutains-and-lakes
+b=mountains-and-lakes
 
 A terrible sorrow had fallen upon him when he had been happy and he had let his soul fill itself with blackness and had refused obstinately to allow any rift of light to pierce through.
 e:craven=unhappy
@@ -12455,7 +12455,7 @@ He had traveled far and wide since the day he saw Mistress Mary in his study and
 e:craven=neutral
 
 He had been in the most beautiful places in Europe, though he had remained nowhere more than a few days. He had chosen the quietest and remotest spots.
-b=moutains-and-lakes
+b=mountains-and-lakes
 
 He had been on the tops of mountains whose heads were in the clouds and had looked down on other mountains when the sun rose and touched them with such light as made it seem as if the world were just being born.
 
