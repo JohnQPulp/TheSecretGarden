@@ -11609,13 +11609,13 @@ The robin talked this over with his mate a great deal for a few days but after t
 
 
 When the boy began to walk by himself and even to move more quickly it was an immense relief. But for a long time﻿—or it seemed a long time to the robin﻿—he was a source of some anxiety.
-b=manor-secret-garden-walls-springest;f:b:manor-secret-garden-walls-springest=blur(3px)
+b=manor-secret-walls-springest;f:b:manor-secret-walls-springest=blur(3px)
 
 He did not act as the other humans did. He seemed very fond of walking but he had a way of sitting or lying down for a while and then getting up in a disconcerting manner to begin again.
 
 
 One day the robin remembered that when he himself had been made to learn to fly by his parents he had done much the same sort of thing.
-b=robin-nest;f:b:manor-secret-garden-walls-springest=
+b=robin-nest;f:b:manor-secret-walls-springest=
 
 He had taken short flights of a few yards and then had been obliged to rest.
 
