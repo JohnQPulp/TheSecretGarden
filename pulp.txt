@@ -3365,7 +3365,7 @@ Her skipping-rope had hung over her arm when she came in and after she had walke
 e:mary=happy
 
 There seemed to have been grass paths here and there, and in one or two corners there were alcoves of evergreen with stone seats or tall moss-covered flower urns in them.
-
+b=manor-secret-alcove
 
 As she came near the second of these alcoves she stopped skipping.
 e:mary=curious;b=manor-secret-alcove
@@ -11588,7 +11588,7 @@ His movements also were robin. They never startled one by being sudden enough to
 
 
 But at the outset it seemed necessary to be on guard against the other two.
-b=secret-garden-springer;f:b:secret-garden-springer=blur(3px)
+b=manor-secret-springer;f:b:manor-secret-springer=blur(3px)
 
 In the first place the boy creature did not come into the garden on his legs.
 
@@ -11609,13 +11609,13 @@ The robin talked this over with his mate a great deal for a few days but after t
 
 
 When the boy began to walk by himself and even to move more quickly it was an immense relief. But for a long time﻿—or it seemed a long time to the robin﻿—he was a source of some anxiety.
-b=secret-garden-walls-springest;f:b:secret-garden-walls-springest=blur(3px)
+b=manor-secret-garden-walls-springest;f:b:manor-secret-garden-walls-springest=blur(3px)
 
 He did not act as the other humans did. He seemed very fond of walking but he had a way of sitting or lying down for a while and then getting up in a disconcerting manner to begin again.
 
 
 One day the robin remembered that when he himself had been made to learn to fly by his parents he had done much the same sort of thing.
-b=robin-nest;f:b:secret-garden-walls-springest=
+b=robin-nest;f:b:manor-secret-garden-walls-springest=
 
 He had taken short flights of a few yards and then had been obliged to rest.
 
