@@ -719,7 +719,7 @@ She ate a great deal and afterward fell asleep herself, and Mary sat and stared 
 e:mary=weary;b=light
 
 It was quite dark when she awakened again. The train had stopped at a station and Mrs. Medlock was shaking her.
-b=railway-carriage;f:b:railway-carriage=brigtness(85%);x:mary=black
+b=railway-carriage-night;x:mary=black
 
 “You have had a sleep!” she said.
 s=mrsmedlock;e:mrsmedlock=smirking
