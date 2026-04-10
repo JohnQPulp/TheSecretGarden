@@ -2744,7 +2744,7 @@ Very soon she heard the soft rustling flight of wings again and she knew at once
 s=none;e:mary=surprised
 
 He was very pert and lively, and hopped about so close to her feet, and put his head on one side and looked at her so slyly that she asked Ben Weatherstaff a question.
-e:mary=curious;o=robin-sly
+e:mary=curious;o=robin-curious
 
 “Do you think he remembers me?” she said.
 s=mary;e:mary=lookingdown
@@ -3863,7 +3863,7 @@ s=mary;e:mary=happy
 e:mary=excited
 
 There, indeed, was the robin, and she thought he looked nicer than ever.
-s=none;o=robin-tilted
+s=none;o=robin-curious
 
 His red waistcoat was as glossy as satin and he flirted his wings and tail and tilted his head and hopped about with all sorts of lively graces.
 
