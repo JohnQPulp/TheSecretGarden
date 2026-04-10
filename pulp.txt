@@ -3233,13 +3233,13 @@ Mary had stepped close to the robin, and suddenly the gust of wind swung aside s
 e:mary=surprised
 
 This she did because she had seen something under it—a round knob which had been covered by the leaves hanging over it.
-o=knob
+b=knob
 
 It was the knob of a door.
 e:mary=excited
 
 She put her hands under the leaves and began to pull and push them aside.
-o=
+b=manor-wall
 
 Thick as the ivy hung, it nearly all was a loose and swinging curtain, though some had crept over wood and iron.
 
