@@ -65,10 +65,10 @@ because to call a native a pig is the worst insult of all.
 m=;s=
 
 She was grinding her teeth and saying this over and over again when she heard her mother come out on the veranda with someone.
-s=none;e:mother=nervous;b=india-veranda-meeting
+s=none;e:mother=nervous;
 
 She was with a fair young man and they stood talking together in low strange voices.
-n:officer1=?;e:officer1=serious
+n:officer1=?;e:officer1=serious;b=india-veranda-meeting
 
 Mary knew the fair young man who looked like a boy. She had heard that he was a very young officer who had just come from England.
 e:mary=curious
@@ -812,7 +812,7 @@ e:mary=curious
 s=mrsmedlock;e:mrsmedlock=thinking
 
 The carriage lamps shed a yellow light on a rough-looking road which seemed to be cut through bushes and low growing things which ended in the great expanse of dark apparently spread out before and around them.
-s=none;b=brougham-moors
+s=none;
 
 A wind was rising and making a singular, wild, low, rushing sound.
 
@@ -2132,7 +2132,7 @@ s=martha;e:martha=nervous
 s=mary;e:mary=serious
 
 And at that very moment a door must have been opened somewhere downstairs; for a great rushing draft blew along the passage and the door of the room they sat in was blown open with a crash, and as they both jumped to their feet the light was blown out and the crying sound was swept down the far corridor so that it was to be heard more plainly than ever.
-s=none;e:mary=surprised;e:martha=surprised;e:mary=fearful;e:martha=fearful;b=manor-open-door-nursery
+s=none;e:mary=surprised;e:martha=surprised;e:mary=fearful;e:martha=fearful;b=manor-mary-open
 
 “There!” said Mary. “I told you so!”
 s=mary;e:mary=surprised
@@ -2141,7 +2141,7 @@ s=mary;e:mary=surprised
 e:mary=serious
 
 Martha ran and shut the door and turned the key, but before she did it they both heard the sound of a door in some far passage shutting with a bang, and then everything was quiet, for even the wind ceased “wutherin’” for a few moments.
-s=none;e:martha=nervous;b=manor-nursery-night;f:b:manor-nursery-night=brightness(85%)
+s=none;e:martha=nervous;b=manor-mary-fire-out
 
 “It was th’ wind,” said Martha stubbornly.
 s=martha;e:martha=serious
