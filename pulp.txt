@@ -6728,7 +6728,7 @@ e:colin=happy;s=colin
 r=title
 
 After another week of rain the high arch of blue sky appeared again and the sun which poured down was quite hot.
-b=manor-window-mary-blue
+b=manor-window-mary-blue-springer
 
 Though there had been no chance to see either the secret garden or Dickon, Mistress Mary had enjoyed herself very much. The week had not seemed long.
 e:mary=happy
@@ -6875,7 +6875,7 @@ The sun was pouring in slanting rays through the blinds and there was something 
 e:mary=excited
 
 She drew up the blinds and opened the window itself and a great waft of fresh, scented air blew in upon her.
-b=manor-window-mary-blue-opened
+b=manor-window-mary-blue-springer-opened
 
 The moor was blue and the whole world looked as if something Magic had happened to it.
 
@@ -11447,7 +11447,7 @@ It became possible for both Colin and Mary to do more of them each time they tri
 e:mary=happy;e:colin=happy
 
 But the little oven in the hollow and Mrs. Sowerby’s bounties were so satisfying that Mrs. Medlock and the nurse and Dr. Craven became mystified again.
-e:mrsmedlock=confused;e:drcraven=confused;b=manor-wide-springest
+e:mrsmedlock=confused;e:drcraven=confused;b=manor-wide-spring
 
 You can trifle with your breakfast and seem to disdain your dinner if you are full to the brim with roasted eggs and potatoes and richly frothed new milk and oatcakes and buns and heather honey and clotted cream.
 
@@ -12413,7 +12413,7 @@ So long as Colin shut himself up in his room and thought only of his fears and w
 e:colin=upset;b=manor-colin-night
 
 When new beautiful thoughts began to push out the old hideous ones, life began to come back to him, his blood ran healthily through his veins and strength poured into him like a flood.
-e:colin=happy;b=manor-wide-springest
+e:colin=happy;b=manor-wide-spring
 
 His scientific experiment was quite practical and simple and there was nothing weird about it at all.
 
