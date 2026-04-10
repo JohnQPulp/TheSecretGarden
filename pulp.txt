@@ -5411,7 +5411,7 @@ s=mary
 s=none
 
 She had been lying awake turning from side to side for about an hour, when suddenly something made her sit up in bed and turn her head toward the door listening.
-s=none;e:mary=wary;b=manor-mary-door-night
+s=none;e:mary=wary;b=manor-mary-open
 
 She listened and she listened.
 
@@ -7715,7 +7715,7 @@ e:mary=thinking;b=manor-mary-night;x:mary=bedtime
 s=mary;e:mary=contemplative
 
 She thought it was the middle of the night when she was wakened by such dreadful sounds that she jumped out of bed in an instant.
-s=none;e:mary=surprised;b=manor-mary-door-night
+s=none;e:mary=surprised;b=manor-mary-open
 
 What was it﻿—what was it?
 e:mary=wary
@@ -9410,13 +9410,13 @@ But Colin had actually dropped back against his cushions, even though he gasped 
 e:colin=nervous;b=light
 
 Not till then did he take them away and look round and round and round as Dickon and Mary had done.
-e:colin=surprised;b=dickon-chair
+e:colin=surprised;b=colin-chair
 
 And over walls and earth and trees and swinging sprays and tendrils the fair green veil of tender little leaves had crept, and in the grass under the trees and the gray urns in the alcoves and here and there everywhere were touches or splashes of gold and purple and white and the trees were showing pink and snow above his head and there were fluttering of wings and faint sweet pipes and humming and scents and scents.
 b=manor-secret-springer
 
 And the sun fell warm upon his face like a hand with a lovely touch.
-b=dickon-chair
+b=colin-chair
 
 And in wonder Mary and Dickon stood and stared at him.
 e:mary=surprised;e:dickon=surprised
@@ -10061,7 +10061,7 @@ He walked to the tree and though Dickon held his arm he was wonderfully steady.
 s=none
 
 When he stood against the tree trunk it was not too plain that he supported himself against it, and he still held himself so straight that he looked tall.
-b=dickon-tree-support
+b=colin-tree-support
 
 When Ben Weatherstaff came through the door in the wall he saw him standing there and he heard Mary muttering something under her breath.
 e:ben=surprised
