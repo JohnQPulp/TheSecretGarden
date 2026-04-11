@@ -9773,7 +9773,7 @@ Mary and Dickon wheeled about and looked.
 s=none;e:mary=fearful;e:dickon=wary
 
 There was Ben Weatherstaff’s indignant face glaring at them over the wall from the top of a ladder!
-e:ben=angry;b=ben-ladder
+e:ben=angry;
 
 He actually shook his fist at Mary.
 
@@ -10061,7 +10061,7 @@ He walked to the tree and though Dickon held his arm he was wonderfully steady.
 s=none
 
 When he stood against the tree trunk it was not too plain that he supported himself against it, and he still held himself so straight that he looked tall.
-b=colin-tree-support
+
 
 When Ben Weatherstaff came through the door in the wall he saw him standing there and he heard Mary muttering something under her breath.
 e:ben=surprised
@@ -10325,7 +10325,7 @@ The thin white hands shook a little and Colin’s flush grew deeper as he set th
 s=none;e:colin=nervous
 
 It was filled in and pressed down and made steady.
-e:mary=excited;b=planted-rose
+e:mary=excited;
 
 Mary was leaning forward on her hands and knees.
 
@@ -13100,7 +13100,7 @@ When Mrs. Medlock looked she threw up her hands and gave a little shriek and eve
 s=none;e:mrsmedlock=surprised
 
 Across the lawn came the Master of Misselthwaite and he looked as many of them had never seen him.
-e:craven=happy;b=colin-craven-walking
+e:craven=happy;b=light
 
 And by his side with his head up in the air and his eyes full of laughter walked as strongly and steadily as any boy in Yorkshire﻿—Master Colin!
 e:colin=happy
