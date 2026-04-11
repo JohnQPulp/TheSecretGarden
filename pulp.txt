@@ -5,7 +5,7 @@ b=title;t=author;z:author=103,45,4
 r=title
 
 When Mary Lennox was sent to Misselthwaite Manor to live with her uncle everybody said she was the most disagreeable-looking child ever seen.
-n:mary=Mary Lennox;e:mary=scowling;b=manor-wide;a:mary=sick
+n:mary=Mary Lennox;e:mary=scowling;b=brougham-manor-wide;a:mary=sick
 
 It was true, too. She had a little thin face and a little thin body, thin light hair and a sour expression.
 
@@ -92,19 +92,19 @@ They were large and scared and lifted imploringly to the fair boy officer’s fa
 
 
 “Is it so very bad? Oh, is it?” Mary heard her say.
-s=mother;z:mother=110,55,5
+s=mother;z:mother=110,60,5;e:mother=upset
 
 “Awfully,” the young man answered in a trembling voice. “Awfully, Mrs. Lennox. You ought to have gone to the hills two weeks ago.”
 s=officer1;e:officer1=fearful;z:officer1=108,,6
 
 The Mem Sahib wrung her hands.
-s=none;e:mother=upset
+s=none;e:mother=upset;
 
 “Oh, I know I ought!” she cried.
-s=mother;e:mother=upset
+s=mother;e:mother=upset;i=2
 
 “I only stayed to go to that silly dinner party. What a fool I was!”
-
+i=
 
 At that very moment such a loud sound of wailing broke out from the servants’ quarters that she clutched the young man’s arm, and Mary stood shivering from head to foot.
 s=none;e:mary=fearful;e:mother=surprised;b=india-gardens
@@ -116,16 +116,13 @@ The wailing grew wilder and wilder.
 s=mother;e:mother=fearful
 
 “Someone has died,” answered the boy officer.
-s=officer1;e:officer1=nervous
+s=officer1;e:officer1=nervous;i=2
 
 “You did not say it had broken out among your servants.”
+i=
 
-
-“I did not know!” the Mem Sahib cried.
+“I did not know!” the Mem Sahib cried. “Come with me! Come with me!”
 s=mother;e:mother=upset
-
-“Come with me! Come with me!”
-
 
 and she turned and ran into the house.
 s=none
@@ -160,11 +157,8 @@ e:mary=neutral
 It was sweet, and she did not know how strong it was.
 
 
-Very soon it made her intensely drowsy,
-e:mary=weary;m=allowbreak
-
-and she went back to her nursery and shut herself in again, frightened by cries she heard in the huts and by the hurrying sound of feet.
-b=india-nursery;m=
+Very soon it made her intensely drowsy, and she went back to her nursery and shut herself in again, frightened by cries she heard in the huts and by the hurrying sound of feet.
+e:mary=weary;b=india-nursery
 
 The wine made her so sleepy that she could scarcely keep her eyes open and she lay down on her bed and knew nothing more for a long time.
 f:b:india-nursery=blur(5px)
@@ -211,11 +205,8 @@ e:mary=neutral
 He slipped under the door as she watched him.
 
 
-“How queer and quiet it is,” she said.
-s=mary;e:mary=confused;x:mary=neglected
-
-“It sounds as if there was no one in the bungalow but me and the snake.”
-
+“How queer and quiet it is,” she said. “It sounds as if there was no one in the bungalow but me and the snake.”
+s=mary;x:mary=neglected;e:mary=serious
 
 Almost the next minute she heard footsteps in the compound, and then on the veranda.
 s=none;e:mary=surprised
@@ -245,7 +236,7 @@ e:officer2=surprised
 s=officer2
 
 “I am Mary Lennox,” the little girl said, drawing herself up stiffly.
-s=mary;e:mary=serious
+s=mary;e:mary=confused
 
 She thought the man was very rude to call her father’s bungalow “A place like this!”
 s=none;e:mary=scowling
@@ -275,7 +266,7 @@ s=barney
 
 
 It was in that strange and sudden way that Mary found out that she had neither father nor mother left; that they had died and been carried away in the night, and that the few native servants who had not died also had left the house as quickly as they could get out of it, none of them even remembering that there was a Missie Sahib.
-s=none;e:mary=surprised
+s=none;e:mary=surprised;b=india-wide
 
 That was why the place was so quiet.
 e:mary=weary
