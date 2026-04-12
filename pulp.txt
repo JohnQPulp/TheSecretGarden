@@ -1838,7 +1838,7 @@ and after each breakfast she gazed out of the window across to the huge moor whi
 e:mary=thinking;b=manor-window-mary
 
 She did not know that this was the best thing she could have done, and she did not know that, when she began to walk quickly or even run along the paths and down the avenue, she was stirring her slow blood and making herself stronger by fighting with the wind which swept down from the moor.
-b=manor-gardens
+b=manor-wide
 
 She ran only to make herself warm, and she hated the wind which rushed at her face and roared and held her back as if it were some giant she could not see.
 e:mary=annoyed
@@ -1853,7 +1853,7 @@ e:mary=surprised;b=manor-nursery
 s=martha;e:martha=happy;x:mary=daytime
 
 “It tastes nice today,” said Mary, feeling a little surprised herself.
-s=mary;e:mary=contemplative
+s=mary;e:mary=serious
 
 “It’s th’ air of th’ moor that’s givin’ thee stomach for tha’ victuals,” answered Martha.
 s=martha;e:martha=smirking
@@ -1865,13 +1865,13 @@ e:martha=thinking
 e:martha=
 
 “I don’t play,” said Mary. “I have nothing to play with.”
-s=mary;e:mary=annoyed
+s=mary;e:mary=thinking;i=2
 
 “Nothin’ to play with!” exclaimed Martha.
 s=martha;e:martha=surprised
 
 “Our children plays with sticks and stones. They just runs about an’ shouts an’ looks at things.”
-e:martha=neutral
+e:martha=serious
 
 Mary did not shout, but she looked at things. There was nothing else to do.
 s=none;e:mary=neutral
@@ -1919,7 +1919,7 @@ e:mary=happy
 m=dialogue
 
 Mary began to laugh, and as he hopped and took little flights along the wall she ran after him.
-e:mary=happy;m=;b=robin-run
+e:mary=happy;m=;
 
 Poor little thin, sallow, ugly Mary﻿—she actually looked almost pretty for a moment.
 
@@ -1946,10 +1946,10 @@ Now she was on the other side of the orchard and standing in the path outside a 
 s=mary;e:mary=curious
 
 “It’s the garden without a door. He lives in there.”
-e:mary=contemplative
+e:mary=thinking
 
 “How I wish I could see what it is like!”
-e:mary=unhappy
+e:mary=serious;i=2
 
 She ran up the walk to the green door she had entered the first morning.
 s=none;e:mary=neutral;b=manor-wall
@@ -1979,10 +1979,10 @@ In India she had always felt hot and too languid to care much about anything.
 e:mary=weary
 
 The fact was that the fresh wind from the moor had begun to blow the cobwebs out of her young brain and to waken her up a little.
-e:mary=neutral;b=light
+e:mary=neutral;
 
 She stayed out of doors nearly all day, and when she sat down to her supper at night she felt hungry and drowsy and comfortable.
-e:mary=happy
+e:mary=happy;b=manor-nursery-night
 
 She did not feel cross when Martha chattered away.
 b=manor-nursery-night;x:mary=daytime
@@ -1994,7 +1994,7 @@ She asked it after she had finished her supper and had sat down on the hearthrug
 b=manor-mary-fire
 
 “Why did Mr. Craven hate the garden?” she said.
-s=mary
+s=mary;i=2
 
 She had made Martha stay with her and Martha had not objected at all.
 s=none;e:martha=happy
@@ -2009,7 +2009,7 @@ She sat down on the hearth herself without waiting to be asked.
 e:martha=neutral
 
 “Art tha’ thinkin’ about that garden yet?” she said.
-s=martha;e:martha=smirking
+s=martha;e:martha=happy;i=2
 
 “I knew tha’ would. That was just the way with me when I first heard about it.”
 e:martha=thinking
@@ -2020,11 +2020,11 @@ s=mary;e:mary=serious
 Martha tucked her feet under her and made herself quite comfortable.
 s=none;e:martha=happy
 
-“Listen to th’ wind wutherin’ round the house,” she said.<e>Using the word "wutherin'" in your moor book — too on-the-nose!</e>
+“Listen to th’ wind wutherin’ round the house,” she said.<e>Using the word "wuthering" in your moor book. On-the-nose!</e>
 s=martha;e:martha=serious
 
 “You could bare stand up on the moor if you was out on it tonight.”
-
+e:martha=thinking
 
 Mary did not know what “wutherin’” meant until she listened, and then she understood.
 s=none;e:mary=thinking
@@ -2036,7 +2036,7 @@ But one knew he could not get in, and somehow it made one feel very safe and war
 e:mary=happy
 
 “But why did he hate it so?” she asked, after she had listened.
-s=mary;e:mary=curious
+s=mary;e:mary=wary
 
 She intended to know if Martha did.
 s=none;e:mary=serious
@@ -2105,7 +2105,7 @@ It was far away, but it was inside. She turned round and looked at Martha.
 
 
 “Do you hear anyone crying?” she said.
-s=mary;e:mary=nervous
+s=mary;e:mary=fearful
 
 Martha suddenly looked confused.
 s=none;e:martha=confused
@@ -2132,10 +2132,10 @@ Martha ran and shut the door and turned the key, but before she did it they both
 s=none;e:martha=nervous;b=manor-mary-fire-out
 
 “It was th’ wind,” said Martha stubbornly.
-s=martha;e:martha=serious
+s=martha;e:martha=wary;i=2
 
 “An’ if it wasn’t, it was little Betty Butterworth, th’ scullery-maid. She’s had th’ toothache all day.”
-e:martha=wary
+e:martha=serious;i=2
 
 But something troubled and awkward in her manner made Mistress Mary stare very hard at her.
 s=none;e:mary=suspicious
