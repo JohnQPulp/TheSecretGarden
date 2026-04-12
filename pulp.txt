@@ -929,7 +929,7 @@ Out of a deep window she could see a great climbing stretch of land which seemed
 b=manor-window-mary
 
 “What is that?” she said, pointing out of the window.
-s=mary;e:mary=curiouspoint
+s=mary;e:mary=looking
 
 Martha, the young housemaid, who had just risen to her feet, looked and pointed also.
 s=none;e:martha=neutral
@@ -938,7 +938,7 @@ s=none;e:martha=neutral
 s=martha;e:martha=point;z:martha=106,,5
 
 “Yes.”
-s=mary;e:mary=curious
+s=mary;e:mary=serious
 
 “That’s th’ moor,” with a good-natured grin.
 s=martha;e:martha=happy
@@ -974,10 +974,10 @@ e:martha=excited
 e:martha=happy
 
 Mary listened to her with a grave, puzzled expression.
-s=none;e:mary=confused;b=manor-mary
+s=none;e:mary=confused
 
 The native servants she had been used to in India were not in the least like this. They were obsequious and servile and did not presume to talk to their masters as if they were their equals.
-e:mary=thinking
+e:mary=thinking;b=martha-fire
 
 They made salaams and called them “protector of the poor” and names of that sort. Indian servants were commanded to do things, not asked.
 
@@ -986,7 +986,7 @@ It was not the custom to say “please” and “thank you” and Mary had alway
 e:mary=scowling
 
 She wondered a little what this girl would do if one slapped her in the face.
-e:mary=curious;b=martha-fire
+e:mary=curious;
 
 She was a round, rosy, good-natured looking creature, but she had a sturdy way which made Mistress Mary wonder if she might not even slap back—if the person who slapped her was only a little girl.
 e:mary=wary
@@ -998,7 +998,7 @@ Martha sat up on her heels, with her blacking-brush in her hand, and laughed, wi
 s=none;e:martha=happy
 
 “Eh! I know that,” she said. “If there was a grand Missus at Misselthwaite I should never have been even one of th’ under housemaids.”
-s=martha;e:martha=smirking
+s=martha;e:martha=happy;i=3
 
 “I might have been let to be scullery-maid but I’d never have been let upstairs. I’m too common an’ I talk too much Yorkshire.”
 e:martha=neutral
@@ -1013,19 +1013,19 @@ e:martha=thinking
 e:martha=neutral
 
 “Are you going to be my servant?” Mary asked, still in her imperious little Indian way.
-s=mary;e:mary=serious
+s=mary;e:mary=annoyed
 
 Martha began to rub her grate again.
 s=none
 
 “I’m Mrs. Medlock’s servant,” she said stoutly.
-s=martha;e:martha=neutral
+s=martha;e:martha=polishing
 
 “An’ she’s Mr. Craven’s—but I’m to do the housemaid’s work up here an’ wait on you a bit. But you won’t need much waitin’ on.”
-
+e:martha=thinking
 
 “Who is going to dress me?” demanded Mary.
-s=mary;e:mary=annoyed
+s=mary;e:mary=serious
 
 Martha sat up on her heels again and stared.
 s=none;e:martha=surprised
@@ -1049,7 +1049,7 @@ e:martha=curious
 s=mary;e:mary=angry
 
 “I never did in my life. My Ayah dressed me, of course.”
-
+e:mary=annoyed
 
 “Well,” said Martha, evidently not in the least aware that she was impudent, “it’s time tha’ should learn. Tha’ cannot begin younger.”
 s=martha;e:martha=neutral
@@ -1061,7 +1061,7 @@ s=martha;e:martha=neutral
 e:martha=smirking
 
 “It is different in India,” said Mistress Mary disdainfully.
-s=mary;e:mary=scowling
+s=mary;e:mary=
 
 She could scarcely stand this.
 s=none
@@ -1109,7 +1109,7 @@ Mary did not even try to control her rage and humiliation.
 s=none;e:mary=upset
 
 “You thought I was a native! You dared! You don’t know anything about natives!”
-s=mary;e:mary=angry
+s=mary;e:mary=
 
 “They are not people—they’re servants who must salaam to you. You know nothing about India.”
 e:mary=annoyed
@@ -1130,10 +1130,10 @@ She went to the bed and bent over her.
 s=martha;e:martha=upset
 
 “You mustn’t for sure. I didn’t know you’d be vexed.”
-e:martha=nervous
+e:martha=fearful;i=2
 
 “I don’t know anythin’ about anythin’—just like you said. I beg your pardon, Miss. Do stop cryin’.”
-
+i=
 
 There was something comforting and really friendly in her queer Yorkshire speech and sturdy way which had a good effect on Mary.
 s=none;e:mary=unhappy
@@ -1142,34 +1142,31 @@ She gradually ceased crying and became quiet. Martha looked relieved.
 e:mary=neutral;e:martha=happy
 
 “It’s time for thee to get up now,” she said.
-s=martha;e:martha=neutral
+s=martha;e:martha=sadsmile
 
 “Mrs. Medlock said I was to carry tha’ breakfast an’ tea an’ dinner into th’ room next to this. It’s been made into a nursery for thee.”
-
+e:martha=polishing
 
 “I’ll help thee on with thy clothes if tha’ll get out o’ bed. If th’ buttons are at th’ back tha’ cannot button them up tha’self.”
-
+e:martha=contemplative;i=2
 
 When Mary at last decided to get up, the clothes Martha took from the wardrobe were not the ones she had worn when she arrived the night before with Mrs. Medlock.
-s=none
+s=none;b=manor-mary-fire-out
 
 “Those are not mine,” she said. “Mine are black.”
-s=mary;e:mary=confused
+s=mary;e:mary=contemplative
 
 She looked the thick white wool coat and dress over, and added with cool approval:
 s=none;e:mary=neutral
 
 “Those are nicer than mine.”
-s=mary;e:mary=contemplative
+s=mary;e:mary=thinking
 
 “These are th’ ones tha’ must put on,” Martha answered. “Mr. Craven ordered Mrs. Medlock to get ’em in London.”
 s=martha;e:martha=neutral
 
-“He said, ‘I won’t have a child dressed in black wanderin’ about like a lost soul,’ he said.”
+“He said, ‘I won’t have a child dressed in black wanderin’ about like a lost soul,’ he said. ‘It’d make the place sadder than it is. Put color on her.’”
 e:martha=contemplative
-
-“‘It’d make the place sadder than it is. Put color on her.’”
-
 
 “Mother she said she knew what he meant. Mother always knows what a body means. She doesn’t hold with black hersel’.”
 e:martha=happy
@@ -1220,13 +1217,13 @@ e:mary=curious
 s=martha;e:martha=excited
 
 “I can tell you my mother’s put to it to get porridge for ’em all. They tumble about on th’ moor an’ play there all day an’ mother says th’ air of th’ moor fattens ’em.”
-
+e:martha=happy;i=3
 
 “She says she believes they eat th’ grass same as th’ wild ponies do. Our Dickon, he’s twelve years old and he’s got a young pony he calls his own.”
 e:martha=happy
 
 “Where did he get it?” asked Mary.
-s=mary;e:mary=curious
+s=mary;e:mary=serious
 
 “He found it on th’ moor with its mother when it was a little one an’ he began to make friends with it an’ give it bits o’ bread an’ pluck young grass for it.”
 s=martha
@@ -1250,13 +1247,13 @@ But she had always had a very small appetite, and she looked with something more
 e:mary=weary
 
 “I don’t want it,” she said.
-s=mary;e:mary=annoyed
+s=mary;e:mary=contemplative
 
 “Tha’ doesn’t want thy porridge!” Martha exclaimed incredulously.
 s=martha;e:martha=surprised
 
 “No.”
-s=mary
+s=mary;e:mary=serious;i=2
 
 “Tha’ doesn’t know how good it is. Put a bit o’ treacle on it or a bit o’ sugar.”
 s=martha;e:martha=neutral
@@ -1274,16 +1271,16 @@ s=mary;e:mary=serious
 s=martha;e:martha=serious
 
 “I don’t know what it is to be hungry,” said Mary, with the indifference of ignorance.
-s=mary;e:mary=thinking
+s=mary;e:mary=serious;i=2
 
 Martha looked indignant.
 s=none;e:martha=angry
 
 “Well, it would do thee good to try it. I can see that plain enough,” she said outspokenly.
-s=martha;e:martha=annoyed
+s=martha;e:martha=scowling;
 
 “I’ve no patience with folk as sits an’ just stares at good bread an’ meat. My word! don’t I wish Dickon and Phil an’ Jane an’ th’ rest of ’em had what’s here under their pinafores.”
-e:martha=scowling
+e:martha=serious;i=2
 
 “Why don’t you take it to them?” suggested Mary.
 s=mary;e:mary=curious
@@ -1292,13 +1289,13 @@ s=mary;e:mary=curious
 s=martha;e:martha=serious
 
 “An’ this isn’t my day out. I get my day out once a month same as th’ rest. Then I go home an’ clean up for mother an’ give her a day’s rest.”
-e:martha=neutral
+e:martha=thinking
 
 Mary drank some tea and ate a little toast and some marmalade.
 s=none;e:mary=neutral
 
 “You wrap up warm an’ run out an’ play you,” said Martha.
-s=martha
+s=martha;e:martha=
 
 “It’ll do you good and give you some stomach for your meat.”
 
@@ -1322,7 +1319,7 @@ Perhaps it would be better to go and see what the gardens were like.
 e:mary=thinking
 
 “Who will go with me?” she inquired.
-s=mary;e:mary=curious
+s=mary;e:mary=serious
 
 Martha stared.
 s=none;e:martha=surprised
@@ -1340,16 +1337,16 @@ It was really this mention of Dickon which made Mary decide to go out, though sh
 s=none;e:mary=curious
 
 There would be birds outside though there would not be ponies or sheep. They would be different from the birds in India and it might amuse her to look at them.
-e:mary=thinking
+e:mary=thinking;b=manor-wide
 
 Martha found her coat and hat for her and a pair of stout little boots and she showed her her way downstairs.
-e:martha=neutral;x:mary=coat;b=light
+e:martha=neutral;x:mary=coat
 
 “If tha’ goes round that way tha’ll come to th’ gardens,” she said, pointing to a gate in a wall of shrubbery.
-s=martha;b=manor-shrub-gate
+s=martha;b=manor-shrub-gate;e:martha=point
 
 “There’s lots o’ flowers in summertime, but there’s nothin’ bloomin’ now.”
-
+e:martha=
 
 She seemed to hesitate a second before she added,
 s=
@@ -1358,13 +1355,16 @@ s=
 s=martha;e:martha=contemplative
 
 “Why?” asked Mary in spite of herself.
-s=mary;e:mary=surprised
+s=mary;e:mary=confused
 
 Here was another locked door added to the hundred in the strange house.
 s=none;e:mary=thinking
 
-“Mr. Craven had it shut when his wife died so sudden. He won’t let no one go inside. It was her garden. He locked th’ door an’ dug a hole and buried th’ key.”
+“Mr. Craven had it shut when his wife died so sudden. He won’t let no one go inside. It was her garden.”
 s=martha;e:martha=unhappy
+
+“He locked th’ door an’ dug a hole and buried th’ key.”
+e:martha=upset;i=2
 
 “There’s Mrs. Medlock’s bell ringing—I must run.”
 e:martha=nervous
@@ -1378,14 +1378,14 @@ e:mary=thinking
 When she had passed through the shrubbery gate she found herself in great gardens, with wide lawns and winding walks with clipped borders.
 b=manor-gardens
 
-There were trees, and flowerbeds, and evergreens clipped into strange shapes, and a large pool with an old gray fountain in its midst.
+There were trees, and flowerbeds, and evergreens clipped into strange shapes, and a large pool with an old gray fountain in its midst. But the flowerbeds were bare and wintry and the fountain was not playing.
 
 
-But the flowerbeds were bare and wintry and the fountain was not playing.
-
-
-This was not the garden which was shut up. How could a garden be shut up? You could always walk into a garden.
+This was not the garden which was shut up.
 e:mary=confused
+
+How could a garden be shut up? You could always walk into a garden.
+
 
 She was just thinking this when she saw that, at the end of the path she was following, there seemed to be a long wall, with ivy growing over it.
 e:mary=curious;b=manor-wall
@@ -1424,13 +1424,13 @@ He had a surly old face, and did not seem at all pleased to see her—but then s
 e:ben=scowling;e:mary=scowling
 
 “What is this place?” she asked.
-s=mary
+s=mary;e:mary=
 
 “One o’ th’ kitchen-gardens,” he answered.
 s=ben;z:ben=105,53,5
 
 “What is that?” said Mary, pointing through the other green door.
-s=mary;e:mary=pointing
+s=mary;e:mary=looking
 
 “Another of ’em,” shortly.
 s=ben;e:ben=annoyed
@@ -1475,7 +1475,7 @@ She could see the tops of trees above the wall, and when she stood still she saw
 e:mary=surprised
 
 She stopped and listened to him and somehow his cheerful, friendly little whistle gave her a pleased feeling—even a disagreeable little girl may be lonely, and the big closed house and big bare moor and big bare gardens had made this one feel as if there was no one left in the world but herself.
-e:mary=happy;o=robin-song
+e:mary=happy;
 
 If she had been an affectionate child, who had been used to being loved, she would have broken her heart, but even though she was “Mistress Mary Quite Contrary” she was desolate, and the bright-breasted little bird brought a look into her sour little face which was almost a smile.
 
@@ -1493,25 +1493,25 @@ She was curious about it and wanted to see what it was like.
 e:mary=curious
 
 Why had Mr. Archibald Craven buried the key? If he had liked his wife so much why did he hate her garden?
-
+b=manor-wide
 
 She wondered if she should ever see him, but she knew that if she did she should not like him, and he would not like her, and that she should only stand and stare at him and say nothing, though she should be wanting dreadfully to ask him why he had done such a queer thing.
 e:mary=contemplative
 
 “People never like me and I never like people,” she thought.
-t=mary;e:mary=contemplative
+t=mary;e:mary=;b=manor-wall
 
 “And I never can talk as the Crawford children could. They were always talking and laughing and making noises.”
-
+e:mary=contemplative
 
 She thought of the robin and of the way he seemed to sing his song at her, and as she remembered the treetop he perched on she stopped rather suddenly on the path.
 s=none;e:mary=surprised;t=
 
 “I believe that tree was in the secret garden—I feel sure it was,” she said.
-s=mary;e:mary=curious
+s=mary;e:mary=contemplative;i=2
 
 “There was a wall round the place and there was no door.”
-e:mary=
+e:mary=;i=
 
 She walked back into the first kitchen-garden she had entered and found the old man digging there.
 s=none;e:mary=neutral;b=manor-walled-garden
@@ -1523,16 +1523,16 @@ He took no notice of her and so at last she spoke to him.
 
 
 “I have been into the other gardens,” she said.
-s=mary
+s=mary;e:mary=serious
 
 “There was nothin’ to prevent thee,” he answered crustily.
 s=ben;e:ben=scowling;x:ben=
 
 “I went into the orchard.”
-s=mary
+s=mary;e:mary=thinking
 
 “There was no dog at th’ door to bite thee,” he answered.
-s=ben
+s=ben;e:ben=serious;i=2
 
 “There was no door there into the other garden,” said Mary.
 s=mary;e:mary=contemplative
@@ -1541,10 +1541,10 @@ s=mary;e:mary=contemplative
 s=ben;e:ben=wary
 
 “The one on the other side of the wall,” answered Mistress Mary.
-s=mary
+s=mary;e:mary=unhappy
 
 “There are trees there—I saw the tops of them. A bird with a red breast was sitting on one of them and he sang.”
-
+e:mary=
 
 To her surprise the surly old weather-beaten face actually changed its expression. A slow smile spread over it and the gardener looked quite different.
 s=none;e:mary=surprised
@@ -1571,10 +1571,10 @@ and then he spoke to the bird as if he were speaking to a child.
 m=;s=
 
 “Where has tha’ been, tha’ cheeky little beggar?” he said.
-s=ben
+s=ben;e:ben=hunching
 
 “I’ve not seen thee before today. Has tha’ begun tha’ courtin’ this early in th’ season? Tha’rt too forrad.”
-
+e:ben=smirking;i=2
 
 The bird put his tiny head on one side and looked up at him with his soft bright eye which was like a black dewdrop.
 s=none
@@ -1601,7 +1601,7 @@ e:ben=
 
 
 “What kind of a bird is he?” Mary asked.
-s=mary
+s=mary;e:mary=confused
 
 “Doesn’t tha’ know? He’s a robin redbreast an’ they’re th’ friendliest, curiousest birds alive.”<e>A note to my fellow North Americaners: the European robin is a different bird than the American robin. Their version is smaller and allegedly chummier, though both birds share the color trait of… not being red. (Color meanings change over time.)</e>
 s=ben;e:ben=happy
@@ -1610,7 +1610,7 @@ s=ben;e:ben=happy
 e:ben=
 
 “Watch him peckin’ about there an’ lookin’ round at us now an’ again. He knows we’re talkin’ about him.”
-e:ben=smirking
+e:ben=hunching
 
 It was the queerest thing in the world to see the old fellow. He looked at the plump little scarlet-waistcoated bird as if he were both proud and fond of him.
 s=none;e:mary=surprised
@@ -1649,7 +1649,7 @@ Mistress Mary went a step nearer to the robin and looked at him very hard.
 s=none;e:mary=serious
 
 “I’m lonely,” she said.
-s=mary;e:mary=looking
+s=mary;e:mary=lookingdown
 
 She had not known before that this was one of the things which made her feel sour and cross.
 s=none;e:mary=thinking
@@ -1661,31 +1661,31 @@ The old gardener pushed his cap back on his bald head and stared at her a minute
 e:ben=wary
 
 “Art tha’ th’ little wench from India?” he asked.
-s=ben;e:ben=curious
+s=ben;e:ben=shaking
 
 Mary nodded.
 s=none;e:mary=neutral
 
 “Then no wonder tha’rt lonely. Tha’lt be lonelier before tha’s done,” he said.
-s=ben;e:ben=serious
+s=ben;e:ben=unhappy
 
 He began to dig again, driving his spade deep into the rich black garden soil while the robin hopped about very busily employed.
 s=none;e:ben=neutral
 
 “What is your name?” Mary inquired.
-s=mary;e:mary=curious
+s=mary;e:mary=unhappy
 
 He stood up to answer her.
 s=none
 
 “Ben Weatherstaff,” he answered,
-s=ben;e:ben=;n:ben=Ben Weatherstaff;m=allowbreak
+s=ben;e:ben=thinking;i=2;n:ben=Ben Weatherstaff;m=allowbreak
 
 and then he added with a surly chuckle,
 s=
 
 “I’m lonely mysel’ except when he’s with me,”
-e:ben=smirking
+e:ben=smirking;s=ben;i=2
 
 and he jerked his thumb toward the robin.
 s=;m=
@@ -1700,13 +1700,13 @@ It is a Yorkshire habit to say what you think with blunt frankness, and old Ben 
 s=none;e:ben=neutral
 
 “Tha’ an’ me are a good bit alike,” he said.
-s=ben
+s=ben;e:ben=smirking
 
 “We was wove out of th’ same cloth. We’re neither of us good lookin’ an’ we’re both of us as sour as we look.”
-
+e:ben=thinking
 
 “We’ve got the same nasty tempers, both of us, I’ll warrant.”
-e:ben=smirking
+e:ben=smirking;i=2
 
 This was plain speaking, and Mary Lennox had never heard the truth about herself in her life.
 s=none;e:mary=surprised
@@ -1745,10 +1745,10 @@ and she moved toward the little tree softly and looked up.
 s=;m=
 
 “Would you make friends with me?” she said to the robin just as if she was speaking to a person.
-e:mary=contemplative;s=mary
+e:mary=confused;s=mary
 
 “Would you?”
-
+e:mary=thinking
 
 And she did not say it either in her hard little voice or in her imperious Indian voice, but in a tone so soft and eager and coaxing that Ben Weatherstaff was as surprised as she had been when she heard him whistle.
 s=none;e:ben=surprised
@@ -1757,13 +1757,13 @@ s=none;e:ben=surprised
 s=ben
 
 “Tha’ said it almost like Dickon talks to his wild things on th’ moor.”
-e:ben=happy
+e:ben=happy;i=2
 
 “Do you know Dickon?” Mary asked, turning round rather in a hurry.
 s=mary;e:mary=surprised
 
 “Everybody knows him. Dickon’s wanderin’ about everywhere. Th’ very blackberries an’ heather-bells knows him.”
-s=ben
+s=ben;
 
 “I warrant th’ foxes shows him where their cubs lies an’ th’ skylarks doesn’t hide their nests from him.”
 
@@ -1784,13 +1784,13 @@ s=mary;e:mary=unhappy
 e:mary=surprised
 
 “He lives there,” said old Ben. “He came out o’ th’ egg there.”
-s=ben;e:ben=neutral
+s=ben;e:ben=neutral;i=2
 
 “If he’s courtin’, he’s makin’ up to some young madam of a robin that lives among th’ old rose-trees there.”
 e:ben=thinking
 
 “Rose-trees,” said Mary. “Are there rose-trees?”
-s=mary;e:mary=curious
+s=mary;e:mary=confused
 
 Ben Weatherstaff took up his spade again and began to dig.
 s=none;e:ben=neutral
@@ -1799,10 +1799,10 @@ s=none;e:ben=neutral
 s=ben;e:ben=serious
 
 “I should like to see them,” said Mary.
-s=mary;e:mary=contemplative
+s=mary;e:mary=curious
 
 “Where is the green door? There must be a door somewhere.”
-e:mary=
+e:mary=looking
 
 Ben drove his spade deep and looked as uncompanionable as he had looked when she first saw him.
 s=none;e:ben=scowling
@@ -1811,13 +1811,13 @@ s=none;e:ben=scowling
 s=ben
 
 “No door!” cried Mary. “There must be.”
-s=mary;e:mary=annoyed
+s=mary;e:mary=scowling
 
-“None as anyone can find, an’ none as is anyone’s business.”
+“None as anyone can find, an’ none as is anyone’s business. Don’t you be a meddlesome wench an’ poke your nose where it’s no cause to go.”
 s=ben;e:ben=angry
 
-“Don’t you be a meddlesome wench an’ poke your nose where it’s no cause to go. Here, I must go on with my work. Get you gone an’ play you. I’ve no more time.”
-
+“Here, I must go on with my work. Get you gone an’ play you. I’ve no more time.”
+e:ben=serious;i=2
 
 And he actually stopped digging, threw his spade over his shoulder and walked off, without even glancing at her or saying goodbye.
 s=none;e:mary=surprised
