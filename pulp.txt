@@ -3728,7 +3728,7 @@ The sun could get at them and warm them, and when the rain came down it could re
 
 
 Mary was an odd, determined little person, and now she had something interesting to be determined about, she was very much absorbed, indeed.
-e:mary=serious;b=mary-weeding
+e:mary=serious
 
 She worked and dug and pulled up weeds steadily, only becoming more pleased with her work every hour instead of tiring of it.
 e:mary=happy
@@ -3779,13 +3779,13 @@ s=ben;e:ben=smirking
 
 
 “He’s friends with me now,” said Mary.
-s=mary;e:mary=happy
+s=mary;e:mary=thinking;i=2
 
 “That’s like him,” snapped Ben Weatherstaff. “Makin’ up to th’ women folk just for vanity an’ flightiness.”
 s=ben;e:ben=annoyed
 
 “There’s nothin’ he wouldn’t do for th’ sake o’ showin’ off an’ flirtin’ his tail-feathers. He’s as full o’ pride as an egg’s full o’ meat.”
-e:ben=scowling
+e:ben=smirking
 
 He very seldom talked much and sometimes did not even answer Mary’s questions except by a grunt, but this morning he said more than usual.
 s=none;e:ben=neutral
@@ -3794,7 +3794,7 @@ He stood up and rested one hobnailed boot on the top of his spade while he looke
 e:ben=curious
 
 “How long has tha’ been here?” he jerked out.
-s=ben
+s=ben;e:ben=hunching
 
 “I think it’s about a month,” she answered.
 s=mary;e:mary=thinking
@@ -3809,10 +3809,10 @@ Mary was not vain and as she had never thought much of her looks she was not gre
 s=none;e:mary=neutral
 
 “I know I’m fatter,” she said. “My stockings are getting tighter. They used to make wrinkles.”
-s=mary;e:mary=happy
+s=mary;e:mary=happy;i=2
 
 “There’s the robin, Ben Weatherstaff.”
-e:mary=excited
+e:mary=curious
 
 There, indeed, was the robin, and she thought he looked nicer than ever.
 s=none;o=robin-curious
@@ -3833,7 +3833,7 @@ s=ben
 
 
 “I know what tha’s up to. Tha’s courtin’ some bold young madam somewhere, tellin’ thy lies to her about bein’ th’ finest cock robin on Missel Moor an’ ready to fight all th’ rest of ’em.”
-
+e:ben=;i=2
 
 “Oh! look at him!” exclaimed Mary.
 s=mary;e:mary=excited
@@ -3844,14 +3844,11 @@ s=none
 He flew on to the nearest currant bush and tilted his head and sang a little song right at him.
 o=robin-bush
 
-“Tha’ thinks tha’ll get over me by doin’ that,” said Ben,
-s=ben;e:ben=contemplative;e:mary=happy;m=allowbreak
-
-wrinkling his face up in such a way that Mary felt sure he was trying not to look pleased.
-s=;m=
+“Tha’ thinks tha’ll get over me by doin’ that,” said Ben, wrinkling his face up in such a way that Mary felt sure he was trying not to look pleased.
+s=ben;e:ben=contemplative;i=2;e:mary=happy;
 
 “Tha’ thinks no one can stand out against thee﻿—that’s what tha’ thinks.”
-s=ben
+s=ben;e:ben=serious;i=2
 
 The robin spread his wings﻿—Mary could scarcely believe her eyes.
 s=none;e:mary=surprised;o=
@@ -3869,7 +3866,7 @@ He spoke quite in a whisper.
 
 
 “Well, I’m danged!” he said as softly as if he were saying something quite different.
-s=ben;e:ben=surprised
+s=ben;e:ben=contemplative;i=
 
 “Tha’ does know how to get at a chap﻿—tha’ does! Tha’s fair unearthly, tha’s so knowin’.”
 e:ben=happy
@@ -3884,16 +3881,16 @@ But because he kept breaking into a slow grin now and then, Mary was not afraid 
 e:ben=happy;e:mary=neutral
 
 “Have you a garden of your own?” she asked.
-s=mary;e:mary=curious
+s=mary;e:mary=thinking
 
 “No. I’m bachelder an’ lodge with Martin at th’ gate.”
-s=ben;e:ben=thinking
+s=ben;e:ben=thinking;i=2
 
 “If you had one,” said Mary, “what would you plant?”
-s=mary
+s=mary;i=2
 
 “Cabbages an’ ’taters an’ onions.”
-s=ben
+s=ben;e:ben=
 
 “But if you wanted to make a flower garden,” persisted Mary, “what would you plant?”
 s=mary;e:mary=curious
@@ -3914,7 +3911,7 @@ s=none;e:ben=contemplative
 s=ben
 
 “She had a lot in a place she was fond of, an’ she loved ’em like they was children﻿—or robins. I’ve seen her bend over an’ kiss ’em.”
-
+e:ben=weary
 
 He dragged out another weed and scowled at it.
 s=none;e:ben=scowling
@@ -3923,13 +3920,13 @@ s=none;e:ben=scowling
 s=ben
 
 “Where is she now?” asked Mary, much interested.
-s=mary;e:mary=curious
+s=mary;e:mary=serious
 
 “Heaven,” he answered, and drove his spade deep into the soil, “ ’cording to what parson says.”
-s=ben;e:ben=scowling
+s=ben;e:ben=hunching
 
 “What happened to the roses?” Mary asked again, more interested than ever.
-s=mary;e:mary=curious
+s=mary;e:mary=confused
 
 “They was left to themselves.”
 s=ben;e:ben=weary
@@ -3938,22 +3935,22 @@ Mary was becoming quite excited.
 s=none;e:mary=excited
 
 “Did they quite die? Do roses quite die when they are left to themselves?” she ventured.
-s=mary;e:mary=nervous
+s=mary;e:mary=surprised
 
 “Well, I’d got to like ’em﻿—an’ I liked her﻿—an’ she liked ’em,” Ben Weatherstaff admitted reluctantly.
 s=ben;e:ben=contemplative
 
 “Once or twice a year I’d go an’ work at ’em a bit﻿—prune ’em an’ dig about th’ roots. They run wild, but they was in rich soil, so some of ’em lived.”
-
+e:ben=hunching
 
 “When they have no leaves and look gray and brown and dry, how can you tell whether they are dead or alive?” inquired Mary.
-s=mary;e:mary=curious
+s=mary;e:mary=serious
 
 “Wait till th’ spring gets at ’em﻿—wait till th’ sun shines on th’ rain an’ th’ rain falls on th’ sunshine an’ then tha’ll find out.”
-s=ben;e:ben=neutral
+s=ben;e:ben=neutral;i=2
 
 “How﻿—how?” cried Mary, forgetting to be careful.
-s=mary;e:mary=excited
+s=mary;e:mary=surprised
 
 “Look along th’ twigs an’ branches an’ if tha’ sees a bit of a brown lump swelling here an’ there, watch it after th’ warm rain an’ see what happens.”
 s=ben
@@ -3971,7 +3968,7 @@ s=none;e:mary=nervous
 s=mary
 
 “I﻿—there is nothing for me to do. I have nothing﻿—and no one.”
-e:mary=unhappy
+e:mary=unhappy;i=2
 
 “Well,” said Ben Weatherstaff slowly, as he watched her, “that’s true. Tha’ hasn’t.”
 s=ben;e:ben=contemplative
@@ -3995,7 +3992,7 @@ He said something about roses just as she was going away and it reminded her of 
 
 
 “Do you go and see those other roses now?” she asked.
-s=mary
+s=mary;e:mary=wary
 
 “Not been this year. My rheumatics has made me too stiff in th’ joints.”
 s=ben;e:ben=weary
@@ -4046,7 +4043,7 @@ When he saw Mary he held up his hand and spoke to her in a voice almost as low a
 e:dickon=wary;b=manor-woods-gate
 
 “Don’t tha’ move,” he said. “It’d flight ’em.”
-s=dickon;e:dickon=
+s=dickon;e:dickon=;i=2
 
 Mary remained motionless.
 s=none;e:mary=nervous
@@ -4058,12 +4055,12 @@ He moved so slowly that it scarcely seemed as though he were moving at all, but 
 
 
 “I’m Dickon,” the boy said. “I know tha’rt Miss Mary.”
-s=dickon;e:dickon=happy;n:dickon=Dickon Sowerby;c=dickon;z:dickon=93,,4
+s=dickon;e:dickon=happy;n:dickon=Dickon Sowerby;c=dickon;z:dickon=93,,4;v=,140,45
 
 Then Mary realized that somehow she had known at first that he was Dickon.
 s=none;e:mary=surprised
 
-Who else could have been charming rabbits and pheasants as the natives charm snakes in India?<e>Remember how in <book>The Thirty-Nine Steps</book> the protagonist was making constant allusions to how he was from South Africa or Rhodesia or whatever, just in case you as reader forgot it the last ten times it came up? It occurs to me now that this book has the exact same tic, except for India. (Though this being a children's book, it gets more leeway in terms of repetitiveness.)</e>
+Who else could have been charming rabbits and pheasants as the natives charm snakes in India?<e>From India, btw. (Just like how <book>The Thirty-Nine Steps</book>'s protagonist was from Rhodesia, btw. Don't you go forgetting these things, reader.)</e>
 
 
 He had a wide, red, curving mouth and his smile spread all over his face.
@@ -4085,19 +4082,19 @@ He nodded his curly, rust-colored head.
 s=none;e:dickon=nod
 
 “That’s why I come.”
-s=dickon
+s=dickon;e:dickon=happy;i=2
 
 He stooped to pick up something which had been lying on the ground beside him when he piped.
 s=none;e:dickon=neutral;c=
 
 “I’ve got th’ garden tools. There’s a little spade an’ rake an’ a fork an’ hoe. Eh! they are good ’uns.”
-s=dickon;e:dickon=excited
+s=dickon;e:dickon=happy;
 
 “There’s a trowel, too. An’ th’ woman in th’ shop threw in a packet o’ white poppy an’ one o’ blue larkspur when I bought th’ other seeds.”
-e:dickon=happy
+e:dickon=excited
 
 “Will you show the seeds to me?” Mary said.
-s=mary;e:mary=excited
+s=mary;e:mary=serious
 
 She wished she could talk as he did. His speech was so quick and easy.
 s=none;e:mary=contemplative
@@ -4112,7 +4109,7 @@ She liked it very much and when she looked into his funny face with the red chee
 e:mary=happy
 
 “Let us sit down on this log and look at them,” she said.
-s=mary
+s=mary;e:mary=thinking;i=2
 
 They sat down and he took a clumsy little brown paper package out of his coat pocket.
 s=none;e:dickon=neutral
@@ -4130,31 +4127,28 @@ He stopped and turned his head quickly, his poppy-cheeked face lighting up.
 s=none;e:dickon=surprised
 
 “Where’s that robin as is callin’ us?” he said.
-s=dickon;e:dickon=curious
+s=dickon;e:dickon=looking
 
 The chirp came from a thick holly bush, bright with scarlet berries, and Mary thought she knew whose it was.
 s=none;e:mary=happy;o=robin-holly
 
 “Is it really calling us?” she asked.
-s=mary;e:mary=curious
+s=mary;e:mary=surprised
 
-“Aye,” said Dickon,
-s=dickon;e:dickon=happy;m=allowbreak
+“Aye,” said Dickon, as if it was the most natural thing in the world, “he’s callin’ someone he’s friends with.”
+s=dickon;e:dickon=happy
 
-as if it was the most natural thing in the world,
-s=
+“That’s same as sayin’ ‘Here I am. Look at me. I wants a bit of a chat.’”
 
-“he’s callin’ someone he’s friends with.”
-s=dickon;m=
 
-“That’s same as sayin’ ‘Here I am. Look at me. I wants a bit of a chat.’ There he is in the bush. Whose is he?”
-e:dickon=curious
+“There he is in the bush. Whose is he?”
+e:dickon=curious;i=2
 
 “He’s Ben Weatherstaff’s, but I think he knows me a little,” answered Mary.
-s=mary;e:mary=happy
+s=mary;e:mary=happy;i=2
 
 “Aye, he knows thee,” said Dickon in his low voice again.
-s=dickon;e:dickon=smirking
+s=dickon;e:dickon=;i=2
 
 “An’ he likes thee. He’s took thee on. He’ll tell me all about thee in a minute.”
 e:dickon=happy
@@ -4166,22 +4160,22 @@ The robin listened a few seconds, intently, and then answered quite as if he wer
 
 
 “Aye, he’s a friend o’ yours,” chuckled Dickon.
-s=dickon;e:dickon=happy
+s=dickon;e:dickon=smirking;i=2
 
 “Do you think he is?” cried Mary eagerly.
-s=mary;e:mary=excited
+s=mary;e:mary=confused
 
 She did so want to know.
 s=none;e:mary=curious
 
 “Do you think he really likes me?”
-s=mary
+s=mary;e:mary=nervous
 
-“He wouldn’t come near thee if he didn’t,” answered Dickon.
-s=dickon;e:dickon=neutral
+“He wouldn’t come near thee if he didn’t,” answered Dickon. “Birds is rare choosers an’ a robin can flout a body worse than a man.”
+s=dickon;e:dickon=happy
 
-“Birds is rare choosers an’ a robin can flout a body worse than a man. See, he’s making up to thee now. ‘Cannot tha’ see a chap?’ he’s sayin’.”
-e:dickon=smirking
+“See, he’s making up to thee now. ‘Cannot tha’ see a chap?’ he’s sayin’.”
+
 
 And it really seemed as if it must be true.
 s=none;e:mary=happy
@@ -4196,13 +4190,13 @@ Dickon’s grin spread until he seemed all wide, red, curving mouth, and he rubb
 s=none;e:dickon=happy
 
 “I think I do, and they think I do,” he said.
-s=dickon
+s=dickon;e:dickon=smirking;i=2
 
 “I’ve lived on th’ moor with ’em so long. I’ve watched ’em break shell an’ come out an’ fledge an’ learn to fly an’ begin to sing, till I think I’m one of ’em.”
-
+e:dickon=happy
 
 “Sometimes I think p’raps I’m a bird, or a fox, or a rabbit, or a squirrel, or even a beetle, an’ I don’t know it.”
-e:dickon=contemplative
+
 
 He laughed and came back to the log and began to talk about the flower seeds again.
 s=none;e:dickon=happy
@@ -4210,19 +4204,16 @@ s=none;e:dickon=happy
 He told her what they looked like when they were flowers; he told her how to plant them, and watch them, and feed and water them.
 
 
-“See here,” he said suddenly, turning round to look at her.
-s=dickon;e:dickon=serious
-
-“I’ll plant them for thee myself. Where is tha’ garden?”
-e:dickon=curious
+“See here,” he said suddenly, turning round to look at her. “I’ll plant them for thee myself. Where is tha’ garden?”
+s=dickon;e:dickon=curious
 
 Mary’s thin hands clutched each other as they lay on her lap.
 s=none;e:mary=nervous
 
-She did not know what to say, so for a whole minute she said nothing.
+She did not know what to say, so for a whole minute she said nothing. She had never thought of this.
 
 
-She had never thought of this. She felt miserable. And she felt as if she went red and then pale.
+She felt miserable. And she felt as if she went red and then pale.
 e:mary=fearful
 
 “Tha’s got a bit o’ garden, hasn’t tha’?” Dickon said.
@@ -4232,10 +4223,10 @@ It was true that she had turned red and then pale.
 s=none
 
 Dickon saw her do it, and as she still said nothing, he began to be puzzled.
-e:dickon=curious
+e:dickon=confused
 
 “Wouldn’t they give thee a bit?” he asked. “Hasn’t tha’ got any yet?”
-s=dickon
+s=dickon;e:dickon=contemplative;i=2
 
 She held her hands even tighter and turned her eyes toward him.
 s=none;e:mary=upset
@@ -4244,10 +4235,10 @@ s=none;e:mary=upset
 s=mary;e:mary=nervous
 
 “It’s a great secret. I don’t know what I should do if anyone found it out.”
-
+e:mary=fearful
 
 “I believe I should die!”
-e:mary=fearful
+e:mary=upset
 
 She said the last sentence quite fiercely.
 s=none
@@ -4256,19 +4247,22 @@ Dickon looked more puzzled than ever and even rubbed his hand over his rough hea
 e:dickon=confused
 
 “I’m keepin’ secrets all th’ time,” he said.
-s=dickon;e:dickon=smirking
+s=dickon;e:dickon=happy
 
-“If I couldn’t keep secrets from th’ other lads, secrets about foxes’ cubs, an’ birds’ nests, an’ wild things’ holes, there’d be naught safe on th’ moor. Aye, I can keep secrets.”
-e:dickon=serious
+“If I couldn’t keep secrets from th’ other lads, secrets about foxes’ cubs, an’ birds’ nests, an’ wild things’ holes, there’d be naught safe on th’ moor.”
+e:dickon=thinking;i=2
+
+“Aye, I can keep secrets.”
+e:dickon=happy;i=2
 
 Mistress Mary did not mean to put out her hand and clutch his sleeve but she did it.
 s=none;e:mary=upset
 
 “I’ve stolen a garden,” she said very fast. “It isn’t mine. It isn’t anybody’s. Nobody wants it, nobody cares for it, nobody ever goes into it.”
-s=mary
+s=mary;i=2
 
 “Perhaps everything is dead in it already; I don’t know.”
-e:mary=unhappy
+e:mary=nervous
 
 She began to feel hot and as contrary as she had ever felt in her life.
 s=none;e:mary=angry
@@ -4292,7 +4286,7 @@ s=dickon;e:dickon=wary
 s=mary;e:mary=facearmscrying
 
 “Where is it?” asked Dickon in a dropped voice.
-s=dickon;e:dickon=serious
+s=dickon;e:dickon=thinking;i=2
 
 Mistress Mary got up from the log at once.
 s=none;e:mary=upset
@@ -4312,11 +4306,8 @@ e:dickon=upset
 When she stepped to the wall and lifted the hanging ivy he started.
 e:dickon=surprised
 
-There was a door and Mary pushed it slowly open and they passed in together,
-e:mary=serious;m=allowbreak
-
-and then Mary stood and waved her hand round defiantly.
-b=manor-secret;m=
+There was a door and Mary pushed it slowly open and they passed in together, and then Mary stood and waved her hand round defiantly.
+e:mary=serious;b=manor-secret;
 
 “It’s this,” she said.
 s=mary;e:mary=serious
@@ -4331,7 +4322,7 @@ s=none;e:dickon=surprised
 s=dickon;e:dickon=surprised
 
 “It’s like as if a body was in a dream.”
-e:dickon=thinking
+e:dickon=happy
 
 ## XI. The Nest of the Missel Thrush
 r=title
