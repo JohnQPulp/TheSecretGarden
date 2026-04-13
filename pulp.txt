@@ -6704,13 +6704,13 @@ e:colin=happy;s=colin;e:colin=contemplative;i=2
 r=title
 
 After another week of rain the high arch of blue sky appeared again and the sun which poured down was quite hot.
-b=manor-window-mary-blue-springer
+b=manor-wide-blue
 
 Though there had been no chance to see either the secret garden or Dickon, Mistress Mary had enjoyed herself very much. The week had not seemed long.
 e:mary=happy
 
 She had spent hours of every day with Colin in his room, talking about Rajahs or gardens or Dickon and the cottage on the moor.
-b=manor-colin
+
 
 They had looked at the splendid books and pictures and sometimes Mary had read things to Colin, and sometimes he had read a little to her.
 e:colin=neutral
@@ -6719,16 +6719,16 @@ When he was amused and interested she thought he scarcely looked like an invalid
 e:mary=thinking;e:colin=happy
 
 “You are a sly young one to listen and get out of your bed to go following things up like you did that night,” Mrs. Medlock said once.
-s=mrsmedlock;e:mrsmedlock=smirking;b=manor-mary
+s=mrsmedlock;e:mrsmedlock=smirking;;e:mrsmedlock=contemplative;i=
 
 “But there’s no saying it’s not been a sort of blessing to the lot of us. He’s not had a tantrum or a whining fit since you made friends.”
-e:mrsmedlock=happy
+e:mrsmedlock=happy;e:mrsmedlock=thinking;i=
 
 “The nurse was just going to give up the case because she was so sick of him, but she says she doesn’t mind staying now you’ve gone on duty with her,” laughing a little.
-
+;e:mrsmedlock=smirking;i=
 
 In her talks with Colin, Mary had tried to be very cautious about the secret garden.
-s=none;e:mary=wary;e:mrsmedlock=neutral;b=manor-colin
+s=none;e:mary=wary;e:mrsmedlock=neutral
 
 There were certain things she wanted to find out from him, but she felt that she must find them out without asking him direct questions.
 
@@ -6766,26 +6766,23 @@ s=martha;e:martha=happy
 “It’s like me,” said Mary. “It’s growing stronger and fatter. I’m sure there’s more of it.”
 s=mary;e:mary=happy;x:mary=daytime
 
-“It looks it, for sure,” said Martha,
-s=martha;m=allowbreak
-
-ruffling it up a little round her face.
-s=;m=
+“It looks it, for sure,” said Martha, ruffling it up a little round her face.
+s=martha;
 
 “Tha’rt not half so ugly when it’s that way an’ there’s a bit o’ red in tha’ cheeks.”
-s=martha;e:martha=smirking
+s=martha;e:martha=smirking;i=2
 
 If gardens and fresh air had been good for her perhaps they would be good for Colin.
-s=none;e:mary=thinking;b=manor-colin;x:colin=velvet
+s=none;e:mary=thinking;x:colin=velvet
 
 But then, if he hated people to look at him, perhaps he would not like to see Dickon.
 e:mary=wary
 
 “Why does it make you angry when you are looked at?” she inquired one day.
-s=mary;e:mary=curious
+s=mary;e:mary=curious;b=manor-colin;e:mary=curious;i=2
 
 “I always hated it,” he answered, “even when I was very little.”
-s=colin;e:colin=annoyed
+s=colin;e:colin=annoyed;e:colin=confused;i=
 
 “Then when they took me to the seaside and I used to lie in my carriage everybody used to stare and ladies would stop and talk to my nurse and then they would begin to whisper and I knew then they were saying I shouldn’t live to grow up.”
 e:colin=serious
@@ -6803,16 +6800,16 @@ s=mary;e:mary=serious
 s=colin;e:colin=scowling
 
 “I wonder why you didn’t scream and bite me when I came into your room?” said Mary.
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=thinking;i=
 
 Then she began to smile slowly.
 s=none;e:mary=
 
 “I thought you were a ghost or a dream,” he said.
-s=colin;e:colin=thinking
+s=colin;e:colin=thinking;i=2
 
 “You can’t bite a ghost or a dream, and if you scream they don’t care.”
-
+;e:colin=unhappy;i=
 
 “Would you hate it if﻿—if a boy looked at you?” Mary asked uncertainly.
 s=mary;e:mary=nervous
@@ -6821,16 +6818,16 @@ He lay back on his cushion and paused thoughtfully.
 s=none;e:colin=thinking
 
 “There’s one boy,” he said quite slowly, as if he were thinking over every word, “there’s one boy I believe I shouldn’t mind.”
-s=colin
+s=colin;e:colin=confused;i=
 
 “It’s that boy who knows where the foxes live﻿—Dickon.”
-
+;e:colin=contemplative;i=2
 
 “I’m sure you wouldn’t mind him,” said Mary.
 s=mary;e:mary=happy
 
 “The birds don’t and other animals,” he said, still thinking it over, “perhaps that’s why I shouldn’t.”
-s=colin;e:colin=contemplative
+s=colin;e:colin=contemplative;e:colin=thinking;i=2
 
 “He’s a sort of animal charmer and I am a boy animal.”
 e:colin=smirking
@@ -6842,7 +6839,7 @@ What Mary felt afterward was that she need not fear about Dickon.
 e:mary=neutral
 
 —
-b=manor-mary
+b=manor-wide-blue
 
 On that first morning when the sky was blue again Mary wakened very early.
 
@@ -6851,7 +6848,7 @@ The sun was pouring in slanting rays through the blinds and there was something 
 e:mary=excited
 
 She drew up the blinds and opened the window itself and a great waft of fresh, scented air blew in upon her.
-b=manor-window-mary-blue-springer-opened
+
 
 The moor was blue and the whole world looked as if something Magic had happened to it.
 
@@ -6862,17 +6859,14 @@ There were tender little fluting sounds here and there and everywhere, as if sco
 Mary put her hand out of the window and held it in the sun.
 
 
-“It’s warm﻿—warm!” she said.
-s=mary;e:mary=happy;x:mary=bedtime
-
-“It will make the green points push up and up and up, and it will make the bulbs and roots work and struggle with all their might under the earth.”
-e:mary=excited
+“It’s warm﻿—warm!” she said. “It will make the green points push up and up and up, and it will make the bulbs and roots work and struggle with all their might under the earth.”
+s=mary;e:mary=happy;x:mary=bedtime;e:mary=excitednohand
 
 She kneeled down and leaned out of the window as far as she could, breathing big breaths and sniffing the air until she laughed because she remembered what Dickon’s mother had said about the end of his nose quivering like a rabbit’s.
 s=none
 
 “It must be very early,” she said. “The little clouds are all pink and I’ve never seen the sky look like this. No one is up. I don’t even hear the stable boys.”
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=curious;i=
 
 A sudden thought made her scramble to her feet.
 s=none;e:mary=surprised
@@ -6884,16 +6878,13 @@ She had learned to dress herself by this time and she put on her clothes in five
 s=none;x:mary=daytime
 
 She knew a small side door which she could unbolt herself and she flew downstairs in her stocking feet and put on her shoes in the hall.
-b=manor-hall
 
-She unchained and unbolted and unlocked and when the door was open she sprang across the step with one bound,
-m=allowbreak
 
-and there she was standing on the grass, which seemed to have turned green, and with the sun pouring down on her and warm sweet wafts about her and the fluting and twittering and singing coming from every bush and tree.
-m=;b=manor-sky
+She unchained and unbolted and unlocked and when the door was open she sprang across the step with one bound, and there she was standing on the grass, which seemed to have turned green, and with the sun pouring down on her and warm sweet wafts about her and the fluting and twittering and singing coming from every bush and tree.
+m=;
 
 She clasped her hands for pure joy and looked up in the sky and it was so blue and pink and pearly and white and flooded with springtime light that she felt as if she must flute and sing aloud herself and knew that thrushes and robins and skylarks could not possibly help it.
-e:mary=happy
+e:mary=happy;b=manor-sky
 
 She ran around the shrubs and paths toward the secret garden.
 b=manor-shrub-gate-spring
@@ -6917,7 +6908,7 @@ When she had reached the place where the door hid itself under the ivy, she was 
 e:mary=surprised;b=manor-wall
 
 It was the caw﻿—caw of a crow and it came from the top of the wall, and when she looked up, there sat a big glossy-plumaged blue-black bird, looking down at her very wisely indeed.
-o=crow
+
 
 She had never seen a crow so close before and he made her a little nervous, but the next moment he spread his wings and flapped away across the garden.
 e:mary=nervous;o=
@@ -6938,7 +6929,7 @@ s=mary;e:mary=excited
 
 
 He got up himself, laughing and glowing, and tousled; his eyes like a bit of the sky.
-s=none;b=manor-secret-trees-spring
+s=none;b=manor-secret-walls-spring
 
 “Eh!” he said. “I was up long before him. How could I have stayed abed!”
 s=dickon;e:dickon=happy
@@ -6950,7 +6941,7 @@ e:dickon=excited
 
 
 “When th’ sun did jump up, th’ moor went mad for joy, an’ I was in the midst of th’ heather, an’ I run like mad myself, shoutin’ an’ singin’.”
-
+;e:dickon=happy;i=
 
 “An’ I come straight here. I couldn’t have stayed away. Why, th’ garden was lyin’ here waitin’!”
 
@@ -6965,10 +6956,10 @@ Seeing him talking to a stranger, the little bushy-tailed animal rose from its p
 s=none;x:dickon=soot
 
 “This is th’ little fox cub,” he said, rubbing the little reddish animal’s head.
-s=dickon;e:dickon=happy
+s=dickon;e:dickon=happy;e:dickon=excited;i=
 
 “It’s named Captain. An’ this here’s Soot. Soot he flew across th’ moor with me an’ Captain he run same as if th’ hounds had been after him. They both felt same as I did.”
-
+e:dickon=happy;
 
 Neither of the creatures looked as if he were the least afraid of Mary.
 s=none
@@ -6977,7 +6968,7 @@ When Dickon began to walk about, Soot stayed on his shoulder and Captain trotted
 
 
 “See here!” said Dickon. “See how these has pushed up, an’ these an’ these! An’ Eh! look at these here!”
-s=dickon;e:dickon=excited;b=manor-secret-walls-spring
+s=dickon;e:dickon=happy;i=2;;b=manor-secret-walls-spring
 
 He threw himself upon his knees and Mary went down beside him.
 s=none
@@ -6989,19 +6980,19 @@ Mary bent her face down and kissed and kissed them.
 
 
 “You never kiss a person in that way,” she said when she lifted her head.
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=;i=
 
 “Flowers are so different.”
-
+;e:mary=happy;i=
 
 He looked puzzled but smiled.
 s=none;e:dickon=confused
 
 “Eh!” he said, “I’ve kissed mother many a time that way when I come in from th’ moor after a day’s roamin’ an’ she stood there at th’ door in th’ sun, lookin’ so glad an’ comfortable.”
-s=dickon;e:dickon=happy
+s=dickon;e:dickon=excited
 
 They ran from one part of the garden to another and found so many wonders that they were obliged to remind themselves that they must whisper or speak low.
-s=none;e:mary=happy;b=manor-secret-spring
+s=none;e:mary=happy;b=manor-secret-trees-spring
 
 He showed her swelling leaf-buds on rose branches which had seemed dead.
 
@@ -7015,32 +7006,29 @@ x:dickon=
 There was every joy on earth in the secret garden that morning, and in the midst of them came a delight more delightful than all, because it was more wonderful.
 
 
-Swiftly something flew across the wall and darted through the trees to a close grown corner,
-e:mary=surprised;m=allowbreak;b=manor-secret-alcove-spring
-
-a little flare of red-breasted bird with something hanging from its beak.
-m=;o=robin-beak
+Swiftly something flew across the wall and darted through the trees to a close grown corner, a little flare of red-breasted bird with something hanging from its beak.
+e:mary=surprised;b=manor-secret-alcove-spring;o=robin-beak
 
 Dickon stood quite still and put his hand on Mary almost as if they had suddenly found themselves laughing in a church.
-e:dickon=serious
+e:dickon=serious;o=robin-beak
 
 “We munnot stir,” he whispered in broad Yorkshire.
-s=dickon
+s=dickon;e:dickon=thinking;i=2;o=
 
 “We munnot scarce breathe. I knowed he was mate-huntin’ when I seed him last.”
-
+e:dickon=;e:dickon=serious;i=
 
 “It’s Ben Weatherstaff’s robin. He’s buildin’ his nest. He’ll stay here if us don’t flight him.”
-e:dickon=happy
+e:dickon=happy;e:dickon=nod;i=
 
 They settled down softly upon the grass and sat there without moving.
 s=none;e:mary=serious;o=
 
 “Us mustn’t seem as if us was watchin’ him too close,” said Dickon. “He’d be out with us for good if he got th’ notion us was interferin’ now.”
-s=dickon;e:dickon=
+s=dickon;e:dickon=thinking;i=2
 
 “He’ll be a good bit different till all this is over. He’s settin’ up housekeepin’. He’ll be shyer an’ readier to take things ill.”
-e:dickon=thinking
+;e:dickon=nod;i=
 
 “He’s got no time for visitin’ an’ gossipin’.”
 e:dickon=smirking
@@ -7058,31 +7046,31 @@ But he only sat wonderfully still, and when he spoke dropped his voice to such a
 
 
 “It’s part o’ th’ springtime, this nest-buildin’ is,” he said.
-s=dickon;e:dickon=contemplative
+s=dickon;e:dickon=curious;i=2
 
 “I warrant it’s been goin’ on in th’ same way every year since th’ world was begun. They’ve got their way o’ thinkin’ and doin’ things an’ a body had better not meddle.”
-
+;e:dickon=contemplative
 
 “You can lose a friend in springtime easier than any other season if you’re too curious.”
 
 
 “If we talk about him I can’t help looking at him,” Mary said as softly as possible.
-s=mary;e:mary=nervous
+s=mary;e:mary=nervous;e:mary=unhappy;i=
 
 “We must talk of something else. There is something I want to tell you.”
-e:mary=serious
+e:mary=serious;e:mary=wary;i=
 
 “He’ll like it better if us talks o’ somethin’ else,” said Dickon. “What is it tha’s got to tell me?”
-s=dickon;e:dickon=curious
+s=dickon;e:dickon=curious;e:dickon=happy;i=
 
 “Well﻿—do you know about Colin?” she whispered.
-s=mary
+s=mary;e:mary=nervous;i=
 
 He turned his head to look at her.
 s=none;e:dickon=surprised
 
 “What does tha’ know about him?” he asked.
-s=dickon;e:dickon=looking
+s=dickon;e:dickon=looking;e:dickon=contemplative;i=2
 
 “I’ve seen him. I have been to talk to him every day this week. He wants me to come. He says I’m making him forget about being ill and dying,” answered Mary.
 s=mary;e:mary=serious
@@ -7094,25 +7082,25 @@ s=none;e:dickon=happy
 s=dickon
 
 “Don’t you like hiding the garden?” said Mary.
-s=mary;e:mary=curious
+s=mary;e:mary=curious;e:mary=curious;i=2
 
 “I’ll never tell about it,” he answered.
-s=dickon;e:dickon=serious
+s=dickon;e:dickon=serious;e:dickon=thinking;i=2
 
 “But I says to mother, ‘Mother,’ I says, ‘I got a secret to keep. It’s not a bad ’un, tha’ knows that. It’s no worse than hidin’ where a bird’s nest is. Tha’ doesn’t mind it, does tha’?’ ”
-e:dickon=thinking
+e:dickon=thinking;i=
 
 Mary always wanted to hear about mother.
 s=none;e:mary=happy
 
 “What did she say?” she asked, not at all afraid to hear.
-s=mary;e:mary=excited
+s=mary;e:mary=excited;e:mary=;i=
 
 Dickon grinned sweet-temperedly.
-s=none;e:dickon=smirking
+s=none;e:dickon=happy
 
 “It was just like her, what she said,” he answered.
-s=dickon
+s=dickon;;e:dickon=smirking;i=2
 
 “She give my head a bit of a rub an’ laughed an’ she says, ‘Eh, lad, tha’ can have all th’ secrets tha’ likes. I’ve knowed thee twelve year’.’ ”
 e:dickon=happy
@@ -7124,16 +7112,16 @@ s=mary;e:mary=curious
 s=dickon;e:dickon=serious
 
 “Folks is sorry for Mester Craven because Mrs. Craven was such a pretty young lady an’ they was so fond of each other.”
-
+;e:dickon=unhappy;i=
 
 “Mrs. Medlock stops in our cottage whenever she goes to Thwaite an’ she doesn’t mind talkin’ to mother before us children, because she knows us has been brought up to be trusty.”
-
+;e:dickon=wary;i=
 
 “How did tha’ find out about him? Martha was in fine trouble th’ last time she came home.”
-e:dickon=curious
+e:dickon=curious;e:dickon=confused;i=
 
 “She said tha’d heard him frettin’ an’ tha’ was askin’ questions an’ she didn’t know what to say.”
-
+;e:dickon=contemplative;i=2
 
 Mary told him her story about the midnight wuthering of the wind which had wakened her and about the faint far-off sounds of the complaining voice which had led her down the dark corridors with her candle and had ended with her opening of the door of the dimly lighted room with the carven four-posted bed in the corner.
 s=none;e:mary=serious
@@ -7154,10 +7142,10 @@ s=mary;e:mary=fearful
 s=dickon;e:dickon=serious
 
 “Them as is not wanted scarce ever thrives. Mester Craven he’d buy anythin’ as money could buy for th’ poor lad but he’d like to forget as he’s on earth.”
-
+;e:dickon=unhappy;i=
 
 “For one thing, he’s afraid he’ll look at him some day and find he’s growed hunchback.”
-
+;e:dickon=wary;i=
 
 “Colin’s so afraid of it himself that he won’t sit up,” said Mary.
 s=mary;e:mary=unhappy
@@ -7172,43 +7160,43 @@ The fox was lying on the grass close by him looking up to ask for a pat now and 
 s=none;e:dickon=thinking
 
 Presently he lifted his head and looked round the garden.
-b=manor-secret-walls-spring
+
 
 “When first we got in here,” he said, “it seemed like everything was gray. Look round now and tell me if tha’ doesn’t see a difference.”
-s=dickon;e:dickon=happy
+s=dickon;e:dickon=happy;e:dickon=;i=2
 
 Mary looked and caught her breath a little.
-s=none;e:mary=surprised
+s=none;e:mary=surprised;b=manor-secret-walls-spring
 
 “Why!” she cried, “the gray wall is changing. It is as if a green mist were creeping over it. It’s almost like a green gauze veil.”
-s=mary;e:mary=excited
+s=mary;e:mary=excited;e:mary=excited;i=2
 
 “Aye,” said Dickon. “An’ it’ll be greener and greener till th’ gray’s all gone.”
 s=dickon;e:dickon=happy
 
 “Can tha’ guess what I was thinkin’?”
-e:dickon=smirking
+;e:dickon=nod;i=
 
 “I know it was something nice,” said Mary eagerly. “I believe it was something about Colin.”
 s=mary;e:mary=happy
 
 “I was thinkin’ that if he was out here he wouldn’t be watchin’ for lumps to grow on his back; he’d be watchin’ for buds to break on th’ rosebushes, an’ he’d likely be healthier,” explained Dickon.
-s=dickon;e:dickon=thinking
+s=dickon;e:dickon=thinking;e:dickon=thinking;i=2
 
 “I was wonderin’ if us could ever get him in th’ humor to come out here an’ lie under th’ trees in his carriage.”
-
+i=
 
 “I’ve been wondering that myself. I’ve thought of it almost every time I’ve talked to him,” said Mary.
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=unhappy;i=2
 
 “I’ve wondered if he could keep a secret and I’ve wondered if we could bring him here without anyone seeing us. I thought perhaps you could push his carriage.”
-
+;e:mary=thinking;i=2
 
 “The doctor said he must have fresh air and if he wants us to take him out no one dare disobey him.”
-
+i=
 
 “He won’t go out for other people and perhaps they will be glad if he will go out with us. He could order the gardeners to keep away so they wouldn’t find out.”
-
+;e:mary=happy;i=2
 
 Dickon was thinking very hard as he scratched Captain’s back.
 s=none;e:dickon=thinking
@@ -7217,10 +7205,10 @@ s=none;e:dickon=thinking
 s=dickon
 
 “Us’d not be thinkin’ he’d better never been born. Us’d be just two children watchin’ a garden grow, an’ he’d be another.”
-e:dickon=happy
+e:dickon=nod
 
 “Two lads an’ a little lass just lookin’ on at th’ springtime. I warrant it’d be better than doctor’s stuff.”
-
+e:dickon=happy
 
 “He’s been lying in his room so long and he’s always been so afraid of his back that it has made him queer,” said Mary.
 s=mary;e:mary=unhappy
@@ -7232,19 +7220,19 @@ s=mary;e:mary=unhappy
 e:mary=thinking
 
 “I daren’t tell him much but he said he wanted to see it.”
-e:mary=contemplative
+e:mary=contemplative;e:mary=contemplative;i=2
 
 “Us’ll have him out here sometime for sure,” said Dickon. “I could push his carriage well enough.”
-s=dickon;e:dickon=serious
+s=dickon;e:dickon=serious;e:dickon=happy;i=2
 
 “Has tha’ noticed how th’ robin an’ his mate has been workin’ while we’ve been sittin’ here?”
-e:dickon=curious;b=manor-secret-trees-spring
+e:dickon=curious;e:dickon=pointingexcited;i=
 
 “Look at him perched on that branch wonderin’ where it’d be best to put that twig he’s got in his beak.”
-e:dickon=happy
+e:dickon=happy;e:dickon=pointing;i=
 
 He made one of his low whistling calls and the robin turned his head and looked at him inquiringly, still holding his twig.
-s=none;o=robin-mates
+s=none;;b=manor-secret-alcove-spring
 
 Dickon spoke to him as Ben Weatherstaff did, but Dickon’s tone was one of friendly advice.
 
