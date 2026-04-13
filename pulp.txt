@@ -5315,7 +5315,7 @@ Her garden was her nest and she was like a missel thrush. Oh, how she did like t
 e:mary=happy
 
 She hoped he would come back the very next day and she fell asleep looking forward to the morning.
-
+b=manor-mary-fire-out
 
 But you never know what the weather will do in Yorkshire, particularly in the springtime.
 
@@ -5327,7 +5327,7 @@ It was pouring down in torrents and the wind was “wuthering” round the corne
 
 
 Mary sat up in bed and felt miserable and angry.
-e:mary=angry
+e:mary=angry;b=manor-mary-night
 
 “The rain is as contrary as I ever was,” she said. “It came because it knew I did not want it.”
 s=mary
@@ -5345,7 +5345,7 @@ If she had felt happy it would probably have lulled her to sleep. How it “wuth
 
 
 “It sounds just like a person lost on the moor and wandering on and on crying,” she said.
-s=mary
+s=mary;e:mary=serious;i=2
 
 —
 s=none
@@ -5374,8 +5374,11 @@ e:mary=contemplative
 She put her foot out of bed and stood on the floor.
 e:mary=serious
 
-“I am going to find out what it is,” she said. “Everybody is in bed and I don’t care about Mrs. Medlock﻿—I don’t care!”
-s=mary;e:mary=annoyed
+“I am going to find out what it is,” she said.
+s=mary;e:mary=serious;i=2
+
+“Everybody is in bed and I don’t care about Mrs. Medlock﻿—I don’t care!”
+s=mary;e:mary=scowling
 
 There was a candle by her bedside and she took it up and went softly out of the room.
 s=none;e:mary=serious;b=manor-corridor;x:mary=woolenwrapper
@@ -5386,17 +5389,23 @@ e:mary=excited
 She thought she remembered the corners she must turn to find the short corridor with the door covered with tapestry﻿—the one Mrs. Medlock had come through the day she lost herself.
 e:mary=thinking
 
-The sound had come up that passage. So she went on with her dim light, almost feeling her way, her heart beating so loud that she fancied she could hear it.
+The sound had come up that passage.
 e:mary=nervous
 
-The far-off faint crying went on and led her. Sometimes it stopped for a moment or so and then began again.
-b=manor-corridor-2
+So she went on with her dim light, almost feeling her way, her heart beating so loud that she fancied she could hear it. The far-off faint crying went on and led her.
+
+
+Sometimes it stopped for a moment or so and then began again.
+
 
 Was this the right corner to turn? She stopped and thought. Yes it was.
 e:mary=thinking
 
-Down this passage and then to the left, and then up two broad steps, and then to the right again. Yes, there was the tapestry door.
+Down this passage and then to the left, and then up two broad steps, and then to the right again.
 e:mary=serious;b=manor-corridor-3
+
+Yes, there was the tapestry door.
+
 
 She pushed it open very gently and closed it behind her, and she stood in the corridor and could hear the crying quite plainly, though it was not loud.
 b=manor-corridor-5
@@ -5417,7 +5426,7 @@ There was a low fire glowing faintly on the hearth and a night light burning by 
 n:colin=?;e:colin=crying;m=allowbreak
 
 and on the bed was lying a boy, crying fretfully.
-m=;b=colin-bed;x:colin=bedtime;a:colin=sick
+m=;b=colin-bed;x:colin=bedtime;a:colin=sick;f:b:colin-bed=sepia(20%)
 
 Mary wondered if she was in a real place or if she had fallen asleep again and was dreaming without knowing it.
 e:mary=confused
@@ -5444,10 +5453,10 @@ s=colin;e:colin=fearful;z:colin=94,47,4
 
 
 “No, I am not,” Mary answered, her own whisper sounding half frightened.
-s=mary;e:mary=fearful
+s=mary;e:mary=fearful;e:mary=wary;i=
 
 “Are you one?”
-
+;e:mary=serious;i=
 
 He stared and stared and stared. Mary could not help noticing what strange eyes he had.
 s=none;e:mary=curious;e:colin=wary
@@ -5459,25 +5468,22 @@ They were agate gray and they looked too big for his face because they had black
 s=colin
 
 “I am Colin.”
-
+;e:colin=weary;i=2
 
 “Who is Colin?” she faltered.
-s=mary;e:mary=confused
+s=mary;e:mary=confused;e:mary=wary;i=
 
 “I am Colin Craven. Who are you?”
-s=colin;e:colin=serious;n:colin=Colin Craven
+s=colin;e:colin=serious;n:colin=Colin Craven;e:colin=unhappy;i=2
 
 “I am Mary Lennox. Mr. Craven is my uncle.”
-s=mary
+s=mary;e:mary=nervous;i=2
 
 “He is my father,” said the boy.
-s=colin
+s=colin;e:colin=weary;i=
 
-“Your father!” gasped Mary.
-s=mary;e:mary=surprised
-
-“No one ever told me he had a boy! Why didn’t they?”
-
+“Your father!” gasped Mary. “No one ever told me he had a boy! Why didn’t they?”
+s=mary;e:mary=surprised;i=2
 
 “Come here,” he said, still keeping his strange eyes fixed on her with an anxious expression.
 s=colin;e:colin=nervous
@@ -5501,13 +5507,13 @@ s=mary
 s=colin;e:colin=confused
 
 “From my own room. The wind wuthered so I couldn’t go to sleep and I heard someone crying and wanted to find out who it was. What were you crying for?”
-s=mary;e:mary=curious
+s=mary;e:mary=curious;e:mary=confused;i=
 
 “Because I couldn’t go to sleep either and my head ached. Tell me your name again.”
 s=colin;e:colin=weary
 
 “Mary Lennox. Did no one ever tell you I had come to live here?”
-s=mary;e:mary=confused
+s=mary;e:mary=confused;e:mary=serious;i=
 
 He was still fingering the fold of her wrapper, but he began to look a little more as if he believed in her reality.
 s=none;e:colin=wary
@@ -5516,7 +5522,7 @@ s=none;e:colin=wary
 s=colin
 
 “Why?” asked Mary.
-s=mary
+s=mary;e:mary=wary;i=
 
 “Because I should have been afraid you would see me.”
 s=colin;e:colin=contemplative
@@ -5525,31 +5531,31 @@ s=colin;e:colin=contemplative
 e:colin=annoyed
 
 “Why?” Mary asked again, feeling more mystified every moment.
-s=mary;e:mary=confused
+s=mary;e:mary=confused;e:mary=surprised;i=
 
 “Because I am like this always, ill and having to lie down. My father won’t let people talk me over either. The servants are not allowed to speak about me.”
-s=colin;e:colin=unhappy
+s=colin;e:colin=unhappy;e:colin=weary;i=
 
 “If I live I may be a hunchback, but I shan’t live. My father hates to think I may be like him.”
 
 
 “Oh, what a queer house this is!” Mary said. “What a queer house! Everything is a kind of secret.”
-s=mary;e:mary=surprised
+s=mary;e:mary=surprised;i=2
 
 “Rooms are locked up and gardens are locked up﻿—and you! Have you been locked up?”
-e:mary=curious
+e:mary=curious;e:mary=nervous;i=
 
 “No. I stay in this room because I don’t want to be moved out of it. It tires me too much.”
 s=colin;e:colin=weary
 
 “Does your father come and see you?” Mary ventured.
-s=mary;e:mary=wary
+s=mary;e:mary=wary;e:mary=nervous;i=2
 
 “Sometimes. Generally when I am asleep. He doesn’t want to see me.”
 s=colin;e:colin=unhappy
 
 “Why?” Mary could not help asking again.
-s=mary;e:mary=curious
+s=mary;e:mary=curious;e:mary=serious;i=
 
 A sort of angry shadow passed over the boy’s face.
 s=none;e:colin=angry
@@ -5558,31 +5564,34 @@ s=none;e:colin=angry
 s=colin
 
 “He hates the garden, because she died,” said Mary half speaking to herself.
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=serious;i=2
 
 “What garden?” the boy asked.
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=wary;i=2
 
 “Oh! just﻿—just a garden she used to like,” Mary stammered.
-s=mary;e:mary=nervous
+s=mary;e:mary=nervous;e:mary=nervous;i=2
 
 “Have you been here always?”
-
+i=
 
 “Nearly always. Sometimes I have been taken to places at the seaside, but I won’t stay because people stare at me.”
-s=colin;e:colin=annoyed
+s=colin;e:colin=annoyed;e:colin=suspicious;i=
 
 “I used to wear an iron thing to keep my back straight, but a grand doctor came from London to see me and said it was stupid. He told them to take it off and keep me out in the fresh air.”
 e:colin=contemplative
 
 “I hate fresh air and I don’t want to go out.”
-e:colin=scowling
+e:colin=scowling;e:colin=wary;i=2
 
-“I didn’t when first I came here,” said Mary. “Why do you keep looking at me like that?”
-s=mary;e:mary=curious
+“I didn’t when first I came here,” said Mary.
+s=mary
+
+“Why do you keep looking at me like that?”
+s=mary;e:mary=curious;e:mary=confused;i=
 
 “Because of the dreams that are so real,” he answered rather fretfully.
-s=colin;e:colin=wary
+s=colin;e:colin=wary;e:colin=fearful;i=3
 
 “Sometimes when I open my eyes I don’t believe I’m awake.”
 
@@ -5594,7 +5603,7 @@ She glanced round the room with its high ceiling and shadowy corners and dim fir
 s=none;e:mary=wary
 
 “It looks quite like a dream, and it’s the middle of the night, and everybody in the house is asleep﻿—everybody but us. We are wide awake.”
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=nervous;i=2
 
 “I don’t want it to be a dream,” the boy said restlessly.
 s=colin;e:colin=contemplative
@@ -5609,7 +5618,7 @@ He still held the fold of her wrapper and he gave it a little pull.
 s=none
 
 “No,” he said. “I should be sure you were a dream if you went.”
-s=colin;e:colin=serious
+s=colin;e:colin=serious;e:colin=weary;i=
 
 “If you are real, sit down on that big footstool and talk. I want to hear about you.”
 
@@ -5621,7 +5630,7 @@ She did not want to go away at all. She wanted to stay in the mysterious hidden-
 
 
 “What do you want me to tell you?” she said.
-s=mary;e:mary=curious
+s=mary;e:mary=curious;e:mary=thinking;i=2
 
 He wanted to know how long she had been at Misselthwaite; he wanted to know which corridor her room was on; he wanted to know what she had been doing; if she disliked the moor as he disliked it; where she had lived before she came to Yorkshire.
 s=none;e:colin=curious
@@ -5660,22 +5669,22 @@ But at last he asked a question which opened up a new subject.
 
 
 “How old are you?” he asked.
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=unhappy;i=2
 
 “I am ten,” answered Mary, forgetting herself for the moment, “and so are you.”
 s=mary;e:mary=serious
 
 “How do you know that?” he demanded in a surprised voice.
-s=colin;e:colin=surprised
+s=colin;e:colin=surprised;e:colin=fearful;i=
 
 “Because when you were born the garden door was locked and the key was buried. And it has been locked for ten years.”
-s=mary;e:mary=nervous
+s=mary;e:mary=fearful;i=2
 
 Colin half sat up, turning toward her, leaning on his elbows.
 s=none;e:colin=excited
 
 “What garden door was locked? Who did it? Where was the key buried?” he exclaimed as if he were suddenly very much interested.
-s=colin;e:colin=serious
+s=colin;e:colin=surprised;i=
 
 “It﻿—it was the garden Mr. Craven hates,” said Mary nervously.
 s=mary;e:mary=nervous
@@ -5684,7 +5693,7 @@ s=mary;e:mary=nervous
 
 
 “What sort of a garden is it?” Colin persisted eagerly.
-s=colin;e:colin=curious
+s=colin;e:colin=thinking;i=2
 
 “No one has been allowed to go into it for ten years,” was Mary’s careful answer.
 s=mary;e:mary=wary
@@ -5696,19 +5705,19 @@ He asked question after question. Where was it? Had she never looked for the doo
 
 
 “They won’t talk about it,” said Mary. “I think they have been told not to answer questions.”
-s=mary;e:mary=wary
+s=mary;e:mary=wary;i=
 
 “I would make them,” said Colin.
 s=colin;e:colin=serious
 
 “Could you?” Mary faltered, beginning to feel frightened.
-s=mary;e:mary=fearful
+s=mary;e:mary=upset
 
 If he could make people answer questions, who knew what might happen!
 s=
 
 “Everyone is obliged to please me. I told you that,” he said.
-s=colin;e:colin=smirking
+s=colin;e:colin=smirking;e:colin=unhappy;i=2
 
 “If I were to live, this place would sometime belong to me. They all know that. I would make them tell me.”
 e:colin=serious
@@ -5719,11 +5728,8 @@ s=none;e:mary=thinking
 He thought that the whole world belonged to him. How peculiar he was and how coolly he spoke of not living.
 
 
-“Do you think you won’t live?” she asked,
-s=mary;e:mary=curious;m=allowbreak
-
-partly because she was curious and partly in hope of making him forget the garden.
-m=;s=
+“Do you think you won’t live?” she asked, partly because she was curious and partly in hope of making him forget the garden.
+s=mary;e:mary=curious;e:mary=wary;i=
 
 “I don’t suppose I shall,” he answered as indifferently as he had spoken before.
 s=colin;e:colin=thinking
@@ -5735,40 +5741,40 @@ e:colin=
 e:colin=suspicious
 
 “Do you want to live?” inquired Mary.
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=nervous;i=2
 
 “No,” he answered, in a cross, tired fashion.
-s=colin;e:colin=weary
+s=colin;e:colin=weary;e:colin=annoyed;i=
 
 “But I don’t want to die. When I feel ill I lie here and think about it until I cry and cry.”
-e:colin=unhappy
+e:colin=unhappy;e:colin=weary;i=
 
 “I have heard you crying three times,” Mary said, “but I did not know who it was. Were you crying about that?”
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=wary;i=
 
 She did so want him to forget the garden.
 s=none;e:mary=nervous
 
 “I dare say,” he answered. “Let us talk about something else. Talk about that garden. Don’t you want to see it?”
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=weary;i=2
 
 “Yes,” answered Mary, in quite a low voice.
 s=mary
 
 “I do,” he went on persistently.
-s=colin;e:colin=serious
+s=colin;e:colin=wary;i=2
 
 “I don’t think I ever really wanted to see anything before, but I want to see that garden. I want the key dug up. I want the door unlocked.”
-
+e:colin=serious;i=2
 
 “I would let them take me there in my chair. That would be getting fresh air. I am going to make them open the door.”
-e:colin=serious
+;e:colin=serious;i=
 
 He had become quite excited and his strange eyes began to shine like stars and looked more immense than ever.
 s=none;e:colin=excited
 
 “They have to please me,” he said. “I will make them take me there and I will let you go, too.”
-s=colin;e:colin=excited
+s=colin;e:colin=unhappy;i=2
 
 Mary’s hands clutched each other. Everything would be spoiled﻿—everything!
 s=none;e:mary=fearful
@@ -5777,58 +5783,58 @@ Dickon would never come back. She would never again feel like a missel thrush wi
 e:mary=upset
 
 “Oh, don’t﻿—don’t﻿—don’t﻿—don’t do that!” she cried out.
-s=mary
+s=mary;e:mary=upset;i=
 
 He stared as if he thought she had gone crazy!
 s=none;e:colin=surprised
 
 “Why?” he exclaimed. “You said you wanted to see it.”
-s=colin;e:colin=confused
+s=colin;e:colin=wary;i=
 
 “I do,” she answered almost with a sob in her throat, “but if you make them open the door and take you in like that it will never be a secret again.”
-s=mary
+s=mary;e:mary=upset;i=
 
 He leaned still farther forward.
 s=none;e:colin=serious
 
 “A secret,” he said. “What do you mean? Tell me.”
-s=colin
+s=colin;e:colin=confused;i=
 
 Mary’s words almost tumbled over one another.
 s=none;e:mary=nervous
 
 “You see﻿—you see,” she panted, “if no one knows but ourselves﻿—if there was a door, hidden somewhere under the ivy﻿—if there was﻿—and we could find it;”
-s=mary
+s=mary;e:mary=nervous;i=2
 
 “and if we could slip through it together and shut it behind us, and no one knew anyone was inside and we called it our garden and pretended that﻿—that we were missel thrushes and it was our nest, and if we played there almost every day and dug and planted seeds and made it all come alive﻿—”
-
+;e:mary=nervous;i=
 
 “Is it dead?” he interrupted her.
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=unhappy;i=2
 
 “It soon will be if no one cares for it,” she went on. “The bulbs will live but the roses﻿—”
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=upset;i=
 
 He stopped her again as excited as she was herself.
 s=none;e:colin=excited
 
 “What are bulbs?” he put in quickly.
-s=colin
+s=colin;e:colin=confused;i=
 
 “They are daffodils and lilies and snowdrops. They are working in the earth now﻿—pushing up pale green points because the spring is coming.”
-s=mary
+s=mary;e:mary=serious;i=
 
 “Is the spring coming?” he said. “What is it like? You don’t see it in rooms if you are ill.”
 s=colin;e:colin=curious
 
 “It is the sun shining on the rain and the rain falling on the sunshine, and things pushing up and working under the earth,” said Mary.
-s=mary;e:mary=thinking
+s=mary;e:mary=thinking;e:mary=serious;i=2
 
 “If the garden was a secret and we could get into it we could watch the things grow bigger every day, and see how many roses are alive.”
-e:mary=thinking
+e:mary=thinking;e:mary=wary;i=
 
 “Don’t you see? Oh, don’t you see how much nicer it would be if it was a secret?”
-e:mary=wary
+e:mary=wary;e:mary=upset;i=
 
 He dropped back on his pillow and lay there with an odd expression on his face.
 s=none;e:colin=contemplative
@@ -5840,10 +5846,10 @@ s=colin;e:colin=sadsmile
 s=mary;e:mary=nervous
 
 “And then﻿—if the doctor wants you to go out in your chair, and if you can always do what you want to do, perhaps﻿—perhaps we might find some boy who would push you, and we could go alone and it would always be a secret garden.”
-
+;e:mary=upset;i=
 
 “I should﻿—like﻿—that,” he said very slowly, his eyes looking dreamy.
-s=colin;e:colin=contemplative
+s=colin;e:colin=contemplative;e:colin=weary;i=
 
 “I should like that. I should not mind fresh air in a secret garden.”
 
@@ -5855,7 +5861,7 @@ She felt almost sure that if she kept on talking and could make him see the gard
 e:mary=thinking
 
 “I’ll tell you what I *think* it would be like, if we could go into it,” she said. “It has been shut up so long things have grown into a tangle perhaps.”
-s=mary;e:mary=contemplative
+s=mary;e:mary=serious;i=2
 
 He lay quite still and listened while she went on talking about the roses which *might* have clambered from tree to tree and hung down﻿—about the many birds which *might* have built their nests there because it was so safe.
 s=none;e:colin=happy
@@ -5867,10 +5873,10 @@ The robin pleased him so much that he smiled until he looked almost beautiful, a
 
 
 “I did not know birds could be like that,” he said.
-s=colin;e:colin=sadsmile
+s=colin;e:colin=sadsmile;e:colin=happy;i=2
 
 “But if you stay in a room you never see things. What a lot of things you know. I feel as if you had been inside that garden.”
-e:colin=contemplative
+e:colin=contemplative;e:colin=thinking;i=
 
 She did not know what to say, so she did not say anything.
 s=none;e:mary=wary
@@ -5879,10 +5885,10 @@ He evidently did not expect an answer and the next moment he gave her a surprise
 
 
 “I am going to let you look at something,” he said.
-s=colin;e:colin=serious
+s=colin;e:colin=serious;e:colin=nervous;i=
 
 “Do you see that rose-colored silk curtain hanging on the wall over the mantelpiece?”
-
+;e:colin=contemplative;i=
 
 Mary had not noticed it before, but she looked up and saw it.
 s=none;e:mary=surprised
@@ -5891,10 +5897,10 @@ It was a curtain of soft silk hanging over what seemed to be some picture.
 
 
 “Yes,” she answered.
-s=mary;e:mary=neutral
+s=mary;e:mary=serious;i=
 
 “There is a cord hanging from it,” said Colin. “Go and pull it.”
-s=colin
+s=colin;e:colin=confused;i=
 
 Mary got up, much mystified, and found the cord.
 s=none;e:mary=curious
@@ -5906,34 +5912,37 @@ She had bright hair tied up with a blue ribbon and her gay, lovely eyes were exa
 
 
 “She is my mother,” said Colin complainingly. “I don’t see why she died. Sometimes I hate her for doing it.”
-s=colin;e:colin=annoyed
+s=colin;e:colin=annoyed;e:colin=unhappy;i=2
 
 “How queer!” said Mary.
 s=mary;e:mary=surprised
 
 “If she had lived I believe I should not have been ill always,” he grumbled.
-s=colin;e:colin=unhappy
+s=colin;e:colin=unhappy;e:colin=annoyed;i=
 
-“I dare say I should have lived, too. And my father would not have hated to look at me. I dare say I should have had a strong back. Draw the curtain again.”
+“I dare say I should have lived, too. And my father would not have hated to look at me. I dare say I should have had a strong back.”
 e:colin=weary
+
+“Draw the curtain again.”
+
 
 Mary did as she was told and returned to her footstool.
 s=none;e:mary=neutral;b=manor-colin-night
 
 “She is much prettier than you,” she said, “but her eyes are just like yours﻿—at least they are the same shape and color.”
-s=mary;e:mary=curious
+s=mary;e:mary=curious;e:mary=wary;i=
 
 “Why is the curtain drawn over her?”
-
+;e:mary=confused;i=
 
 He moved uncomfortably.
 s=none;e:colin=nervous
 
 “I made them do it,” he said.
-s=colin
+s=colin;e:colin=weary;i=
 
 “Sometimes I don’t like to see her looking at me. She smiles too much when I am ill and miserable. Besides, she is mine and I don’t want everyone to see her.”
-e:colin=upset
+e:colin=upset;e:colin=weary;i=2
 
 There were a few moments of silence and then Mary spoke.
 s=none
@@ -5942,7 +5951,7 @@ s=none
 s=mary;e:mary=nervous
 
 “She would do as I told her to do,” he answered.
-s=colin;e:colin=serious
+s=colin;e:colin=wary;i=2
 
 “And I should tell her that I wanted you to come here and talk to me every day.”
 e:colin=smirking
@@ -5950,23 +5959,29 @@ e:colin=smirking
 “I am glad you came.”
 e:colin=thinking
 
-“So am I,” said Mary. “I will come as often as I can, but”﻿—she hesitated﻿—“I shall have to look every day for the garden door.”
-s=mary;e:mary=contemplative
+“So am I,” said Mary. “I will come as often as I can, but”﻿—
+s=mary;e:mary=contemplative;e:mary=wary;i=;m=allowbreak;m=nospace
+
+she hesitated﻿—
+s=
+
+“I shall have to look every day for the garden door.”
+s=mary;m=;e:mary=nervous;i=
 
 “Yes, you must,” said Colin, “and you can tell me about it afterward.”
-s=colin;e:colin=serious
+s=colin;e:colin=serious;m=;e:colin=unhappy;i=2
 
 He lay thinking a few minutes, as he had done before, and then he spoke again.
 s=none;e:colin=thinking
 
 “I think you shall be a secret, too,” he said.
-s=colin;e:colin=smirking
+s=colin;e:colin=smirking;e:colin=thinking;i=
 
 “I will not tell them until they find out. I can always send the nurse out of the room and say that I want to be by myself. Do you know Martha?”
 
 
 “Yes, I know her very well,” said Mary. “She waits on me.”
-s=mary;e:mary=neutral
+s=mary;e:mary=neutral;e:mary=serious;i=
 
 He nodded his head toward the outer corridor.
 s=none
@@ -5993,7 +6008,7 @@ s=mary;e:mary=wary
 s=colin;e:colin=nervous
 
 “Shut your eyes,” said Mary, drawing her footstool closer, “and I will do what my Ayah used to do in India. I will pat your hand and stroke it and sing something quite low.”
-s=mary;e:mary=
+s=mary;e:mary=;e:mary=serious;i=
 
 “I should like that perhaps,” he said drowsily.
 s=colin;e:colin=weary
@@ -6002,7 +6017,7 @@ Somehow she was sorry for him and did not want him to lie awake, so she leaned a
 s=none;e:mary=contemplative
 
 “That is nice,” he said more drowsily still,
-s=colin;e:colin=weary;m=allowbreak
+s=colin;e:colin=weary;m=allowbreak;e:colin=weary;i=2
 
 and she went on chanting and stroking, but when she looked at him again his black lashes were lying close against his cheeks, for his eyes were shut and he was fast asleep.
 s=none;e:mary=happy;m=
