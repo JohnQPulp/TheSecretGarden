@@ -7267,11 +7267,8 @@ r=title
 They found a great deal to do that morning and Mary was late in returning to the house and was also in such a hurry to get back to her work that she quite forgot Colin until the last moment.
 e:mary=excited;x:mary=daytime;b=manor-nursery
 
-“Tell Colin that I can’t come and see him yet,” she said to Martha.
-s=mary;e:mary=serious
-
-“I’m very busy in the garden.”
-
+“Tell Colin that I can’t come and see him yet,” she said to Martha. “I’m very busy in the garden.”
+s=mary;e:mary=serious;e:mary=thinking;i=2
 
 Martha looked rather frightened.
 s=none;e:martha=fearful
@@ -7286,7 +7283,7 @@ s=none;e:mary=serious
 s=mary
 
 and she ran away.
-s=;e:mary=excited;b=light
+s=;e:mary=excited
 
 The afternoon was even lovelier and busier than the morning had been.
 s=none;e:mary=happy;b=manor-secret-walls-spring
@@ -7298,7 +7295,7 @@ Dickon had brought a spade of his own and he had taught Mary to use all her tool
 e:dickon=happy
 
 “There’ll be apple blossoms an’ cherry blossoms overhead,” Dickon said, working away with all his might.
-s=dickon;e:dickon=excited
+s=dickon;e:dickon=excited;e:dickon=nod;i=
 
 “An’ there’ll be peach an’ plum trees in bloom against th’ walls, an’ th’ grass’ll be a carpet o’ flowers.”
 e:dickon=happy
@@ -7319,16 +7316,16 @@ When Mary wanted to rest a little Dickon sat down with her under a tree and once
 e:dickon=contemplative;e:mary=happy
 
 “Tha’s a good bit stronger than tha’ was,” Dickon said, looking at her as she was digging.
-s=dickon;e:dickon=happy;b=manor-secret-walls-spring
+s=dickon;e:dickon=happy;b=manor-secret-walls-spring;i=2
 
 “Tha’s beginning to look different, for sure.”
-e:dickon=smirking
+e:dickon=smirking;i=2
 
 Mary was glowing with exercise and good spirits.
 s=none;e:mary=happy
 
 “I’m getting fatter and fatter every day,” she said quite exultantly.
-s=mary;e:mary=excited
+s=mary;e:mary=excited;e:mary=excited;i=2
 
 “Mrs. Medlock will have to get me some bigger dresses. Martha says my hair is growing thicker. It isn’t so flat and stringy.”
 e:mary=happy
@@ -7340,28 +7337,28 @@ s=none;b=manor-secret-trees-spring-sunset
 s=dickon;e:dickon=happy
 
 “So will I,” said Mary.
-s=mary;e:mary=excited
+s=mary;e:mary=excited;e:mary=happy;
 
 —
-s=none;b=manor-wide-spring-sunset
+s=none;
 
 She ran back to the house as quickly as her feet would carry her.
-
+b=manor-wide-spring-sunset
 
 She wanted to tell Colin about Dickon’s fox cub and the rook and about what the springtime had been doing. She felt sure he would like to hear.
 e:mary=happy
 
 So it was not very pleasant when she opened the door of her room, to see Martha standing waiting for her with a doleful face.
-e:mary=surprised;e:martha=upset;b=manor-nursery
+e:mary=surprised;e:martha=upset;b=manor-mary-fire
 
 “What is the matter?” she asked. “What did Colin say when you told him I couldn’t come?”
-s=mary;e:mary=curious
+s=mary;e:mary=curious;e:mary=unhappy;i=2
 
 “Eh!” said Martha, “I wish tha’d gone. He was nigh goin’ into one o’ his tantrums.”
 s=martha;e:martha=nervous
 
 “There’s been a nice to do all afternoon to keep him quiet. He would watch the clock all th’ time.”
-e:martha=weary
+e:martha=weary;e:martha=wary;i=
 
 Mary’s lips pinched themselves together.
 s=none;e:mary=annoyed
@@ -7391,37 +7388,37 @@ e:mary=serious
 s=mary;e:mary=annoyed
 
 “I did get up this morning when I thought you were coming,” he answered, without looking at her.
-s=colin;e:colin=thinking;x:colin=bedtime
+s=colin;e:colin=thinking;x:colin=bedtime;e:colin=annoyed;i=
 
 “I made them put me back in bed this afternoon. My back ached and my head ached and I was tired. Why didn’t you come?”
 e:colin=angry
 
 “I was working in the garden with Dickon,” said Mary.
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=serious;i=2
 
 Colin frowned and condescended to look at her.
 s=none;e:colin=annoyed
 
 “I won’t let that boy come here if you go and stay with him instead of coming to talk to me,” he said.
-s=colin;e:colin=angry
+s=colin;e:colin=angry;e:colin=serious;i=
 
 Mary flew into a fine passion. She could fly into a passion without making a noise. She just grew sour and obstinate and did not care what happened.
 s=none;e:mary=angry
 
 “If you send Dickon away, I’ll never come into this room again!” she retorted.
-s=mary;e:mary=angry
+s=mary;e:mary=angry;e:mary=scowling;i=
 
 “You’ll have to if I want you,” said Colin.
-s=colin;e:colin=scowling
+s=colin;e:colin=scowling;e:colin=angry;i=
 
 “I won’t!” said Mary.
-s=mary;e:mary=angry
+s=mary;e:mary=angry;e:mary=angry;i=2
 
 “I’ll make you,” said Colin. “They shall drag you in.”
-s=colin;e:colin=angry
+s=colin;e:colin=angry;e:colin=serious;i=2
 
 “Shall they, Mr. Rajah!” said Mary fiercely.
-s=mary;e:mary=angry
+s=mary;e:mary=angry;e:mary=annoyed;i=
 
 “They may drag me in but they can’t make me talk when they get me here. I’ll sit and clench my teeth and never tell you one thing.”
 e:mary=scowling
@@ -7439,16 +7436,16 @@ If they had been two little street boys they would have sprung at each other and
 s=colin;e:colin=angry
 
 “What are you?” said Mary. “Selfish people always say that.”
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=serious;i=2
 
 “Anyone is selfish who doesn’t do what they want. You’re more selfish than I am. You’re the most selfish boy I ever saw.”
 e:mary=scowling
 
 “I’m not!” snapped Colin. “I’m not as selfish as your fine Dickon is!”
-s=colin;e:colin=angry
+s=colin;e:colin=angry;e:colin=angry;i=2
 
 “He keeps you playing in the dirt when he knows I am all by myself. He’s selfish, if you like!”
-
+;e:colin=scowling;i=
 
 Mary’s eyes flashed fire.
 s=none;e:mary=angry
@@ -7466,10 +7463,10 @@ s=colin;e:colin=scowling
 e:colin=angry
 
 “He’s better than a common Rajah!” retorted Mary.
-s=mary;e:mary=angry
+s=mary;e:mary=angry;e:mary=serious;i=
 
 “He’s a thousand times better!”
-
+e:mary=angry
 
 Because she was the stronger of the two she was beginning to get the better of him.
 s=none;e:mary=serious
@@ -7484,10 +7481,10 @@ He was beginning to feel pathetic and sorry for himself—not for anyone else.
 e:colin=upset
 
 “I’m not as selfish as you, because I’m always ill, and I’m sure there is a lump coming on my back,” he said.
-s=colin;e:colin=upset
+s=colin;e:colin=upset;e:colin=crying;i=2
 
 “And I am going to die besides.”
-
+e:colin=upset
 
 “You’re not!” contradicted Mary unsympathetically.
 s=mary;e:mary=annoyed
@@ -7498,8 +7495,11 @@ s=none;e:colin=surprised
 He had never heard such a thing said before. He was at once furious and slightly pleased, if a person could be both at the same time.
 e:colin=confused
 
-“I’m not?” he cried. “I am! You know I am! Everybody says so.”
-s=colin;e:colin=angry
+“I’m not?” he cried.
+s=colin;e:colin=angry;e:colin=annoyed;i=
+
+“I am! You know I am! Everybody says so.”
+e:colin=angry
 
 “I don’t believe it!” said Mary sourly.
 s=mary;e:mary=scowling
@@ -7514,7 +7514,7 @@ In spite of his invalid back Colin sat up in bed in quite a healthy rage.
 s=none;e:colin=angry
 
 “Get out of the room!” he shouted and he caught hold of his pillow and threw it at her.
-s=colin;e:colin=angry
+s=colin;e:colin=angry;e:colin=angry;i=2
 
 He was not strong enough to throw it far and it only fell at her feet, but Mary’s face looked as pinched as a nutcracker.
 s=none;e:mary=scowling
@@ -7526,7 +7526,7 @@ She walked to the door and when she reached it she turned round and spoke again.
 s=none;e:mary=scowling
 
 “I was going to tell you all sorts of nice things,” she said. “Dickon brought his fox and his rook and I was going to tell you all about them.”
-s=mary;e:mary=annoyed
+s=mary;e:mary=annoyed;e:mary=serious;i=2
 
 “Now I won’t tell you a single thing!”
 e:mary=angry
@@ -7544,34 +7544,34 @@ e:mary=wary
 s=mary;e:mary=annoyed
 
 “At you two young ones,” said the nurse.
-s=nurse;e:nurse=handkerchiefgiggling;z:nurse=103,52,5
+s=nurse;e:nurse=smirking;z:nurse=103,52,5
 
 “It’s the best thing that could happen to the sickly pampered thing to have someone to stand up to him that’s as spoiled as himself;”
-e:nurse=smirking
+;e:nurse=happy;i=2
 
 and she laughed into her handkerchief again.
 s=none;e:nurse=happy
 
 “If he’d had a young vixen of a sister to fight with it would have been the saving of him.”
-s=nurse;e:nurse=handkerchiefgiggling
+s=nurse;;e:nurse=smirking;i=
 
 “Is he going to die?”
-s=mary;e:mary=curious
+s=mary;e:mary=curious;e:mary=nervous;i=
 
 “I don’t know and I don’t care,” said the nurse.
 s=nurse;e:nurse=thinking
 
 “Hysterics and temper are half what ails him.”
-
+;e:nurse=contemplative;i=2
 
 “What are hysterics?” asked Mary.
-s=mary;e:mary=confused
+s=mary;e:mary=confused;e:mary=wary;i=
 
 “You’ll find out if you work him into a tantrum after this—but at any rate you’ve given him something to have hysterics about, and I’m glad of it.”
 s=nurse;e:nurse=smirking
 
 Mary went back to her room not feeling at all as she had felt when she had come in from the garden.
-s=none;e:mary=upset;b=light
+s=none;e:mary=upset;b=manor-wide-spring-sunset
 
 She was cross and disappointed but not at all sorry for Colin.
 e:mary=annoyed
@@ -7595,7 +7595,7 @@ There was a wooden box on the table and its cover had been removed and revealed 
 e:mary=surprised
 
 “Mr. Craven sent it to you,” said Martha.
-s=martha;e:martha=happy
+s=martha;e:martha=happy;e:martha=curious;i=
 
 “It looks as if it had picture-books in it.”
 
@@ -7631,7 +7631,7 @@ If she had been friends with Colin she would have run to show him her presents a
 s=none;e:mary=thinking
 
 He had a way of doing that which she could not bear.
-e:mary=wary;b=manor-colin;f:b:manor-colin=blur(3px)
+e:mary=wary;
 
 It gave her an uncomfortable frightened feeling because he always looked so frightened himself.
 e:mary=fearful
@@ -7655,13 +7655,19 @@ e:mary=upset
 s=mary;e:mary=thinking;b=manor-nursery
 
 “And he has been cross today. Perhaps—perhaps he has been thinking about it all afternoon.”
-e:mary=contemplative
+e:mary=contemplative;e:mary=wary;i=
 
 She stood still, looking down at the carpet and thinking.
 s=none;e:mary=thinking
 
-“I said I would never go back again—” she hesitated, knitting her brows—“but perhaps, just perhaps, I will go and see—if he wants me—in the morning.”
-s=mary;e:mary=serious
+“I said I would never go back again—”
+s=mary;e:mary=serious;m=allowbreak;e:mary=contemplative;i=2
+
+she hesitated, knitting her brows—
+m=nospace;s=
+
+“but perhaps, just perhaps, I will go and see—if he wants me—in the morning.”
+m=;s=mary;e:mary=serious;i=
 
 “Perhaps he’ll try to throw his pillow at me again, but—I think—I’ll go.”
 e:mary=thinking
