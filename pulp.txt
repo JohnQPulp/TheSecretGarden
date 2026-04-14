@@ -9932,10 +9932,10 @@ s=none
 r=title
 
 When his head was out of sight Colin turned to Mary.
-e:colin=neutral;e:mary=neutral;b=manor-secret-trees-springer-sunset
+e:colin=neutral;e:mary=neutral;b=manor-secret-walls-springer-sunset
 
 “Go and meet him,” he said;
-s=colin;e:colin=serious;x:colin=outdoor;x:mary=daytime
+s=colin;e:colin=serious;x:colin=outdoor;x:mary=daytime;e:colin=confused;i=
 
 and Mary flew across the grass to the door under the ivy.
 s=
@@ -9947,31 +9947,31 @@ There were scarlet spots on his cheeks and he looked amazing, but he showed no s
 
 
 “I can stand,” he said, and his head was still held up and he said it quite grandly.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;e:colin=serious;i=2
 
-“I told thee tha’ could as soon as tha’ stopped bein’ afraid,” answered Dickon.
-s=dickon;e:dickon=happy
-
-“An’ tha’s stopped.”
-
+“I told thee tha’ could as soon as tha’ stopped bein’ afraid,” answered Dickon. “An’ tha’s stopped.”
+s=dickon;e:dickon=happy;e:dickon=nod;i=
 
 “Yes, I’ve stopped,” said Colin.
-s=colin;e:colin=happy
+s=colin;e:colin=happy;e:colin=thinking;i=
 
 Then suddenly he remembered something Mary had said.
 s=none;e:colin=thinking
 
 “Are you making Magic?” he asked sharply.
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=confused;i=
 
 Dickon’s curly mouth spread in a cheerful grin.
-s=none;e:dickon=happy
+s=none;e:dickon=smirking;
 
 “Tha’s doin’ Magic thysel’,” he said.
-s=dickon
+s=dickon;i=2
 
-“It’s same Magic as made these ’ere work out o’ th’ earth,” and he touched with his thick boot a clump of crocuses in the grass.
+“It’s same Magic as made these ’ere work out o’ th’ earth,”
+e:dickon=happy;m=allowbreak
 
+and he touched with his thick boot a clump of crocuses in the grass.
+m=;s=
 
 Colin looked down at them.
 s=none;e:colin=contemplative
@@ -9983,7 +9983,7 @@ He drew himself up straighter than ever.
 s=none;e:colin=excited
 
 “I’m going to walk to that tree,” he said, pointing to one a few feet away from him.
-s=colin;e:colin=pointing
+s=colin;e:colin=pointing;e:colin=curious;i=2
 
 “I’m going to be standing when Weatherstaff comes here. I can rest against the tree if I like.”
 e:colin=serious
@@ -9992,7 +9992,7 @@ e:colin=serious
 
 
 He walked to the tree and though Dickon held his arm he was wonderfully steady.
-s=none
+s=none;b=manor-secret-trees-springer-sunset
 
 When he stood against the tree trunk it was not too plain that he supported himself against it, and he still held himself so straight that he looked tall.
 
@@ -10007,7 +10007,7 @@ But she did not tell him. What she was saying was this:
 s=none;e:mary=excited
 
 “You can do it! You can do it! I told you you could! You can do it! You can do it! You *can*!”
-s=mary
+s=mary;e:mary=serious;i=2
 
 She was saying it to Colin because she wanted to make Magic and keep him on his feet looking like that.
 s=none
@@ -10022,19 +10022,19 @@ He fixed his eyes on Ben Weatherstaff in his funny imperious way.
 e:colin=serious
 
 “Look at me!” he commanded.
-s=colin
+s=colin;e:colin=serious;i=2
 
 “Look at me all over! Am I a hunchback? Have I got crooked legs?”
-
+;e:colin=angry;i=2
 
 Ben Weatherstaff had not quite got over his emotion, but he had recovered a little and answered almost in his usual way.
 s=none;e:ben=serious
 
 “Not tha’,” he said. “Nowt o’ th’ sort.”
-s=ben
+s=ben;e:ben=weary;i=
 
 “What’s tha’ been doin’ with thysel’﻿—? hidin’ out o’ sight an’ lettin’ folk think tha’ was cripple an’ half-witted?”
-e:ben=curious
+e:ben=curious;e:ben=contemplative;i=2
 
 “Half-witted!” said Colin angrily.
 s=colin;e:colin=angry
@@ -10043,7 +10043,7 @@ s=colin;e:colin=angry
 
 
 “Lots o’ fools,” said Ben.
-s=ben;e:ben=thinking
+s=ben;e:ben=thinking;e:ben=shaking;i=
 
 “Th’ world’s full o’ jackasses brayin’ an’ they never bray nowt but lies.”
 e:ben=annoyed
@@ -10061,19 +10061,19 @@ And he said it with such decision Ben Weatherstaff looked him over, up and down,
 s=none;e:ben=surprised
 
 “Tha’ die!” he said with dry exultation. “Nowt o’ th’ sort! Tha’s got too much pluck in thee.”
-s=ben;e:ben=excited
+s=ben;e:ben=excited;e:ben=happy;i=2
 
 “When I seed thee put tha’ legs on th’ ground in such a hurry I knowed tha’ was all right.”
-
+;e:ben=sadsmile;i=
 
 “Sit thee down on th’ rug a bit young Mester an’ give me thy orders.”
-e:ben=happy
+;e:ben=;i=2
 
 There was a queer mixture of crabbed tenderness and shrewd understanding in his manner.
 s=none
 
 Mary had poured out speech as rapidly as she could as they had come down the Long Walk.
-e:mary=excited;b=manor-wall-2-springer
+e:mary=excited;
 
 The chief thing to be remembered, she had told him, was that Colin was getting well﻿—getting well.
 
@@ -10085,28 +10085,25 @@ The Rajah condescended to seat himself on a rug under the tree.
 e:colin=smirking;b=manor-secret-trees-springer-sunset
 
 “What work do you do in the gardens, Weatherstaff?” he inquired.
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=contemplative;i=2
 
 “Anythin’ I’m told to do,” answered old Ben.
-s=ben;e:ben=neutral
+s=ben;e:ben=neutral;e:ben=thinking;i=2
 
 “I’m kep’ on by favor﻿—because she liked me.”
-
+i=;e:ben=sleeping;i=
 
 “She?” said Colin.
 s=colin;e:colin=confused
 
 “Tha’ mother,” answered Ben Weatherstaff.
-s=ben
+s=ben;e:ben=shaking;i=
 
-“My mother?” said Colin,
-s=colin;e:colin=contemplative;m=allowbreak
-
-and he looked about him quietly.
-m=;s=
+“My mother?” said Colin, and he looked about him quietly.
+s=colin;e:colin=contemplative;
 
 “This was her garden, wasn’t it?”
-s=colin
+s=colin;e:colin=confused;i=
 
 “Aye, it was that!” and Ben Weatherstaff looked about him too.
 s=ben;e:ben=contemplative
@@ -10121,7 +10118,7 @@ s=colin;e:colin=serious
 
 
 “Dickon and my cousin have worked and made it come alive. I shall send for you sometimes to help﻿—but you must come when no one can see you.”
-
+;e:colin=thinking;i=2
 
 Ben Weatherstaff’s face twisted itself in a dry old smile.
 s=none;e:ben=smirking
@@ -10136,16 +10133,19 @@ s=colin;e:colin=surprised
 s=ben;e:ben=chinrubbing
 
 “But no one has been in it for ten years!” cried Colin. “There was no door!”
-s=colin;e:colin=surprised;i=2
+s=colin;;e:colin=nervous;i=
 
-“I’m no one,” said old Ben dryly.
-s=ben;e:ben=smirking
+“I’m no one,” said old Ben dryly.<e><book>Odyssey|Odysseus</book>: The Grouchy Years.</e>
+s=ben;e:ben=smirking;e:ben=hunching;i=
 
 “An’ I didn’t come through th’ door. I come over th’ wall. Th’ rheumatics held me back th’ last two year’.”
-e:ben=thinking
+;e:ben=thinking;i=2
 
-“Tha’ come an’ did a bit o’ prunin’!” cried Dickon. “I couldn’t make out how it had been done.”
+“Tha’ come an’ did a bit o’ prunin’!” cried Dickon.
 s=dickon;e:dickon=surprised
+
+“I couldn’t make out how it had been done.”
+;e:dickon=wary;i=
 
 “She was so fond of it﻿—she was!” said Ben Weatherstaff slowly.
 s=ben;e:ben=contemplative
@@ -10163,13 +10163,13 @@ e:ben=serious
 
 
 “It wouldn’t have been as wick as it is if tha’ hadn’t done it,” said Dickon.
-s=dickon;e:dickon=happy
+s=dickon;e:dickon=happy;e:dickon=nod;i=
 
 “I did wonder.”
 e:dickon=thinking
 
 “I’m glad you did it, Weatherstaff,” said Colin. “You’ll know how to keep the secret.”
-s=colin;e:colin=happy
+s=colin;e:colin=happy;e:colin=happy;i=2
 
 “Aye, I’ll know, sir,” answered Ben. “An’ it’ll be easier for a man wi’ rheumatics to come in at th’ door.”
 s=ben;e:ben=smirking
@@ -10183,11 +10183,8 @@ e:colin=curious
 His thin hand was weak enough but presently as they watched him﻿—Mary with quite breathless interest﻿—he drove the end of the trowel into the soil and turned some over.
 e:mary=excited
 
-“You can do it! You can do it!” said Mary to herself.
-s=mary;e:mary=whisper
-
-“I tell you, you can!”
-
+“You can do it! You can do it!” said Mary to herself. “I tell you, you can!”
+s=mary;e:mary=serious;i=2
 
 Dickon’s round eyes were full of eager curiousness but he said not a word.
 s=none;e:dickon=curious
@@ -10199,10 +10196,10 @@ Colin persevered. After he had turned a few trowelfuls of soil he spoke exultant
 e:colin=excited
 
 “Tha’ said as tha’d have me walkin’ about here same as other folk﻿—an’ tha’ said tha’d have me diggin’.”
-s=colin
+s=colin;e:colin=happy;i=
 
 “I thowt tha’ was just leein’ to please me. This is only th’ first day an’ I’ve walked﻿—an’ here I am diggin’.”
-
+;e:colin=sadsmile;i=
 
 Ben Weatherstaff’s mouth fell open again when he heard him, but he ended by chuckling.
 s=none;e:ben=surprised
@@ -10214,7 +10211,7 @@ s=ben;e:ben=happy
 
 
 “Go and get it!” said Colin, digging excitedly.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;e:colin=happy;i=
 
 “Quick! Quick!”
 
@@ -10271,13 +10268,13 @@ Nut and Shell chattered about it from a cherry-tree.
 
 
 “It’s planted!” said Colin at last.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;e:colin=excited;i=
 
 “And the sun is only slipping over the edge.”
-
+;e:colin=happy;i=2
 
 “Help me up, Dickon. I want to be standing when it goes. That’s part of the Magic.”
-
+i=
 
 And Dickon helped him, and the Magic﻿—or whatever it was﻿—so gave him strength that when the sun did slip over the edge and end the strange lovely afternoon for them there he actually stood on his two feet﻿—laughing.
 s=none;e:colin=happy;e:dickon=happy
