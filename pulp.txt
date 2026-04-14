@@ -1,4 +1,4 @@
-<div class='center'><span class='big italics'>The Secret Garden</span> by&nbsp;Frances&nbsp;Hodgson&nbsp;Burnett</div><e>TODO</e>
+<div class='center'><span class='big italics'>The Secret Garden</span> by&nbsp;Frances&nbsp;Hodgson&nbsp;Burnett</div><e>From the author that brought you <book>Little Lord Fauntleroy</book>, here's <i>Little Miss Named-After-a-Nursery-Rhyme</i>.</e>
 b=title;t=author;z:author=103,45,4
 
 ## I. There Is No One Left
@@ -511,7 +511,7 @@ Her black dress made her look yellower than ever, and her limp light hair stragg
 “A more marred-looking young one I never saw in my life,” Mrs. Medlock thought.
 t=mrsmedlock;e:mrsmedlock=scowling
 
-(Marred is a Yorkshire word and means spoiled and pettish.)<e>"Pettish" of course needs no definition.</e>
+(Marred is a Yorkshire word and means spoiled and pettish.)<e>(As for "pettish": figure it out yourself, you stupid kid-readers.)</e>
 t=none
 
 She had never seen a child who sat so still without doing anything; and at last she got tired of watching her and began to talk in a brisk, hard voice.
@@ -649,7 +649,7 @@ e:mrsmedlock=contemplative
 “Pitcher’s an old fellow, but he took care of him when he was a child and he knows his ways.”
 
 
-It sounded like something in a book and it did not make Mary feel cheerful.<e>This is two books in-a-row of authors saying their books sound like books. Two too many!</e>
+It sounded like something in a book and it did not make Mary feel cheerful.
 s=none;e:mary=nervous
 
 A house with a hundred rooms, nearly all shut up and with their doors locked—a house on the edge of a moor—whatsoever a moor was—sounded dreary.
@@ -691,7 +691,7 @@ s=none;e:mary=weary
 She watched it so long and steadily that the grayness grew heavier and heavier before her eyes and she fell asleep.
 f:b:railway-carriage=blur(3px)
 
-## III. Across the Moor<e>What a bait-and-switch starting out the book in India, only to immediately end up in the moors. Back to <book>The Thirty-Nine Steps</book> I suppose. Or <book>Hound of the Baskervilles</book>. Or <book>Wuthering Heights</book>. Say about half of all British literature really.</e>
+## III. Across the Moor<e>Switching to the moors after starting out the book in India is a real bait-and-switch. It's the <i><book>Hound of the Baskervilles|Hound</book> of <book>The Thirty-Nine Steps|Thirty-Nine</book> <book>Wuthering Heights|Wutherings</book></i> all over again. (Can you tell British authors love this setting?)</e>
 r=title
 
 She slept a long time, and when she awakened Mrs. Medlock had bought a lunchbasket at one of the stations and they had some chicken and cold beef and bread and butter and some hot tea.
@@ -1603,7 +1603,7 @@ e:ben=
 “What kind of a bird is he?” Mary asked.
 s=mary;e:mary=confused
 
-“Doesn’t tha’ know? He’s a robin redbreast an’ they’re th’ friendliest, curiousest birds alive.”<e>A note to my fellow North Americaners: the European robin is a different bird than the American robin. Their version is smaller and allegedly chummier, though both birds share the color trait of… not being red. (Color meanings change over time.)</e>
+“Doesn’t tha’ know? He’s a robin redbreast an’ they’re th’ friendliest, curiousest birds alive.”<e>A note to my fellow North Americaners: the European robin is a different bird than the American robin. Same coloring (not red), but their version is a bit smaller and, allegedly, friendlier. (Allegedly.)</e>
 s=ben;e:ben=happy
 
 “They’re almost as friendly as dogs—if you know how to get on with ’em.”
@@ -2854,7 +2854,7 @@ e:mary=thinking;b=manor-wide-blue
 There is no doubt that the fresh, strong, pure air from the moor had a great deal to do with it. Just as it had given her an appetite, and fighting with the wind had stirred her blood, so the same things had stirred her mind.
 b=manor-wide-blue
 
-In India she had always been too hot and languid and weak to care much about anything, but in this place she was beginning to care and to want to do new things.<e>This is a pro–environmental determinism children's novel.</e>
+In India she had always been too hot and languid and weak to care much about anything, but in this place she was beginning to care and to want to do new things.<e>Britain's favorite pro–environmental determinism children's novel.</e>
 e:mary=contemplative
 
 Already she felt less “contrary,” though she did not know why.
@@ -4060,7 +4060,7 @@ s=dickon;e:dickon=happy;n:dickon=Dickon Sowerby;c=dickon;z:dickon=93,,4;v=,140,4
 Then Mary realized that somehow she had known at first that he was Dickon.
 s=none;e:mary=surprised
 
-Who else could have been charming rabbits and pheasants as the natives charm snakes in India?<e>From India, btw. (Just like how <book>The Thirty-Nine Steps</book>'s protagonist was from Rhodesia, btw. Don't you go forgetting these things, reader.)</e>
+Who else could have been charming rabbits and pheasants as the natives charm snakes in India?
 
 
 He had a wide, red, curving mouth and his smile spread all over his face.
@@ -8035,7 +8035,7 @@ s=mary;e:mary=happy;e:mary=serious;i=
 And Colin was asleep.
 s=none;e:colin=neutral
 
-## XVIII. “Tha’ Munnot Waste No Time”<e>Great chapter, that last one. However, I'm just a little disappointed that an no point did Mary grab Colin by the collar and slap him while calling him hysterical.</e>
+## XVIII. “Tha’ Munnot Waste No Time”<e>Great chapter, that last one. Only, it's just too bad that an no point did Mary grab Colin by the collar and slap him while calling him hysterical.</e>
 r=title
 
 Of course Mary did not waken early the next morning.
@@ -9043,7 +9043,7 @@ s=roach;e:roach=happy;i=2
 It was perhaps well he had been prepared or he might have been startled.
 s=none
 
-When the bedroom door was opened a large crow, which seemed quite at home perched on the high back of a carven chair, announced the entrance of a visitor by saying “Caw﻿—Caw” quite loudly.<e>"Tell me what thy lordly name is on— Hey, wait a minute. Thou art sure no raven."</e>
+When the bedroom door was opened a large crow, which seemed quite at home perched on the high back of a carven chair, announced the entrance of a visitor by saying “Caw﻿—Caw” quite loudly.<e>It's a good first draft, Poe, but work on the rhyming.</e>
 b=manor-colin
 
 In spite of Mrs. Medlock’s warning, Mr. Roach only just escaped being sufficiently undignified to jump backward.
@@ -9313,7 +9313,7 @@ s=mary;e:mary=pointing;b=manor-soil;e:mary=whisper;i=
 Then Colin sat up.
 s=none
 
-“Where? Where? There?” he cried, and his eyes were as big as the wolf’s in Red Riding Hood, when Red Riding Hood felt called upon to remark on them.<e>I want to see other allusions written this way. ("And he stood as still as Lot's wife in the Bible, when God felt called upon to turn Lot's wife into a pillar of salt.")</e>
+“Where? Where? There?” he cried, and his eyes were as big as the wolf’s in Red Riding Hood, when Red Riding Hood felt called upon to remark on them.<e>All allusions should be written this way. ("And he stood as still as Lot's wife in the Bible, when God felt called upon to turn Lot's wife into a pillar of salt.")</e>
 s=colin;e:colin=surprised;
 
 Dickon stood still and the wheeled chair stopped.
@@ -10570,7 +10570,7 @@ e:colin=excited;e:colin=lookingdown;i=
 “I keep saying to myself, ‘What is it? What is it?’”
 e:colin=thinking;e:colin=serious;i=
 
-“It’s something. It can’t be nothing! I don’t know its name so I call it Magic.”<e>Entering the Theosophist gobbledygook portion of the book.</e>
+“It’s something. It can’t be nothing! I don’t know its name so I call it Magic.”<e>Entering the Theosophist gobbledygook portion of the novel.</e>
 ;e:colin=rajah;i=
 
 “I have never seen the sun rise but Mary and Dickon have and from what they tell me I am sure that is Magic too. Something pushes it up and draws it.”
@@ -10639,7 +10639,7 @@ Then he cheered up.
 “Well,” he said, “you see something did come of it. She used the wrong Magic until she made him beat her.”
 s=colin;e:colin=thinking
 
-“If she’d used the right Magic and had said something nice perhaps he wouldn’t have got as drunk as a lord and perhaps—perhaps he might have bought her a new bonnet.”<e>I do so love a good happy-morals children's novel.</e>
+“If she’d used the right Magic and had said something nice perhaps he wouldn’t have got as drunk as a lord and perhaps—perhaps he might have bought her a new bonnet.”<e>I do so love a good happy-morals children's book.</e>
 e:colin=curious
 
 Ben Weatherstaff chuckled and there was shrewd admiration in his little old eyes.
@@ -12535,7 +12535,7 @@ He slept soundly and sweetly all through the lovely night.
 When he did awake at last it was brilliant morning and a servant was standing staring at him.
 b=lake-como
 
-He was an Italian servant and was accustomed, as all the servants of the villa were, to accepting without question any strange thing his foreign master might do.<e>As all the servants ought, yes, jolly good.</e>
+He was an Italian servant and was accustomed, as all the servants of the villa were, to accepting without question any strange thing his foreign master might do.<e>As all the servants ought, jolly correct.</e>
 
 
 No one ever knew when he would go out or come in or where he would choose to sleep or if he would roam about the garden or lie in the boat on the lake all night.
@@ -13006,5 +13006,5 @@ e:craven=happy
 And by his side with his head up in the air and his eyes full of laughter walked as strongly and steadily as any boy in Yorkshire﻿—Master Colin!
 e:colin=happy
 
-<e>The End to a very cute children's book. My main complaint: not long enough. We never got that cottage trip, or an end to Dr. Craven's arc, or the full teachings of Theosophy. Missed opportunities.</e>
+<e>The End to a very cute children's book. But I'm sure every kid has the same complaint: not long enough. We never got that cottage trip, or an end to Dr. Craven's arc, or the full teachings of Theosophy. Missed opportunities.</e>
 r=title
