@@ -2357,7 +2357,7 @@ s=mary;e:mary=thinking
 e:mary=serious
 
 After that she opened more doors and more.
-s=none;e:mary=excited;b=manor-corridor-2
+s=none;e:mary=excited;b=manor-wide-rain
 
 She saw so many rooms that she became quite tired and began to think that there must be a hundred, though she had not counted them.
 e:mary=weary
@@ -13006,5 +13006,5 @@ e:craven=happy
 And by his side with his head up in the air and his eyes full of laughter walked as strongly and steadily as any boy in Yorkshire﻿—Master Colin!
 e:colin=happy
 
-<e>TODO</e>
+<e>The End to a very cute children's book. My main complaint: not long enough. We never got that cottage trip, or an end to Dr. Craven's arc, or the full teachings of Theosophy. Missed opportunities.</e>
 r=title
