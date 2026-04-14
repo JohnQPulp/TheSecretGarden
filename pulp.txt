@@ -10919,10 +10919,10 @@ While he dug or weeded he whistled or sang bits of Yorkshire moor songs or talke
 
 
 “We’d never get on as comfortable as we do,” Mrs. Sowerby said, “if it wasn’t for Dickon’s garden. Anything’ll grow for him.”
-n:mrssowerby=Susan Sowerby;s=mrssowerby;e:mrssowerby=happy;z:mrssowerby=103,53,4
+n:mrssowerby=Susan Sowerby;s=mrssowerby;e:mrssowerby=happy;z:mrssowerby=103,53,4;b=light;e:mrssowerby=thinking;i=2
 
 “His ’taters and cabbages is twice th’ size of anyone else’s an’ they’ve got a flavor with ’em as nobody’s has.”
-
+;e:mrssowerby=happy;i=
 
 When she found a moment to spare she liked to go out and talk to him.
 s=none;e:mrssowerby=neutral;b=cottage-garden
@@ -10943,13 +10943,13 @@ The low wall was one of the prettiest things in Yorkshire because he had tucked 
 
 
 “All a chap’s got to do to make ’em thrive, mother,” he would say, “is to be friends with ’em for sure. They’re just like th’ ‘creatures.’”
-s=dickon;e:dickon=happy
+s=dickon;e:dickon=happy;;e:dickon=smirking;i=2
 
 “If they’re thirsty give ’em a drink and if they’re hungry give ’em a bit o’ food. They want to live same as we do.”
-
+e:dickon=happy
 
 “If they died I should feel as if I’d been a bad lad and somehow treated them heartless.”
-e:dickon=serious
+e:dickon=serious;e:dickon=nod;i=
 
 It was in these twilight hours that Mrs. Sowerby heard of all that happened at Misselthwaite Manor.
 s=none;e:mrssowerby=curious
@@ -10973,16 +10973,16 @@ e:mrssowerby=surprised
 s=mrssowerby;e:mrssowerby=surprised
 
 “It was a good thing that little lass came to th’ Manor. It’s been th’ makin’ o’ her an’ th’ savin’ o’ him.”
-e:mrssowerby=happy
+e:mrssowerby=happy;e:mrssowerby=happy;i=2
 
 “Standin’ on his feet! An’ us all thinkin’ he was a poor half-witted lad with not a straight bone in him.”
-e:mrssowerby=thinking
+e:mrssowerby=thinking;e:mrssowerby=thinking;i=2
 
 She asked a great many questions and her blue eyes were full of deep thinking.
 s=none;e:mrssowerby=thinking
 
 “What do they make of it at th’ Manor—him being so well an’ cheerful an’ never complainin’?” she inquired.
-s=mrssowerby;e:mrssowerby=curious
+s=mrssowerby;e:mrssowerby=curious;e:mrssowerby=thinking;i=
 
 “They don’t know what to make of it,” answered Dickon.
 s=dickon;e:dickon=smirking
@@ -10991,10 +10991,10 @@ s=dickon;e:dickon=smirking
 e:dickon=happy
 
 “But he has to do his bit o’ complainin’,” with a highly entertained grin.
-e:dickon=smirking
+e:dickon=smirking;e:dickon=smirking;i=2
 
 “What for, i’ Mercy’s name?” asked Mrs. Sowerby.
-s=mrssowerby;e:mrssowerby=confused
+s=mrssowerby;e:mrssowerby=confused;e:mrssowerby=curious;i=
 
 Dickon chuckled.
 s=none;e:dickon=smirking
@@ -11015,7 +11015,7 @@ Mrs. Sowerby was laughing a low comfortable laugh long before he had finished hi
 s=none;e:mrssowerby=happy
 
 “Eh!” she said, “that pair’s enjoyin’ theirselves, I’ll warrant.”
-s=mrssowerby
+s=mrssowerby;e:mrssowerby=smirking;i=
 
 “They’ll get a good bit o’ play actin’ out of it an’ there’s nothin’ children likes as much as play actin’. Let’s hear what they do, Dickon lad.”
 e:mrssowerby=curious
@@ -11027,13 +11027,13 @@ s=none;e:dickon=happy
 s=dickon
 
 “An’ he flies out at John, th’ footman, for not carryin’ him careful enough. He makes himself as helpless lookin’ as he can an’ never lifts his head until we’re out o’ sight o’ th’ house.”
-e:dickon=smirking
+e:dickon=smirking;e:dickon=smirking;i=2
 
 “An’ he grunts an’ frets a good bit when he’s bein’ settled into his chair.”
-
+i=
 
 “Him an’ Miss Mary’s both got to enjoyin’ it an’ when he groans an’ complains she’ll say, ‘Poor Colin! Does it hurt you so much? Are you so weak as that, poor Colin?’—but th’ trouble is that sometimes they can scarce keep from burstin’ out laughin’.”
-
+e:dickon=happy;e:dickon=nod;i=
 
 “When we get safe into the garden they laugh till they’ve no breath left to laugh with.”
 e:dickon=happy
@@ -11048,31 +11048,31 @@ s=mrssowerby;e:mrssowerby=happy
 
 
 “They are plumpin’ up,” said Dickon. “They’re that hungry they don’t know how to get enough to eat without makin’ talk.”
-s=dickon;e:dickon=happy;a:colin=well
+s=dickon;e:dickon=happy;a:colin=well;e:dickon=contemplative;i=2
 
 “Mester Colin says if he keeps sendin’ for more food they won’t believe he’s an invalid at all.”
-e:dickon=thinking
+e:dickon=thinking;e:dickon=wary;i=
 
 “Miss Mary says she’ll let him eat her share, but he says that if she goes hungry she’ll get thin an’ they mun both get fat at once.”
-e:dickon=smirking
+e:dickon=smirking;e:dickon=thinking;i=
 
 Mrs. Sowerby laughed so heartily at the revelation of this difficulty, that she quite rocked backward and forward in her blue cloak, and Dickon laughed with her.
 s=none;e:mrssowerby=happy;e:dickon=happy
 
 “I’ll tell thee what, lad,” Mrs. Sowerby said when she could speak.
-s=mrssowerby;e:mrssowerby=thinking
+s=mrssowerby;e:mrssowerby=thinking;e:mrssowerby=happy;i=
 
 “I’ve thought of a way to help ’em.”
-
+;e:mrssowerby=smirking;i=
 
 “When tha’ goes to ’em in th’ mornin’s tha’ shall take a pail o’ good new milk an’ I’ll bake ’em a crusty cottage loaf or some buns wi’ currants in ’em, same as you children like.”
-e:mrssowerby=happy
+e:mrssowerby=happy;e:mrssowerby=thinking;i=2
 
 “Nothin’s so good as fresh milk an’ bread.”
-
+e:mrssowerby=happy
 
 “Then they could take off th’ edge o’ their hunger while they were in their garden an’ th’ fine food they get indoors ’ud polish off th’ corners.”
-
+;e:mrssowerby=curious;i=
 
 “Eh! mother!” said Dickon admiringly, “what a wonder tha’ art! Tha’ always sees a way out o’ things.”
 s=dickon;e:dickon=excited
@@ -11081,28 +11081,28 @@ s=dickon;e:dickon=excited
 
 
 “They’re two young ’uns growin’ fast, an’ health’s comin’ back to both of ’em. Children like that feels like young wolves an’ food’s flesh an’ blood to ’em,” said Mrs. Sowerby.
-s=mrssowerby;e:mrssowerby=happy
+s=mrssowerby;e:mrssowerby=happy;e:mrssowerby=thinking;i=2
 
 Then she smiled Dickon’s own curving smile.
 s=none
 
 “Eh! but they’re enjoyin’ theirselves for sure,” she said.
-s=mrssowerby
+s=mrssowerby;e:mrssowerby=happy
 
 She was quite right, the comfortable wonderful mother creature—and she had never been more so than when she said their “play actin’” would be their joy.
 s=none
 
 Colin and Mary found it one of their most thrilling sources of entertainment.
-e:colin=excited;e:mary=excited;b=manor-colin;x:colin=velvet;x:mary=daytime
+e:colin=excited;e:mary=excited;;x:colin=velvet;x:mary=daytime
 
 The idea of protecting themselves from suspicion had been unconsciously suggested to them first by the puzzled nurse and then by Dr. Craven himself.
-e:nurse=confused;e:drcraven=confused
+e:nurse=confused;e:drcraven=confused;b=manor-colin
 
 “Your appetite is improving very much, Master Colin,” the nurse had said one day.
-s=nurse;e:nurse=curious
+s=nurse;;e:nurse=surprised;i=
 
 “You used to eat nothing, and so many things disagreed with you.”
-
+e:nurse=confused
 
 “Nothing disagrees with me now,” replied Colin,
 s=colin;e:colin=happy;e:nurse=suspicious;m=allowbreak
@@ -11111,16 +11111,16 @@ and then seeing the nurse looking at him curiously he suddenly remembered that p
 m=;s=
 
 “At least things don’t so often disagree with me. It’s the fresh air.”
-e:colin=nervous
+e:colin=nervous;s=colin;e:colin=contemplative;i=2
 
 “Perhaps it is,” said the nurse, still looking at him with a mystified expression.
 s=nurse;e:nurse=confused
 
 “But I must talk to Dr. Craven about it.”
-e:nurse=serious
+e:nurse=serious;e:nurse=contemplative;i=
 
 “How she stared at you!” said Mary when she went away.
-s=mary;e:mary=surprised
+s=mary;e:mary=surprised;e:mary=curious;i=2
 
 “As if she thought there must be something to find out.”
 e:mary=thinking
@@ -11135,7 +11135,7 @@ He asked a number of questions, to Colin’s great annoyance.
 e:colin=annoyed
 
 “You stay out in the garden a great deal,” he suggested. “Where do you go?”
-s=drcraven;e:drcraven=curious
+s=drcraven;e:drcraven=curious;e:drcraven=nervous;i=
 
 Colin put on his favorite air of dignified indifference to opinion.
 s=none;e:colin=serious
@@ -11147,7 +11147,7 @@ s=colin
 
 
 “You know that!”
-e:colin=angry
+e:colin=angry;e:colin=annoyed;i=
 
 “You seem to be out all day but I do not think it has done you harm—I do not think so. The nurse says that you eat much more than you have ever done before.”
 s=drcraven;e:drcraven=thinking
@@ -11156,7 +11156,7 @@ s=drcraven;e:drcraven=thinking
 s=colin;e:colin=serious
 
 “I do not think so, as your food seems to agree with you,” said Dr. Craven.
-s=drcraven;e:drcraven=neutral
+s=drcraven;e:drcraven=neutral;e:drcraven=suspicious;i=
 
 “You are gaining flesh rapidly and your color is better.”
 
@@ -11185,16 +11185,10 @@ s=colin;e:colin=angry
 “It will only disappoint him if I get worse again—and I may get worse this very night.”
 e:colin=upset
 
-“I might have a raging fever. I feel as if I might be beginning to have one now.”
+“I might have a raging fever. I feel as if I might be beginning to have one now. I won’t have letters written to my father—I won’t—I won’t!”
 
 
-“I won’t have letters written to my father—I won’t—I won’t!”
-e:colin=angry
-
-“You are making me angry and you know that is bad for me. I feel hot already.”
-e:colin=serious
-
-“I hate being written about and being talked over as much as I hate being stared at!”
+“You are making me angry and you know that is bad for me. I feel hot already. I hate being written about and being talked over as much as I hate being stared at!”
 e:colin=angry
 
 “Hush-h! my boy,” Dr. Craven soothed him. “Nothing shall be written without your permission.”
@@ -11207,7 +11201,7 @@ He said no more about writing to Mr. Craven and when he saw the nurse he private
 s=none;e:drcraven=wary;b=manor-corridor-3
 
 “The boy is extraordinarily better,” he said. “His advance seems almost abnormal.”
-s=drcraven;e:drcraven=confused
+s=drcraven;e:drcraven=confused;e:drcraven=serious;i=
 
 “But of course he is doing now of his own free will what we could not make him do before. Still, he excites himself very easily and nothing must be said to irritate him.”
 e:drcraven=serious
@@ -11234,25 +11228,25 @@ Mary always breakfasted with him and when they found themselves at the table—p
 e:mary=nervous;e:colin=nervous
 
 “I think we shall have to eat it all this morning, Mary,” Colin always ended by saying.
-s=colin;e:colin=thinking
+s=colin;e:colin=thinking;e:colin=unhappy;i=
 
 “We can send away some of the lunch and a great deal of the dinner.”
-
+;e:colin=contemplative;i=
 
 But they never found they could send away anything and the highly polished condition of the empty plates returned to the pantry awakened much comment.
-s=none;e:mary=smirking;e:colin=smirking;b=manor-servants-hall
+s=none;e:mary=smirking;e:colin=smirking;
 
 “I do wish,” Colin would say also, “I do wish the slices of ham were thicker, and one muffin each is not enough for anyone.”
-s=colin;e:colin=annoyed;b=manor-colin
+s=colin;e:colin=annoyed;b=manor-colin;e:colin=contemplative;i=2
 
 “It’s enough for a person who is going to die,” answered Mary when first she heard this, “but it’s not enough for a person who is going to live.”
-s=mary;e:mary=smirking
+s=mary;e:mary=smirking;e:mary=serious;i=2
 
 “I sometimes feel as if I could eat three when those nice fresh heather and gorse smells from the moor come pouring in at the open window.”
 e:mary=happy
 
 The morning that Dickon—after they had been enjoying themselves in the garden for about two hours—went behind a big rosebush and brought forth two tin pails and revealed that one was full of rich new milk with cream on the top of it, and that the other held cottage-made currant buns folded in a clean blue and white napkin, buns so carefully tucked in that they were still hot, there was a riot of surprised joyfulness.
-s=none;e:mary=surprised;e:colin=surprised;b=manor-secret-trees-springest
+s=none;e:mary=surprised;e:colin=surprised;b=manor-secret-walls-springest
 
 What a wonderful thing for Mrs. Sowerby to think of! What a kind, clever woman she must be!
 e:mary=happy;e:colin=happy
@@ -11273,7 +11267,7 @@ He liked this so much that he improved upon it.
 
 
 “Tell her she has been most bounteous and our gratitude is extreme.”
-s=colin;e:colin=serious
+s=colin;e:colin=serious;e:colin=thinking;i=
 
 And then forgetting his grandeur he fell to and stuffed himself with buns and drank milk out of the pail in copious draughts in the manner of any hungry little boy who had been taking unusual exercise and breathing in moorland air and whose breakfast was more than two hours behind him.
 s=none;e:colin=happy
@@ -11282,7 +11276,7 @@ This was the beginning of many agreeable incidents of the same kind.
 
 
 They actually awoke to the fact that as Mrs. Sowerby had fourteen people to provide food for she might not have enough to satisfy two extra appetites every day.
-e:mary=thinking;e:colin=thinking;b=cottage-wide
+e:mary=thinking;e:colin=thinking;
 
 So they asked her to let them send some of their shillings to buy things.
 
@@ -11297,10 +11291,10 @@ You could buy both potatoes and eggs and eat as many as you liked without feelin
 
 
 Every beautiful morning the Magic was worked by the mystic circle under the plum-tree which provided a canopy of thickening green leaves after its brief blossom-time was ended.
-b=manor-secret-trees-springest
+b=manor-secret-springest
 
 After the ceremony Colin always took his walking exercise and throughout the day he exercised his newly found power at intervals.
-e:colin=serious;b=manor-secret-walls-springest
+e:colin=serious;
 
 Each day he grew stronger and could walk more steadily and cover more ground. And each day his belief in the Magic grew stronger—as well it might.
 e:colin=happy
@@ -11309,7 +11303,7 @@ He tried one experiment after another as he felt himself gaining strength and it
 
 
 “Yesterday,” he said one morning after an absence, “I went to Thwaite for mother an’ near th’ Blue Cow Inn I seed Bob Haworth.”
-s=dickon;e:dickon=neutral;b=manor-secret-trees-springest
+s=dickon;e:dickon=neutral
 
 “He’s the strongest chap on th’ moor. He’s the champion wrestler an’ he can jump higher than any other chap an’ throw th’ hammer farther.”
 e:dickon=excited
@@ -11338,14 +11332,11 @@ s=none;e:colin=excited
 “Can you show me?” he cried. “Will you?”
 s=colin
 
-“Aye, to be sure,” Dickon answered, getting up.
-s=dickon;e:dickon=
-
-“But he says tha’ mun do ’em gentle at first an’ be careful not to tire thysel’.”
-e:dickon=serious
+“Aye, to be sure,” Dickon answered, getting up. “But he says tha’ mun do ’em gentle at first an’ be careful not to tire thysel’.”
+s=dickon;e:dickon=serious
 
 “Rest in between times an’ take deep breaths an’ don’t overdo.”
-
+;e:dickon=wary;i=
 
 “I’ll be careful,” said Colin.
 s=colin;e:colin=serious
@@ -11381,10 +11372,10 @@ You can trifle with your breakfast and seem to disdain your dinner if you are fu
 
 
 “They are eating next to nothing,” said the nurse.
-s=nurse;e:nurse=upset;b=manor-servants-hall
+s=nurse;e:nurse=upset;e:nurse=wary;i=
 
 “They’ll die of starvation if they can’t be persuaded to take some nourishment. And yet see how they look.”
-e:nurse=confused
+e:nurse=confused;e:nurse=upset;i=
 
 “Look!” exclaimed Mrs. Medlock indignantly. “Eh! I’m moithered to death with them. They’re a pair of young Satans.”
 s=mrsmedlock;e:mrsmedlock=angry
@@ -11393,10 +11384,10 @@ s=mrsmedlock;e:mrsmedlock=angry
 e:mrsmedlock=annoyed
 
 “Not a mouthful of that lovely young fowl and bread sauce did they set a fork into yesterday—and the poor woman fair *invented* a pudding for them—and back it’s sent.”
-e:mrsmedlock=upset
+e:mrsmedlock=upset;e:mrsmedlock=scowling;i=
 
 “She almost cried. She’s afraid she’ll be blamed if they starve themselves into their graves.”
-e:mrsmedlock=thinking
+e:mrsmedlock=thinking;e:mrsmedlock=contemplative;i=
 
 Dr. Craven came and looked at Colin long and carefully.
 s=none;e:drcraven=serious;b=manor-colin
@@ -11435,22 +11426,22 @@ Mary was sitting on her stool nearby and she suddenly made a very queer sound wh
 s=none;e:mary=nervous
 
 “What is the matter?” said Dr. Craven, turning to look at her.
-s=drcraven;e:drcraven=looking
+s=drcraven;e:drcraven=looking;e:drcraven=suspicious;i=
 
 Mary became quite severe in her manner.
 s=none;e:mary=serious
 
 “It was something between a sneeze and a cough,” she replied with reproachful dignity, “and it got into my throat.”
-s=mary;e:mary=scowling
+s=mary;e:mary=scowling;e:mary=serious;i=
 
 “But,” she said afterward to Colin, “I couldn’t stop myself.”
-e:mary=happy;b=light
+e:mary=happy;b=light;e:mary=smirking;i=
 
 “It just burst out because all at once I couldn’t help remembering that last big potato you ate and the way your mouth stretched when you bit through that thick lovely crust with jam and clotted cream on it.”
 e:mary=smirking
 
 “Is there any way in which those children can get food secretly?” Dr. Craven inquired of Mrs. Medlock.
-s=drcraven;e:drcraven=suspicious;b=manor-hall
+s=drcraven;e:drcraven=suspicious;b=manor-hall;e:drcraven=confused;i=
 
 “There’s no way unless they dig it out of the earth or pick it off the trees,” Mrs. Medlock answered.
 s=mrsmedlock;e:mrsmedlock=annoyed
@@ -11462,19 +11453,22 @@ e:mrsmedlock=scowling
 s=drcraven;e:drcraven=weary
 
 “So is the girl,” said Mrs. Medlock. “She’s begun to be downright pretty since she’s filled out and lost her ugly little sour look.”
-s=mrsmedlock;e:mrsmedlock=surprised
+s=mrsmedlock;e:mrsmedlock=surprised;e:mrsmedlock=scowling;i=2
 
 “Her hair’s grown thick and healthy looking and she’s got a bright color.”
+;e:mrsmedlock=thinking;i=
 
+“The glummest, ill-natured little thing she used to be and now her and Master Colin laugh together like a pair of crazy young ones.”
+e:mrsmedlock=smirking;e:mrsmedlock=confused;i=2
 
-“The glummest, ill-natured little thing she used to be and now her and Master Colin laugh together like a pair of crazy young ones. Perhaps they’re growing fat on that.”
+“Perhaps they’re growing fat on that.”
 e:mrsmedlock=smirking
 
 “Perhaps they are,” said Dr. Craven.
-s=drcraven;e:drcraven=thinking
+s=drcraven;e:drcraven=thinking;e:drcraven=contemplative;i=
 
 “Let them laugh.”
-
+;e:drcraven=weary;i=
 
 ## XXV. The Curtain
 r=title
