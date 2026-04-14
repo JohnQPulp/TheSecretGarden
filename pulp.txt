@@ -7676,16 +7676,16 @@ e:mary=thinking
 r=title
 
 She had got up very early in the morning and had worked hard in the garden and she was tired and sleepy, so as soon as Martha had brought her supper and she had eaten it, she was glad to go to bed.
-e:mary=weary;b=light
+e:mary=weary;b=manor-mary-night
 
 As she laid her head on the pillow she murmured to herself:
-e:mary=thinking;b=manor-mary-night;x:mary=bedtime
+e:mary=thinking;;x:mary=bedtime
 
 “I’ll go out before breakfast and work with Dickon and then afterward﻿—I believe﻿—I’ll go to see him.”
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=thinking;i=
 
 She thought it was the middle of the night when she was wakened by such dreadful sounds that she jumped out of bed in an instant.
-s=none;e:mary=surprised;b=manor-mary-open
+s=none;e:mary=surprised;
 
 What was it﻿—what was it?
 e:mary=wary
@@ -7721,7 +7721,7 @@ She was not used to anyone’s tempers but her own.
 
 
 She took her hands from her ears and sprang up and stamped her foot.
-e:mary=angry;b=manor-mary-night
+e:mary=angry;b=manor-mary-fire-out
 
 “He ought to be stopped! Somebody ought to make him stop! Somebody ought to beat him!” she cried out.
 s=mary;e:mary=angry
@@ -7733,19 +7733,22 @@ She was not laughing now by any means. She even looked rather pale.
 e:nurse=nervous
 
 “He’s worked himself into hysterics,” she said in a great hurry.
-s=nurse;e:nurse=fearful
+s=nurse;e:nurse=fearful;e:nurse=wary;i=
 
 “He’ll do himself harm. No one can do anything with him. You come and try, like a good child. He likes you.”
-s=nurse;e:nurse=nervous
+s=nurse;e:nurse=nervous;e:nurse=confused;i=
 
 “He turned me out of the room this morning,” said Mary, stamping her foot with excitement.
-s=mary;e:mary=annoyed
+s=mary;e:mary=annoyed;e:mary=scowling;i=2
 
 The stamp rather pleased the nurse. The truth was that she had been afraid she might find Mary crying and hiding her head under the bedclothes.
 s=none;e:nurse=neutral
 
-“That’s right,” she said. “You’re in the right humor. You go and scold him. Give him something new to think of. Do go, child, as quick as ever you can.”
-s=nurse;e:nurse=serious
+“That’s right,” she said. “You’re in the right humor.”
+s=nurse;e:nurse=serious;e:nurse=curious;i=2
+
+“You go and scold him. Give him something new to think of. Do go, child, as quick as ever you can.”
+;e:nurse=serious;i=
 
 It was not until afterward that Mary realized that the thing had been funny as well as dreadful﻿—that it was funny that all the grownup people were so frightened that they came to a little girl just because they guessed she was almost as bad as Colin himself.
 s=none;e:mary=thinking
@@ -7760,10 +7763,10 @@ She slapped it open with her hand and ran across the room to the four-posted bed
 b=manor-colin-night
 
 “You stop!” she almost shouted. “You stop! I hate you! Everybody hates you!”
-s=mary;e:mary=angry
+s=mary;e:mary=angry;e:mary=scowling;i=
 
 “I wish everybody would run out of the house and let you scream yourself to death!”
-s=mary
+s=mary;e:mary=angry;i=
 
 “You *will* scream yourself to death in a minute, and I wish you would!”
 s=mary
@@ -7778,7 +7781,7 @@ His face looked dreadful, white and red and swollen, and he was gasping and chok
 e:colin=crying;e:mary=scowling
 
 “If you scream another scream,” she said, “I’ll scream too﻿—and I can scream louder than you can and I’ll frighten you, I’ll frighten you!”
-s=mary;e:mary=angry
+s=mary;e:mary=angry;e:mary=scowling;i=2
 
 He actually had stopped screaming because she had startled him so. The scream which had been coming almost choked him.
 s=none;e:colin=surprised
@@ -7793,7 +7796,7 @@ s=colin;e:colin=crying
 s=mary;e:mary=angry
 
 “Half that ails you is hysterics and temper﻿—just hysterics﻿—hysterics﻿—hysterics!” and she stamped each time she said it.
-
+;e:mary=serious;i=2
 
 “I felt the lump﻿—I felt it,” choked out Colin.
 s=colin;e:colin=crying
@@ -7817,19 +7820,19 @@ She liked the word “hysterics” and felt somehow as if it had an effect on hi
 s=none;e:mary=thinking
 
 “Nurse,” she commanded, “come here and show me his back this minute!”
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=serious;i=2
 
 The nurse, Mrs. Medlock and Martha had been standing huddled together near the door staring at her, their mouths half open.
 s=none;e:nurse=surprised;e:mrsmedlock=surprised;e:martha=surprised
 
-All three had gasped with fright more than once. The nurse came forward as if she were half afraid.
+All three had gasped with fright more than once.
 e:nurse=fearful
 
-Colin was heaving with great breathless sobs.
+The nurse came forward as if she were half afraid. Colin was heaving with great breathless sobs.
 e:colin=crying
 
 “Perhaps he﻿—he won’t let me,” she hesitated in a low voice.
-s=nurse;e:nurse=nervous
+s=nurse;e:nurse=nervous;e:nurse=wary;i=
 
 Colin heard her, however, and he gasped out between two sobs:
 s=none;e:colin=upset
@@ -7850,16 +7853,16 @@ There was just a minute’s silence, for even Colin tried to hold his breath whi
 e:colin=nervous;e:mary=serious
 
 “There’s not a single lump there!” she said at last.
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=scowling;i=
 
 “There’s not a lump as big as a pin﻿—except backbone lumps, and you can only feel them because you’re thin.”
-s=mary
+s=mary;e:mary=serious
 
 “I’ve got backbone lumps myself, and they used to stick out as much as yours do, until I began to get fatter, and I am not fat enough yet to hide them.”
 s=mary;e:mary=annoyed
 
 “There’s not a lump as big as a pin! If you ever say there is again, I shall laugh!”
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=serious;i=2
 
 No one but Colin himself knew what effect those crossly spoken childish words had on him.
 s=none;e:colin=surprised
@@ -7874,7 +7877,7 @@ And now that an angry unsympathetic little girl insisted obstinately that he was
 e:colin=surprised
 
 “I didn’t know,” ventured the nurse, “that he thought he had a lump on his spine.”
-s=nurse;e:nurse=contemplative
+s=nurse;e:nurse=contemplative;e:nurse=weary;i=
 
 “His back is weak because he won’t try to sit up. I could have told him there was no lump there.”
 s=nurse
@@ -7886,10 +7889,10 @@ s=none;e:colin=wary
 s=colin;e:colin=crying;i=3
 
 “Yes, sir.”
-s=nurse;e:nurse=nervous
+s=nurse;e:nurse=nervous;e:nurse=wary;i=
 
 “There!” said Mary, and she gulped too.
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=angry;i=
 
 Colin turned on his face again and but for his long-drawn broken breaths, which were the dying down of his storm of sobbing, he lay still for a minute, though great tears streamed down his face and wet the pillow.
 s=none;e:colin=crying
@@ -7901,7 +7904,7 @@ Presently he turned and looked at the nurse again and strangely enough he was no
 e:colin=neutral
 
 “Do you think﻿—I could﻿—live to grow up?” he said.
-s=colin;e:colin=crying
+s=colin;e:colin=crying;e:colin=crying;i=2
 
 The nurse was neither clever nor softhearted but she could repeat some of the London doctor’s words.
 s=none;e:nurse=thinking
@@ -7922,7 +7925,7 @@ He remembered just in time to stop himself from saying “if we can find the sec
 s=;m=allowbreak
 
 “I shall like to go out with you if Dickon will come and push my chair. I do so want to see Dickon and the fox and the crow.”
-s=colin;e:colin=thinking;m=
+s=colin;e:colin=thinking;m=;e:colin=weary;i=2
 
 The nurse remade the tumbled bed and shook and straightened the pillows.
 s=none;e:nurse=neutral
@@ -7943,76 +7946,76 @@ s=nurse;e:nurse=weary
 s=nurse
 
 “Would you like me to sing you that song I learned from my Ayah?” Mary whispered to Colin.
-s=mary;e:mary=curious
+s=mary;e:mary=curious;e:mary=contemplative;i=
 
 His hand pulled hers gently and he turned his tired eyes on her appealingly.
 s=none;e:colin=weary
 
 “Oh, yes!” he answered. “It’s such a soft song. I shall go to sleep in a minute.”
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=wary;i=
 
 “I will put him to sleep,” Mary said to the yawning nurse.
-s=mary;e:mary=
+s=mary;e:mary=;e:mary=thinking;i=
 
 “You can go if you like.”
-
+;e:mary=serious;i=
 
 “Well,” said the nurse, with an attempt at reluctance.
-s=nurse;e:nurse=wary
+s=nurse;e:nurse=wary;e:nurse=nervous;i=
 
 “If he doesn’t go to sleep in half an hour you must call me.”
-
+;e:nurse=contemplative;i=
 
 “Very well,” answered Mary.
-s=mary;e:mary=neutral
+s=mary;e:mary=neutral;e:mary=thinking;i=
 
 The nurse was out of the room in a minute and as soon as she was gone Colin pulled Mary’s hand again.
 s=none;e:colin=nervous
 
 “I almost told,” he said; “but I stopped myself in time.”
-s=colin;e:colin=wary
+s=colin;e:colin=wary;e:colin=weary;i=
 
 “I won’t talk and I’ll go to sleep, but you said you had a whole lot of nice things to tell me.”
-s=colin;e:colin=neutral
+s=colin;e:colin=neutral;e:colin=weary;i=2
 
 “Have you﻿—do you think you have found out anything at all about the way into the secret garden?”
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=confused;i=
 
 Mary looked at his poor little tired face and swollen eyes and her heart relented.
 s=none;e:mary=contemplative
 
 “Ye-es,” she answered, “I think I have. And if you will go to sleep I will tell you tomorrow.”
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=unhappy;i=
 
 His hand quite trembled.
 s=none;e:colin=excited
 
 “Oh, Mary!” he said. “Oh, Mary! If I could get into it I think I should live to grow up!”
-s=colin;e:colin=happy
+s=colin;e:colin=happy;e:colin=weary;i=2
 
 “Do you suppose that instead of singing the Ayah song﻿—you could just tell me softly as you did that first day what you imagine it looks like inside? I am sure it will make me go to sleep.”
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=confused;i=
 
 “Yes,” answered Mary. “Shut your eyes.”
-s=mary;e:mary=
+s=mary;e:mary=;e:mary=contemplative;i=
 
 He closed his eyes and lay quite still and she held his hand and began to speak very slowly and in a very low voice.
 s=none;e:colin=neutral;e:mary=neutral
 
 “I think it has been left alone so long﻿—that it has grown all into a lovely tangle.”
-s=mary;e:mary=contemplative;b=manor-secret-spring;f:b:manor-secret-spring=blur(3px)
+s=mary;e:mary=contemplative;b=manor-secret-spring;f:b:manor-secret-spring=blur(3px);e:mary=thinking;i=
 
 “I think the roses have climbed and climbed and climbed until they hang from the branches and walls and creep over the ground﻿—almost like a strange gray mist.”
-s=mary;e:mary=thinking
+s=mary;e:mary=thinking;e:mary=serious;i=2
 
 “Some of them have died but many﻿—are alive and when the summer comes there will be curtains and fountains of roses.”
-s=mary;
+s=mary;;e:mary=serious;i=
 
 “I think the ground is full of daffodils and snowdrops and lilies and iris working their way out of the dark.”
-
+;e:mary=serious;i=2
 
 “Now the spring has begun﻿—perhaps﻿—perhaps﻿—”
-
+;e:mary=contemplative;i=
 
 The soft drone of her voice was making him stiller and stiller and she saw it and went on.
 s=none;e:colin=weary
@@ -8021,16 +8024,16 @@ s=none;e:colin=weary
 s=mary;e:mary=thinking
 
 “Perhaps the leaves are beginning to break out and uncurl﻿—and perhaps﻿—the gray is changing and a green gauze veil is creeping﻿—and creeping over﻿—everything.”
-s=mary
+s=mary;e:mary=serious;i=2
 
 “And the birds are coming to look at it﻿—because it is﻿—so safe and still.”
-s=mary;e:mary=contemplative
+s=mary;e:mary=thinking
 
 “And perhaps﻿—perhaps﻿—perhaps﻿—” very softly and slowly indeed, “the robin has found a mate﻿—and is building a nest.”
-s=mary;e:mary=happy
+s=mary;e:mary=happy;e:mary=serious;i=
 
 And Colin was asleep.
-s=none;e:colin=neutral;b=manor-colin-night
+s=none;e:colin=neutral
 
 ## XVIII. “Tha’ Munnot Waste No Time”
 r=title
