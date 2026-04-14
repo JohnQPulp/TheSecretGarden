@@ -5468,7 +5468,7 @@ They were agate gray and they looked too big for his face because they had black
 s=colin
 
 “I am Colin.”
-;e:colin=weary;i=2
+;e:colin=weary;i=2;
 
 “Who is Colin?” she faltered.
 s=mary;e:mary=confused;e:mary=wary;i=
@@ -12290,9 +12290,12 @@ s=mrssowerby;e:mrssowerby=sadsmile
 r=title
 
 In each century since the beginning of the world wonderful things have been discovered.
-b=light
+b=think-trees
 
-In the last century more amazing things were found out than in any century before. In this new century hundreds of things still more astounding will be brought to light.
+In the last century more amazing things were found out than in any century before.
+
+
+In this new century hundreds of things still more astounding will be brought to light.<e>With no downsides.</e>
 
 
 At first people refuse to believe that a strange new thing can be done, then they begin to hope it can be done, then they see it can be done﻿—then it is done and all the world wonders why it was not done centuries ago.
@@ -12320,7 +12323,7 @@ So long as Colin shut himself up in his room and thought only of his fears and w
 e:colin=upset;b=manor-colin-night
 
 When new beautiful thoughts began to push out the old hideous ones, life began to come back to him, his blood ran healthily through his veins and strength poured into him like a flood.
-e:colin=happy;b=manor-wide-spring
+e:colin=happy;b=manor-wide-spring-sunset
 
 His scientific experiment was quite practical and simple and there was nothing weird about it at all.
 
@@ -12335,7 +12338,7 @@ Two things cannot be in one place.
 m=margin
 
 While the secret garden was coming alive and two children were coming alive with it, there was a man wandering about certain faraway beautiful places in the Norwegian fjords and the valleys and mountains of Switzerland and he was a man who for ten years had kept his mind filled with dark and heartbroken thinking.
-e:craven=unhappy;m=;b=light
+e:craven=unhappy;m=;b=mountains-and-lakes
 
 He had not been courageous; he had never tried to put any other thoughts in the place of the dark ones.
 e:craven=weary
@@ -12362,7 +12365,7 @@ He had traveled far and wide since the day he saw Mistress Mary in his study and
 e:craven=neutral
 
 He had been in the most beautiful places in Europe, though he had remained nowhere more than a few days. He had chosen the quietest and remotest spots.
-b=mountains-and-lakes
+b=valley
 
 He had been on the tops of mountains whose heads were in the clouds and had looked down on other mountains when the sun rose and touched them with such light as made it seem as if the world were just being born.
 
@@ -12424,26 +12427,23 @@ e:craven=confused
 Something seemed to have been unbound and released in him, very quietly.
 e:craven=surprised;x:craven=hiking
 
-“What is it?” he said, almost in a whisper,
-s=craven;e:craven=confused;m=allowbreak
-
-and he passed his hand over his forehead.
-m=;s=
+“What is it?” he said, almost in a whisper, and he passed his hand over his forehead.
+s=craven;e:craven=confused;
 
 “I almost feel as if﻿—I were alive!”
-e:craven=forehead
+e:craven=forehead;e:craven=surprised;i=
 
 I do not know enough about the wonderfulness of undiscovered things to be able to explain how this had happened to him. Neither does anyone else yet.
 s=none;e:craven=neutral
 
 He did not understand at all himself﻿—but he remembered this strange hour months afterward when he was at Misselthwaite again and he found out quite by accident that on this very day Colin had cried out as he went into the secret garden:
-b=light
+f:b:valley=blur(3px)
 
 “I am going to live forever and ever and ever!”
 e:colin=excited;x:colin=outdoor;m=dialogue
 
 The singular calmness remained with him the rest of the evening and he slept a new reposeful sleep; but it was not with him very long.
-s=none;e:craven=neutral;b=dream;m=
+s=none;e:craven=neutral;b=light
 
 He did not know that it could be kept.
 
@@ -12458,7 +12458,7 @@ But, strange as it seemed to him, there were minutes﻿—sometimes half-hours�
 e:craven=contemplative;b=light
 
 Slowly﻿—slowly﻿—for no reason that he knew of﻿—he was “coming alive” with the garden.
-
+m=
 
 As the golden summer changed into the deeper golden autumn he went to the Lake of Como.
 b=lake-como
@@ -12470,7 +12470,7 @@ He spent his days upon the crystal blueness of the lake or he walked back into t
 
 
 But by this time he had begun to sleep better, he knew, and his dreams had ceased to be a terror to him.
-b=dream;x:craven=bedtime
+b=light;x:craven=bedtime
 
 “Perhaps,” he thought, “my body is growing stronger.”
 t=craven;e:craven=thinking
@@ -12482,7 +12482,7 @@ He began to think of Misselthwaite and wonder if he should not go home.
 
 
 Now and then he wondered vaguely about his boy and asked himself what he should feel when he went and stood by the carved four-posted bed again and looked down at the sharply chiseled ivory-white face while it slept and the black lashes rimmed so startlingly the close-shut eyes.
-
+b=think
 
 He shrank from it.
 e:craven=nervous;b=think
@@ -12497,7 +12497,7 @@ He walked down to a little bowered terrace at the water’s edge and sat upon a 
 
 
 He felt the strange calmness stealing over him and it grew deeper and deeper until he fell asleep.
-b=dream
+f:b:lake-como-night=blur(3px)
 
 He did not know when he fell asleep and when he began to dream; his dream was so real that he did not feel as if he were dreaming.
 
@@ -12521,7 +12521,7 @@ It was such a real voice and it seemed so natural that he should hear it.
 
 
 “Lilias! Lilias!” he answered. “Lilias! where are you?”
-s=craven;e:craven=surprised;x:craven=hiking
+s=craven;e:craven=surprised;x:craven=hiking;e:craven=confused;i=
 
 “In the garden,” it came back like a sound from a golden flute. “In the garden!”
 s=;m=dialogue;e:lilias=happy
@@ -12535,7 +12535,7 @@ He slept soundly and sweetly all through the lovely night.
 When he did awake at last it was brilliant morning and a servant was standing staring at him.
 b=lake-como
 
-He was an Italian servant and was accustomed, as all the servants of the villa were, to accepting without question any strange thing his foreign master might do.
+He was an Italian servant and was accustomed, as all the servants of the villa were, to accepting without question any strange thing his foreign master might do.<e>As all the servants ought, yes, jolly good.</e>
 
 
 No one ever knew when he would go out or come in or where he would choose to sleep or if he would roam about the garden or lie in the boat on the lake all night.
@@ -12554,10 +12554,10 @@ He was remembering the dream﻿—the real﻿—real dream.
 e:craven=contemplative
 
 “In the garden!” he said, wondering at himself.
-s=craven;e:craven=confused
+s=craven;e:craven=confused;e:craven=surprised;i=
 
 “In the garden! But the door is locked and the key is buried deep.”
-e:craven=thinking
+e:craven=thinking;e:craven=serious;i=
 
 When he glanced at the letters a few minutes later he saw that the one lying at the top of the rest was an English letter and came from Yorkshire.
 s=none;e:craven=neutral
@@ -12587,16 +12587,16 @@ He kept thinking about the dream.
 
 
 “I will go back to Misselthwaite,” he said. “Yes, I’ll go at once.”
-s=craven;e:craven=serious
+s=craven;e:craven=serious;e:craven=thinking;i=
 
 And he went through the garden to the villa and ordered Pitcher to prepare for his return to England.
 s=none
 
 —
-b=light
+
 
 In a few days he was in Yorkshire again, and on his long railroad journey he found himself thinking of his boy as he had never thought in all the ten years past.
-e:craven=contemplative;b=manor-wide-night;f:b:manor-wide-night=blur(3px)
+e:craven=contemplative;b=railway-carriage
 
 During those years he had only wished to forget him.
 
@@ -12605,7 +12605,7 @@ Now, though he did not intend to think about him, memories of him constantly dri
 
 
 He remembered the black days when he had raved like a madman because the child was alive and the mother was dead.
-e:craven=unhappy
+e:craven=unhappy;b=manor-wide-night;f:b:manor-wide-night=blur(3px);
 
 He had refused to see it, and when he had gone to look at it at last it had been such a weak wretched thing that everyone had been sure it would die in a few days.
 
@@ -12634,8 +12634,11 @@ e:craven=thinking;b=railway-carriage
 “Perhaps I have been all wrong for ten years,” he said to himself.
 s=craven;e:craven=contemplative;x:craven=hat
 
-“Ten years is a long time. It may be too late to do anything﻿—quite too late. What have I been thinking of!”
-e:craven=thinking
+“Ten years is a long time. It may be too late to do anything﻿—quite too late.”
+;e:craven=serious;i=
+
+“What have I been thinking of!”
+;e:craven=thinking;i=
 
 Of course this was the wrong Magic﻿—to begin by saying “too late.”
 s=none;e:craven=contemplative
@@ -12668,7 +12671,7 @@ t=none;e:craven=neutral;b=cottage-wide
 
 
 Mr. Craven looked over the collection of sturdy little bodies and round red-cheeked faces, each one grinning in its own particular way, and he awoke to the fact that they were a healthy likable lot.
-e:craven=happy
+e:craven=happy;m=
 
 He smiled at their friendly grins and took a golden sovereign from his pocket and gave it to “our ’Lizabeth Ellen” who was the oldest.
 
@@ -12680,7 +12683,7 @@ Then amid grins and chuckles and bobbing of curtsies he drove away, leaving ecst
 s=none
 
 The drive across the wonderfulness of the moor was a soothing thing.
-e:craven=contemplative;b=light
+e:craven=contemplative;b=manor-wide-spring
 
 Why did it seem to give him a sense of homecoming which he had been sure he could never feel again﻿—that sense of the beauty of land and sky and purple bloom of distance and a warming of the heart at drawing nearer to the great old house which had held those of his blood for six hundred years?
 
@@ -12692,13 +12695,13 @@ Was it possible that perhaps he might find him changed a little for the better a
 e:craven=thinking
 
 How real that dream had been﻿—how wonderful and clear the voice which called back to him, “In the garden﻿—In the garden!”
-e:craven=surprised
+e:craven=surprised;m=dialogue
 
 “I will try to find the key,” he said. “I will try to open the door. I must﻿—though I don’t know why.”
-s=craven;e:craven=serious
+s=craven;e:craven=serious;m=
 
 When he arrived at the Manor the servants who received him with the usual ceremony noticed that he looked better and that he did not go to the remote rooms where he usually lived attended by Pitcher.
-s=none;e:craven=neutral;b=manor-hall;x:craven=
+s=none;e:craven=neutral;x:craven=
 
 He went into the library and sent for Mrs. Medlock.
 e:mrsmedlock=nervous;b=manor-library
@@ -12719,10 +12722,10 @@ Mrs. Medlock really was flushed.
 s=none;e:mrsmedlock=nervous
 
 “Well, you see, sir,” she tried to explain, “neither Dr. Craven, nor the nurse, nor me can exactly make him out.”
-s=mrsmedlock;e:mrsmedlock=confused
+s=mrsmedlock;e:mrsmedlock=confused;e:mrsmedlock=wary;i=2
 
 “Why is that?”
-s=craven
+s=craven;e:craven=confused;i=
 
 “To tell the truth, sir, Master Colin might be better and he might be changing for the worse.”
 s=mrsmedlock;e:mrsmedlock=contemplative
@@ -12731,7 +12734,7 @@ s=mrsmedlock;e:mrsmedlock=contemplative
 
 
 “Has he become more﻿—more peculiar?” her master asked, knitting his brows anxiously.
-s=craven;e:craven=nervous
+s=craven;e:craven=nervous;e:craven=wary;i=
 
 “That’s it, sir. He’s growing very peculiar﻿—when you compare him with what he used to be.”
 s=mrsmedlock;e:mrsmedlock=wary
@@ -12740,10 +12743,10 @@ s=mrsmedlock;e:mrsmedlock=wary
 
 
 “You never knew, sir, perhaps, that out of doors he never would let himself be taken. The things we’ve gone through to get him to go out in his chair would leave a body trembling like a leaf.”
-e:mrsmedlock=thinking
+e:mrsmedlock=thinking;e:mrsmedlock=scowling;i=2
 
 “He’d throw himself into such a state that Dr. Craven said he couldn’t be responsible for forcing him.”
-
+;e:mrsmedlock=serious;i=
 
 “Well, sir, just without warning﻿—not long after one of his worst tantrums he suddenly insisted on being taken out every day by Miss Mary and Susan Sowerby’s boy Dickon that could push his chair.”
 e:mrsmedlock=confused
@@ -12752,7 +12755,7 @@ e:mrsmedlock=confused
 
 
 “How does he look?” was the next question.
-s=craven;e:craven=curious
+s=craven;e:craven=curious;e:craven=contemplative;i=
 
 “If he took his food natural, sir, you’d think he was putting on flesh﻿—but we’re afraid it may be a sort of bloat.”
 s=mrsmedlock;e:mrsmedlock=contemplative
@@ -12773,13 +12776,13 @@ Mr. Craven scarcely heard her last words.
 s=none;e:craven=surprised
 
 “In the garden,” he said,
-s=craven;e:craven=thinking;m=allowbreak
+s=craven;e:craven=thinking;m=allowbreak;e:craven=thinking;i=2
 
 and after he had sent Mrs. Medlock away he stood and repeated it again and again.
 m=;s=
 
 “In the garden!”
-e:craven=surprised
+e:craven=surprised;s=craven;e:craven=sadsmile;i=2
 
 He had to make an effort to bring himself back to the place he was standing in and when he felt he was on earth again he turned and went out of the room.
 s=none;e:craven=serious
@@ -12853,11 +12856,8 @@ e:colin=serious;b=manor-wall-springest
 Mary, who had been running with him and had dashed through the door too, believed that he managed to make himself look taller than he had ever looked before﻿—inches taller.
 
 
-“Father,” he said, “I’m Colin.”
-s=colin;e:colin=happy
-
-“You can’t believe it. I scarcely can myself. I’m Colin.”
-
+“Father,” he said, “I’m Colin. You can’t believe it. I scarcely can myself. I’m Colin.”
+s=colin;e:colin=nervous
 
 Like Mrs. Medlock, he did not understand what his father meant when he said hurriedly:
 s=none;e:craven=confused
@@ -12865,14 +12865,11 @@ s=none;e:craven=confused
 “In the garden! In the garden!”
 s=craven
 
-“Yes,” hurried on Colin. “It was the garden that did it﻿—and Mary and Dickon and the creatures﻿—and the Magic.”
-s=colin;e:colin=excited
-
-“No one knows. We kept it to tell you when you came.”
-
+“Yes,” hurried on Colin. “It was the garden that did it﻿—and Mary and Dickon and the creatures﻿—and the Magic. No one knows. We kept it to tell you when you came.”
+s=colin;e:colin=nervous;i=2
 
 “I’m well, I can beat Mary in a race. I’m going to be an athlete.”
-
+e:colin=happy;i=
 
 He said it all so like a healthy boy﻿—his face flushed, his words tumbling over each other in his eagerness﻿—that Mr. Craven’s soul shook with unbelieving joy.
 s=none;e:craven=happy
@@ -12880,11 +12877,11 @@ s=none;e:craven=happy
 Colin put out his hand and laid it on his father’s arm.
 e:colin=happy
 
-“Aren’t you glad, Father?” he ended.
-s=colin
+“Aren’t you glad, Father?” he ended. “Aren’t you glad?”
+s=colin;e:colin=happy;i=2
 
-“Aren’t you glad? I’m going to live forever and ever and ever!”
-e:colin=excited
+“I’m going to live forever and ever and ever!”
+e:colin=excited;i=2
 
 Mr. Craven put his hands on both the boy’s shoulders and held him still.
 s=none;e:craven=crying
@@ -12914,10 +12911,10 @@ He looked round and round.
 
 
 “I thought it would be dead,” he said.
-s=craven;e:craven=surprised
+s=craven;e:craven=surprised;e:craven=confused;i=
 
 “Mary thought so at first,” said Colin. “But it came alive.”
-s=colin;e:colin=happy
+s=colin;e:colin=happy;e:colin=nervous;i=2
 
 Then they sat down under their tree﻿—all but Colin, who wanted to stand while he told the story.
 s=none;e:craven=happy;b=manor-secret-trees-springest
@@ -12947,7 +12944,7 @@ s=colin;e:colin=happy
 
 
 —
-s=none;b=light
+s=none;
 
 Ben Weatherstaff’s duties rarely took him away from the gardens, but on this occasion he made an excuse to carry some vegetables to the kitchen and being invited into the servants’ hall by Mrs. Medlock to drink a glass of beer he was on the spot﻿—as he had hoped to be﻿—when the most dramatic event Misselthwaite Manor had seen during the present generation actually took place.
 e:ben=smirking;b=manor-servants-hall
@@ -12959,13 +12956,13 @@ Mrs. Medlock, knowing Ben had come from the gardens, hoped that he might have ca
 e:mrsmedlock=curious
 
 “Did you see either of them, Weatherstaff?” she asked.
-s=mrsmedlock
+s=mrsmedlock;e:mrsmedlock=confused;i=
 
 Ben took his beer-mug from his mouth and wiped his lips with the back of his hand.
 s=none
 
 “Aye, that I did,” he answered with a shrewdly significant air.
-s=ben;e:ben=smirking
+s=ben;e:ben=smirking;i=2
 
 “Both of them?” suggested Mrs. Medlock.
 s=mrsmedlock;e:mrsmedlock=contemplative
@@ -12976,20 +12973,17 @@ s=ben;e:ben=happy
 “Thank ye kindly, ma’am, I could sup up another mug of it.”
 
 
-“Together?” said Mrs. Medlock,
-s=mrsmedlock;e:mrsmedlock=surprised;m=allowbreak
-
-hastily overfilling his beer-mug in her excitement.
-m=;s=
+“Together?” said Mrs. Medlock, hastily overfilling his beer-mug in her excitement.
+s=mrsmedlock;e:mrsmedlock=surprised;
 
 “Together, ma’am,”
-s=none;e:ben=smirking;m=allowbreak
+s=ben;e:ben=smirking;m=allowbreak
 
 and Ben gulped down half of his new mug at one gulp.
 m=;s=
 
 “Where was Master Colin? How did he look? What did they say to each other?”
-s=mrsmedlock;e:mrsmedlock=surprised;i=2
+s=mrsmedlock;e:mrsmedlock=surprised;i=2;e:mrsmedlock=wary;i=2
 
 “I didna’ hear that,” said Ben, “along o’ only bein’ on th’ stepladder lookin’ over th’ wall.”
 s=ben;e:ben=smirking
@@ -13007,7 +13001,7 @@ When Mrs. Medlock looked she threw up her hands and gave a little shriek and eve
 s=none;e:mrsmedlock=surprised
 
 Across the lawn came the Master of Misselthwaite and he looked as many of them had never seen him.
-e:craven=happy;b=light
+e:craven=happy
 
 And by his side with his head up in the air and his eyes full of laughter walked as strongly and steadily as any boy in Yorkshire﻿—Master Colin!
 e:colin=happy
