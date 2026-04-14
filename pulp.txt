@@ -9367,7 +9367,7 @@ s=colin;e:colin=sadsmile;b=manor-secret-springest
 ## XXI. Ben Weatherstaff
 r=title
 
-One of the strange things about living in the world is that it is only now and then one is quite sure one is going to live forever and ever and ever.
+One of the strange things about living in the world is that it is only now and then one is quite sure one is going to live forever and ever and ever.<e>Optional minigame challenge: count all the "one" usages.</e>
 x:colin=outdoor;x:mary=daytime;b=manor-secret-springer
 
 One knows it sometimes when one gets up at the tender solemn dawn-time and goes out and stands alone and throws one’s head far back and looks up and up and watches the pale sky slowly changing and flushing and marvelous unknown things happening until the East almost makes one cry out and one’s heart stands still at the strange unchanging majesty of the rising of the sun﻿—which has been happening every morning for thousands and thousands and thousands of years.
@@ -9398,25 +9398,22 @@ e:dickon=surprised
 s=dickon;e:dickon=happy
 
 “I’m twelve goin’ on thirteen an’ there’s a lot o’ afternoons in thirteen years, but seems to me like I never seed one as graidely as this ’ere.”
+;e:dickon=nod;i=
 
-
-“Aye, it is a graidely one,” said Mary,
-s=mary;e:mary=happy;m=allowbreak
-
-and she sighed for mere joy.
-m=;s=
+“Aye, it is a graidely one,” said Mary, and she sighed for mere joy.
+s=mary;e:mary=happy;;e:mary=smirking;i=
 
 “I’ll warrant it’s th’ graidelest one as ever was in this world.”
-s=dickon
+s=dickon;e:dickon=lookingup;i=
 
 “Does tha’ think,” said Colin with dreamy carefulness, “as happen it was made loike this ’ere all o’ purpose for me?”
-s=colin;e:colin=contemplative
+s=colin;e:colin=contemplative;e:colin=confused;i=
 
 “My word!” cried Mary admiringly, “that there is a bit o’ good Yorkshire.”
-s=mary;e:mary=excited
+s=mary;e:mary=excited;i=2
 
 “Tha’rt shapin’ first-rate﻿—that tha’ art.”
-
+;e:mary=smirking;i=
 
 And delight reigned.
 s=none
@@ -9443,7 +9440,7 @@ It was like being taken in state round the country of a magic king and queen and
 
 
 “I wonder if we shall see the robin?” said Colin.
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=curious;i=2
 
 “Tha’ll see him often enow after a bit,” answered Dickon.
 s=dickon;e:dickon=happy
@@ -9452,7 +9449,7 @@ s=dickon;e:dickon=happy
 
 
 “Tha’ll see him flyin’ backward an’ for’ard carryin’ worms nigh as big as himsel’ an’ that much noise goin’ on in th’ nest when he gets there as fair flusters him so as he scarce knows which big mouth to drop th’ first piece in.”
-
+;e:dickon=smirking;i=
 
 “An’ gapin’ beaks an’ squawks on every side.”
 e:dickon=smirking
@@ -9479,13 +9476,13 @@ The wheeled chair had been drawn back under the canopy and Dickon had sat down o
 
 
 “That’s a very old tree over there, isn’t it?” he said.
-s=colin;e:colin=curious;b=manor-secret-oldtree
+s=colin;e:colin=curious;e:colin=confused;i=
 
 Dickon looked across the grass at the tree and Mary looked and there was a brief moment of stillness.
-s=none;e:dickon=wary;e:mary=wary
+s=none;e:dickon=wary;e:mary=wary;b=manor-secret-oldtree
 
 “Yes,” answered Dickon, after it, and his low voice had a very gentle sound.
-s=dickon;e:dickon=serious
+s=dickon;e:dickon=serious;e:dickon=wary;i=
 
 Mary gazed at the tree and thought.
 s=none;e:mary=thinking
@@ -9499,32 +9496,26 @@ s=colin;e:colin=contemplative
 “Aye,” admitted Dickon.
 s=dickon;e:dickon=thinking
 
-“But them roses as has climbed all over it will near hide every bit o’ th’ dead wood when they’re full o’ leaves an’ flowers.”
-e:dickon=happy
-
-“It won’t look dead then. It’ll be th’ prettiest of all.”
-
+“But them roses as has climbed all over it will near hide every bit o’ th’ dead wood when they’re full o’ leaves an’ flowers. It won’t look dead then. It’ll be th’ prettiest of all.”
+e:dickon=happy;e:dickon=nod;i=
 
 Mary still gazed at the tree and thought.
 s=none;e:mary=thinking
 
 “It looks as if a big branch had been broken off,” said Colin.
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=confused;i=
 
 “I wonder how it was done.”
-
+;e:colin=contemplative;i=
 
 “It’s been done many a year,” answered Dickon.
-s=dickon;e:dickon=nervous
+s=dickon;e:dickon=nervous;e:dickon=thinking;i=
 
-“Eh!” with a sudden relieved start and laying his hand on Colin.
-e:dickon=excited;m=dialogue;s=
-
-“Look at that robin! There he is! He’s been foragin’ for his mate.”
-m=;s=dickon;e:dickon=pointingexcited;b=manor-secret-alcove-springer
+“Eh!” with a sudden relieved start and laying his hand on Colin. “Look at that robin! There he is! He’s been foragin’ for his mate.”
+e:dickon=pointingexcited;e:dickon=nod;i=
 
 Colin was almost too late but he just caught sight of him, the flash of red-breasted bird with something in his beak.
-s=none;e:colin=surprised
+s=none;e:colin=surprised;b=manor-secret-alcove-springer
 
 He darted through the greenness and into the close-grown corner and was out of sight.
 
@@ -9532,8 +9523,11 @@ He darted through the greenness and into the close-grown corner and was out of s
 Colin leaned back on his cushion again, laughing a little.
 e:colin=happy
 
-“He’s taking her tea to her. Perhaps it’s five o’clock. I think I’d like some tea myself.”
+“He’s taking her tea to her. Perhaps it’s five o’clock.”
 s=colin
+
+“I think I’d like some tea myself.”
+
 
 And so they were safe.
 s=none;e:dickon=happy;e:mary=happy
@@ -9566,13 +9560,13 @@ He had gone on rubbing his rust-red hair in a puzzled way, but a nice comforted 
 e:dickon=contemplative;b=light
 
 “Mrs. Craven was a very lovely young lady,” he had gone on rather hesitatingly.
-s=dickon
+s=dickon;e:dickon=rubbingpuzzled
 
 “An’ mother she thinks maybe she’s about Misselthwaite many a time lookin’ after Mester Colin, same as all mothers do when they’re took out o’ th’ world. They have to come back, tha’ sees.”
-
+;e:dickon=contemplative;i=2
 
 “Happen she’s been in the garden an’ happen it was her set us to work, an’ told us to bring him here.”
-
+;e:dickon=serious;i=
 
 Mary had thought he meant something about Magic. She was a great believer in Magic.
 s=none;e:mary=thinking
@@ -9584,7 +9578,7 @@ She wondered, indeed, if it were not possible that his gift had brought the robi
 b=manor-secret-oldtree
 
 She felt that his Magic was working all the afternoon and making Colin look like an entirely different boy.
-e:mary=happy;b=manor-secret-trees-springer
+e:mary=happy;b=manor-secret-springest
 
 It did not seem possible that he could be the crazy creature who had screamed and beaten and bitten his pillow.
 
@@ -9599,19 +9593,19 @@ They saw the robin carry food to his mate two or three times, and it was so sugg
 
 
 “Go and make one of the men servants bring some in a basket to the rhododendron walk,” he said.
-s=colin;e:colin=happy
+s=colin;;e:colin=curious;i=
 
 “And then you and Dickon can bring it here.”
-
+e:colin=happy
 
 It was an agreeable idea, easily carried out, and when the white cloth was spread upon the grass, with hot tea and buttered toast and crumpets, a delightfully hungry meal was eaten, and several birds on domestic errands paused to inquire what was going on and were led into investigating crumbs with great activity.
-s=none;b=manor-secret-walls-springer-afternoon
+s=none;
 
 Nut and Shell whisked up trees with pieces of cake and Soot took the entire half of a buttered crumpet into a corner and pecked at and examined and turned it over and made hoarse remarks about it until he decided to swallow it all joyfully in one gulp.
 
 
 The afternoon was dragging toward its mellow hour. The sun was deepening the gold of its lances, the bees were going home and the birds were flying past less often.
-
+b=manor-secret-walls-springer-afternoon
 
 Dickon and Mary were sitting on the grass, the tea-basket was re-packed ready to be taken back to the house, and Colin was lying against his cushions with his heavy locks pushed back from his forehead and his face looking quite a natural color.
 e:colin=weary
@@ -9623,10 +9617,10 @@ s=colin;e:colin=sadsmile
 s=mary;e:mary=happy
 
 “I’m going to get nothing else,” he answered.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;e:colin=happy;i=2
 
 “I’ve seen the spring now and I’m going to see the summer. I’m going to see everything grow here. I’m going to grow here myself.”
-
+i=
 
 “That tha’ will,” said Dickon. “Us’ll have thee walkin’ about here an’ diggin’ same as other folk afore long.”
 s=dickon;e:dickon=happy
@@ -9647,13 +9641,16 @@ e:mary=wary
 s=dickon;e:dickon=serious
 
 “Tha’﻿—tha’s got legs o’ thine own, same as other folks!”
-
+;e:dickon=wary;i=
 
 Mary was rather frightened until she heard Colin’s answer.
 s=none;e:mary=fearful
 
-“Nothing really ails them,” he said, “but they are so thin and weak. They shake so that I’m afraid to try to stand on them.”
-s=colin;e:colin=nervous
+“Nothing really ails them,” he said, “but they are so thin and weak.”
+s=colin;e:colin=nervous;e:colin=lookingdown;i=
+
+“They shake so that I’m afraid to try to stand on them.”
+;e:colin=serious;i=
 
 Both Mary and Dickon drew a relieved breath.
 s=none;e:mary=happy;e:dickon=happy
@@ -9698,10 +9695,10 @@ s=none;e:dickon=surprised;e:mary=surprised
 m=dialogue
 
 Colin pointed to the high wall.
-s=none;e:colin=upset;m=
+s=none;e:colin=upset;m=;b=manor-secret-walls-springer-sunset
 
 “Look!” he whispered excitedly. “Just look!”
-s=colin;e:colin=pointing
+s=colin;;e:colin=surprised;i=
 
 Mary and Dickon wheeled about and looked.
 s=none;e:mary=fearful;e:dickon=wary
@@ -9713,16 +9710,16 @@ He actually shook his fist at Mary.
 
 
 “If I wasn’t a bachelder, an’ tha’ was a wench o’ mine,” he cried, “I’d give thee a hidin’!”
-s=ben;b=manor-secret-trees-springer-sunset
+s=ben;
 
 He mounted another step threateningly as if it were his energetic intention to jump down and deal with her; but as she came toward him he evidently thought better of it and stood on the top step of his ladder shaking his fist down at her.
 s=none
 
 “I never thowt much o’ thee!” he harangued.
-s=ben
+s=ben;;e:ben=serious;i=2
 
 “I couldna’ abide thee th’ first time I set eyes on thee. A scrawny buttermilk-faced young besom, allus askin’ questions an’ pokin’ tha’ nose where it wasna’ wanted.”
-
+e:ben=angry
 
 “I never knowed how tha’ got so thick wi’ me. If it hadna’ been for th’ robin﻿—Drat him﻿—”
 
@@ -9734,7 +9731,7 @@ She stood below him and called up to him with a sort of gasp.
 s=none
 
 “Ben Weatherstaff, it was the robin who showed me the way!”
-s=mary;e:mary=upset
+s=mary;e:mary=upset;e:mary=fearful;i=
 
 Then it did seem as if Ben really would scramble down on her side of the wall, he was so outraged.
 s=none;e:ben=angry
@@ -9743,16 +9740,16 @@ s=none;e:ben=angry
 s=ben
 
 “Layin’ tha’ badness on a robin﻿—not but what he’s impidint enow for anythin’.”
-
+e:ben=scowling
 
 “Him showin’ thee th’ way! Him! Eh! tha’ young nowt,”﻿—
-m=allowbreak;m=nospace
+m=allowbreak;m=nospace;e:ben=angry;e:ben=unhappy;i=
 
 she could see his next words burst out because he was overpowered by curiosity﻿—
 s=
 
 “however i’ this world did tha’ get in?”
-s=ben;e:ben=curious;m=
+s=ben;e:ben=curious;m=;e:ben=contemplative;i=2
 
 “It was the robin who showed me the way,” she protested obstinately.
 s=mary;e:mary=serious
@@ -9782,7 +9779,7 @@ And it stopped right under Ben Weatherstaff’s nose. It was really no wonder hi
 
 
 “Do you know who I am?” demanded the Rajah.
-s=colin
+s=colin;e:colin=serious;i=2
 
 How Ben Weatherstaff stared!
 s=none;e:ben=surprised
@@ -9836,7 +9833,7 @@ s=ben
 s=colin;e:colin=angry
 
 “Tha’﻿—tha’ hasn’t got crooked legs?” quavered Ben more hoarsely yet.
-s=ben;e:ben=nervous
+s=ben;e:ben=nervous;e:ben=contemplative;i=2
 
 It was too much. The strength which Colin usually threw into his tantrums rushed through him now in a new way.
 s=none;e:colin=angry
@@ -9848,7 +9845,7 @@ His anger and insulted pride made him forget everything but this one moment and 
 e:colin=excited
 
 “Come here!” he shouted to Dickon,
-s=colin;e:colin=angry;m=allowbreak
+s=colin;e:colin=angry;m=allowbreak;i=2
 
 and he actually began to tear the coverings off his lower limbs and disentangle himself.
 s=;m=
@@ -9863,7 +9860,7 @@ Mary caught her breath in a short gasp and felt herself turn pale.
 e:mary=fearful
 
 “He can do it! He can do it! He can do it! He can!” she gabbled over to herself under her breath as fast as ever she could.
-s=mary;e:mary=excited
+s=mary;e:mary=excited;e:mary=wary;i=
 
 There was a brief fierce scramble, the rugs were tossed on to the ground, Dickon held Colin’s arm, the thin legs were out, the thin feet were on the grass.
 s=none
@@ -9872,13 +9869,13 @@ Colin was standing upright﻿—upright﻿—as straight as an arrow and looking
 e:colin=excited;b=colin-upright
 
 “Look at me!” he flung up at Ben Weatherstaff.
-s=colin
+s=colin;e:colin=annoyed;i=
 
 “Just look at me﻿—you! Just look at me!”
-
+;e:colin=angry;i=
 
 “He’s as straight as I am!” cried Dickon. “He’s as straight as any lad i’ Yorkshire!”
-s=dickon;e:dickon=excited
+s=dickon;e:dickon=excited;e:dickon=wary;i=
 
 What Ben Weatherstaff did Mary thought queer beyond measure.
 s=none;e:ben=crying
@@ -9902,13 +9899,16 @@ He stood straighter and straighter and looked Ben Weatherstaff in the face.
 e:colin=serious
 
 “I’m your master,” he said, “when my father is away. And you are to obey me.”
-s=colin
+s=colin;e:colin=annoyed;i=
 
 “This is my garden. Don’t dare to say a word about it! You get down from that ladder and go out to the Long Walk and Miss Mary will meet you and bring you here.”
+e:colin=serious;i=2
 
+“I want to talk to you. We did not want you, but now you will have to be in the secret.”
+i=
 
-“I want to talk to you. We did not want you, but now you will have to be in the secret. Be quick!”
-
+“Be quick!”
+e:colin=angry
 
 Ben Weatherstaff’s crabbed old face was still wet with that one queer rush of tears.
 s=none;e:ben=crying
@@ -9917,13 +9917,13 @@ It seemed as if he could not take his eyes from thin straight Colin standing on 
 e:ben=surprised
 
 “Eh! lad,” he almost whispered. “Eh! my lad!”
-s=ben;e:ben=contemplative
+s=ben;e:ben=contemplative;e:ben=contemplative;i=2
 
 And then remembering himself he suddenly touched his hat gardener fashion and said,
 s=
 
 “Yes, sir! Yes, sir!”
-s=ben;e:ben=hattouching
+s=ben;e:ben=hattouching;i=2
 
 and obediently disappeared as he descended the ladder.
 s=none
