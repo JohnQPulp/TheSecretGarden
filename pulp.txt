@@ -8035,11 +8035,11 @@ s=mary;e:mary=happy;e:mary=serious;i=
 And Colin was asleep.
 s=none;e:colin=neutral
 
-## XVIII. “Tha’ Munnot Waste No Time”
+## XVIII. “Tha’ Munnot Waste No Time”<e>Great chapter, that last one. However, I'm just a little disappointed that an no point did Mary grab Colin by the collar and slap him while calling him hysterical.</e>
 r=title
 
 Of course Mary did not waken early the next morning.
-e:mary=neutral;b=manor-mary
+e:mary=neutral;b=manor-nursery
 
 She slept late because she was tired, and when Martha brought her breakfast she told her that though Colin was quite quiet he was ill and feverish as he always was after he had worn himself out with a fit of crying.
 e:martha=neutral;e:colin=weary
@@ -8051,7 +8051,7 @@ e:mary=thinking;x:mary=daytime;b=manor-nursery
 s=martha;e:martha=serious
 
 “It’s queer what a fancy he’s took to thee. Tha’ did give it him last night for sure﻿—didn’t tha’? Nobody else would have dared to do it.”
-
+;e:martha=thinking;i=2
 
 “Eh! poor lad! He’s been spoiled till salt won’t save him.”
 e:martha=weary
@@ -8060,22 +8060,22 @@ e:martha=weary
 
 
 “Tha’ was in a fine temper tha’self, too.”
-e:martha=smirking
+e:martha=smirking;e:martha=curious;i=2
 
 “But he says to me when I went into his room, ‘Please ask Miss Mary if she’ll please come an’ talk to me?’”
 e:martha=thinking
 
 “Think o’ him saying please!”
-e:martha=surprised
+e:martha=surprised;e:martha=happy;i=2
 
 “Will you go, Miss?”
-e:martha=serious
+e:martha=serious;e:martha=nervous;i=
 
 “I’ll run and see Dickon first,” said Mary.
-s=mary;e:mary=contemplative
+s=mary;e:mary=contemplative;e:mary=thinking;i=2
 
 “No, I’ll go and see Colin first and tell him﻿—I know what I’ll tell him,” with a sudden inspiration.
-e:mary=excited
+e:mary=excited;e:mary=serious;i=2
 
 She had her hat on when she appeared in Colin’s room and for a second he looked disappointed.
 s=none;e:mary=neutral;e:colin=unhappy;x:mary=coat;b=manor-colin
@@ -8087,13 +8087,13 @@ e:colin=weary;x:colin=bedtime
 s=colin
 
 “Are you going somewhere?”
-
+;e:colin=wary;i=
 
 Mary went and leaned against his bed.
 s=none;e:mary=neutral
 
 “I won’t be long,” she said. “I’m going to Dickon, but I’ll come back.”
-s=mary
+s=mary;e:mary=serious;i=
 
 “Colin, it’s﻿—it’s something about the secret garden.”
 e:mary=serious
@@ -8105,10 +8105,10 @@ s=none;e:colin=happy
 s=colin;e:colin=surprised
 
 “I dreamed about it all night.”
-e:colin=thinking
+e:colin=thinking;e:colin=nervous;i=
 
 “I heard you say something about gray changing into green, and I dreamed I was standing in a place all filled with trembling little green leaves﻿—and there were birds on nests everywhere and they looked so soft and still.”
-
+;e:colin=weary;i=2
 
 “I’ll lie and think about it until you come back.”
 e:colin=sadsmile
@@ -8126,10 +8126,10 @@ s=dickon;e:dickon=happy
 
 
 “I brought these two in my pockets.”
-e:dickon=excited
+e:dickon=excited;e:dickon=smirking;i=2
 
 “This here one he’s called Nut an’ this here other one’s called Shell.”
-e:dickon=squirrels
+e:dickon=happysquirrels
 
 When he said “Nut” one squirrel leaped on to his right shoulder and when he said “Shell” the other one leaped on to his left shoulder.
 s=none
@@ -8150,7 +8150,7 @@ s=dickon;e:dickon=lookingup
 
 
 “An’ that poor lad lyin’ shut up an’ seein’ so little that he gets to thinkin’ o’ things as sets him screamin’.”
-s=dickon;e:dickon=thinking
+s=dickon;e:dickon=thinking;e:dickon=wary;i=
 
 “Eh! my! we mun get him out here﻿—we mun get him watchin’ an’ listenin’ an’ sniffin’ up th’ air an’ get him just soaked through wi’ sunshine. An’ we munnot lose no time about it.”
 e:dickon=serious
@@ -8162,19 +8162,19 @@ But she loved his broad Yorkshire and had in fact been trying to learn to speak 
 e:mary=happy
 
 “Aye, that we mun,” she said (which meant “Yes, indeed, we must”).
-s=mary
+s=mary;e:mary=happy;i=2
 
 “I’ll tell thee what us’ll do first,” she proceeded,
-e:dickon=smirking;m=allowbreak
+e:dickon=smirking;m=allowbreak;e:mary=smirking;i=
 
 and Dickon grinned, because when the little wench tried to twist her tongue into speaking Yorkshire it amused him very much.
 s=;m=
 
 “He’s took a graidely fancy to thee. He wants to see thee and he wants to see Soot an’ Captain.”
-s=mary;e:mary=excited
+s=mary;e:mary=excited;e:mary=happy;i=
 
 “When I go back to the house to talk to him I’ll ax him if tha’ canna’ come an’ see him tomorrow mornin’﻿—an’ bring tha’ creatures wi’ thee﻿—an’ then﻿—in a bit, when there’s more leaves out, an’ happen a bud or two, we’ll get him to come out an’ tha’ shall push him in his chair an’ we’ll bring him here an’ show him everything.”
-
+;e:mary=curious;i=
 
 When she stopped she was quite proud of herself. She had never made a long speech in Yorkshire before and she had remembered very well.
 s=none;e:mary=happy
@@ -8189,7 +8189,7 @@ s=dickon;e:dickon=happy
 
 
 “I’m going to talk Yorkshire to him this very day,” said Mary, chuckling herself.
-s=mary;e:mary=happy
+s=mary;e:mary=happy;e:mary=smirking;i=2
 
 The garden had reached the time when every day and every night it seemed as if Magicians were passing through it drawing loveliness out of the earth and the boughs with wands.
 s=none
@@ -8222,13 +8222,13 @@ Colin began to laugh.
 e:colin=happy
 
 “What are you doing?” he said.
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=smirking;i=2
 
 “I never heard you talk like that before. How funny it sounds.”
 e:colin=happy
 
 “I’m givin’ thee a bit o’ Yorkshire,” answered Mary triumphantly.
-s=mary;e:mary=excited
+s=mary;e:mary=excited;e:mary=excited;i=2
 
 “I canna’ talk as graidely as Dickon an’ Martha can but tha’ sees I can shape a bit. Doesn’t tha’ understand a bit o’ Yorkshire when tha’ hears it?”
 e:mary=smirking
@@ -8239,14 +8239,11 @@ e:mary=happy
 And then she began to laugh too and they both laughed until they could not stop themselves and they laughed until the room echoed and Mrs. Medlock opening the door to come in drew back into the corridor and stood listening amazed.
 s=none;e:mary=happy;e:colin=happy;e:mrsmedlock=surprised
 
-“Well, upon my word!” she said,
-s=mrsmedlock;m=allowbreak;b=manor-corridor-5
-
-speaking rather broad Yorkshire herself because there was no one to hear her and she was so astonished.
-s=;m=
+“Well, upon my word!” she said, speaking rather broad Yorkshire herself because there was no one to hear her and she was so astonished.
+s=mrsmedlock;b=manor-corridor-5;e:mrsmedlock=surprised;i=
 
 “Whoever heard th’ like! Whoever on earth would ha’ thought it!”
-s=mrsmedlock
+s=mrsmedlock;;e:mrsmedlock=confused;i=2
 
 There was so much to talk about.
 s=none;e:mary=excited;b=manor-colin
@@ -8273,10 +8270,10 @@ Dickon had made him give Mary his small front hoof and kiss her on her cheek wit
 s=colin;e:colin=curious
 
 “It seems as if he does,” answered Mary.
-s=mary;e:mary=thinking
+s=mary;e:mary=thinking;e:mary=smirking;i=
 
 “Dickon says anything will understand if you’re friends with it for sure, but you have to be friends for sure.”
-
+;e:mary=thinking;i=
 
 Colin lay quiet a little while and his strange gray eyes seemed to be staring at the wall, but Mary saw he was thinking.
 s=none;e:colin=thinking
@@ -8291,46 +8288,46 @@ e:colin=weary
 s=mary;e:mary=curious
 
 “Yes, I can,” he answered. “It’s very funny but I even like you.”
-s=colin;e:colin=happy
+s=colin;e:colin=happy;e:colin=weary;i=2
 
 “Ben Weatherstaff said I was like him,” said Mary.
-s=mary;e:mary=neutral
+s=mary;e:mary=neutral;e:mary=thinking;i=2
 
 “He said he’d warrant we’d both got the same nasty tempers. I think you are like him too.”
 e:mary=smirking
 
 “We are all three alike﻿—you and I and Ben Weatherstaff.”
-
+;e:mary=happy;i=2
 
 “He said we were neither of us much to look at and we were as sour as we looked. But I don’t feel as sour as I used to before I knew the robin and Dickon.”
-e:mary=happy
+;e:mary=thinking;i=2
 
 “Did you feel as if you hated people?”
-s=colin;e:colin=curious
+s=colin;e:colin=curious;e:colin=thinking;i=2
 
 “Yes,” answered Mary without any affectation.
-s=mary;e:mary=thinking
+s=mary;e:mary=thinking;e:mary=contemplative;i=
 
 “I should have detested you if I had seen you before I saw the robin and Dickon.”
-
+;e:mary=serious;i=2
 
 Colin put out his thin hand and touched her.
 s=none;e:colin=nervous
 
 “Mary,” he said, “I wish I hadn’t said what I did about sending Dickon away.”
-s=colin;e:colin=upset
+s=colin;e:colin=upset;e:colin=nervous;i=
 
 “I hated you when you said he was like an angel and I laughed at you but﻿—but perhaps he is.”
 e:colin=contemplative
 
 “Well, it was rather funny to say it,” she admitted frankly, “because his nose does turn up and he has a big mouth and his clothes have patches all over them and he talks broad Yorkshire, but﻿—but if an angel did come to Yorkshire and live on the moor﻿—if there was a Yorkshire angel﻿—I believe he’d understand the green things and know how to make them grow and he would know how to talk to the wild creatures as Dickon does and they’d know he was friends for sure.”
-s=mary;e:mary=happy
+s=mary;e:mary=happy;e:mary=thinking;i=2
 
 “I shouldn’t mind Dickon looking at me,” said Colin; “I want to see him.”
-s=colin;e:colin=thinking
+s=colin;e:colin=thinking;e:colin=thinking;i=2
 
 “I’m glad you said that,” answered Mary, “because﻿—because﻿—”
-s=mary;e:mary=nervous
+s=mary;e:mary=nervous;e:mary=unhappy;i=2
 
 Quite suddenly it came into her mind that this was the minute to tell him.
 s=none;e:mary=excited
@@ -8339,7 +8336,7 @@ Colin knew something new was coming.
 e:colin=curious
 
 “Because what?” he cried eagerly.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;e:colin=happy;i=2
 
 Mary was so anxious that she got up from her stool and came to him and caught hold of both his hands.
 s=none;e:mary=nervous
@@ -8351,19 +8348,19 @@ Her face was so solemn that he almost whispered his answer.
 s=none;e:colin=serious
 
 “Yes﻿—yes!”
-s=colin
+s=colin;e:colin=wary;i=
 
 “Well, Dickon will come to see you tomorrow morning, and he’ll bring his creatures with him.”
 s=mary;e:mary=serious
 
 “Oh! Oh!” Colin cried out in delight.
-s=colin;e:colin=excited
+s=colin;e:colin=excited;e:colin=surprised;i=
 
 “But that’s not all,” Mary went on, almost pale with solemn excitement.
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=serious;i=2
 
 “The rest is better. There is a door into the garden. I found it. It is under the ivy on the wall.”
-
+;e:mary=serious;i=
 
 If he had been a strong healthy boy Colin would probably have shouted “Hooray! Hooray! Hooray!” but he was weak and rather hysterical; his eyes grew bigger and bigger and he gasped for breath.
 s=none;e:colin=excited
@@ -8372,7 +8369,7 @@ s=none;e:colin=excited
 s=colin;e:colin=sadsmile
 
 “Shall I see it? Shall I get into it? Shall I *live* to get into it?”
-e:colin=nervous
+e:colin=nervous;e:colin=upset;i=2
 
 and he clutched her hands and dragged her toward him.
 s=none
@@ -8396,10 +8393,10 @@ Mary hesitated about two minutes and then boldly spoke the truth.
 s=none;e:mary=wary
 
 “I had seen it﻿—and I had been in,” she said.
-s=mary;e:mary=serious
+s=mary;e:mary=serious;e:mary=confused;i=
 
 “I found the key and got in weeks ago. But I daren’t tell you﻿—I daren’t because I was so afraid I couldn’t trust you﻿—*for sure*!”
-
+;e:mary=unhappy;i=2
 
 ## XIX. “It Has Come!”
 r=title
