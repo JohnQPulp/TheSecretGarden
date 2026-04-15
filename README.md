@@ -1,8 +1,14 @@
 ### *The Secret Garden: The Visual Novel*
 
-This repository will contain the metadata and images for the visual novel transformation (pulpification) of Frances Hodgson Burnett's book *The Secret Garden*.
+This repository contains the metadata and images for the visual novel transformation (pulpification) of Frances Hodgson Burnett's book *The Secret Garden*.
 
-This VN is a work-in-progress.
+You can read it in a few ways:
+
+* Online at https://publicdomainpulp.com/vn/TheSecretGarden
+* Locally at http://localhost:1929/vn/TheSecretGarden running https://github.com/JohnQPulp/PublicDomainPulp (ASP.NET/C#) from source
+* Locally via static html file using the tool https://github.com/JohnQPulp/Pulpifier (C#) from source
+
+![Preview](images/preview.avif)
 
 ### License Information
 

@@ -11155,11 +11155,8 @@ s=drcraven;e:drcraven=thinking
 “Perhaps,” said Colin, prompted by a sudden inspiration, “perhaps it is an unnatural appetite.”
 s=colin;e:colin=serious
 
-“I do not think so, as your food seems to agree with you,” said Dr. Craven.
+“I do not think so, as your food seems to agree with you,” said Dr. Craven. “You are gaining flesh rapidly and your color is better.”
 s=drcraven;e:drcraven=neutral;e:drcraven=suspicious;i=
-
-“You are gaining flesh rapidly and your color is better.”
-
 
 “Perhaps—perhaps I am bloated and feverish,” said Colin, assuming a discouraging air of gloom.
 s=colin;e:colin=unhappy
