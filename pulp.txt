@@ -1,4 +1,4 @@
-<div class='center'><span class='big italics'>The Secret Garden</span> by&nbsp;Frances&nbsp;Hodgson&nbsp;Burnett</div><e>From the author that brought you <book>Little Lord Fauntleroy</book>, here's <i>Little Miss Named-After-a-Nursery-Rhyme</i>.</e>
+The Secret Garden<br>Frances Hodgson Burnett<e>From the author that brought you <book>Little Lord Fauntleroy</book>, here's <i>Little Miss Named-After-a-Nursery-Rhyme</i>.</e>
 b=title;t=author;z:author=103,45,4
 
 ## I. There Is No One Left
